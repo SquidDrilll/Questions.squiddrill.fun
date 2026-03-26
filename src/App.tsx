@@ -32,7 +32,8 @@ import {
   Divide,
   Minus,
   Plus,
-  Equal
+  Equal,
+  LogOut
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Question, UserProgress, AppState } from './types';
@@ -155,14 +156,20 @@ function CalculatorComponent() {
 
 export default function App() {
   const [state, setState] = useState<AppState>(() => {
-    const saved = localStorage.getItem('ecostudy_progress');
+    const savedUsername = localStorage.getItem('ecostudy_username');
+    const savedProgress = savedUsername 
+      ? localStorage.getItem(`ecostudy_progress_${savedUsername}`) 
+      : localStorage.getItem('ecostudy_progress');
+      
+    const progress = savedProgress ? JSON.parse(savedProgress) : INITIAL_PROGRESS;
+
     return {
       questions: MOCK_QUESTIONS,
-      progress: saved ? JSON.parse(saved) : INITIAL_PROGRESS,
+      progress,
       isDarkMode: window.matchMedia('(prefers-color-scheme: dark)').matches,
-      currentView: 'login',
-      isAuthenticated: false,
-      username: null,
+      currentView: savedUsername ? 'dashboard' : 'login',
+      isAuthenticated: !!savedUsername,
+      username: savedUsername,
       currentQuestionIndex: 0,
       showPrank: false,
       searchQuery: '',
@@ -408,6 +415,9 @@ export default function App() {
   }, [state.questions]);
 
   const renderLogin = () => {
+    const [isSignUp, setIsSignUp] = useState(false);
+    const [error, setError] = useState('');
+
     return (
       <div className="min-h-screen bg-earth-50 dark:bg-earth-950 flex flex-col items-center justify-center p-4">
         <motion.div 
@@ -427,12 +437,33 @@ export default function App() {
           <form 
             onSubmit={(e) => {
               e.preventDefault();
+              setError('');
               const form = e.target as HTMLFormElement;
               const usernameInput = form.elements.namedItem('username') as HTMLInputElement;
+              const passwordInput = form.elements.namedItem('password') as HTMLInputElement;
               const username = usernameInput.value.trim();
+              const password = passwordInput.value;
               
-              if (username) {
+              if (username && password) {
+                const usersStr = localStorage.getItem('ecostudy_users');
+                const users = usersStr ? JSON.parse(usersStr) : {};
+
+                if (isSignUp) {
+                  if (users[username]) {
+                    setError('Username already exists');
+                    return;
+                  }
+                  users[username] = password;
+                  localStorage.setItem('ecostudy_users', JSON.stringify(users));
+                } else {
+                  if (!users[username] || users[username] !== password) {
+                    setError('Invalid username or password');
+                    return;
+                  }
+                }
+
                 playClickSound();
+                localStorage.setItem('ecostudy_username', username);
                 const saved = localStorage.getItem(`ecostudy_progress_${username}`);
                 const progress = saved ? JSON.parse(saved) : INITIAL_PROGRESS;
                 
@@ -447,6 +478,11 @@ export default function App() {
             }}
             className="space-y-4"
           >
+            {error && (
+              <div className="p-3 bg-danger-500/10 border border-danger-500/20 rounded-xl text-danger-600 dark:text-danger-400 text-sm font-medium text-center">
+                {error}
+              </div>
+            )}
             <div>
               <label className="block text-sm font-bold text-earth-700 dark:text-earth-300 mb-1.5">Username</label>
               <input 
@@ -461,6 +497,7 @@ export default function App() {
               <label className="block text-sm font-bold text-earth-700 dark:text-earth-300 mb-1.5">Password</label>
               <input 
                 type="password" 
+                name="password"
                 required
                 className="w-full px-4 py-3 rounded-xl bg-earth-50 dark:bg-earth-950 border border-earth-200 dark:border-earth-800 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all text-earth-900 dark:text-earth-50"
                 placeholder="Enter your password"
@@ -470,9 +507,21 @@ export default function App() {
               type="submit"
               className="w-full py-4 mt-6 bg-brand-600 text-white rounded-xl font-bold hover:bg-brand-700 transition-all shadow-lg shadow-brand-500/20 active:scale-95"
             >
-              Sign In
+              {isSignUp ? 'Create Account' : 'Sign In'}
             </button>
           </form>
+          
+          <div className="mt-6 text-center">
+            <button
+              onClick={() => {
+                setIsSignUp(!isSignUp);
+                setError('');
+              }}
+              className="text-sm font-medium text-earth-500 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
+            >
+              {isSignUp ? 'Already have an account? Sign In' : "Don't have an account? Sign Up"}
+            </button>
+          </div>
         </motion.div>
       </div>
     );
@@ -853,56 +902,28 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-4">
+                <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4">
                   {selectedChapterQuestions.map((q, idx) => {
                     const isSolved = state.progress.completedQuestions.includes(q.id);
                     const status = state.progress.questionStatus?.[q.id];
                     
-                    let Icon = null;
-                    let iconClass = "border-earth-300 dark:border-earth-700 text-earth-500";
+                    let iconClass = "border-earth-200 dark:border-earth-800 text-earth-600 dark:text-earth-400 hover:border-brand-500 hover:text-brand-500 bg-white dark:bg-earth-900";
                     
                     if (status === 'correct') {
-                      Icon = Check;
-                      iconClass = "bg-success-500 border-success-500 text-white";
+                      iconClass = "bg-success-500 border-success-500 text-white shadow-md shadow-success-500/20";
                     } else if (status === 'incorrect') {
-                      Icon = X;
-                      iconClass = "bg-danger-500 border-danger-500 text-white";
-                    } else {
-                      iconClass = "border-earth-300 dark:border-earth-700 border-2 text-earth-500 dark:text-earth-400";
+                      iconClass = "bg-danger-500 border-danger-500 text-white shadow-md shadow-danger-500/20";
+                    } else if (isSolved) {
+                      iconClass = "bg-brand-500 border-brand-500 text-white shadow-md shadow-brand-500/20";
                     }
 
                     return (
                       <motion.div
                         key={q.id}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: idx * 0.03 }}
-                        className={`p-5 rounded-2xl border transition-all hover:shadow-md flex items-center justify-between gap-6 group ${
-                          isSolved 
-                            ? 'bg-success-500/5 border-success-500/20' 
-                            : 'bg-white dark:bg-earth-900 border-earth-200 dark:border-earth-800'
-                        }`}
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: idx * 0.01 }}
                       >
-                        <div className="flex items-center gap-5 flex-1 min-w-0">
-                          <div className={`w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full font-black text-xs transition-colors ${iconClass}`}>
-                            {Icon ? <Icon size={20} strokeWidth={3} /> : (idx + 1)}
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <p className="font-bold text-earth-900 dark:text-earth-50 truncate group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
-                              {q.text}
-                            </p>
-                            <div className="flex items-center gap-3 mt-1">
-                              <span className="text-[10px] font-black uppercase tracking-widest text-earth-400">{q.year}</span>
-                              <div className="w-1 h-1 bg-earth-300 dark:bg-earth-700 rounded-full" />
-                              <span className={`text-[10px] font-black uppercase tracking-widest ${
-                                q.difficulty === 'Hard' ? 'text-danger-500' : q.difficulty === 'Medium' ? 'text-warning-500' : 'text-success-500'
-                              }`}>
-                                {q.difficulty}
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        
                         <button
                           onClick={() => {
                             playClickSound();
@@ -915,13 +936,12 @@ export default function App() {
                               isExplanationExpanded: false
                             }));
                           }}
-                          className={`px-6 py-2.5 rounded-xl font-bold text-xs transition-all ${
-                            isSolved
-                              ? 'bg-success-500/10 text-success-600 dark:text-success-400 hover:bg-success-500 hover:text-white'
-                              : 'bg-brand-600 text-white hover:bg-brand-700 shadow-lg shadow-brand-500/20'
-                          }`}
+                          className={`w-full aspect-square rounded-2xl border-2 flex flex-col items-center justify-center gap-1 transition-all hover:scale-105 active:scale-95 ${iconClass}`}
+                          title={q.text}
                         >
-                          {isSolved ? 'Review' : 'Solve'}
+                          <span className="text-lg font-black">{idx + 1}</span>
+                          {status === 'correct' && <Check size={14} strokeWidth={3} />}
+                          {status === 'incorrect' && <X size={14} strokeWidth={3} />}
                         </button>
                       </motion.div>
                     );
@@ -1511,6 +1531,18 @@ export default function App() {
             title="Settings"
           >
             <Settings size={20} />
+          </button>
+          <div className="hidden md:block w-8 h-px bg-earth-200 dark:bg-earth-800 my-2" />
+          <button 
+            onClick={() => {
+              playClickSound();
+              localStorage.removeItem('ecostudy_username');
+              setState(s => ({ ...s, currentView: 'login', isAuthenticated: false, username: null }));
+            }}
+            className="p-3 rounded-xl text-earth-400 hover:text-danger-500 transition-all" 
+            title="Sign Out"
+          >
+            <LogOut size={20} />
           </button>
         </nav>
       )}
