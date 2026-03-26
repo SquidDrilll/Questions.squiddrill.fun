@@ -14,6 +14,7 @@ import {
   ChevronDown, 
   CheckCircle2, 
   XCircle, 
+  Check,
   Trophy, 
   Flame, 
   ArrowLeft,
@@ -158,7 +159,8 @@ export default function App() {
       questions: MOCK_QUESTIONS,
       progress: saved ? JSON.parse(saved) : INITIAL_PROGRESS,
       isDarkMode: window.matchMedia('(prefers-color-scheme: dark)').matches,
-      currentView: 'dashboard',
+      currentView: 'login',
+      isAuthenticated: false,
       currentQuestionIndex: 0,
       showPrank: false,
       searchQuery: '',
@@ -168,7 +170,8 @@ export default function App() {
       selectedSubject: null,
       selectedOption: null,
       showSolution: false,
-      showCalculator: false
+      showCalculator: false,
+      isExplanationExpanded: false
     };
   });
 
@@ -393,6 +396,61 @@ export default function App() {
     const yearsSet = new Set<string>(state.questions.map(q => q.year.toString()));
     return ['All', ...Array.from(yearsSet)].sort((a, b) => b.localeCompare(a));
   }, [state.questions]);
+
+  const renderLogin = () => {
+    return (
+      <div className="min-h-screen bg-earth-50 dark:bg-earth-950 flex flex-col items-center justify-center p-4">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-white dark:bg-earth-900 p-8 rounded-3xl shadow-xl max-w-md w-full border border-earth-100 dark:border-earth-800"
+        >
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <div className="w-12 h-12 bg-brand-500 rounded-2xl flex items-center justify-center text-white shadow-lg shadow-brand-500/20">
+              <BookOpen size={24} />
+            </div>
+            <h1 className="text-3xl font-black tracking-tighter text-earth-900 dark:text-earth-50">
+              Eco<span className="text-brand-500">Study</span>
+            </h1>
+          </div>
+          
+          <form 
+            onSubmit={(e) => {
+              e.preventDefault();
+              playClickSound();
+              setState(s => ({ ...s, isAuthenticated: true, currentView: 'dashboard' }));
+            }}
+            className="space-y-4"
+          >
+            <div>
+              <label className="block text-sm font-bold text-earth-700 dark:text-earth-300 mb-1.5">Username</label>
+              <input 
+                type="text" 
+                required
+                className="w-full px-4 py-3 rounded-xl bg-earth-50 dark:bg-earth-950 border border-earth-200 dark:border-earth-800 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all text-earth-900 dark:text-earth-50"
+                placeholder="Enter your username"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-bold text-earth-700 dark:text-earth-300 mb-1.5">Password</label>
+              <input 
+                type="password" 
+                required
+                className="w-full px-4 py-3 rounded-xl bg-earth-50 dark:bg-earth-950 border border-earth-200 dark:border-earth-800 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all text-earth-900 dark:text-earth-50"
+                placeholder="Enter your password"
+              />
+            </div>
+            <button 
+              type="submit"
+              className="w-full py-4 mt-6 bg-brand-600 text-white rounded-xl font-bold hover:bg-brand-700 transition-all shadow-lg shadow-brand-500/20 active:scale-95"
+            >
+              Sign In
+            </button>
+          </form>
+        </motion.div>
+      </div>
+    );
+  };
 
   const renderDashboard = () => (
     <div className="space-y-10 p-6 md:p-12 max-w-5xl mx-auto">
@@ -886,10 +944,11 @@ export default function App() {
           ...s, 
           currentQuestionIndex: s.currentQuestionIndex + 1,
           selectedOption: null,
-          showSolution: false
+          showSolution: false,
+          isExplanationExpanded: false
         }));
       } else {
-        setState(s => ({ ...s, currentView: 'browser', selectedChapter: null }));
+        setState(s => ({ ...s, currentView: 'browser', selectedChapter: null, isExplanationExpanded: false }));
       }
     };
 
@@ -984,12 +1043,9 @@ export default function App() {
                   if (isCorrect) {
                     cardClass = "border-success-500 bg-success-50 dark:bg-success-950/20 text-success-700 dark:text-success-400";
                     letterClass = "bg-success-500 text-white border-success-500";
-                  } else if (isWrong) {
-                    cardClass = "border-danger-500 bg-danger-50 dark:bg-danger-950/20 text-danger-700 dark:text-danger-400";
-                    letterClass = "bg-danger-500 text-white border-danger-500";
                   } else {
-                    cardClass = "border-earth-100 dark:border-earth-900 opacity-40 grayscale-[0.5]";
-                    letterClass = "bg-earth-50 dark:bg-earth-900 text-earth-400 border-earth-100 dark:border-earth-900";
+                    cardClass = "border-danger-500 bg-danger-50 dark:bg-danger-950/20 text-danger-700 dark:text-danger-400 opacity-80";
+                    letterClass = "bg-danger-500 text-white border-danger-500";
                   }
                 } else if (isSelected) {
                   cardClass = "border-brand-500 bg-brand-50 dark:bg-brand-950/20 text-brand-700 dark:text-brand-400 ring-2 ring-brand-500/20";
@@ -1007,13 +1063,11 @@ export default function App() {
                     className={`w-full p-4 md:p-5 rounded-2xl text-left border-2 transition-all duration-200 flex items-center justify-between group ${cardClass}`}
                   >
                     <div className="flex items-center gap-4">
-                      <span className={`w-10 h-10 flex-shrink-0 rounded-xl flex items-center justify-center text-sm font-black border-2 transition-all ${letterClass}`}>
-                        {String.fromCharCode(65 + idx)}
+                      <span className={`w-8 h-8 flex-shrink-0 rounded-full flex items-center justify-center text-sm font-black border-2 transition-all ${letterClass}`}>
+                        {showSolution ? (isCorrect ? <Check size={16} strokeWidth={4} /> : <X size={16} strokeWidth={4} />) : String.fromCharCode(65 + idx)}
                       </span>
                       <span className="font-bold text-sm md:text-base">{option}</span>
                     </div>
-                    {showSolution && isCorrect && <CheckCircle2 size={20} className="text-success-500" />}
-                    {showSolution && isWrong && <XCircle size={20} className="text-danger-500" />}
                   </button>
                 );
               })}
@@ -1025,17 +1079,34 @@ export default function App() {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="bg-earth-50 dark:bg-earth-900/50 rounded-3xl p-6 md:p-8 border border-earth-100 dark:border-earth-800 space-y-4"
+                  className="bg-earth-50 dark:bg-earth-900/50 rounded-3xl border border-earth-100 dark:border-earth-800 overflow-hidden"
                 >
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-600 dark:text-brand-400">
-                      <AlertCircle size={18} />
+                  <button
+                    onClick={() => setState(s => ({ ...s, isExplanationExpanded: !s.isExplanationExpanded }))}
+                    className="w-full flex items-center justify-between p-6 md:p-8 hover:bg-earth-100 dark:hover:bg-earth-800/50 transition-colors"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-600 dark:text-brand-400">
+                        <AlertCircle size={18} />
+                      </div>
+                      <h4 className="text-xs font-black uppercase tracking-widest text-earth-500">Explanation</h4>
                     </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-earth-500">Explanation</h4>
-                  </div>
-                  <p className="text-earth-700 dark:text-earth-300 leading-relaxed font-medium">
-                    {question.explanation}
-                  </p>
+                    {state.isExplanationExpanded ? <ChevronDown size={20} className="text-earth-400" /> : <ChevronRight size={20} className="text-earth-400" />}
+                  </button>
+                  <AnimatePresence>
+                    {state.isExplanationExpanded && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        className="px-6 md:px-8 pb-6 md:pb-8"
+                      >
+                        <p className="text-earth-700 dark:text-earth-300 leading-relaxed font-medium pt-4 border-t border-earth-100 dark:border-earth-800">
+                          {question.explanation}
+                        </p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -1057,15 +1128,43 @@ export default function App() {
               )}
             </div>
 
-            {showSolution && (
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => {
+                  playClickSound();
+                  if (state.currentQuestionIndex > 0) {
+                    setState(s => ({
+                      ...s,
+                      currentQuestionIndex: s.currentQuestionIndex - 1,
+                      selectedOption: null,
+                      showSolution: false,
+                      isExplanationExpanded: false
+                    }));
+                  }
+                }}
+                disabled={state.currentQuestionIndex === 0}
+                className={`flex-1 md:flex-none md:min-w-[140px] py-4 px-6 rounded-2xl font-black uppercase tracking-widest transition-all flex items-center justify-center gap-2 active:scale-95 shadow-xl ${
+                  state.currentQuestionIndex === 0
+                    ? 'opacity-50 cursor-not-allowed bg-earth-100 dark:bg-earth-900 text-earth-400'
+                    : 'bg-earth-100 dark:bg-earth-900 text-earth-600 dark:text-earth-400 hover:bg-earth-200 dark:hover:bg-earth-800'
+                }`}
+              >
+                <ArrowLeft size={20} />
+                <span className="hidden sm:inline">Previous</span>
+              </button>
+
               <button 
                 onClick={handleNext}
-                className="flex-1 md:flex-none md:min-w-[200px] py-4 bg-earth-900 dark:bg-white text-white dark:text-black rounded-2xl font-black uppercase tracking-widest hover:opacity-90 transition-all flex items-center justify-center gap-2 active:scale-95 shadow-xl"
+                className={`flex-1 md:flex-none md:min-w-[200px] py-4 px-6 rounded-2xl font-black uppercase tracking-widest transition-all flex items-center justify-center gap-2 active:scale-95 shadow-xl ${
+                  showSolution 
+                    ? 'bg-earth-900 dark:bg-white text-white dark:text-black hover:opacity-90' 
+                    : 'bg-earth-100 dark:bg-earth-900 text-earth-600 dark:text-earth-400 hover:bg-earth-200 dark:hover:bg-earth-800'
+                }`}
               >
-                {state.currentQuestionIndex < chapterQuestions.length - 1 ? 'Next Question' : 'Finish Module'}
-                <ArrowRight size={20} />
+                {state.currentQuestionIndex < chapterQuestions.length - 1 ? (showSolution ? 'Next Question' : 'Skip Question') : 'Finish Module'}
+                {showSolution ? <ArrowRight size={20} /> : <SkipForward size={20} />}
               </button>
-            )}
+            </div>
           </div>
         </footer>
       </div>
@@ -1332,44 +1431,47 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-sans">
-      <main className="pb-20 md:pb-0 md:pl-20">
+      <main className={state.currentView !== 'login' ? "pb-20 md:pb-0 md:pl-20" : ""}>
+        {state.currentView === 'login' && renderLogin()}
         {state.currentView === 'dashboard' && renderDashboard()}
         {state.currentView === 'browser' && renderBrowser()}
         {state.currentView === 'practice' && renderPractice()}
       </main>
 
       {/* Navigation Bar (Mobile Bottom / Desktop Left) */}
-      <nav className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-20 bg-white dark:bg-earth-950 border-t md:border-t-0 md:border-r border-earth-200 dark:border-earth-900 flex md:flex-col items-center justify-around md:justify-center md:gap-8 p-4 z-40">
-        <button 
-          onClick={() => { playClickSound(); setState(s => ({ ...s, currentView: 'dashboard' })) }}
-          className={`p-3 rounded-xl transition-all ${state.currentView === 'dashboard' ? 'bg-brand-600 text-white shadow-lg shadow-brand-500/30' : 'text-earth-400 hover:text-brand-600 dark:hover:text-brand-400'}`}
-          title="Dashboard"
-        >
-          <LayoutDashboard size={20} />
-        </button>
-        <button 
-          onClick={() => { playClickSound(); setState(s => ({ ...s, currentView: 'browser' })) }}
-          className={`p-3 rounded-xl transition-all ${state.currentView === 'browser' || state.currentView === 'practice' ? 'bg-brand-600 text-white shadow-lg shadow-brand-500/30' : 'text-earth-400 hover:text-brand-600 dark:hover:text-brand-400'}`}
-          title="Question Bank"
-        >
-          <BookOpen size={20} />
-        </button>
-        <div className="hidden md:block w-8 h-px bg-earth-200 dark:bg-earth-800 my-2" />
-        <button 
-          onClick={toggleDarkMode}
-          className="p-3 rounded-xl text-earth-400 hover:text-brand-600 dark:hover:text-brand-400 transition-all"
-          title="Toggle Theme"
-        >
-          {state.isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-        </button>
-        <button 
-          onClick={handleSettingsClick}
-          className="p-3 rounded-xl text-earth-400 hover:text-brand-600 dark:hover:text-brand-400 transition-all" 
-          title="Settings"
-        >
-          <Settings size={20} />
-        </button>
-      </nav>
+      {state.currentView !== 'login' && (
+        <nav className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-20 bg-white dark:bg-earth-950 border-t md:border-t-0 md:border-r border-earth-200 dark:border-earth-900 flex md:flex-col items-center justify-around md:justify-center md:gap-8 p-4 z-40">
+          <button 
+            onClick={() => { playClickSound(); setState(s => ({ ...s, currentView: 'dashboard' })) }}
+            className={`p-3 rounded-xl transition-all ${state.currentView === 'dashboard' ? 'bg-brand-600 text-white shadow-lg shadow-brand-500/30' : 'text-earth-400 hover:text-brand-600 dark:hover:text-brand-400'}`}
+            title="Dashboard"
+          >
+            <LayoutDashboard size={20} />
+          </button>
+          <button 
+            onClick={() => { playClickSound(); setState(s => ({ ...s, currentView: 'browser' })) }}
+            className={`p-3 rounded-xl transition-all ${state.currentView === 'browser' || state.currentView === 'practice' ? 'bg-brand-600 text-white shadow-lg shadow-brand-500/30' : 'text-earth-400 hover:text-brand-600 dark:hover:text-brand-400'}`}
+            title="Question Bank"
+          >
+            <BookOpen size={20} />
+          </button>
+          <div className="hidden md:block w-8 h-px bg-earth-200 dark:bg-earth-800 my-2" />
+          <button 
+            onClick={toggleDarkMode}
+            className="p-3 rounded-xl text-earth-400 hover:text-brand-600 dark:hover:text-brand-400 transition-all"
+            title="Toggle Theme"
+          >
+            {state.isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
+          <button 
+            onClick={handleSettingsClick}
+            className="p-3 rounded-xl text-earth-400 hover:text-brand-600 dark:hover:text-brand-400 transition-all" 
+            title="Settings"
+          >
+            <Settings size={20} />
+          </button>
+        </nav>
+      )}
 
       {renderPrank()}
       {renderCalculator()}

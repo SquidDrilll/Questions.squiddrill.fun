@@ -31,7 +31,8 @@ export interface AppState {
   questions: Question[];
   progress: UserProgress;
   isDarkMode: boolean;
-  currentView: 'dashboard' | 'browser' | 'practice';
+  currentView: 'login' | 'dashboard' | 'browser' | 'practice';
+  isAuthenticated: boolean;
   currentQuestionIndex: number;
   showPrank: boolean;
   searchQuery: string;
@@ -42,4 +43,5 @@ export interface AppState {
   selectedOption: number | null;
   showSolution: boolean;
   showCalculator: boolean;
+  isExplanationExpanded: boolean;
 }
