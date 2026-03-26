@@ -60,6 +60,8 @@ function CalculatorComponent() {
   const [display, setDisplay] = useState('0');
   const [equation, setEquation] = useState('');
   const [shouldReset, setShouldReset] = useState(false);
+  const [history, setHistory] = useState<{ eq: string, res: string }[]>([]);
+  const [showHistory, setShowHistory] = useState(false);
 
   const handleNumber = (num: string) => {
     if (num === '.') {
@@ -87,7 +89,6 @@ function CalculatorComponent() {
   const handleEqual = () => {
     try {
       const fullEquation = equation + display;
-      // Simple eval-like logic for basic arithmetic
       const tokens = fullEquation.split(' ');
       if (tokens.length < 3) return;
       
@@ -104,6 +105,10 @@ function CalculatorComponent() {
       }
       
       const resultStr = Number.isInteger(result) ? result.toString() : result.toFixed(4).replace(/\.?0+$/, "");
+      
+      // Add to history
+      setHistory(prev => [{ eq: fullEquation, res: resultStr }, ...prev].slice(0, 10));
+      
       setDisplay(resultStr);
       setEquation('');
       setShouldReset(true);
@@ -118,17 +123,31 @@ function CalculatorComponent() {
     setShouldReset(false);
   };
 
+  const useHistoryItem = (item: { eq: string, res: string }) => {
+    setDisplay(item.res);
+    setEquation('');
+    setShouldReset(true);
+    setShowHistory(false);
+  };
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const key = e.key;
-      if (/[0-9.]/.test(key)) {
-        handleNumber(key);
-      } else if (key === '+' || key === '-' || key === '*' || key === '/') {
-        handleOperator(key);
-      } else if (key === 'Enter' || key === '=') {
-        handleEqual();
-      } else if (key === 'Escape' || key === 'Backspace' || key === 'c' || key === 'C') {
-        clear();
+      const calcKeys = ['0','1','2','3','4','5','6','7','8','9','.','+','-','*','/','Enter','=','Escape','Backspace','c','C'];
+      
+      if (calcKeys.includes(key)) {
+        e.preventDefault();
+        if (/[0-9.]/.test(key)) {
+          handleNumber(key);
+        } else if (key === '+' || key === '-' || key === '*' || key === '/') {
+          handleOperator(key);
+        } else if (key === 'Enter' || key === '=') {
+          handleEqual();
+        } else if (key === 'Escape' || key === 'c' || key === 'C') {
+          clear();
+        } else if (key === 'Backspace') {
+          setDisplay(prev => prev.length > 1 ? prev.slice(0, -1) : '0');
+        }
       }
     };
     window.addEventListener('keydown', handleKeyDown);
@@ -152,32 +171,72 @@ function CalculatorComponent() {
 
   return (
     <div className="space-y-4">
-      <div className="bg-earth-50 dark:bg-earth-950 p-6 rounded-3xl border border-earth-100 dark:border-earth-900 text-right overflow-hidden">
-        <div className="text-[10px] font-black uppercase tracking-widest text-earth-400 h-4 mb-1">
-          {equation}
-        </div>
-        <div className="text-4xl font-black tracking-tighter text-earth-900 dark:text-earth-50 truncate">
-          {display}
-        </div>
+      <div className="flex justify-between items-center">
+        <button 
+          onClick={() => setShowHistory(!showHistory)}
+          className={`text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full transition-colors ${
+            showHistory ? 'bg-brand-500 text-white' : 'bg-earth-100 dark:bg-earth-800 text-earth-400 hover:text-earth-600'
+          }`}
+        >
+          {showHistory ? 'Back to Calc' : 'History'}
+        </button>
       </div>
 
-      <div className="grid grid-cols-4 gap-2">
-        <CalcButton label="C" onClick={clear} variant="action" className="col-span-2" />
-        <CalcButton label={<Divide size={20} />} onClick={() => handleOperator('/')} variant="action" />
-        <CalcButton label={<X size={20} />} onClick={() => handleOperator('*')} variant="action" />
-        
-        {[7, 8, 9].map(n => <CalcButton key={n} label={n.toString()} onClick={() => handleNumber(n.toString())} />)}
-        <CalcButton label={<Minus size={20} />} onClick={() => handleOperator('-')} variant="operator" />
-        
-        {[4, 5, 6].map(n => <CalcButton key={n} label={n.toString()} onClick={() => handleNumber(n.toString())} />)}
-        <CalcButton label={<Plus size={20} />} onClick={() => handleOperator('+')} variant="operator" />
-        
-        {[1, 2, 3].map(n => <CalcButton key={n} label={n.toString()} onClick={() => handleNumber(n.toString())} />)}
-        <CalcButton label={<Equal size={20} />} onClick={handleEqual} variant="operator" className="row-span-2" />
-        
-        <CalcButton label="0" onClick={() => handleNumber('0')} className="col-span-2" />
-        <CalcButton label="." onClick={() => handleNumber('.')} />
-      </div>
+      {showHistory ? (
+        <div className="h-[340px] overflow-y-auto space-y-2 pr-2 custom-scrollbar">
+          {history.length === 0 ? (
+            <div className="h-full flex flex-col items-center justify-center text-earth-400 space-y-2">
+              <Clock size={24} opacity={0.5} />
+              <span className="text-[10px] font-black uppercase tracking-widest">No history yet</span>
+            </div>
+          ) : (
+            history.map((item, idx) => (
+              <button
+                key={idx}
+                onClick={() => { playClickSound(); useHistoryItem(item); }}
+                className="w-full p-4 bg-earth-50 dark:bg-earth-950 border border-earth-100 dark:border-earth-900 rounded-2xl text-right hover:border-brand-500 transition-all group"
+              >
+                <div className="text-[10px] font-black uppercase tracking-widest text-earth-400 mb-1 group-hover:text-brand-400">
+                  {item.eq} =
+                </div>
+                <div className="text-xl font-black text-earth-900 dark:text-earth-50">
+                  {item.res}
+                </div>
+              </button>
+            ))
+          )}
+        </div>
+      ) : (
+        <>
+          <div className="bg-earth-50 dark:bg-earth-950 p-6 rounded-3xl border border-earth-100 dark:border-earth-900 text-right overflow-hidden">
+            <div className="text-[10px] font-black uppercase tracking-widest text-earth-400 h-4 mb-1">
+              {equation}
+            </div>
+            <div className="text-4xl font-black tracking-tighter text-earth-900 dark:text-earth-50 truncate">
+              {display}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-4 gap-2">
+            <CalcButton label="C" onClick={clear} variant="action" />
+            <CalcButton label={<ArrowLeft size={20} />} onClick={() => setDisplay(prev => prev.length > 1 ? prev.slice(0, -1) : '0')} variant="action" />
+            <CalcButton label={<Divide size={20} />} onClick={() => handleOperator('/')} variant="action" />
+            <CalcButton label={<X size={20} />} onClick={() => handleOperator('*')} variant="action" />
+            
+            {[7, 8, 9].map(n => <CalcButton key={n} label={n.toString()} onClick={() => handleNumber(n.toString())} />)}
+            <CalcButton label={<Minus size={20} />} onClick={() => handleOperator('-')} variant="operator" />
+            
+            {[4, 5, 6].map(n => <CalcButton key={n} label={n.toString()} onClick={() => handleNumber(n.toString())} />)}
+            <CalcButton label={<Plus size={20} />} onClick={() => handleOperator('+')} variant="operator" />
+            
+            {[1, 2, 3].map(n => <CalcButton key={n} label={n.toString()} onClick={() => handleNumber(n.toString())} />)}
+            <CalcButton label={<Equal size={20} />} onClick={handleEqual} variant="operator" className="row-span-2" />
+            
+            <CalcButton label="0" onClick={() => handleNumber('0')} className="col-span-2" />
+            <CalcButton label="." onClick={() => handleNumber('.')} />
+          </div>
+        </>
+      )}
     </div>
   );
 }
@@ -309,18 +368,108 @@ export default function App() {
     };
   }, []);
 
-  const [settingsClicks, setSettingsClicks] = useState(0);
-
   const handleSettingsClick = () => {
     playClickSound();
-    setSettingsClicks(prev => {
-      const next = prev + 1;
-      if (next >= 5) {
-        setPrankStep('error');
-        return 0;
-      }
-      return next;
-    });
+    setState(s => ({ ...s, currentView: 'settings' }));
+  };
+
+  const renderSettings = () => {
+    const [showConfirmReset, setShowConfirmReset] = useState(false);
+
+    const handleResetProgress = () => {
+      playSuccessSound();
+      setState(s => ({
+        ...s,
+        progress: INITIAL_PROGRESS,
+        currentView: 'dashboard'
+      }));
+      localStorage.removeItem('ecostudy_progress');
+      setShowConfirmReset(false);
+    };
+
+    return (
+      <div className="min-h-screen bg-earth-50 dark:bg-earth-950 p-4 md:p-8">
+        <div className="max-w-2xl mx-auto space-y-8">
+          <div className="flex items-center gap-4 mb-8">
+            <button 
+              onClick={() => { playClickSound(); setState(s => ({ ...s, currentView: 'dashboard' })) }}
+              className="p-2 hover:bg-earth-100 dark:hover:bg-earth-900 rounded-full transition-colors text-earth-500"
+            >
+              <ArrowLeft size={24} />
+            </button>
+            <h1 className="text-3xl font-black tracking-tighter text-earth-900 dark:text-earth-50 uppercase italic">Settings</h1>
+          </div>
+
+          <div className="bg-white dark:bg-earth-900 rounded-3xl p-6 border border-earth-100 dark:border-earth-800 shadow-sm space-y-6">
+            <div className="space-y-2">
+              <h2 className="text-lg font-bold text-earth-900 dark:text-earth-50">Account</h2>
+              <p className="text-sm text-earth-500">Logged in as <span className="font-bold text-brand-500">{state.username}</span></p>
+            </div>
+
+            <div className="h-px bg-earth-100 dark:bg-earth-800" />
+
+            <div className="space-y-4">
+              <h2 className="text-lg font-bold text-earth-900 dark:text-earth-50">Data & Privacy</h2>
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-danger-500/5 border border-danger-500/20 rounded-2xl gap-4">
+                <div>
+                  <h3 className="font-bold text-danger-600 dark:text-danger-400">Reset Progress</h3>
+                  <p className="text-xs text-earth-500">This will permanently delete all your study history, bookmarks, and stats.</p>
+                </div>
+                <button 
+                  onClick={() => { playClickSound(); setShowConfirmReset(true); }}
+                  className="px-4 py-2 bg-danger-500 text-white rounded-xl text-sm font-bold hover:bg-danger-600 transition-colors shadow-lg shadow-danger-500/20 whitespace-nowrap"
+                >
+                  Reset Progress
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Confirmation Modal */}
+        <AnimatePresence>
+          {showConfirmReset && (
+            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                onClick={() => setShowConfirmReset(false)}
+                className="absolute inset-0 bg-earth-950/60 backdrop-blur-sm"
+              />
+              <motion.div 
+                initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                animate={{ scale: 1, opacity: 1, y: 0 }}
+                exit={{ scale: 0.9, opacity: 0, y: 20 }}
+                className="relative z-10 w-full max-w-sm bg-white dark:bg-earth-900 rounded-[2.5rem] p-8 border border-earth-200 dark:border-earth-800 shadow-2xl text-center"
+              >
+                <div className="w-16 h-16 bg-danger-500/10 text-danger-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <AlertCircle size={32} />
+                </div>
+                <h2 className="text-2xl font-black text-earth-900 dark:text-earth-50 mb-2 tracking-tight">Are you sure?</h2>
+                <p className="text-earth-500 mb-8 text-sm leading-relaxed">
+                  This action cannot be undone. All your progress, including streak and badges, will be lost forever.
+                </p>
+                <div className="grid grid-cols-2 gap-3">
+                  <button 
+                    onClick={() => setShowConfirmReset(false)}
+                    className="px-6 py-3 bg-earth-100 dark:bg-earth-800 text-earth-600 dark:text-earth-400 rounded-2xl font-bold hover:bg-earth-200 dark:hover:bg-earth-700 transition-all"
+                  >
+                    Cancel
+                  </button>
+                  <button 
+                    onClick={handleResetProgress}
+                    className="px-6 py-3 bg-danger-500 text-white rounded-2xl font-bold hover:bg-danger-600 transition-all shadow-lg shadow-danger-500/20"
+                  >
+                    Yes, Reset
+                  </button>
+                </div>
+              </motion.div>
+            </div>
+          )}
+        </AnimatePresence>
+      </div>
+    );
   };
 
   const toggleDarkMode = () => {
@@ -1955,6 +2104,7 @@ export default function App() {
         {state.currentView === 'dashboard' && renderDashboard()}
         {state.currentView === 'browser' && renderBrowser()}
         {state.currentView === 'practice' && renderPractice()}
+        {state.currentView === 'settings' && renderSettings()}
       </main>
 
       {/* Navigation Bar (Mobile Bottom / Desktop Left) */}
@@ -1984,7 +2134,7 @@ export default function App() {
           </button>
           <button 
             onClick={handleSettingsClick}
-            className="p-3 rounded-xl text-earth-400 hover:text-brand-600 dark:hover:text-brand-400 transition-all" 
+            className={`p-3 rounded-xl transition-all ${state.currentView === 'settings' ? 'bg-brand-600 text-white shadow-lg shadow-brand-500/30' : 'text-earth-400 hover:text-brand-600 dark:hover:text-brand-400'}`} 
             title="Settings"
           >
             <Settings size={20} />

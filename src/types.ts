@@ -34,7 +34,7 @@ export interface AppState {
   questions: Question[];
   progress: UserProgress;
   isDarkMode: boolean;
-  currentView: 'login' | 'dashboard' | 'browser' | 'practice';
+  currentView: 'login' | 'dashboard' | 'browser' | 'practice' | 'settings';
   practiceMode?: 'normal' | 'timed' | 'mistakes';
   isAuthenticated: boolean;
   username: string | null;
