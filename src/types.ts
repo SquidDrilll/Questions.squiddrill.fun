@@ -43,6 +43,9 @@ export interface AppState {
   searchQuery: string;
   activeSubject: string;
   activeYear: string;
+  activeDifficulty: 'All' | Difficulty;
+  chapterSortBy: 'default' | 'a-z' | 'z-a' | 'most' | 'least';
+  questionSortBy: 'newest' | 'oldest';
   selectedChapter: string | null;
   selectedSubject: string | null;
   selectedOption: number | null;

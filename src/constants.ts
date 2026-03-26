@@ -9,7 +9,7 @@ import { Question } from './types';
 export const MOCK_QUESTIONS: Question[] = [
   // GUJCET 2024 - MATHEMATICS
   {
-    id: 'gujcet2024_m16',
+    id: 'q_0001',
     text: 'The value of tan⁻¹(−1) + sec⁻¹(−2) + sin⁻¹(1/√2) is ____',
     options: ['−π/6', '−π/3', 'π', '2π/3'],
     correctAnswer: 3,
@@ -20,7 +20,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m17',
+    id: 'q_0002',
     text: 'sin⁻¹(sin 23π/6) = ____',
     options: ['−π/6', 'π/6', '23π/6', '−5π/6'],
     correctAnswer: 0,
@@ -31,7 +31,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m18',
+    id: 'q_0003',
     text: 'If A is a square matrix such that A² = A, then (I − A)³ − (I + A)² = ____',
     options: ['2(I − A)', 'I − A', 'I', '0', 'None of the above'],
     correctAnswer: 4,
@@ -42,7 +42,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m19',
+    id: 'q_0004',
     text: 'If A = [sinα −cosα / cosα sinα] and A + A\' = I, then the value of cos α is ____',
     options: ['1/2', '√3/2', '−1', '0'],
     correctAnswer: 1,
@@ -53,7 +53,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m20',
+    id: 'q_0005',
     text: 'If A = [0 0 −1 / 0 −1 0 / −1 0 0], then I + A² = ____',
     options: ['0', 'I + A', 'A', '2I'],
     correctAnswer: 3,
@@ -64,7 +64,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m21',
+    id: 'q_0006',
     text: 'If area of △PQR is 3 sq. units with vertices P(k,1), Q(2,4) and R(1,1), then value of k is ____',
     options: ['−3, 1', '0, 2', '−1, 3', '1, 3'],
     correctAnswer: 2,
@@ -75,7 +75,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m22',
+    id: 'q_0007',
     text: 'If |2017 2018 / 2019 2020| + |2021 2022 / 2023 2024| = 2k, then k³ = ____',
     options: ['−8', '8', '0', '−64'],
     correctAnswer: 0,
@@ -86,7 +86,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m23',
+    id: 'q_0008',
     text: 'If A = [2 −4 / −3 6], then A⁻¹ = ____',
     options: ['(1/24)[−2 4 / 3 −6]', '(1/24)[6 4 / 3 2]', '(1/24)[−6 4 / 3 −2]', 'Does not exist'],
     correctAnswer: 3,
@@ -97,7 +97,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m24',
+    id: 'q_0009',
     text: 'If function f is continuous at x = π/2 and f(x) = 2k cosx/(π − 2x) for x ≠ π/2, and f(π/2) = 2024, then the value of k is ____',
     options: ['1012', '506', '2024', '4048'],
     correctAnswer: 2,
@@ -108,7 +108,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m29',
+    id: 'q_0010',
     text: 'For function f(x) = sin 3x; x ∈ [0, π/2], f is ____',
     options: ['Increasing in [0, π/2]', 'Decreasing in [0, π/2]', 'Decreasing in [0, π/6) and increasing in (π/6, π/2)', 'Increasing in [0, π/6) and decreasing in (π/6, π/2)'],
     correctAnswer: 3,
@@ -119,7 +119,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m30',
+    id: 'q_0011',
     text: 'The absolute maximum value of f(x) = sin x + cos x, x ∈ [0, π] is ____',
     options: ['0', '1/√2', '1', '√2'],
     correctAnswer: 3,
@@ -130,7 +130,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m31',
+    id: 'q_0012',
     text: '∫ (e²ˣ − 1)/(e²ˣ + 1) dx = ____ + C',
     options: ['log(e²ˣ − 1) + x', 'log(e²ˣ + 1) − x', 'log(e²ˣ + 1) + x', 'log(e²ˣ − 1) − x'],
     correctAnswer: 1,
@@ -141,7 +141,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m32',
+    id: 'q_0013',
     text: '∫ 1/√(4x − x²) dx = ____ + C',
     options: ['sin⁻¹((x−2)/2)', '(1/2)tan⁻¹((x−2)/2)', 'log|(x−2) + √(4x−x²)|', '(1/4)log|x/(x−4)|'],
     correctAnswer: 0,
@@ -152,7 +152,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m33',
+    id: 'q_0014',
     text: '∫ eˣ((1 + sinx)/(1 + cosx)) dx = ____ + C',
     options: ['eˣ tan(x/2)', 'eˣ tan x', 'eˣ cot(x/2)', 'eˣ cot x'],
     correctAnswer: 0,
@@ -163,7 +163,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m34',
+    id: 'q_0015',
     text: '∫ from −π/2 to π/2 of (x⁵ − x³cosx + sin³x − 3) dx = ____',
     options: ['3π', '−π', '−3π', '0'],
     correctAnswer: 2,
@@ -174,7 +174,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m1',
+    id: 'q_0016',
     text: 'The Integrating Factor of the differential equation (tan⁻¹y − x)dy = (1 + y²)dx is ____',
     options: ['1/(1+y²)', 'tan⁻¹y', 'e^(1/(1+y²))', 'e^(tan⁻¹y)'],
     correctAnswer: 3,
@@ -185,7 +185,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m39',
+    id: 'q_0017',
     text: 'The order and degree of √(d²y/dx²) = ³√((dy/dx)⁴ + 2) is respectively ____ and ____',
     options: ['3, 2', '2, 3', '2, 8', '1, 8'],
     correctAnswer: 1,
@@ -196,7 +196,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m40',
+    id: 'q_0018',
     text: 'The general solution of (xdy − ydx)/y = 0 is ____',
     options: ['x = cy²', 'xy = c', 'y = cx', 'y = cx²'],
     correctAnswer: 2,
@@ -207,7 +207,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m2',
+    id: 'q_0019',
     text: 'The angle θ between vectors a = î − ĵ + k̂ and b = î + ĵ − k̂ is ____',
     options: ['cos⁻¹(−1/3)', 'cos⁻¹(1/3)', 'sin⁻¹(1/3)', 'sin⁻¹(−1/3)'],
     correctAnswer: 0,
@@ -218,7 +218,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m3',
+    id: 'q_0020',
     text: 'The area of a parallelogram with adjacent sides a = 2î + 3ĵ + 4k̂ and b = −ĵ − 2k̂ is ____',
     options: ['√6', '2√6', '24', '2√3'],
     correctAnswer: 1,
@@ -229,7 +229,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m4',
+    id: 'q_0021',
     text: 'The value of ĵ·(î × k̂) + î·(ĵ × ĵ) + k̂·(ĵ × î) + î·(k̂ × ĵ) is ____',
     options: ['−2', '−1', '−3', '−4'],
     correctAnswer: 2,
@@ -240,7 +240,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_m5',
+    id: 'q_0022',
     text: 'The angle between the lines (x−3)/1 = (y−2)/2 = (z+4)/2 and (x−5)/3 = (y+2)/2 = z/6 is ____',
     options: ['cos⁻¹(19/21)', 'cos⁻¹(√19/21)', 'sin⁻¹(19/21)', 'cos⁻¹(−19/21)'],
     correctAnswer: 0,
@@ -252,7 +252,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2024 - CHEMISTRY
   {
-    id: 'gujcet2024_c14',
+    id: 'q_0023',
     text: 'Which product will be obtained when cyclohexanone with −CH₂−C(=O)−OCH₃ side chain reacts with NaBH₄?',
     options: ['Cyclohexanol with −CH₂−CH(OH)−OCH₃', 'Cyclohexanol with −CH₂−C(=O)−OCH₃ (ketone reduced, ester intact)', 'No change', '−CH₂−CH₂−OCH₃ product'],
     correctAnswer: 1,
@@ -263,7 +263,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c15',
+    id: 'q_0024',
     text: 'Predict the major product of acid catalysed dehydration of butan-1-ol.',
     options: ['CH₃−CH=CH−CH₃ (but-2-ene)', 'CH₂=C(CH₃)−CH₂ (2-methylpropene)', 'CH₃CH₂CH=CH₂ (but-1-ene)', '2CH₂=CH₂'],
     correctAnswer: 0,
@@ -274,7 +274,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c16',
+    id: 'q_0025',
     text: 'Major product formed by heating CH₃CH₂CH₂−O−C(CH₃)₂−CH₂CH₃ with HI is ____',
     options: ['CH₃CH₂CH₂I + C(CH₃)₂(OH)CH₂CH₃', 'CH₃CH₂CH₂I + ether unchanged', 'CH₃CH₂CH₂OI + product', 'CH₃CH₂CH₂OH + C(CH₃)₂(I)CH₂CH₃'],
     correctAnswer: 3,
@@ -285,7 +285,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c17',
+    id: 'q_0026',
     text: 'Arrange in decreasing order of acidic strength — (i) phenol, (ii) p-nitrophenol, (iii) p-methylphenol:',
     options: ['(i) > (ii) > (iii)', '(iii) > (i) > (ii)', '(ii) > (i) > (iii)', '(ii) > (iii) > (i)'],
     correctAnswer: 2,
@@ -296,7 +296,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c18',
+    id: 'q_0027',
     text: 'Name the following reaction: Acid chloride + H₂ → Aldehyde (Pd−BaSO₄ catalyst)',
     options: ['Etard reaction', 'Stephen reaction', 'Rosenmund reduction', 'Clemmensen reduction'],
     correctAnswer: 2,
@@ -307,7 +307,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c19',
+    id: 'q_0028',
     text: '\'R\' + CH₃−CO−CH₃ →(H⁺) Schiff\'s base. What is \'R\'?',
     options: ['CH₃−NH₂', 'NH₂−NH₂', 'NH₂OH', 'C₆H₅−NH−NH₂'],
     correctAnswer: 0,
@@ -318,7 +318,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c20',
+    id: 'q_0029',
     text: 'Biphenyl reacted with (i) O₃ (ii) Zn−H₂O gives product X = ____',
     options: ['Benzaldehyde + cyclohexanone', 'Two cyclohexanone molecules', 'Two cyclohexanol molecules', 'Cyclohexanone + cyclohexanol'],
     correctAnswer: 1,
@@ -329,7 +329,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c21',
+    id: 'q_0030',
     text: 'Which carboxylic acid has the least pKa value (strongest acid)?',
     options: ['HCOOH', 'CH₃COOH', 'C₆H₅COOH', 'NO₂−CH₂−COOH'],
     correctAnswer: 3,
@@ -340,7 +340,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c22',
+    id: 'q_0031',
     text: 'Identify \'C\' in: C₆H₅NO₂ →(Fe/HCl) A →(NaNO₂+HCl, 273K) B →(H₂O, 283K) C',
     options: ['C₆H₅−CH₃ (toluene / methylbenzene)', 'C₆H₅−OH', 'C₆H₅−Cl', 'Benzene'],
     correctAnswer: 1,
@@ -351,7 +351,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c23',
+    id: 'q_0032',
     text: 'Which amine is prepared by Gabriel phthalimide synthesis?',
     options: ['Tertiary amine (R₃N)', 'Secondary amine (R−NH−R)', 'Primary aliphatic amine (R−NH₂)', 'Primary aromatic amine (Ar−NH₂)'],
     correctAnswer: 2,
@@ -362,7 +362,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c24',
+    id: 'q_0033',
     text: 'Which is the correct order of basic strength of given amines?',
     options: ['NH₃ > C₆H₅NH₂ > (C₂H₅)₂NH > C₂H₅NH₂', '(C₂H₅)₂NH > C₂H₅NH₂ > NH₃ > C₆H₅NH₂'],
     correctAnswer: 1,
@@ -373,7 +373,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2024_c40',
+    id: 'q_0034',
     text: 'Which graph is correct for a first-order reaction R → P?',
     options: ['t½ vs [R]₀ — straight line through origin', '[P] vs Time — decreasing curve', 't½ vs [R]₀ — decreasing line', 'log([R]₀/[R]) vs Time — straight line through origin'],
     correctAnswer: 3,
@@ -385,7 +385,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2024 - PHYSICS
   {
-    id: 'gujcet2024_p36',
+    id: 'q_0035',
     text: 'In the Wheatstone bridge circuit with resistances 2Ω, 4Ω, 4Ω, 8Ω and galvanometer 10Ω connected to 10V battery, find I = ____',
     options: ['2.8 A', '0.4 A', '1.8 A', '2.5 A'],
     correctAnswer: 3,
@@ -397,7 +397,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2023 - PHYSICS
   {
-    id: 'gujcet2023_p1',
+    id: 'q_0036',
     text: 'Two slits are made 10 millimeter apart and the screen is placed 1.5 metre away. What is the fringe separation when a wavelength of 7000 Å is used?',
     options: ['105 μm', '1.05 μm', '10.5 μm', '0.105 μm'],
     correctAnswer: 0,
@@ -408,7 +408,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p2',
+    id: 'q_0037',
     text: 'What is the de Broglie wavelength associated with an electron accelerated through a potential difference of 64 volts?',
     options: ['1.43 Å', '1.23 Å', '1.53 Å', '1.33 Å'],
     correctAnswer: 2,
@@ -419,7 +419,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p3',
+    id: 'q_0038',
     text: 'An electron, an α-particle and a proton have the same kinetic energy. Which of these have longest de Broglie wavelength?',
     options: ['α-particle', 'proton', 'electron', 'both α-particle and proton'],
     correctAnswer: 2,
@@ -430,7 +430,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p4',
+    id: 'q_0039',
     text: 'The number of photons emitted per second by a bulb of 66 W power emitting waves of wavelength 600 nm is ______. (h = 6.6 × 10⁻³⁴ J.s)',
     options: ['2 × 10²²', '2 × 10¹⁹', '2 × 10²¹', '2 × 10²⁰'],
     correctAnswer: 3,
@@ -441,7 +441,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p5',
+    id: 'q_0040',
     text: 'The longest wavelength present in the Balmer series of spectral line is ______.',
     options: ['5438 Å', '6563 Å', '7369 Å', '3646 Å'],
     correctAnswer: 1,
@@ -452,7 +452,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p6',
+    id: 'q_0041',
     text: 'In hydrogen atom an electron makes a transition from 5th orbit to 3rd orbit. The change in the angular momentum for this electron is ______.',
     options: ['h/π', 'h/2π', '3h/π', '5h/π'],
     correctAnswer: 0,
@@ -463,7 +463,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p7',
+    id: 'q_0042',
     text: 'A radioactive isotope has a halflife of 2.5 years. How long will it take the activity to reduce to 1.5625%?',
     options: ['10 years', '5 years', '15 years', '20 years'],
     correctAnswer: 2,
@@ -474,7 +474,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p8',
+    id: 'q_0043',
     text: 'In proton-proton cycle in Sun the energy released when an electron & its antiparticle combines is ______.',
     options: ['1.021 × 10⁻¹³ J', '0.672 × 10⁻¹³ J', '1.126 × 10⁻¹³ J', '1.632 × 10⁻¹³ J'],
     correctAnswer: 0,
@@ -485,7 +485,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p9',
+    id: 'q_0044',
     text: 'The ratio of halflife and average life for a radioactive sample is ______.',
     options: ['2.303', 'log(2)', 'ln(2)', 'e²'],
     correctAnswer: 2,
@@ -496,7 +496,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p10',
+    id: 'q_0045',
     text: 'The given logic circuit behaves as ______ gate.',
     options: ['NAND', 'NOR', 'NOT', 'OR'],
     correctAnswer: 0,
@@ -507,7 +507,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p11',
+    id: 'q_0046',
     text: 'In p-n junction solar cell, the ratio of thickness of p-Si wafer and n-Si layer is approximately ______.',
     options: ['300', '1000', '30', '0.3'],
     correctAnswer: 0,
@@ -518,7 +518,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p12',
+    id: 'q_0047',
     text: 'The minimum band gap (Eg) of semiconductors used for fabrication of visible LED is ______ eV.',
     options: ['1.8', '1.4', '2.3', '3.0'],
     correctAnswer: 0,
@@ -529,7 +529,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p13',
+    id: 'q_0048',
     text: 'Consider a uniform electric field E = 3×10³ k̂ N/C. The electric flux of this field through a square of 20 cm on a side whose plane is parallel to yz plane is ______ Nm²/C.',
     options: ['90', '120', '60', 'Zero'],
     correctAnswer: 1,
@@ -540,7 +540,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p14',
+    id: 'q_0049',
     text: 'Figure shows the electric field lines of four point charges A, B, C and D. Which charge has the maximum magnitude?',
     options: ['C charge', 'B charge', 'A charge', 'D charge'],
     correctAnswer: 1,
@@ -551,7 +551,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p15',
+    id: 'q_0050',
     text: 'A polythene piece rubbed with wool is found to have a negative charge of 3.52 × 10⁻⁷ C. What is the number of electrons transferred?',
     options: ['1.1 × 10¹²', '2.2 × 10¹²', '4.4 × 10¹²', '5.5 × 10¹²'],
     correctAnswer: 1,
@@ -562,7 +562,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p16',
+    id: 'q_0051',
     text: 'The potential at the point B in the given figure is ______ V. [VA = 40V, C1 = 2μF, C2 = 3μF, VC = 10V]',
     options: ['30', '50', '22', '25'],
     correctAnswer: 3,
@@ -573,7 +573,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p17',
+    id: 'q_0052',
     text: 'A charge Q is placed at the centre of circle of radius 10 cm. Find the work done in moving a charge q between any two points lying on the arc of this circle.',
     options: ['KQqJ', '0.1 KQqJ', '0.5 KQqJ', '0 J'],
     correctAnswer: 3,
@@ -584,7 +584,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p18',
+    id: 'q_0053',
     text: 'The dielectric strength of air is ______.',
     options: ['3×10⁹ V/cm', '3×10⁹ V/mm', '3×10⁹ V/μm', '3×10⁹ V/m'],
     correctAnswer: 3,
@@ -595,7 +595,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p19',
+    id: 'q_0054',
     text: 'Unit of mobility in terms of fundamental units is ______.',
     options: ['kg⁻¹s⁻²A', 'kgs²A', 'kg⁻¹s²A', 'kg⁻¹s²A⁻¹'],
     correctAnswer: 2,
@@ -606,7 +606,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p20',
+    id: 'q_0055',
     text: 'A metal rod of length 10 cm and a rectangular cross-section of 1cm × ½cm is connected to a battery across opposite faces. The resistance will be ______.',
     options: ['Maximum when the battery is connected across 10 cm × 1 cm', 'Maximum when battery is connected across 1cm × ½cm faces', 'Maximum when the battery is connected across 10cm × ½cm', 'Same irrespective of three faces'],
     correctAnswer: 1,
@@ -617,7 +617,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p21',
+    id: 'q_0056',
     text: 'Figure shows 2.0 V potentiometer used for the determination of internal resistance of 1.5 V cell. The balance point of cell in open circuit is 77.4 cm. When a resistor of 9.6 Ω is used in the external circuit of the cell, the balanced point shifts to 64.5 cm length of the potentiometer wire. The internal resistance of the cell is ______ Ω.',
     options: ['1.92', '1.5', '1.62', '0.96'],
     correctAnswer: 0,
@@ -628,7 +628,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p22',
+    id: 'q_0057',
     text: 'An electron is projected with uniform velocity along the axis of current carrying long solenoid. Which of the following is true?',
     options: ['The electron path will be circular about the axis', 'The electron will be accelerated along the axis', 'The electron will experience a force at 45° to the axis and hence execute a helical path', 'The electron will continue to move with uniform velocity along the axis of the solenoid'],
     correctAnswer: 3,
@@ -639,7 +639,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p23',
+    id: 'q_0058',
     text: 'An electron is moving at a speed of 3.2 × 10⁷ m/s in a magnetic field of 12 × 10⁻⁴ T perpendicular to the direction of motion of electron. The radius of the path of the electron is ______ cm. (e = 1.6 × 10⁻¹⁹ C and me = 9 × 10⁻³¹ kg)',
     options: ['30', '13', '15', '26'],
     correctAnswer: 2,
@@ -650,7 +650,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p24',
+    id: 'q_0059',
     text: 'A solenoid of length 0.5 m has a radius of 1 cm and is made up of 250 turns. It carries a current of 5 A. What is the magnitude of the magnetic field inside the solenoid?',
     options: ['3.14 × 10⁻³ T', '6.28 × 10⁻³ T', '62.8 × 10⁻³ T', 'Zero'],
     correctAnswer: 0,
@@ -661,7 +661,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p25',
+    id: 'q_0060',
     text: 'The galvanometer has a resistance of 18 Ω. Calculate the value of shunt to increase the range of galvanometer by 10 times.',
     options: ['4 Ω', '1 Ω', '3 Ω', '2 Ω'],
     correctAnswer: 3,
@@ -672,7 +672,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p26',
+    id: 'q_0061',
     text: 'A bar magnet having pole strength qm and magnetic moment m is divided into two equal parts along its length. The new pole strength is ______ and the magnetic moment is ______ respectively.',
     options: ['qm, m/2', 'qm/2, m', 'qm/2, m/2', 'qm, m'],
     correctAnswer: 0,
@@ -683,7 +683,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p27',
+    id: 'q_0062',
     text: 'A solenoid has a core of a material with relative permeability 400. The windings of solenoid are insulated from the core and carry a current of 2 A. If the number of turns is 1000 per metre, the magnetic field B inside the solenoid is ______ T.',
     options: ['1.5', '1.0', '1.8', '2.0'],
     correctAnswer: 1,
@@ -694,7 +694,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p28',
+    id: 'q_0063',
     text: 'The dimensional formula of self inductance is ______.',
     options: ['M¹L¹T⁻²A⁻²', 'M¹L²T⁻²A⁻²', 'M⁻¹L⁻¹T²A²', 'M¹L⁻¹T⁻¹A⁻²'],
     correctAnswer: 1,
@@ -705,7 +705,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p29',
+    id: 'q_0064',
     text: 'As shown in the figure a bar magnet is moving towards a stationary coil with constant speed v. The direction of induced current in the coil observed by the observer on R.H.S. is ______.',
     options: ['Anticlockwise', 'Clockwise', 'Current changes its direction randomly', 'Induced current will not be produced'],
     correctAnswer: 1,
@@ -716,7 +716,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p30',
+    id: 'q_0065',
     text: 'A circular coil of area 2 cm² is placed in a magnetic field of 3T perpendicularly. The coil has 10 turns and 5 Ω resistance. Now the coil is removed from magnetic field in 0.2 s. The value of induced charge flowing through the coil is ______.',
     options: ['1.1 mC', '1.9 mC', '1.2 mC', 'Zero'],
     correctAnswer: 2,
@@ -727,7 +727,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p31',
+    id: 'q_0066',
     text: 'A pure inductor of 25.48 mH and a pure resistor of 8Ω are connected in series with an A.C. source of frequency 50 Hz. The phase difference between current (I) and voltage (V) in this circuit is ______.',
     options: ['45°', '30°', '60°', '90°'],
     correctAnswer: 0,
@@ -738,7 +738,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p32',
+    id: 'q_0067',
     text: 'The charge of the capacitor in L-C oscillatory circuit, when the energy associated with inductor and capacitor are equal, is ______. [Q₀ is the initial charge on the capacitor]',
     options: ['Q₀/2', 'Q₀', 'Q₀/√3', 'Q₀/√2'],
     correctAnswer: 3,
@@ -749,7 +749,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p33',
+    id: 'q_0068',
     text: 'The output of a stepdown transformer is measured to be 24V when connected to a 12 watt light bulb. The value of peak current (Im) is ______ A.',
     options: ['1.41', '0.71', '2', '2.83'],
     correctAnswer: 1,
@@ -760,7 +760,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p34',
+    id: 'q_0069',
     text: 'If E and B represent electric and magnetic field vectors of electromagnetic wave, the direction of propagation of electromagnetic wave is along ______.',
     options: ['B', 'E', 'B×E', 'E×B'],
     correctAnswer: 3,
@@ -771,7 +771,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p35',
+    id: 'q_0070',
     text: 'Frequency range of visible light is ______.',
     options: ['400 THz to 700 THz', '400 GHz to 700 GHz', '400 MHz to 700 MHz', '400 kHz to 700 kHz'],
     correctAnswer: 0,
@@ -782,7 +782,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p36',
+    id: 'q_0071',
     text: 'The refractive index of air with respect to vacuum is ______.',
     options: ['1.0029', '1', '1.00029', '1.029'],
     correctAnswer: 2,
@@ -793,7 +793,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p37',
+    id: 'q_0072',
     text: 'A lens of power –4.0 Diopter. It means ______.',
     options: ['Concave lens of focal length –25.0 cm', 'Concave lens of focal length –0.25 cm', 'Convex lens of focal length +0.25 cm', 'Convex lens of focal length +25.0 cm'],
     correctAnswer: 0,
@@ -804,7 +804,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p38',
+    id: 'q_0073',
     text: 'The earth takes 24 h to rotate once about its axis. How much time does the Sun takes to shift by 1 minute viewed from the earth.',
     options: ['4 minutes', '40 s', '4 s', '40 minutes'],
     correctAnswer: 0,
@@ -815,7 +815,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p39',
+    id: 'q_0074',
     text: 'For what distance is ray optics a good approximation when the aperture is 6 mm wide and the wavelength is 6000 Å?',
     options: ['50 m', '60 m', '40 m', '10 m'],
     correctAnswer: 1,
@@ -826,7 +826,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_p40',
+    id: 'q_0075',
     text: 'Monochromatic light of wavelength 480 nm is incident from air to glass surface. Refractive index of glass is 1.5. The ratio of the frequency of the incident and refracted light is ______.',
     options: ['2:1', '1:2', '4:1', '1:1'],
     correctAnswer: 3,
@@ -838,7 +838,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 - PHYSICS
   {
-    id: 'gujcet2022_p1',
+    id: 'q_0076',
     text: 'A charge Q is placed at the center of the line joining two equal charges q. The system of the three charges will be in equilibrium if Q is equal to:',
     options: ['-q/2', '-q/4', '+q/4', '+q/2'],
     correctAnswer: 1,
@@ -849,7 +849,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p2',
+    id: 'q_0077',
     text: 'The electric potential at a point on the axis of an electric dipole depends on the distance r from the center of the dipole as:',
     options: ['1/r', '1/r²', '1/r³', 'r'],
     correctAnswer: 1,
@@ -860,7 +860,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p3',
+    id: 'q_0078',
     text: 'A parallel plate capacitor is charged and the charging battery is then disconnected. If the plates of the capacitor are moved further apart by means of insulating handles:',
     options: ['The charge on the capacitor increases', 'The voltage across the plates decreases', 'The capacitance increases', 'The electrostatic energy stored in the capacitor increases'],
     correctAnswer: 3,
@@ -871,7 +871,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p4',
+    id: 'q_0079',
     text: 'The resistance of a wire is R ohm. If it is melted and stretched to n times its original length, its new resistance will be:',
     options: ['nR', 'R/n', 'n²R', 'R/n²'],
     correctAnswer: 2,
@@ -882,7 +882,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p5',
+    id: 'q_0080',
     text: 'A current of 2A flows through a 2Ω resistor when connected to a battery of 5V. The internal resistance of the battery is:',
     options: ['0.5Ω', '1.0Ω', '1.5Ω', '2.0Ω'],
     correctAnswer: 0,
@@ -894,7 +894,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2021 - PHYSICS
   {
-    id: 'gujcet2021_p1',
+    id: 'q_0081',
     text: 'The electric field at a distance r from an infinitely long straight wire of linear charge density λ is proportional to:',
     options: ['r', '1/r', '1/r²', '1/r³'],
     correctAnswer: 1,
@@ -905,7 +905,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p2',
+    id: 'q_0082',
     text: 'A capacitor of capacitance C is charged to a potential V. The energy stored in it is:',
     options: ['CV', 'CV²', '1/2 CV²', '1/2 C²V'],
     correctAnswer: 2,
@@ -916,7 +916,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p3',
+    id: 'q_0083',
     text: 'The drift velocity of electrons in a conductor is of the order of:',
     options: ['10⁸ m/s', '10⁴ m/s', '10⁻⁴ m/s', '10⁻⁸ m/s'],
     correctAnswer: 2,
@@ -927,7 +927,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_p4',
+    id: 'q_0084',
     text: 'The magnetic field at the center of a circular loop of radius R carrying current I is:',
     options: ['μ₀I / 2R', 'μ₀I / 4R', 'μ₀I / 2πR', 'μ₀I / 4πR'],
     correctAnswer: 0,
@@ -938,7 +938,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p5',
+    id: 'q_0085',
     text: 'The self-inductance of a solenoid of length L, area of cross-section A and number of turns N is:',
     options: ['μ₀N²A/L', 'μ₀NA/L', 'μ₀N²AL', 'μ₀NAL'],
     correctAnswer: 0,
@@ -949,7 +949,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_p6',
+    id: 'q_0086',
     text: 'In an LCR series circuit, at resonance, the phase difference between current and voltage is:',
     options: ['0', 'π/2', 'π', 'π/4'],
     correctAnswer: 0,
@@ -960,7 +960,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p7',
+    id: 'q_0087',
     text: 'The speed of electromagnetic waves in vacuum is given by:',
     options: ['√(μ₀ε₀)', '1/√(μ₀ε₀)', 'μ₀ε₀', '1/(μ₀ε₀)'],
     correctAnswer: 1,
@@ -971,7 +971,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p8',
+    id: 'q_0088',
     text: 'A convex lens of focal length 20 cm is in contact with a concave lens of focal length 40 cm. The power of the combination is:',
     options: ['+2.5 D', '-2.5 D', '+5.0 D', '-5.0 D'],
     correctAnswer: 0,
@@ -982,7 +982,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_p9',
+    id: 'q_0089',
     text: 'In Young\'s double slit experiment, the fringe width is β. If the entire apparatus is immersed in a liquid of refractive index n, the new fringe width will be:',
     options: ['nβ', 'β/n', 'β/n²', 'β'],
     correctAnswer: 1,
@@ -993,7 +993,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p10',
+    id: 'q_0090',
     text: 'The work function of a metal is 4.2 eV. The threshold frequency for this metal is:',
     options: ['1.01 x 10¹⁵ Hz', '1.01 x 10¹⁴ Hz', '2.02 x 10¹⁵ Hz', '2.02 x 10¹⁴ Hz'],
     correctAnswer: 0,
@@ -1005,7 +1005,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 - PHYSICS (Continued)
   {
-    id: 'gujcet2022_p6',
+    id: 'q_0091',
     text: 'The magnetic susceptibility of a paramagnetic material is χ. If the absolute temperature is T, then χ is proportional to:',
     options: ['T', '1/T', 'T²', '1/T²'],
     correctAnswer: 1,
@@ -1016,7 +1016,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p7',
+    id: 'q_0092',
     text: 'A transformer works on the principle of:',
     options: ['Self-induction', 'Mutual induction', 'Eddy currents', 'None of these'],
     correctAnswer: 1,
@@ -1027,7 +1027,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p8',
+    id: 'q_0093',
     text: 'The ratio of the speed of light in vacuum to the speed of light in a medium is called:',
     options: ['Refractive index', 'Reflection coefficient', 'Transmission coefficient', 'Absorption coefficient'],
     correctAnswer: 0,
@@ -1038,7 +1038,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p9',
+    id: 'q_0094',
     text: 'The energy of a photon of wavelength λ is:',
     options: ['hc/λ', 'hλ/c', 'λ/hc', 'c/hλ'],
     correctAnswer: 0,
@@ -1049,7 +1049,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p10',
+    id: 'q_0095',
     text: 'The radius of the nth orbit of a hydrogen atom is proportional to:',
     options: ['n', 'n²', '1/n', '1/n²'],
     correctAnswer: 1,
@@ -1060,7 +1060,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p11',
+    id: 'q_0096',
     text: 'The binding energy per nucleon is maximum for:',
     options: ['⁴He', '⁵⁶Fe', '²³⁵U', '²H'],
     correctAnswer: 1,
@@ -1071,7 +1071,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p12',
+    id: 'q_0097',
     text: 'In a p-type semiconductor, the majority charge carriers are:',
     options: ['Electrons', 'Holes', 'Protons', 'Neutrons'],
     correctAnswer: 1,
@@ -1082,7 +1082,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p13',
+    id: 'q_0098',
     text: 'The logic gate which produces a low output only when both inputs are high is:',
     options: ['AND', 'OR', 'NAND', 'NOR'],
     correctAnswer: 2,
@@ -1093,7 +1093,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p14',
+    id: 'q_0099',
     text: 'The modulation index of an amplitude modulated wave is usually:',
     options: ['Zero', 'Between 0 and 1', 'Greater than 1', 'Infinite'],
     correctAnswer: 1,
@@ -1104,7 +1104,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p15',
+    id: 'q_0100',
     text: 'The SI unit of magnetic flux is:',
     options: ['Tesla', 'Weber', 'Gauss', 'Henry'],
     correctAnswer: 1,
@@ -1116,7 +1116,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2021 - PHYSICS (Continued)
   {
-    id: 'gujcet2021_p11',
+    id: 'q_0101',
     text: 'The energy equivalent of 1 amu is approximately:',
     options: ['931 MeV', '931 eV', '9.31 MeV', '9.31 eV'],
     correctAnswer: 0,
@@ -1127,7 +1127,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p12',
+    id: 'q_0102',
     text: 'The half-life of a radioactive substance is 10 days. Its mean life is:',
     options: ['14.4 days', '7 days', '10 days', '20 days'],
     correctAnswer: 0,
@@ -1138,7 +1138,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_p13',
+    id: 'q_0103',
     text: 'A p-n junction diode acts as a:',
     options: ['Amplifier', 'Oscillator', 'Rectifier', 'Modulator'],
     correctAnswer: 2,
@@ -1149,7 +1149,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_p14',
+    id: 'q_0104',
     text: 'The width of the depletion layer in a p-n junction diode:',
     options: ['Increases with forward bias', 'Decreases with reverse bias', 'Increases with reverse bias', 'Remains constant'],
     correctAnswer: 2,
@@ -1160,7 +1160,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_p15',
+    id: 'q_0105',
     text: 'Which of the following waves are used in RADAR?',
     options: ['Infrared waves', 'Ultraviolet waves', 'Microwaves', 'X-rays'],
     correctAnswer: 2,
@@ -1172,7 +1172,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2020 - PHYSICS
   {
-    id: 'gujcet2020_p1',
+    id: 'q_0106',
     text: 'The distance between two slits is 3 mm & screen is placed at 2 m distance. When blue-green light of wavelength 500 nm is used then distance between two fringes will be?',
     options: ['0.43 mm', '0.33 mm', '0.5 mm', '0.4 mm'],
     correctAnswer: 1,
@@ -1183,7 +1183,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p2',
+    id: 'q_0107',
     text: 'For what distance is ray optics a good approximation when the aperture is 4 mm wide & the wavelength is 500 nm?',
     options: ['32 m', '18 m', '8 m', '6 m'],
     correctAnswer: 0,
@@ -1194,7 +1194,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p3',
+    id: 'q_0108',
     text: 'Resolving power of microscope is?',
     options: ['2λ / (1.22n sinβ)', '1.22n / (2λ sinβ)', '1.22n sinβ / (2nλ)', 'None of the above'],
     correctAnswer: 3,
@@ -1205,7 +1205,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p4',
+    id: 'q_0109',
     text: 'How much is the De-Broglie wavelength for an electron accelerated by a 100 V potential difference?',
     options: ['123 nm', '0.123 nm', '12.3 nm', '0.123 cm'],
     correctAnswer: 1,
@@ -1216,7 +1216,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p5',
+    id: 'q_0110',
     text: 'The threshold frequency of cesium is 5.16 × 10¹⁴ Hz. Then its work function is ______ eV.',
     options: ['2.14', '1.14', '1.12', '4.12'],
     correctAnswer: 0,
@@ -1227,7 +1227,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p6',
+    id: 'q_0111',
     text: 'The nucleus of gold is about ______ times heavier than an α-particle.',
     options: ['50', '10', '100', '200'],
     correctAnswer: 0,
@@ -1238,7 +1238,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p7',
+    id: 'q_0112',
     text: 'The ground state energy of hydrogen atom is –13.6 eV. What is the kinetic energy of electron in this state?',
     options: ['–13.6 eV', '+13.6 eV', '–27.2 eV', '+27.2 eV'],
     correctAnswer: 1,
@@ -1249,7 +1249,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p8',
+    id: 'q_0113',
     text: 'The minimum wavelength for Balmer series is?',
     options: ['9/R', '4/R', '36/5R', 'R/4'],
     correctAnswer: 1,
@@ -1260,7 +1260,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p9',
+    id: 'q_0114',
     text: 'Calculate the energy equivalent of 1 g of substance.',
     options: ['9 × 10¹³ J', '4 × 10¹² J', '6 × 10¹¹ J', '7 × 10¹² J'],
     correctAnswer: 0,
@@ -1271,7 +1271,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p10',
+    id: 'q_0115',
     text: 'In which process is neutron converted into proton?',
     options: ['β⁺ decay', 'α decay', 'β⁻ decay', 'γ decay'],
     correctAnswer: 2,
@@ -1282,7 +1282,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p11',
+    id: 'q_0116',
     text: 'The forbidden gap between conduction band & valence band is maximum for?',
     options: ['Insulator', 'Metal', 'Semiconductor', 'Superconductor'],
     correctAnswer: 0,
@@ -1293,7 +1293,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p12',
+    id: 'q_0117',
     text: 'The below truth table is for which gate? A=0,B=0→Y=1 | A=0,B=1→Y=1 | A=1,B=0→Y=1 | A=1,B=1→Y=0',
     options: ['AND', 'OR', 'NOR', 'NAND'],
     correctAnswer: 3,
@@ -1304,7 +1304,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p13',
+    id: 'q_0118',
     text: 'A pure Si crystal has 5 × 10²⁸ atoms/m³. Doped by 1 PPM of pentavalent As. Calculate number of holes. (nᵢ = 1.5 × 10¹⁶ m⁻³)',
     options: ['5.4 × 10⁹ m⁻³', '4.5 × 10⁹ m⁻³', '4.5 × 10⁻⁹ m⁻³', '5.4 × 10⁻⁹ m⁻³'],
     correctAnswer: 1,
@@ -1315,7 +1315,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p14',
+    id: 'q_0119',
     text: 'In a diode, on increasing the forward voltage, the thickness of depletion layer?',
     options: ['Does not change', 'Increases', 'Decreases', 'Cannot be decided'],
     correctAnswer: 2,
@@ -1326,7 +1326,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p15',
+    id: 'q_0120',
     text: 'If charge q is placed on one vertex of a cube. Then flux passing through any one surface of the cube is?',
     options: ['q/ε₀', 'q/6ε₀', 'q/24ε₀', 'None of these'],
     correctAnswer: 2,
@@ -1337,7 +1337,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p16',
+    id: 'q_0121',
     text: 'Two point charges +10⁻⁸ C and –10⁻⁸ C are placed 0.1 m apart. Find the magnitude of total electric field at the center.',
     options: ['3.6 × 10⁴ NC⁻¹', '7.2 × 10⁴ NC⁻¹', 'Zero', '12.96 × 10⁴ NC⁻¹'],
     correctAnswer: 1,
@@ -1348,7 +1348,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p17',
+    id: 'q_0122',
     text: 'Charge density of uniformly charged infinite plane is σ. A simple pendulum bob has charge q₀. If string makes angle θ with vertical, then?',
     options: ['σ ∝ tanθ / q₀', 'σ ∝ cotθ / q₀', 'σ ∝ tanθ', 'σ ∝ q₀ / tanθ'],
     correctAnswer: 0,
@@ -1359,7 +1359,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p18',
+    id: 'q_0123',
     text: 'The dimensional formula of Polarization P is?',
     options: ['M¹L⁻²A¹T¹', 'L⁻²A⁻¹T⁻¹', 'L²A⁻¹T⁻¹', 'L⁻²A¹T¹'],
     correctAnswer: 3,
@@ -1370,7 +1370,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p19',
+    id: 'q_0124',
     text: 'If relative permittivity for a substance is 80 then its electric susceptibility is?',
     options: ['7 × 10⁻¹⁰', '7 × 10⁻⁹', '79', '81 × 10⁻¹⁰'],
     correctAnswer: 2,
@@ -1381,7 +1381,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p20',
+    id: 'q_0125',
     text: '2 μF capacitor charged to 50 V & 3 μF capacitor charged to 100 V. After removing battery, plates of same polarity connected. Potential difference is?',
     options: ['333 V', '80 V', '200 V', '75 V'],
     correctAnswer: 1,
@@ -1392,7 +1392,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p21',
+    id: 'q_0126',
     text: 'The emf of a car battery is 12 V. Internal resistance is 0.4 Ω. Maximum power drawn from battery is?',
     options: ['360 W', '30 W', '4.8 W', 'Zero'],
     correctAnswer: 0,
@@ -1403,7 +1403,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p22',
+    id: 'q_0127',
     text: 'Resistance of platinum wire at ice point = 5 Ω, steam point = 5.23 Ω, hot bath = 5.795 Ω. Temperature of bath is?',
     options: ['365.65 °C', '354.56 °C', '345.65 °C', '245.65 °C'],
     correctAnswer: 2,
@@ -1414,7 +1414,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p23',
+    id: 'q_0128',
     text: 'Two cells: (2V, 0.1Ω) and (4V, 0.2Ω) connected in parallel. Equivalent emf is?',
     options: ['2.57 V', '2.67 V', '1.33 V', '0.38 V'],
     correctAnswer: 1,
@@ -1425,7 +1425,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p24',
+    id: 'q_0129',
     text: 'Source of magnetic field is ______ & source of electric field is ______?',
     options: ['scalar, scalar', 'vector, vector', 'scalar, vector', 'vector, scalar'],
     correctAnswer: 3,
@@ -1436,7 +1436,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p25',
+    id: 'q_0130',
     text: 'A coil (magnetic moment = 10 Am², I = 0.1 kg m²) rotates 90° in B = 2T. Angular speed is?',
     options: ['10 rad/s', '5 rad/s', '20 rad/s', '40 rad/s'],
     correctAnswer: 2,
@@ -1447,7 +1447,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p26',
+    id: 'q_0131',
     text: '10 A current through a long wire of radius 5 cm. Magnetic field at 2 cm inside from its curved surface is?',
     options: ['6.7 × 10⁻⁵ T', '2.4 × 10⁻⁵ T', '2.4 × 10⁵ T', '2.4 × 10⁻⁵ T'],
     correctAnswer: 3,
@@ -1458,7 +1458,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p27',
+    id: 'q_0132',
     text: 'In India, declination at Delhi is?',
     options: ['0°41\' W', '0°41\' E', '0°58\' E', '0°58\' W'],
     correctAnswer: 1,
@@ -1469,7 +1469,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p28',
+    id: 'q_0133',
     text: 'Relative permeability of solenoid core = 400, current = 2A, turns = 1000/m. Magnetic intensity inside core is?',
     options: ['2 × 10³ A/m', '2.5 × 10⁻³ A/m', '2.5 × 10³ A/m', '2 × 10⁻³ A/m'],
     correctAnswer: 0,
@@ -1480,7 +1480,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p29',
+    id: 'q_0134',
     text: 'Coil: 1000 turns, area = 0.10 m², rotates at 0.5 rev/s in B = 0.01 T. Max emf generated is?',
     options: ['5.0 V', '0.5 V', '3.14 V', '0.314 V'],
     correctAnswer: 2,
@@ -1491,7 +1491,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p30',
+    id: 'q_0135',
     text: 'In which loop is the direction of induced current from a→c→b? (Assuming magnetic field into page and velocity increasing)',
     options: ['Loop A', 'Loop B', 'Loop C', 'Loop D'],
     correctAnswer: 3,
@@ -1502,7 +1502,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p31',
+    id: 'q_0136',
     text: 'Which is NOT a unit of inductance?',
     options: ['V·s·A⁻¹', 'Wb·A⁻¹', 'H', 'Wb·s·A⁻¹'],
     correctAnswer: 3,
@@ -1513,7 +1513,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p32',
+    id: 'q_0137',
     text: 'A bulb of 100 W rating connected with 220 V supply. Resistance of bulb is?',
     options: ['484 Ω·m⁻¹', '484 Ω', '2.2 Ω', '2.2 × 10⁻³ Ω·m⁻¹'],
     correctAnswer: 1,
@@ -1524,7 +1524,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p33',
+    id: 'q_0138',
     text: 'LCR series: R = 3Ω, L = 25.48 mH, C = 796 μF, f = 50 Hz. Impedance at resonance is?',
     options: ['5 Ω', '15 Ω', '3 Ω', '4 Ω'],
     correctAnswer: 2,
@@ -1535,7 +1535,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p34',
+    id: 'q_0139',
     text: 'What is correct for a real transformer?',
     options: ['Pᵢ > P₀', 'Pᵢ < P₀', 'Pᵢ = P₀', 'All are correct'],
     correctAnswer: 0,
@@ -1546,7 +1546,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p35',
+    id: 'q_0140',
     text: 'The source of displacement current is?',
     options: ['Changing Electric Field', 'Static Electric Field', 'Changing Magnetic Field', 'Static Magnetic Field'],
     correctAnswer: 0,
@@ -1557,7 +1557,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p36',
+    id: 'q_0141',
     text: 'The range of wavelength for Ultraviolet is from ______ to ______?',
     options: ['0.1 m to 1 mm', '700 nm to 400 nm', '1 mm to 700 nm', '400 nm to 1.0 nm'],
     correctAnswer: 3,
@@ -1568,7 +1568,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p37',
+    id: 'q_0142',
     text: 'Earth rotates 360° in 24 hours. Time for 1° shift?',
     options: ['4 hrs', '4 min', '4 sec', '24 hrs'],
     correctAnswer: 1,
@@ -1579,7 +1579,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p38',
+    id: 'q_0143',
     text: 'For a glass lens f = +50 cm. Then power of lens is?',
     options: ['–2 D', '+0.02 D', '+2 D', '–0.02 D'],
     correctAnswer: 2,
@@ -1590,7 +1590,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p39',
+    id: 'q_0144',
     text: 'A lens (n = 1.5) is placed in a liquid. To make it disappear, the value of n of liquid should be?',
     options: ['n < 1.5', 'n = 1.5', 'n > 1.5', 'Any n'],
     correctAnswer: 1,
@@ -1601,7 +1601,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p40',
+    id: 'q_0145',
     text: 'What is the type of nature of image formed for an object placed on axis of concave mirror between pole & centre?',
     options: ['Virtual, erect & diminished', 'Real, inverted & diminished', 'Real, inverted & magnified', 'Virtual, erect & magnified'],
     correctAnswer: 3,
@@ -1613,7 +1613,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2020 - CHEMISTRY
   {
-    id: 'gujcet2020_c41',
+    id: 'q_0146',
     text: 'A cyclohexane ester reacted with NaBH₄ → "X". What is X?',
     options: ['Product with aldehyde group intact', 'Product with 3-carbon alcohol chain', 'Product with OCH₃ & OH on same carbon', 'Product with reduced side chain only'],
     correctAnswer: 2,
@@ -1624,7 +1624,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c42',
+    id: 'q_0147',
     text: 'Which of the following has the highest boiling point?',
     options: ['Ethoxy ethane', 'n-Butane', 'Pentanal', 'Pentan-1-ol'],
     correctAnswer: 3,
@@ -1635,7 +1635,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c43',
+    id: 'q_0148',
     text: 'Which reagent converts cyclohexanol to cyclohexanone?',
     options: ['O₃/H₂O–Zn dust', 'PCC', 'Anhydrous CrO₃', 'DIBAL-H'],
     correctAnswer: 1,
@@ -1646,7 +1646,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c44',
+    id: 'q_0149',
     text: 'Which of the following acid has the highest pKa value?',
     options: ['O₂NCH₂COOH', 'NCCH₂COOH', 'FCH₂COOH', 'C₆H₅CH₂COOH'],
     correctAnswer: 3,
@@ -1657,7 +1657,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c45',
+    id: 'q_0150',
     text: 'C₆H₅CH₂MgBr → (1) CO₂/ether (2) H₂O → X → NaOH+CaO/Δ → Y. What is Y?',
     options: ['C₆H₅CH₂CH₃', 'C₆H₅CH₃', 'C₆H₆', 'C₆H₅CH₂OH'],
     correctAnswer: 1,
@@ -1668,7 +1668,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c46',
+    id: 'q_0151',
     text: 'Which compound has the least basic strength?',
     options: ['C₆H₅NH₂', 'NH₃', '(C₂H₅)₂NH', 'C₂H₅NH₂'],
     correctAnswer: 0,
@@ -1679,7 +1679,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c47',
+    id: 'q_0152',
     text: 'The source of nitrogen in Gabriel synthesis of amines is?',
     options: ['NaN₃', 'KCN', 'C₆H₄(CO)₂N⁻K⁺', 'NaNO₂'],
     correctAnswer: 2,
@@ -1690,7 +1690,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c48',
+    id: 'q_0153',
     text: 'Best reagent for converting 2-phenyl propanamide into 1-phenyl ethanamine is?',
     options: ['NaBH₄', 'H₂/Pt', 'LiAlH₄', 'NaOH/Br₂'],
     correctAnswer: 3,
@@ -1701,7 +1701,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c49',
+    id: 'q_0154',
     text: 'Which of the following is true about amino acids and sugars?',
     options: ['Most natural amino acids have L-configuration', 'β-D ribose is in RNA', 'Amylose is water insoluble', 'All monosaccharides are non-reducing'],
     correctAnswer: 0,
@@ -1712,7 +1712,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c50',
+    id: 'q_0155',
     text: 'Which amino acids are used in the preparation of Nylon-2-Nylon 6?',
     options: ['Phenol and Formaldehyde', 'Phthalic acid and glycine', 'Amino Caproic acid and glycine', 'Ethylene glycol and Phthalic acid'],
     correctAnswer: 2,
@@ -1723,7 +1723,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c51',
+    id: 'q_0156',
     text: 'Ziegler-Natta catalyst is a mixture of?',
     options: ['TiCl₄ & (C₂H₅)₂Al', 'TiCl₂ & (C₂H₅)₃Al', 'TiCl₃ & (C₂H₅)₄Al', '(C₂H₅)₃Al & TiCl₄'],
     correctAnswer: 3,
@@ -1734,7 +1734,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c52',
+    id: 'q_0157',
     text: 'Which antihistamine drug is used to prevent acidity?',
     options: ['Phenelzine', 'Cimetidine', 'Morphine', 'Equanil'],
     correctAnswer: 1,
@@ -1745,7 +1745,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c53',
+    id: 'q_0158',
     text: 'Name the sweetener which is a trichloro derivative of Sucrose?',
     options: ['Sucralose', 'Saccharin', 'Alitame', 'Aspartame'],
     correctAnswer: 0,
@@ -1756,7 +1756,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c54',
+    id: 'q_0159',
     text: 'The deficiency of which vitamin causes scurvy?',
     options: ['Riboflavin', 'Thiamine', 'Ascorbic acid', 'Pyridoxine'],
     correctAnswer: 2,
@@ -1767,7 +1767,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c55',
+    id: 'q_0160',
     text: 'Which of the following statement is correct?',
     options: ['Amorphous solids are anisotropic', 'Si doped with As is p-type', 'In rhombic sulphur, all angles = 90°', 'None of the above'],
     correctAnswer: 3,
@@ -1778,7 +1778,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c56',
+    id: 'q_0161',
     text: 'What are the fractions of Fe²⁺ and Fe³⁺ in Fe₀.₉₃O respectively?',
     options: ['0.85, 0.15', '0.93, 0.07', '0.75, 0.25', '0.80, 0.20'],
     correctAnswer: 0,
@@ -1789,7 +1789,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c57',
+    id: 'q_0162',
     text: 'Maximum solubility of a solid solute does NOT depend upon?',
     options: ['Temperature', 'Nature of solute', 'Nature of solvent', 'Pressure'],
     correctAnswer: 3,
@@ -1800,7 +1800,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c58',
+    id: 'q_0163',
     text: 'Molality of aqueous solution with mole fraction of solute = 0.25 is?',
     options: ['16.67 m', '18.52 m', '33.33 m', '9.26 m'],
     correctAnswer: 1,
@@ -1811,7 +1811,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c59',
+    id: 'q_0164',
     text: 'Osmotic pressure of 0.5 M CH₃COOH solution with pH = 2 at temperature T is?',
     options: ['1.02 RT', '0.051 RT', '0.51 RT', '0.102 RT'],
     correctAnswer: 2,
@@ -1822,7 +1822,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c60',
+    id: 'q_0165',
     text: 'On basis of electrode potentials, which is the strongest reducing agent?',
     options: ['Mn²⁺', 'Cr³⁺', 'Br⁻', 'Zn'],
     correctAnswer: 3,
@@ -1833,7 +1833,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c61',
+    id: 'q_0166',
     text: 'For which electrolyte does graph of Λₘ vs √C give negative slope?',
     options: ['Sodium acetate', 'Acetic acid', 'Ammonium hydroxide', 'Water'],
     correctAnswer: 0,
@@ -1844,7 +1844,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c62',
+    id: 'q_0167',
     text: 'Electrolysis: 1.5 A for 10 min deposits 0.2938 g of metal (atomic mass = 63 g/mol). Formula of metal halide is?',
     options: ['MCl₃', 'MCl₂', 'MCl', 'MCl₄'],
     correctAnswer: 1,
@@ -1855,7 +1855,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c63',
+    id: 'q_0168',
     text: 'In presence of a catalyst, heat evolved/absorbed during reaction?',
     options: ['Increases', 'Decreases', 'May decrease or increase', 'Remains unchanged'],
     correctAnswer: 3,
@@ -1866,7 +1866,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c64',
+    id: 'q_0169',
     text: 'Which graph has intercept equal to zero?',
     options: ['log[R]₀/[R] vs t', 'log[R] vs t', 'log K vs 1/T', '[R] vs t'],
     correctAnswer: 0,
@@ -1877,7 +1877,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c65',
+    id: 'q_0170',
     text: 'Half-life of SO₂Cl₂ decomposition = 40 min (1st order). Rate constant is?',
     options: ['2.88 × 10⁻² s⁻¹', '1.73 × 10⁻² s⁻¹', '2.88 × 10⁻⁴ s⁻¹', '1.73 × 10⁻⁴ s⁻¹'],
     correctAnswer: 2,
@@ -1888,7 +1888,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c66',
+    id: 'q_0171',
     text: 'Which of the following is a reversible sol?',
     options: ['As₂S₃ sol', 'Gelatin sol', 'Fe(OH)₃ sol', 'Gold sol'],
     correctAnswer: 1,
@@ -1899,7 +1899,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c67',
+    id: 'q_0172',
     text: 'In which vessel is gas pressure highest? (Same T and V, 1g charcoal in each, 1 mol of different gas)',
     options: ['P (He)', 'Q (SO₂)', 'R (H₂)', 'S (CH₄)'],
     correctAnswer: 0,
@@ -1910,7 +1910,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c68',
+    id: 'q_0173',
     text: 'Which soluble complex is formed in the leaching process of Gold?',
     options: ['[Au(CN)₄]²⁻', '[Au(OH)₂]⁻', '[Au(OH)₄]²⁻', '[Au(CN)₂]⁻'],
     correctAnswer: 3,
@@ -1921,7 +1921,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c69',
+    id: 'q_0174',
     text: 'Which slag is formed during extraction of iron in blast furnace?',
     options: ['FeCO₃', 'CaCO₃', 'CaSiO₃', 'FeSiO₃'],
     correctAnswer: 2,
@@ -1932,7 +1932,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c70',
+    id: 'q_0175',
     text: 'Which of the following is the correct order of stability?',
     options: ['HI < HBr < HCl < HF', 'HClO₄ < HClO₃', 'MF < MCl', 'I < Br'],
     correctAnswer: 0,
@@ -1943,7 +1943,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c71',
+    id: 'q_0176',
     text: 'In which oxoacid of Sulphur is S–O–O–S bond present?',
     options: ['H₂S₂O₈', 'H₂S₂O₇', 'H₂S₂O₄', 'H₂S₂O₃'],
     correctAnswer: 0,
@@ -1954,7 +1954,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c72',
+    id: 'q_0177',
     text: 'Concentrated HNO₃ oxidises white phosphorus into which substance?',
     options: ['H₄P₂O₇', 'H₃PO₂', 'H₃PO₄', 'H₃PO₃'],
     correctAnswer: 2,
@@ -1965,7 +1965,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c73',
+    id: 'q_0178',
     text: 'The divalent ion of which element in aqueous solution has magnetic moment 5.92 BM?',
     options: ['Cr', 'Co', 'Fe', 'Mn'],
     correctAnswer: 3,
@@ -1976,7 +1976,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c74',
+    id: 'q_0179',
     text: 'Zirconium (4d) and Hafnium (5d) show similar properties because?',
     options: ['Same number of electrons', 'Both belong to d-block', 'Both have similar atomic radius', 'Same group'],
     correctAnswer: 2,
@@ -1987,7 +1987,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c75',
+    id: 'q_0180',
     text: 'Which isomerism is possible in hexaamminecobalt(III) hexacyanidochromate(III) complex?',
     options: ['Co-ordination isomerism', 'Linkage isomerism', 'Ionisation isomerism', 'Solvate isomerism'],
     correctAnswer: 0,
@@ -1998,7 +1998,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c76',
+    id: 'q_0181',
     text: 'Which complex will absorb maximum wavelength of light?',
     options: ['[Co(NH₃)₅(H₂O)]³⁺', '[CoCl(NH₃)₅]²⁺', '[Co(NH₃)₆]³⁺', '[Co(CN)₆]³⁻'],
     correctAnswer: 1,
@@ -2009,7 +2009,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c77',
+    id: 'q_0182',
     text: 'Which complex has the highest electrical conductivity in aqueous solution?',
     options: ['Triaqua trichlorido cobalt(III)', 'Pentaaqua chlorido cobalt(III) chloride', 'Tetraaqua dichlorido cobalt(III) chloride', 'Hexaaqua cobalt(III) chloride'],
     correctAnswer: 3,
@@ -2020,7 +2020,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c78',
+    id: 'q_0183',
     text: 'How many optically active isomers are possible in C₄H₉Br?',
     options: ['2', '3', '1', '4'],
     correctAnswer: 0,
@@ -2031,7 +2031,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c79',
+    id: 'q_0184',
     text: 'R\'–Cl + Na/ether → 2,3-dimethylbutane. What is R\'?',
     options: ['isobutyl', 'isopropyl', 'sec-butyl', 'n-propyl'],
     correctAnswer: 1,
@@ -2042,7 +2042,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c80',
+    id: 'q_0185',
     text: '1 mole of metal \'M\' reacts completely with alcohol to give 1.5 moles of H₂. Valency of metal M is?',
     options: ['3', '4', '2', '1'],
     correctAnswer: 0,
@@ -2054,7 +2054,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // PCE 2008 - PHYSICS
   {
-    id: 'pce2008_1',
+    id: 'q_0186',
     text: 'A circle of radius \'a\' has charge density given by λ = λ₀ cos²θ on its circumference. What will be the total charge on the circle?',
     options: ['π a λ₀', 'Zero', '2π a', 'None of these'],
     correctAnswer: 0,
@@ -2065,7 +2065,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2008_2',
+    id: 'q_0187',
     text: 'Electrical force between two point charges is 200 N. If we increase 10% charge on one of the charges and decrease 10% charge on the other, then electrical force between them for the same distance becomes',
     options: ['200 N', '99 N', '198 N', '100 N'],
     correctAnswer: 2,
@@ -2076,7 +2076,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_3',
+    id: 'q_0188',
     text: 'If 20 J of work has to be done to move an electric charge of 4 C from a point where potential is 10 volt to another point where potential is V volt, find the value of V.',
     options: ['5 volt', '15 volt', '2 volt', '70 volt'],
     correctAnswer: 1,
@@ -2087,7 +2087,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_4',
+    id: 'q_0189',
     text: 'Eight charges, each of magnitude q are placed at the vertices of a cube placed in vacuum. Electric potential at the centre of the cube due to this system of charges is ….. (ε₀ is permittivity of vacuum and a is length of each side of the cube)',
     options: ['Zero', '√3 q / πε₀ a', '2q / πε₀ a', '4q / √3 πε₀ a'],
     correctAnswer: 3,
@@ -2098,7 +2098,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_5',
+    id: 'q_0190',
     text: '64 small drops of water having same charge and same radius are combined to form one big drop. The ratio of capacitance of big drop to small drop is',
     options: ['4 : 1', '1 : 4', '2 : 1', '1 : 2'],
     correctAnswer: 0,
@@ -2109,7 +2109,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_6',
+    id: 'q_0191',
     text: 'Equivalent capacitance between X and Y point in the given figure is [circuit with five 4μF capacitors in a bridge configuration]',
     options: ['3 μF', '1 μF', '2 μF', '4 μF'],
     correctAnswer: 3,
@@ -2120,7 +2120,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_7',
+    id: 'q_0192',
     text: 'Cross-sectional area of a Copper wire is equal to area of a square of length 2 mm. If this copper wire draws 8 A electric current, then find the drift velocity of free electron. Number density of electron in Copper wire is 8 × 10²⁸ m⁻³.',
     options: ['1.56 × 10⁻⁴ ms⁻¹', '1.56 × 10⁻² ms⁻¹', '3.12 × 10⁻³ ms⁻¹', '3.12 × 10⁻² ms⁻¹'],
     correctAnswer: 0,
@@ -2131,7 +2131,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2008_8',
+    id: 'q_0193',
     text: 'The internal resistance of a cell of emf 4 V is 0.1 Ω. It is connected to a resistance of 3.9 Ω. The voltage across the cell will be',
     options: ['0.1 V', '3.8 V', '3.9 V', '2 V'],
     correctAnswer: 2,
@@ -2142,7 +2142,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_9',
+    id: 'q_0194',
     text: 'The ratio of cross-sectional areas of two conducting wires made up of same material and having same length is 1 : 2. What will be the ratio of heat produced per second in the wires, when same current is flowing?',
     options: ['1 : √2', '1 : 1', '1 : 4', '2 : 1'],
     correctAnswer: 3,
@@ -2153,7 +2153,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_10',
+    id: 'q_0195',
     text: 'Two electric bulbs are connected one by one across potential difference V. At that time power consumed in them are P₁ and P₂ respectively. Now, if potential difference V is applied across series combination of these bulbs, what will be total power consumed?',
     options: ['P₁ + P₂', '√(P₁P₂)', 'P₁P₂ / (P₁ + P₂)', 'P₁P₂'],
     correctAnswer: 2,
@@ -2164,7 +2164,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_11',
+    id: 'q_0196',
     text: 'First order derivation of thermo emf produced in thermo-couple with respect to temperature gives ……',
     options: ['Neutral temperature', 'Thermo electric power', 'Inversion temperature', 'Thomson coefficient'],
     correctAnswer: 1,
@@ -2175,7 +2175,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_12',
+    id: 'q_0197',
     text: 'The deflection in Moving coil Galvanometer falls from 50 divisions to 10 divisions, when a shunt of 12 Ω is connected with it. The resistance of Galvanometer coil is',
     options: ['6 Ω', '48 Ω', '24 Ω', '12 Ω'],
     correctAnswer: 1,
@@ -2186,7 +2186,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_13',
+    id: 'q_0198',
     text: 'A current flows in a conducting wire of length L. If we bend it in a circular form, its magnetic dipole moment would be ……',
     options: ['I²L / 4π', 'I²L² / 4π', 'IL² / 4π', 'IL / 4π'],
     correctAnswer: 2,
@@ -2197,7 +2197,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_14',
+    id: 'q_0199',
     text: 'At a given place on the Earth, the angle between the Magnetic meridian and the Geographic meridian is called ……',
     options: ['Magnetic latitude', 'Magnetic dip', 'Magnetic longitude', 'Magnetic declination'],
     correctAnswer: 3,
@@ -2208,7 +2208,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_15',
+    id: 'q_0200',
     text: 'In an A.C. circuit, a resistance of R ohm is connected in series with an inductor of self inductance L. If phase angle between voltage and current be 45°, the value of inductive reactance (XL) will be equal to ……',
     options: ['R/4', 'R/2', 'R', 'R/8'],
     correctAnswer: 2,
@@ -2219,7 +2219,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_16',
+    id: 'q_0201',
     text: 'The north pole of a magnet is falling on a metallic ring. The direction of induced current, if looked from upside in the ring will be',
     options: ['Anticlock-wise.', 'Clock-wise.', 'Clock-wise or anticlock-wise depending on metal of the ring.', 'No induced current.'],
     correctAnswer: 0,
@@ -2230,7 +2230,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_17',
+    id: 'q_0202',
     text: 'At time t = 0 second, voltage of an A.C. Generator starts from 0 V and becomes 2 V at time t = 1/(100π) second. The voltage keeps on increasing up to 100 V, after which it starts to decrease. Find the frequency of the Generator.',
     options: ['100 Hz', '1 Hz', '2 Hz', '5 Hz'],
     correctAnswer: 1,
@@ -2241,7 +2241,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2008_18',
+    id: 'q_0203',
     text: 'X and Y, two metallic coils are arranged in such a way that, when steady change in current flowing in X coil is 4 A, change in magnetic flux associated with coil Y is 0.4 Wb. Mutual inductance of the system of coils is ……… H.',
     options: ['0.8', '0.1', '0.2', '5'],
     correctAnswer: 1,
@@ -2252,7 +2252,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_19',
+    id: 'q_0204',
     text: 'A conducting ring of radius r is placed perpendicularly inside a time varying magnetic field given by B = B₀ + αt. B₀ and α are positive constants. Find emf produced in the ring.',
     options: ['−π α²r²', '−π α²r', '−π α r²', '−π α r'],
     correctAnswer: 2,
@@ -2263,7 +2263,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_20',
+    id: 'q_0205',
     text: 'There are 2.0 × 10²⁴ molecular dipoles in a paramagnetic salt. Each has dipole moment 1.5 × 10⁻²³ Am². Find maximum (saturation) magnetization in the specimen.',
     options: ['20 Am²', '30 Am²', '200 Am²', '50 Am²'],
     correctAnswer: 1,
@@ -2274,7 +2274,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_21',
+    id: 'q_0206',
     text: 'At what angle of incidence, the light reflected from a glass slab will become completely polarised. The angle of refraction at that incident angle is 33.6°.',
     options: ['56.4°', '46.4°', '90°', '0°'],
     correctAnswer: 0,
@@ -2285,7 +2285,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_22',
+    id: 'q_0207',
     text: 'A ray of light travelling in water is incident on a glass plate immersed in it. When the angle of incidence is 51°, the reflected ray is totally plane polarized, then find out the refractive index of Glass. [The refractive index of Water is 1.3 and tan 51° = 1.235]',
     options: ['1.605', '1.305', '1.33', '1.805'],
     correctAnswer: 0,
@@ -2296,7 +2296,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_23',
+    id: 'q_0208',
     text: 'In Fraunhoffer diffraction by a single slit, a position where first order minimum is formed by the wavelength of 9000 Å, first order maximum is formed due to an unknown wavelength λ\' is ……',
     options: ['6000 Å', '4000 Å', '8000 Å', '2000 Å'],
     correctAnswer: 0,
@@ -2307,7 +2307,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2008_24',
+    id: 'q_0209',
     text: 'In Young\'s experiment, the distance between two slits is halved and the distance between the screen and slit is made three times. Then width of the fringe',
     options: ['becomes 6 times.', 'becomes 4 times.', 'becomes half.', 'remains the same.'],
     correctAnswer: 0,
@@ -2318,7 +2318,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_25',
+    id: 'q_0210',
     text: 'Ratio of intensities of two waves is given by 9 : 1. Then ratio of their amplitudes is …..',
     options: ['3 : 1', '2 : 1', '9 : 1', '1 : 9'],
     correctAnswer: 0,
@@ -2329,7 +2329,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_26',
+    id: 'q_0211',
     text: 'Which of the following undergoes largest diffraction?',
     options: ['γ-rays', 'Ultra-violet light', 'Infra-red light', 'Radio waves'],
     correctAnswer: 3,
@@ -2340,7 +2340,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_27',
+    id: 'q_0212',
     text: 'The diameter of the lens of a telescope is 0.61 m. Wave-length of light is 5000 Å. The resolution power of the telescope is:',
     options: ['2 × 10⁶', '10⁶', '2 × 10⁴', '2 × 10²'],
     correctAnswer: 1,
@@ -2351,7 +2351,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_28',
+    id: 'q_0213',
     text: 'The photoelectric threshold wavelength for Potassium having work function of 2 eV is ……… (Take h = 6.6 × 10⁻³⁴ Js; 1 eV = 1.6 × 10⁻¹⁹ J; C = 3 × 10⁸ ms⁻¹)',
     options: ['1240 nm', '310.7 nm', '1860 nm', '618.7 nm'],
     correctAnswer: 3,
@@ -2362,7 +2362,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_29',
+    id: 'q_0214',
     text: 'A Photon of energy 8 eV is incident on a metal surface of threshold frequency 1.6 × 10¹⁵ Hz. The maximum Kinetic energy of photo electrons emitted is …… (Take h = 6.6 × 10⁻³⁴ Js; 1 eV = 1.6 × 10⁻¹⁹ J)',
     options: ['4.2 eV', '2.8 eV', '1.4 eV', '0.8 eV'],
     correctAnswer: 2,
@@ -2373,7 +2373,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_30',
+    id: 'q_0215',
     text: 'What will be the angular momentum in fourth orbit, if L is the angular momentum of the electron in the second orbit of Hydrogen atom?',
     options: ['(2/3)L', 'L/2', '2L', '(3/2)L'],
     correctAnswer: 2,
@@ -2384,7 +2384,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_31',
+    id: 'q_0216',
     text: 'An α particle and a deuteron are moving with velocities v and 2v respectively. What will be the ratio of their de-Broglie wavelengths?',
     options: ['1 : √2', '2 : 1', '1 : 1', '√2 : 1'],
     correctAnswer: 2,
@@ -2395,7 +2395,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_32',
+    id: 'q_0217',
     text: 'Ultraviolet light of wavelength 200 nm is incident on polished surface of Fe (Iron). Work function of the surface is 4.71 eV. What will be its stopping potential? (h = 6.626 × 10⁻³⁴ Js; 1 eV = 1.6 × 10⁻¹⁹ J; C = 3 × 10⁸ ms⁻¹)',
     options: ['1.5 V', '2.5 V', '0.5 V', 'None of these'],
     correctAnswer: 0,
@@ -2406,7 +2406,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_33',
+    id: 'q_0218',
     text: 'The number of Photons of wavelength 660 nm emitted per second by an electric bulb of 60 W is ….. (Take h = 6.6 × 10⁻³⁴ Js)',
     options: ['2 × 10⁻²⁰', '2 × 10²⁰', '3 × 10²⁰', '1.5 × 10²⁰'],
     correctAnswer: 1,
@@ -2417,7 +2417,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_34',
+    id: 'q_0219',
     text: 'Complete the following nuclear reaction: ₄Be⁹ + ₂He⁴ → ₆C¹² + ……',
     options: ['p (Proton)', 'e (Electron)', 'n (Neutron)', 'ν (Neutrino)'],
     correctAnswer: 2,
@@ -2428,7 +2428,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_35',
+    id: 'q_0220',
     text: 'A T.V. tower has a height of 75 m. What is the maximum distance up to which this T.V. transmission can be received? (Radius of the Earth = 6.4 × 10⁶ m)',
     options: ['40.98 km', '50.98 km', '30.98 km', '38.98 km'],
     correctAnswer: 2,
@@ -2439,7 +2439,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_36',
+    id: 'q_0221',
     text: 'Which one of the entries given in the truth table is true for a standard NAND gate? (Entry 1: 0,0->1; Entry 2: 0,1->0; Entry 3: 1,0->0; Entry 4: 1,1->1)',
     options: ['1', '2', '3', '4'],
     correctAnswer: 0,
@@ -2450,7 +2450,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_37',
+    id: 'q_0222',
     text: 'The frequency of audio analog signals lies in the range',
     options: ['20 Hz to 20 MHz', '20 Hz to 20 kHz', '20 kHz to 20 MHz', '12 Hz to 20 MHz'],
     correctAnswer: 1,
@@ -2461,7 +2461,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_38',
+    id: 'q_0223',
     text: 'Advantages of optical fibre communications over two wire transmission line or co-axial cable transmission are',
     options: ['high band width, low transmission loss.', 'low band width, high transmission loss.', 'low band width, low transmission loss.', 'high band width, high transmission loss.'],
     correctAnswer: 0,
@@ -2472,7 +2472,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_39',
+    id: 'q_0224',
     text: 'A pure Ge specimen is doped with Al. The number density of acceptor atoms is approximately 10²¹ m⁻³. If density of electron hole pair in an intrinsic semi-conductor is approximately 10¹⁹ m⁻³, the number density of electrons in the specimen is',
     options: ['10¹⁷ m⁻³', '10¹⁵ m⁻³', '10⁴ m⁻³', '10² m⁻³'],
     correctAnswer: 0,
@@ -2483,7 +2483,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_40',
+    id: 'q_0225',
     text: 'An AND gate is followed by a NOT gate in series. With two inputs A & B, the Boolean expression for the output Y will be',
     options: ['A · B', 'A + B', 'Ā + B̄', 'Ā · B̄'],
     correctAnswer: 2,
@@ -2494,7 +2494,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_41',
+    id: 'q_0226',
     text: 'Which of the following is a molecular crystal?',
     options: ['SiC', 'NaCl', 'Graphite', 'Ice'],
     correctAnswer: 3,
@@ -2505,7 +2505,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_42',
+    id: 'q_0227',
     text: 'In a face-centered cubic lattice, a unit cell is shared equally by how many unit cells?',
     options: ['8', '4', '2', '6'],
     correctAnswer: 3,
@@ -2516,7 +2516,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_43',
+    id: 'q_0228',
     text: 'An element with atomic mass 100 has a bcc structure and edge length 400 pm. The density of element is',
     options: ['10.37 g cm⁻³', '5.19 g cm⁻³', '7.29 g cm⁻³', '2.14 g cm⁻³'],
     correctAnswer: 1,
@@ -2527,7 +2527,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_44',
+    id: 'q_0229',
     text: 'The boiling point of a 0.2 m solution of a non-electrolyte in water is (K_b for water is 0.52 K kg mol⁻¹)',
     options: ['100°C', '100.104°C', '100.52°C', '101.04°C'],
     correctAnswer: 1,
@@ -2538,7 +2538,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_45',
+    id: 'q_0230',
     text: 'Which of the following is not a colligative property?',
     options: ['Osmotic pressure', 'Elevation in boiling point', 'Vapour pressure', 'Depression in freezing point'],
     correctAnswer: 2,
@@ -2549,7 +2549,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_46',
+    id: 'q_0231',
     text: 'The law which indicates the relationship between solubility of a gas in liquid and pressure is',
     options: ['Raoult\'s law', 'Henry\'s law', 'Lowering of vapour pressure', 'Van\'t Hoff law'],
     correctAnswer: 1,
@@ -2560,7 +2560,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_47',
+    id: 'q_0232',
     text: 'The unit of equivalent conductivity is',
     options: ['ohm cm² g eq⁻¹', 'ohm⁻¹ cm² g eq⁻¹', 'ohm cm⁻² g eq', 'ohm⁻¹ cm⁻² g eq⁻¹'],
     correctAnswer: 1,
@@ -2571,7 +2571,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_48',
+    id: 'q_0233',
     text: 'The amount of electricity that can deposit 108 g of silver from AgNO₃ solution is',
     options: ['1 Ampere', '1 Coulomb', '1 Faraday', 'None of these'],
     correctAnswer: 2,
@@ -2582,7 +2582,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_49',
+    id: 'q_0234',
     text: 'A device that converts energy of combustion of fuels like hydrogen and methane, directly into electrical energy is known as',
     options: ['Fuel cell', 'Electrolytic cell', 'Dynamo', 'Ni-Cd cell'],
     correctAnswer: 0,
@@ -2593,7 +2593,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_50',
+    id: 'q_0235',
     text: 'For a reaction A + B → C, the rate equation is Rate = k[A]¹/² [B]². The order of the reaction is',
     options: ['1/2', '2', '2.5', '3'],
     correctAnswer: 2,
@@ -2604,7 +2604,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_51',
+    id: 'q_0236',
     text: 'The rate constant of a first order reaction is 6.93 × 10⁻³ min⁻¹. Its half-life period is',
     options: ['100 min', '10 min', '400 min', '1 min'],
     correctAnswer: 0,
@@ -2615,7 +2615,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_52',
+    id: 'q_0237',
     text: 'The rate of a chemical reaction doubles for every 10°C rise of temperature. If the temperature is raised by 50°C, the rate of the reaction increases by about',
     options: ['10 times', '24 times', '32 times', '64 times'],
     correctAnswer: 2,
@@ -2626,7 +2626,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_53',
+    id: 'q_0238',
     text: 'The process of separating a crystalloid from a colloid by filtration through a semi-permeable membrane is called',
     options: ['Dialysis', 'Peptization', 'Coagulation', 'Tyndall effect'],
     correctAnswer: 0,
@@ -2637,7 +2637,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_54',
+    id: 'q_0239',
     text: 'Physical adsorption is',
     options: ['reversible', 'irreversible', 'both (A) and (B)', 'none of these'],
     correctAnswer: 0,
@@ -2648,7 +2648,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_55',
+    id: 'q_0240',
     text: 'Which of the following is an example of homogeneous catalysis?',
     options: ['Manufacture of ammonia by Haber\'s process', 'Manufacture of sulphuric acid by Contact process', 'Hydrogenation of oil', 'Hydrolysis of sucrose in presence of dilute HCl'],
     correctAnswer: 3,
@@ -2659,7 +2659,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_56',
+    id: 'q_0241',
     text: 'The process of heating the ore in the excess of air below its melting point is called',
     options: ['Roasting', 'Calcination', 'Smelting', 'Concentration'],
     correctAnswer: 0,
@@ -2670,7 +2670,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_57',
+    id: 'q_0242',
     text: 'In the extraction of copper from its sulphide ore, the metal is finally obtained by the reduction of cuprous oxide with',
     options: ['Iron sulphide', 'Carbon monoxide', 'Copper (I) sulphide', 'Sulphur dioxide'],
     correctAnswer: 2,
@@ -2681,7 +2681,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_58',
+    id: 'q_0243',
     text: 'Which of the following has the highest boiling point?',
     options: ['NH₃', 'PH₃', 'AsH₃', 'SbH₃'],
     correctAnswer: 3,
@@ -2692,7 +2692,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_59',
+    id: 'q_0244',
     text: 'The shape of XeF₄ molecule is',
     options: ['Tetrahedral', 'Pyramidal', 'Square planar', 'Linear'],
     correctAnswer: 2,
@@ -2703,7 +2703,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_60',
+    id: 'q_0245',
     text: 'Which of the following is the strongest acid?',
     options: ['HClO', 'HClO₂', 'HClO₃', 'HClO₄'],
     correctAnswer: 3,
@@ -2714,7 +2714,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_61',
+    id: 'q_0246',
     text: 'PCl₅ exists but NCl₅ does not because',
     options: ['Nitrogen has no vacant d-orbitals', 'Nitrogen is more electronegative than Phosphorus', 'Nitrogen is smaller than Phosphorus', 'Nitrogen is a gas'],
     correctAnswer: 0,
@@ -2725,7 +2725,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_62',
+    id: 'q_0247',
     text: 'Which of the following is a transition element?',
     options: ['Zn', 'Cd', 'Hg', 'Fe'],
     correctAnswer: 3,
@@ -2736,7 +2736,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_63',
+    id: 'q_0248',
     text: 'The most common oxidation state of lanthanoids is',
     options: ['+2', '+3', '+4', '+5'],
     correctAnswer: 1,
@@ -2747,7 +2747,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_64',
+    id: 'q_0249',
     text: 'The coordination number of Cobalt in [Co(en)₃]³⁺ is',
     options: ['3', '4', '6', '2'],
     correctAnswer: 2,
@@ -2758,7 +2758,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_65',
+    id: 'q_0250',
     text: 'The IUPAC name of [Ni(CO)₄] is',
     options: ['Tetracarbonyl Nickel (0)', 'Tetracarbonyl Nickel (II)', 'Tetracarbonyl Nickelate (0)', 'Tetracarbonyl Nickelate (II)'],
     correctAnswer: 0,
@@ -2769,7 +2769,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_66',
+    id: 'q_0251',
     text: 'Which of the following will undergo S_N1 reaction most readily?',
     options: ['(CH₃)₃C-Cl', '(CH₃)₂CH-Cl', 'CH₃CH₂-Cl', 'CH₃-Cl'],
     correctAnswer: 0,
@@ -2780,7 +2780,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_67',
+    id: 'q_0252',
     text: 'Chlorobenzene is prepared commercially by',
     options: ['Raschig process', 'Wurtz-Fittig reaction', 'Friedel-Crafts reaction', 'Grignard reaction'],
     correctAnswer: 0,
@@ -2791,7 +2791,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_68',
+    id: 'q_0253',
     text: 'Phenol is less acidic than',
     options: ['Ethanol', 'o-Nitrophenol', 'o-Methylphenol', 'Methanol'],
     correctAnswer: 1,
@@ -2802,7 +2802,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_69',
+    id: 'q_0254',
     text: 'Which of the following is used as an antifreeze in automobile radiators?',
     options: ['Methanol', 'Ethanol', 'Ethylene glycol', 'Glycerol'],
     correctAnswer: 2,
@@ -2813,7 +2813,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_70',
+    id: 'q_0255',
     text: 'Cannizzaro\'s reaction is not given by',
     options: ['Formaldehyde', 'Benzaldehyde', 'Acetaldehyde', 'Trimethylacetaldehyde'],
     correctAnswer: 2,
@@ -2824,7 +2824,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_71',
+    id: 'q_0256',
     text: 'The reagent used in Clemmensen\'s reduction is',
     options: ['Zn-Hg / conc. HCl', 'NH₂NH₂ / KOH', 'LiAlH₄', 'NaBH₄'],
     correctAnswer: 0,
@@ -2835,7 +2835,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_72',
+    id: 'q_0257',
     text: 'Which of the following is the strongest base in aqueous solution?',
     options: ['Methylamine', 'Dimethylamine', 'Trimethylamine', 'Ammonia'],
     correctAnswer: 1,
@@ -2846,7 +2846,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2008_73',
+    id: 'q_0258',
     text: 'Aniline on reaction with nitrous acid at 0-5°C gives',
     options: ['Phenol', 'Nitrobenzene', 'Benzene diazonium chloride', 'Chlorobenzene'],
     correctAnswer: 2,
@@ -2857,7 +2857,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_74',
+    id: 'q_0259',
     text: 'Which of the following is a polysaccharide?',
     options: ['Glucose', 'Sucrose', 'Cellulose', 'Lactose'],
     correctAnswer: 2,
@@ -2868,7 +2868,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_75',
+    id: 'q_0260',
     text: 'Deficiency of Vitamin C causes',
     options: ['Rickets', 'Scurvy', 'Beri-beri', 'Night blindness'],
     correctAnswer: 1,
@@ -2879,7 +2879,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_76',
+    id: 'q_0261',
     text: 'Nylon-6,6 is a',
     options: ['Polyamide', 'Polyester', 'Polystyrene', 'Polyvinyl'],
     correctAnswer: 0,
@@ -2890,7 +2890,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_77',
+    id: 'q_0262',
     text: 'Natural rubber is a polymer of',
     options: ['Ethylene', 'Vinyl chloride', 'Isoprene', 'Styrene'],
     correctAnswer: 2,
@@ -2901,7 +2901,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_78',
+    id: 'q_0263',
     text: 'Which of the following is an analgesic?',
     options: ['Penicillin', 'Aspirin', 'Chloroquine', 'Bithional'],
     correctAnswer: 1,
@@ -2912,7 +2912,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_79',
+    id: 'q_0264',
     text: 'Tincture of iodine is',
     options: ['2-3% solution of iodine in alcohol-water mixture', 'solution of iodine in KI', 'solution of iodine in water', 'solution of iodine in alcohol'],
     correctAnswer: 0,
@@ -2923,7 +2923,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2008_80',
+    id: 'q_0265',
     text: 'Artificial sweetener which is stable at cooking temperature and has appearance and taste like sugar is',
     options: ['Saccharin', 'Aspartame', 'Sucralose', 'Alitame'],
     correctAnswer: 2,
@@ -2934,7 +2934,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_1',
+    id: 'q_0266',
     text: 'Domain formation is the necessary feature of',
     options: ['all of the above', 'ferromagnetism', 'paramagnetism', 'diamagnetism'],
     correctAnswer: 1,
@@ -2945,7 +2945,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_2',
+    id: 'q_0267',
     text: 'A coil of self inductance 0.5 H carries a current of 2A. The energy stored in Joule is',
     options: ['1.0', '0.1', '0.5', '0.05'],
     correctAnswer: 0,
@@ -2956,7 +2956,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_3',
+    id: 'q_0268',
     text: 'A LCR series A.C circuit is tuned to resonance. The impedance of the circuit is now',
     options: ['R', '[R² + (1/wC − wL)²]^(1/2)', '[R² + (wL)² + (1/wC)²]^(1/2)', '[R² + (wL − 1/wC)²]^(1/2)'],
     correctAnswer: 0,
@@ -2967,7 +2967,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_4',
+    id: 'q_0269',
     text: 'Resonance frequency of LCR series a.c. circuit is f₀. Now the capacitance is made 4 times, then the new resonance frequency will become',
     options: ['f₀/4', '2f₀', 'f₀', 'f₀/2'],
     correctAnswer: 3,
@@ -2978,7 +2978,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_5',
+    id: 'q_0270',
     text: 'If the earth did not have atmosphere, the temperature would be',
     options: ['none', 'less', 'more', 'same'],
     correctAnswer: 1,
@@ -2989,7 +2989,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_6',
+    id: 'q_0271',
     text: 'The focal length of a convex lens is 20 cm. Its power is',
     options: ['5 D', '-5 D', '2 D', '0.5 D'],
     correctAnswer: 0,
@@ -3000,7 +3000,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_7',
+    id: 'q_0272',
     text: 'A wavelength of a monochromatic light in vacuum is λ. It travels from vacuum to a medium of absolute refractive index μ. The ratio of wavelength of the incident and refracted wave is:',
     options: ['μ² : 1', '1 : 1', 'μ : 1', '1 : μ'],
     correctAnswer: 2,
@@ -3011,7 +3011,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_8',
+    id: 'q_0273',
     text: 'In Young’s double slit experiment, the fringe width is β. If the entire apparatus is immersed in a liquid of refractive index μ, the new fringe width will be',
     options: ['μβ', 'β', 'β/μ', 'β/μ²'],
     correctAnswer: 2,
@@ -3022,7 +3022,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_9',
+    id: 'q_0274',
     text: 'The phenomenon of polarization of electromagnetic waves proves that the electromagnetic waves are',
     options: ['neither longitudinal nor transverse', 'mechanical', 'longitudinal', 'transverse'],
     correctAnswer: 3,
@@ -3033,7 +3033,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_10',
+    id: 'q_0275',
     text: 'The de-Broglie wavelength of an electron accelerated through a potential difference of 100 V is nearly',
     options: ['12.27 Å', '1.227 Å', '0.1227 Å', '122.7 Å'],
     correctAnswer: 1,
@@ -3044,7 +3044,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_11',
+    id: 'q_0276',
     text: 'The energy of an electron in the nth orbit of hydrogen atom is E_n. The ratio of energy of electron in 1st to 2nd orbit is',
     options: ['1 : 4', '4 : 1', '1 : 2', '2 : 1'],
     correctAnswer: 1,
@@ -3055,7 +3055,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_12',
+    id: 'q_0277',
     text: 'The threshold wavelength for a metal having work function W₀ is λ₀. What is the threshold wavelength for a metal whose work function is W₀/2?',
     options: ['4λ₀', '2λ₀', 'λ₀/2', 'λ₀/4'],
     correctAnswer: 1,
@@ -3066,7 +3066,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_13',
+    id: 'q_0278',
     text: 'The mass defect in a nuclear reaction is 0.01 a.m.u. The energy released is nearly',
     options: ['9.31 MeV', '93.1 MeV', '0.931 MeV', '931 MeV'],
     correctAnswer: 0,
@@ -3077,7 +3077,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_14',
+    id: 'q_0279',
     text: 'In a common emitter amplifier, the phase difference between input and output voltage is',
     options: ['0°', '90°', '180°', '270°'],
     correctAnswer: 2,
@@ -3088,7 +3088,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_15',
+    id: 'q_0280',
     text: 'A nucleus at rest splits into two nuclear parts having same density and radii in the ratio 1 : 2. Their velocities are in the ratio,',
     options: ['2 : 1', '4 : 1', '6 : 1', '8 : 1'],
     correctAnswer: 3,
@@ -3099,7 +3099,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2007_16',
+    id: 'q_0281',
     text: 'The half-life of a radioactive substance is 10 years. The time taken for its activity to reduce to 1/16th of its initial value is',
     options: ['20 years', '30 years', '40 years', '50 years'],
     correctAnswer: 2,
@@ -3110,7 +3110,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_17',
+    id: 'q_0282',
     text: 'Which of the following has the maximum penetrating power?',
     options: ['α-rays', 'β-rays', 'γ-rays', 'Cathode rays'],
     correctAnswer: 2,
@@ -3121,7 +3121,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_18',
+    id: 'q_0283',
     text: 'The width of the depletion layer in a P-N junction diode',
     options: ['increases with forward bias', 'decreases with reverse bias', 'increases with reverse bias', 'remains constant'],
     correctAnswer: 2,
@@ -3132,7 +3132,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_19',
+    id: 'q_0284',
     text: 'Boolean expression for OR gate is',
     options: ['Y = A.B', 'Y = Ā + B̄', 'Y = A + B', 'Y = Ā'],
     correctAnswer: 2,
@@ -3143,7 +3143,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_20',
+    id: 'q_0285',
     text: 'The device that converts optical signals into electrical signals is',
     options: ['Zener diode', 'Photodiode', 'LED', 'Solar cell'],
     correctAnswer: 1,
@@ -3154,7 +3154,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_21',
+    id: 'q_0286',
     text: 'The energy gap of a semiconductor is 1.1 eV. It is',
     options: ['Germanium', 'Silicon', 'Carbon', 'None of these'],
     correctAnswer: 1,
@@ -3165,7 +3165,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_22',
+    id: 'q_0287',
     text: 'A transistor has a current gain of 50. If the collector current is 5 mA, the base current is',
     options: ['0.1 mA', '1 mA', '10 mA', '250 mA'],
     correctAnswer: 0,
@@ -3176,7 +3176,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_23',
+    id: 'q_0288',
     text: 'The process of superimposing a low frequency signal on a high frequency carrier wave is called',
     options: ['Demodulation', 'Modulation', 'Transmission', 'Reception'],
     correctAnswer: 1,
@@ -3187,7 +3187,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_24',
+    id: 'q_0289',
     text: 'The range of frequencies used for satellite communication is',
     options: ['30 to 300 kHz', '3 to 30 MHz', '30 to 300 MHz', '3 to 30 GHz'],
     correctAnswer: 3,
@@ -3198,7 +3198,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_26',
+    id: 'q_0290',
     text: 'A parallel plate capacitor is charged and then disconnected from the battery. If the distance between the plates is increased, the capacitance',
     options: ['increases', 'decreases', 'remains same', 'becomes zero'],
     correctAnswer: 1,
@@ -3209,7 +3209,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_27',
+    id: 'q_0291',
     text: 'The energy stored in a capacitor of capacitance C and potential V is',
     options: ['CV', '1/2 CV', '1/2 CV²', 'CV²'],
     correctAnswer: 2,
@@ -3220,7 +3220,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_25',
+    id: 'q_0292',
     text: 'A point charge causes an electric flux of −1.0 × 10³ Nm²C⁻¹ to pass through a spherical Gaussian surface of 10.0 cm radius centred on the charge. If the radius of the Gaussian surface were three times, how much flux would pass through the surface?',
     options: ['3.0 × 10³ Nm²/C', '−1.0 × 10³ Nm²/C', '−3.0 × 10³ Nm²/C', '−2.0 × 10³ Nm²/C'],
     correctAnswer: 1,
@@ -3231,7 +3231,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_28',
+    id: 'q_0293',
     text: 'An electric field is spread uniformly in Y-axis. Consider point A as origin point. The co-ordinates of point B are equal to (0, 2) m. The co-ordinates of point C are (2, 0) m. At points A, B and C, electric potentials are V_A, V_B and V_C respectively. From the following options which is correct?',
     options: ['V_A = V_C < V_B', 'V_A = V_B = V_C', 'V_A = V_B > V_C', 'V_A = V_C > V_B'],
     correctAnswer: 3,
@@ -3242,7 +3242,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2007_32',
+    id: 'q_0294',
     text: 'Two identical coils having same number of turns and carrying equal current have common centre and their planes are at right angles to each other. What is the ratio of magnitude of the resultant magnetic field at the centre and magnetic field due to one of the coils at the centre?',
     options: ['√2 : 1', '1 : √2', '2 : 1', '1 : 1'],
     correctAnswer: 0,
@@ -3255,7 +3255,7 @@ export const MOCK_QUESTIONS: Question[] = [
 
   // CHEMISTRY
   {
-    id: 'pce2007_41',
+    id: 'q_0295',
     text: 'Unit of K for third order reaction is …………',
     options: ['(Litre/Mole) · sec', '(Mole/Litre) · sec', '(Litre/Mole)⁻¹ · sec⁻¹', '(Mole/Litre)⁻² · sec⁻¹'],
     correctAnswer: 3,
@@ -3266,7 +3266,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_42',
+    id: 'q_0296',
     text: 'For a reaction A + B → Product, the rate law is Rate = k[A]²[B]. If concentration of A is doubled and B is halved, the rate becomes',
     options: ['2 times', '4 times', '8 times', '16 times'],
     correctAnswer: 0,
@@ -3277,7 +3277,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_43',
+    id: 'q_0297',
     text: 'Ag(s) | Ag⁺(aq)(0.01M) || Ag⁺(aq)(0.1M) | Ag(s). What is the cell potential?',
     options: ['Cell cannot function', 'E_cell = 0.0592 V', 'E_cell = 0.80 V', 'E_cell = 0.0296 V'],
     correctAnswer: 1,
@@ -3288,7 +3288,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2007_44',
+    id: 'q_0298',
     text: 'Freezing point of urea solution is −0.6°C. How much urea (M.W. = 60 gm/mole) required to dissolved in 3 kg water? (Kf = 1.5°C kg mol⁻¹)',
     options: ['3.6 gm', '2.4 gm', '7.2 gm', '6.0 gm'],
     correctAnswer: 2,
@@ -3299,7 +3299,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'pce2007_45',
+    id: 'q_0299',
     text: 'Which of the following is a colligative property?',
     options: ['Surface tension', 'Viscosity', 'Osmotic pressure', 'Refractive index'],
     correctAnswer: 2,
@@ -3310,7 +3310,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_46',
+    id: 'q_0300',
     text: 'Cellulose is soluble in:',
     options: ['None of these', 'Ammonical cupric hydroxide solution', 'Organic solvents', 'Water'],
     correctAnswer: 1,
@@ -3321,7 +3321,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_47',
+    id: 'q_0301',
     text: 'Nylon-6,6 is a:',
     options: ['Polyester', 'Polyamide', 'Polyethylene', 'Polypropylene'],
     correctAnswer: 1,
@@ -3332,7 +3332,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_48',
+    id: 'q_0302',
     text: 'The number of atoms per unit cell in a face-centered cubic (FCC) lattice is:',
     options: ['1', '2', '4', '8'],
     correctAnswer: 2,
@@ -3343,7 +3343,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_49',
+    id: 'q_0303',
     text: 'Schottky defect in crystals is observed when:',
     options: ['an ion leaves its normal site and occupies an interstitial site', 'unequal number of cations and anions are missing from the lattice', 'equal number of cations and anions are missing from the lattice', 'density of the crystal increases'],
     correctAnswer: 2,
@@ -3354,7 +3354,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_50',
+    id: 'q_0304',
     text: 'A metallic crystal having BCC type stacking pattern, what percentage of volume of this lattice is empty space?',
     options: ['68%', '32%', '26%', '74%'],
     correctAnswer: 1,
@@ -3365,7 +3365,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_52',
+    id: 'q_0305',
     text: 'The physical states of dispersing phase and dispersion medium in colloid like pesticide spray respectively are:',
     options: ['Solid, gas', 'Gas, liquid', 'Liquid, gas', 'Liquid, solid'],
     correctAnswer: 2,
@@ -3376,7 +3376,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_53',
+    id: 'q_0306',
     text: 'The process of removing dissolved substances from a colloidal solution by means of diffusion through a suitable membrane is called:',
     options: ['Peptization', 'Dialysis', 'Electrophoresis', 'Coagulation'],
     correctAnswer: 1,
@@ -3387,7 +3387,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_54',
+    id: 'q_0307',
     text: 'Which of the following is an example of a solid-in-solid colloid?',
     options: ['Gemstones', 'Cheese', 'Pumice stone', 'Foam rubber'],
     correctAnswer: 0,
@@ -3398,7 +3398,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_55',
+    id: 'q_0308',
     text: 'The movement of colloidal particles under the influence of an electric field is called:',
     options: ['Dialysis', 'Electrophoresis', 'Tyndall effect', 'Brownian movement'],
     correctAnswer: 1,
@@ -3409,7 +3409,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_56',
+    id: 'q_0309',
     text: 'Which of the following is a lyophilic colloid?',
     options: ['Gold sol', 'Sulphur sol', 'Starch sol', 'Ferric hydroxide sol'],
     correctAnswer: 2,
@@ -3420,7 +3420,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_57',
+    id: 'q_0310',
     text: 'Which of the following is incorrect for Glucose?',
     options: ['it contains four −CHOH group', 'it contains one ketone group', 'it contains one −CH₂OH group', 'it contains one −CHO group'],
     correctAnswer: 1,
@@ -3431,7 +3431,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_58',
+    id: 'q_0311',
     text: 'The linkage present in proteins is:',
     options: ['Glycosidic', 'Peptide', 'Ester', 'Ether'],
     correctAnswer: 1,
@@ -3442,7 +3442,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_59',
+    id: 'q_0312',
     text: 'Which of the following is a fat-soluble vitamin?',
     options: ['Vitamin B1', 'Vitamin C', 'Vitamin B12', 'Vitamin A'],
     correctAnswer: 3,
@@ -3453,7 +3453,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_60',
+    id: 'q_0313',
     text: 'The primary structure of a protein refers to:',
     options: ['Sequence of amino acids', 'α-helix structure', 'β-pleated sheet', 'Three-dimensional shape'],
     correctAnswer: 0,
@@ -3464,7 +3464,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_61',
+    id: 'q_0314',
     text: 'Which of the following bases is not present in DNA?',
     options: ['Adenine', 'Guanine', 'Cytosine', 'Uracil'],
     correctAnswer: 3,
@@ -3475,7 +3475,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'pce2007_62',
+    id: 'q_0315',
     text: 'How many Faradays are needed for reduction of 2.5 mole of Cr₂O₇²⁻ into Cr³⁺?',
     options: ['15', '12', '6', '3'],
     correctAnswer: 0,
@@ -3486,7 +3486,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'pce2007_71',
+    id: 'q_0316',
     text: 'The half life period of a radioactive material is 15 minutes. What percentage of radioactivity of that material will remain after 45 minutes?',
     options: ['17.5%', '15%', '12.5%', '10%'],
     correctAnswer: 2,
@@ -3498,7 +3498,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2019 - PHYSICS
   {
-    id: 'gujcet2019_p1',
+    id: 'q_0317',
     text: 'The electric flux through a closed surface area S enclosing a charge Q is:',
     options: ['Q/ε₀', 'Qε₀', 'ε₀/Q', 'Zero'],
     correctAnswer: 0,
@@ -3509,7 +3509,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_p2',
+    id: 'q_0318',
     text: 'The capacitance of a spherical conductor of radius R is:',
     options: ['4πε₀R', '4πε₀R²', 'R/4πε₀', '4πε₀/R'],
     correctAnswer: 0,
@@ -3520,7 +3520,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_p3',
+    id: 'q_0319',
     text: 'The resistivity of a material depends on:',
     options: ['Length', 'Area of cross-section', 'Temperature', 'All of these'],
     correctAnswer: 2,
@@ -3532,7 +3532,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2018 - PHYSICS
   {
-    id: 'gujcet2018_p1',
+    id: 'q_0320',
     text: 'Three identical charges are placed on three vertices of a square. If the force acting between q₁ and q₂ is F₁₂ and between q₁ and q₃ is F₁₃ then F₁₃/F₁₂ =',
     options: ['1/√2', '2', '1/2', '√2'],
     correctAnswer: 2,
@@ -3543,7 +3543,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_p2',
+    id: 'q_0321',
     text: 'When a 10μC charge is enclosed by a closed surface, the flux passing through the surface is φ. Now another 10μC charge is placed inside the closed surface, then the flux passing through the surface is ____',
     options: ['2φ', 'φ', '4φ', 'Zero'],
     correctAnswer: 0,
@@ -3554,7 +3554,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2018_p3',
+    id: 'q_0322',
     text: 'The electric force acting between two point charges kept at a certain distance in vacuum is 16N. If the same two charges are kept at the same distance in a medium of dielectric constant 8, the electric force acting between them is ____',
     options: ['16', '128', '1024', '2'],
     correctAnswer: 3,
@@ -3566,7 +3566,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2018 & 2019 - CHEMISTRY (Second Half)
   {
-    id: 'gujcet2018_c80',
+    id: 'q_0323',
     text: 'Which of the following is Ferromagnetic?',
     options: ['MnO', 'CrO₂', 'O₂', 'Fe₃O₄'],
     correctAnswer: 1,
@@ -3577,7 +3577,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_c81',
+    id: 'q_0324',
     text: 'What is the packing efficiency of arrangement in a body centred unit cell?',
     options: ['64.00%', '68.00%', '74.00%', '53.26%'],
     correctAnswer: 1,
@@ -3588,7 +3588,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_c82',
+    id: 'q_0325',
     text: 'Which one of the following compounds show both Schottky and Frenkel defects?',
     options: ['KCl', 'AgI', 'AgBr', 'AgCl'],
     correctAnswer: 2,
@@ -3599,7 +3599,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_c83',
+    id: 'q_0326',
     text: 'At which temperature, ceramic materials behave as super conductors?',
     options: ['150 K', '200 K', '15 K', '0 K'],
     correctAnswer: 0,
@@ -3610,7 +3610,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_c84',
+    id: 'q_0327',
     text: 'Which of the following mixture is non-ideal solution?',
     options: ['Chlorobenzene and bromobenzene', 'Benzene and toluene', 'Chloroform and acetone', 'Bromoethane and chloroethane'],
     correctAnswer: 2,
@@ -3621,7 +3621,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_c85',
+    id: 'q_0328',
     text: 'Which solution is isotonic with 6% w/v aqueous solution of urea? [Mole mass of Urea = 60 gm/mol]',
     options: ['0.1 M NaCl', '0.5 M NaCl', '0.25 M NaCl', '1 M NaCl'],
     correctAnswer: 1,
@@ -3632,7 +3632,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2019_c86',
+    id: 'q_0329',
     text: 'Calculate Van\'t Hoff factor (i) for an aqueous solution of K₃[Fe(CN)₆] having a degree of dissociation (α) equal to 0.778.',
     options: ['2.334', '0.222', '3.334', '4.334'],
     correctAnswer: 2,
@@ -3643,7 +3643,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2019_c87',
+    id: 'q_0330',
     text: 'If molality of a solution is 0.05 and elevation in boiling point is 0.16 K then what is the molal elevation constant of the solvent?',
     options: ['2.3', '2.2', '1.6', '3.2'],
     correctAnswer: 3,
@@ -3654,7 +3654,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_c88',
+    id: 'q_0331',
     text: 'The value of which of the following unit of concentration will not change with the change in temperature?',
     options: ['Formality', 'Normality', 'Molality', 'Molarity'],
     correctAnswer: 2,
@@ -3665,7 +3665,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2018_c89',
+    id: 'q_0332',
     text: 'In which metal container, the aqueous solution of CuSO₄ can be stored?',
     options: ['Fe', 'Ni', 'Ag', 'Al'],
     correctAnswer: 2,
@@ -3676,7 +3676,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_c90',
+    id: 'q_0333',
     text: 'For how much time, 10 ampere electric current should be passed through a dilute aqueous NiSO₄ solution during electrolysis using inert electrode, in order to get 5.85 gm Nickel? [At. mass of Ni = 58.5 gm]',
     options: ['1930 sec', '3860 sec', '965 sec', '9650 sec'],
     correctAnswer: 0,
@@ -3687,7 +3687,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2018_c91',
+    id: 'q_0334',
     text: 'What will be the oxidation potential for the following hydrogen half cell at 1 bar pressure and 25°C? Pt|H₂(g)|HCl(aq) pH = 3',
     options: ['0.177 V', '0.188 V', '0.059 V', '0.000 V'],
     correctAnswer: 0,
@@ -3698,7 +3698,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_c92',
+    id: 'q_0335',
     text: 'What is the normality of aqueous solution of H₂SO₄ having pH = 1?',
     options: ['0.1 N', '0.05 N', '1 N', '0.5 N'],
     correctAnswer: 0,
@@ -3709,7 +3709,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_c93',
+    id: 'q_0336',
     text: 'Zn(s)/Zn²⁺(aq)(1M)//Ni²⁺(aq)(1M)/Ni(s). Which is incorrect for the above given cell?',
     options: ['Daniel cell', 'Galvanic cell', 'Voltaic cell', 'Electrochemical cell'],
     correctAnswer: 0,
@@ -3720,7 +3720,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_c94',
+    id: 'q_0337',
     text: 'If one mole electrons is passed through the solutions of AlCl₃, AgNO₃ and MgSO₄, in what ratio Al, Ag and Mg will be deposited at the electrodes?',
     options: ['3:2:1', '1:2:3', '2:6:3', '3:6:2'],
     correctAnswer: 2,
@@ -3731,7 +3731,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2018_c95',
+    id: 'q_0338',
     text: 'The units for the rate constant and the rate of reaction are same for a reaction. What will be the order of the reaction?',
     options: ['First', 'Zero', 'Second', 'Third'],
     correctAnswer: 1,
@@ -3742,7 +3742,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2018_c96',
+    id: 'q_0339',
     text: 'At 27°C temperature, time required for 75% completion of a first order reaction is 20 seconds. What will be its rate constant?',
     options: ['0.693 sec⁻¹', '0.0693 sec⁻¹', '0.693 sec⁻¹ mole⁻¹ lt', '0.0693 sec⁻¹ mole⁻¹ lt'],
     correctAnswer: 1,
@@ -3753,7 +3753,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_c97',
+    id: 'q_0340',
     text: 'Which statement is incorrect for a catalyst?',
     options: ['It decreases the activation energy of a reaction', 'It increases the proportion of products in less time', 'It does not affect the equilibrium constant', 'It increases the free energy change for the reaction'],
     correctAnswer: 3,
@@ -3764,7 +3764,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_c98',
+    id: 'q_0341',
     text: 'Instantaneous rate of reaction for the reaction 3A + 2B → 5C is ___',
     options: ['+1/3 d[A]/dt = -1/2 d[B]/dt = -1/5 d[C]/dt', '-1/3 d[A]/dt = +1/2 d[B]/dt = -1/5 d[C]/dt', '-1/3 d[A]/dt = -1/2 d[B]/dt = +1/5 d[C]/dt', '+1/3 d[A]/dt = -1/2 d[B]/dt = +1/5 d[C]/dt'],
     correctAnswer: 2,
@@ -3775,7 +3775,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2019_c99',
+    id: 'q_0342',
     text: 'In a reaction A → B, if the concentration of reactant is increased by 9 times then rate of reaction increases 3 times. What is the order of reaction?',
     options: ['1/3', '1/2', '3', '2'],
     correctAnswer: 1,
@@ -3786,7 +3786,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_c100',
+    id: 'q_0343',
     text: 'Which statement is incorrect for collision theory?',
     options: ['The reactant experiencing fruitful collisions are converted to products', 'There must be certain minimum energy for the reactant experiencing collision', 'The collision of the reactant molecules should be from any direction', 'The collision between the reacting molecules is essential'],
     correctAnswer: 2,
@@ -3798,7 +3798,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 - PHYSICS
   {
-    id: 'gujcet2022_p25',
+    id: 'q_0344',
     text: 'Dimensional formula of Electric flux = ________.',
     options: ['M¹L⁻³T⁻³A⁻¹', 'M¹L³T³A⁻¹', 'M¹L³T⁻³A⁻¹', 'M⁻¹L³T⁻³A⁻¹'],
     correctAnswer: 2,
@@ -3809,7 +3809,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p26',
+    id: 'q_0345',
     text: 'An electric dipole with dipole moment 4 × 10⁻⁹ cm is aligned at 60° with the direction of a uniform electric field of magnitude 5 × 10⁴ NC⁻¹. Calculate the magnitude of the torque acting on the dipole.',
     options: ['17.3 × 10⁻⁵ Nm', '1.73 × 10⁻⁴ Nm', '1.73 × 10⁻⁵ Nm', '17.3 × 10⁻⁴ Nm'],
     correctAnswer: 0,
@@ -3820,7 +3820,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p27',
+    id: 'q_0346',
     text: 'An infinite line charge produces a field of 9 × 10⁴ NC⁻¹ at a distance of 2 cm. Calculate Electrical field produced at a distance of 3 cm.',
     options: ['6 × 10⁴ NC⁻¹', '6 × 10³ NC⁻¹', '6 × 10⁻⁵ NC⁻¹', '6 × 10² NC⁻¹'],
     correctAnswer: 0,
@@ -3831,7 +3831,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p28',
+    id: 'q_0347',
     text: 'An electric dipole of moment p is placed in a uniform electric field E. The work done in rotating the dipole from the position of stable equilibrium to the position of unstable equilibrium is ________.',
     options: ['pE', 'Zero', '−2pE', '2pE'],
     correctAnswer: 3,
@@ -3842,7 +3842,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p29',
+    id: 'q_0348',
     text: 'A parallel plate capacitor is charged and then the battery is disconnected. When the separation between the plates is increased, then ________.',
     options: ['Capacitance increases', 'Potential difference increases', 'Charge increases', 'Energy stored decreases'],
     correctAnswer: 1,
@@ -3853,7 +3853,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p30',
+    id: 'q_0349',
     text: 'A 600 pF capacitor is charged by a 200 V supply. It is then disconnected from the supply and is connected to another uncharged 600 pF capacitor. How much electrostatic energy is lost in the process?',
     options: ['12 × 10⁻⁶ J', '6 × 10⁻⁸ J', '6 × 10⁻⁶ J', '12 × 10⁻⁸ J'],
     correctAnswer: 2,
@@ -3865,7 +3865,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 - CHEMISTRY
   {
-    id: 'gujcet2022_c41',
+    id: 'q_0350',
     text: 'Which of the following alkyl halides is most reactive towards SN1 reaction?',
     options: ['CH₃Cl', 'CH₃CH₂Cl', '(CH₃)₂CHCl', '(CH₃)₃CCl'],
     correctAnswer: 3,
@@ -3876,7 +3876,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c42',
+    id: 'q_0351',
     text: 'The reaction of methyl bromide with sodium methoxide gives ________.',
     options: ['Dimethyl ether', 'Diethyl ether', 'Methyl ethyl ether', 'Propane'],
     correctAnswer: 0,
@@ -3887,7 +3887,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p31',
+    id: 'q_0352',
     text: 'A wire of resistance R is stretched to double its length. Its new resistance will be ________.',
     options: ['2R', '4R', 'R/2', 'R/4'],
     correctAnswer: 1,
@@ -3898,7 +3898,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p32',
+    id: 'q_0353',
     text: 'The drift velocity of electrons in a conductor is of the order of ________.',
     options: ['10⁸ m/s', '10⁻¹ m/s', '10⁻² m/s', '10⁻⁴ m/s'],
     correctAnswer: 3,
@@ -3909,7 +3909,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p33',
+    id: 'q_0354',
     text: 'In a potentiometer experiment, the balancing length with a cell is 560 cm. When a resistance of 10 Ω is connected across the cell, the balancing length becomes 412 cm. The internal resistance of the cell is ________.',
     options: ['3.6 Ω', '2.6 Ω', '1.6 Ω', '0.6 Ω'],
     correctAnswer: 0,
@@ -3920,7 +3920,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_c43',
+    id: 'q_0355',
     text: 'Which of the following compounds will show optical activity?',
     options: ['2-Chloropropane', '2-Chlorobutane', '1-Chlorobutane', '2-Chloromethylpropane'],
     correctAnswer: 1,
@@ -3932,7 +3932,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 - PHYSICS (Remaining)
   {
-    id: 'gujcet2022_p28_real',
+    id: 'q_0356',
     text: 'How will you connect 4 (four) capacitors, each of capacitance 4μF for having equivalent capacitance 1.6 μF?',
     options: ['Two in parallel and two in series', 'All four in series', 'All four in parallel', 'Three in parallel and one in series'],
     correctAnswer: 0,
@@ -3943,7 +3943,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p29_real',
+    id: 'q_0357',
     text: 'A slab of material of dielectric constant 3 has the same area as the plates of a parallel plate capacitor but has a thickness (3/4)d, where d is the separation of the plates. What is the Electrical potential difference between the plates, when the slab is inserted between the plates? Initial electrical potential difference V₀.',
     options: ['V₀/6', 'V₀/4', 'V₀/2', 'V₀/3'],
     correctAnswer: 2,
@@ -3954,7 +3954,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p30_real',
+    id: 'q_0358',
     text: 'A molecule of a substance has a permanent electric dipole moment of magnitude 10⁻²⁹ cm. 2 mole of this substance is polarised (at low temperature) by applying a strong electrostatic field of magnitude 10⁶ Vm⁻¹. What should be potential energy of its?',
     options: ['−6 J', '−12 J', '12 J', '6 J'],
     correctAnswer: 1,
@@ -3965,7 +3965,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p4',
+    id: 'q_0359',
     text: 'A light bulb is rated at 200 W for a 220 V supply. Find the resistance of the bulb.',
     options: ['220 Ω', '484 Ω', '242 Ω', '400 Ω'],
     correctAnswer: 2,
@@ -3976,7 +3976,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p31_real',
+    id: 'q_0360',
     text: 'At room temperature (27 °C) the resistance of a heating element is 100 Ω. What is the temperature of the element if the resistance is found to be 137Ω, given that α = 1.35 × 10⁻⁴ °C⁻¹.',
     options: ['2767 °C', '1227 °C', '1027 °C', '2327 °C'],
     correctAnswer: 0,
@@ -3987,7 +3987,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p34',
+    id: 'q_0361',
     text: 'A solenoid of length 0.25 m has a radius of 1 cm and is made up of 500 turns. It carries a current of 2.5 A. What is the magnitude of the magnetic field inside the solenoid?',
     options: ['6.28 × 10⁻³ T', '6.28 × 10⁻² T', '6.28 × 10⁻⁴ T', '6.28 × 10⁻¹ T'],
     correctAnswer: 0,
@@ -3998,7 +3998,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p35_real',
+    id: 'q_0362',
     text: 'How the shunt wire should be?',
     options: ['short and thin', 'long and thin', 'long and thick', 'short and thick'],
     correctAnswer: 3,
@@ -4009,7 +4009,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p37',
+    id: 'q_0363',
     text: 'A solenoid has a core of a material with relative permeability 400. The windings carry a current of 1 A. If the number of turns is 1000 per metre, find magnetic field (B).',
     options: ['1.6π × 10² T', '16π × 10² T', '16π × 10⁻² T', '0.16π × 10⁻² T'],
     correctAnswer: 2,
@@ -4020,7 +4020,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p1',
+    id: 'q_0364',
     text: 'An air-cored solenoid with length 30 cm, area 25 cm² and 500 turns, carries 2.5A. The current is switched off in 10⁻³ s. Find average back emf.',
     options: ['6.54 V', '65.4 V', '654 V', '0.654 V'],
     correctAnswer: 0,
@@ -4031,7 +4031,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p39',
+    id: 'q_0365',
     text: '"The polarity of induced emf is such that it tends to produce a current which opposes the change in magnetic flux that produced it." This is ________.',
     options: ['Faraday\'s Law', 'Maxwell\'s Law', 'Kirchhoff\'s Law', 'Lenz\'s Law'],
     correctAnswer: 3,
@@ -4042,7 +4042,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p2',
+    id: 'q_0366',
     text: 'For an ideal transformer, if Nₛ > Nₚ then ________.',
     options: ['Vₛ < Vₚ', 'Vₛ > Vₚ', 'Vₛ = Vₚ', 'None of these'],
     correctAnswer: 1,
@@ -4053,7 +4053,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p5',
+    id: 'q_0367',
     text: 'A radio can tune into any station in the 6 MHz to 12 MHz band. What is the corresponding wavelength band?',
     options: ['40 m to 60 m', '25 m to 50 m', '20 m to 30 m', '10 m to 20 m'],
     correctAnswer: 1,
@@ -4064,7 +4064,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p7',
+    id: 'q_0368',
     text: 'Light source in air falls on spherical glass (n=1.5, R=20cm). Source distance is 100cm. Find image distance.',
     options: ['−100 cm', '−200 cm', '200 cm', '100 cm'],
     correctAnswer: 2,
@@ -4075,7 +4075,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p10',
+    id: 'q_0369',
     text: 'What should be the angle of incidence on glass so reflected and refracted rays are perpendicular?',
     options: ['56°', '57°', '58°', '59°'],
     correctAnswer: 1,
@@ -4086,7 +4086,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p13',
+    id: 'q_0370',
     text: 'What is de-Broglie wavelength of electron moving at 6.4 × 10⁶ m/s?',
     options: ['0.124 nm', '0.114 nm', '0.135 nm', '0.145 nm'],
     correctAnswer: 1,
@@ -4097,7 +4097,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p15',
+    id: 'q_0371',
     text: 'A difference of 5.4 eV separates two energy levels. What is the frequency of radiation emitted?',
     options: ['1.304 × 10¹⁵ Hz', '5.6 × 10¹⁵ Hz', '5.6 × 10¹⁴ Hz', '1.304 × 10¹⁴ Hz'],
     correctAnswer: 0,
@@ -4108,7 +4108,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p19',
+    id: 'q_0372',
     text: 'Calculate energy released during alpha decay of ²³⁸₉₂U. (Masses: U=238.05079, He=4.00260, Th=234.04363)',
     options: ['4.25 MeV', '6.23 MeV', '5.75 MeV', '3.25 MeV'],
     correctAnswer: 0,
@@ -4119,7 +4119,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p22',
+    id: 'q_0373',
     text: 'Which gate is formed by two NOT gates feeding into a NOR gate?',
     options: ['NAND gate', 'OR gate', 'AND gate', 'NOR gate'],
     correctAnswer: 2,
@@ -4131,7 +4131,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 - CHEMISTRY (Remaining)
   {
-    id: 'gujcet2022_c65',
+    id: 'q_0374',
     text: 'Cell edge length in bcc, ccp and simple cubic unit cell is respectively as ________.',
     options: ['2r, 4r/√3, 2√2 r', '2r, 2√2 r, 4r/√3', '2√2 r, 4r/√3, 2r', '4r/√3, 2√2 r, 2r'],
     correctAnswer: 3,
@@ -4142,7 +4142,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c67',
+    id: 'q_0375',
     text: 'Calculate the mole fraction of aqueous solution of 1 molal urea.',
     options: ['0.01878', '0.01768', '0.01800', '0.01698'],
     correctAnswer: 1,
@@ -4153,7 +4153,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c70',
+    id: 'q_0376',
     text: 'How much electricity in Faraday is required for reduction of 2 mol Cr₂O₇²⁻ into Cr³⁺?',
     options: ['12 F', '3 F', '6 F', '9 F'],
     correctAnswer: 0,
@@ -4164,7 +4164,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c73',
+    id: 'q_0377',
     text: 'What is the value of slope when graph plotted of log [R]₀/[R] vs t for first order reaction?',
     options: ['−K/2.303', 'K/2.303', '−K', '2.303/K'],
     correctAnswer: 1,
@@ -4175,7 +4175,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c75',
+    id: 'q_0378',
     text: 'Which colloidal sol results when highly diluted AgNO₃ is added to highly diluted KI?',
     options: ['AgI/NO₃⁻', 'AgI/K⁺', 'AgI/Ag⁺', 'AgI/I⁻'],
     correctAnswer: 3,
@@ -4186,7 +4186,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c79',
+    id: 'q_0379',
     text: 'Which is known as "Copper Matte"?',
     options: ['Cu₂S + FeO', 'Cu₂S + FeS', 'Cu₂O + FeS', 'Cu₂O + FeO'],
     correctAnswer: 1,
@@ -4197,7 +4197,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c80',
+    id: 'q_0380',
     text: 'Which products are obtained by reaction of hot and concentrated NaOH with dichlorine?',
     options: ['NaCl + NaClO₂ + H₂O', 'NaCl + NaClO₄ + H₂O', 'NaCl + NaClO₃ + H₂O', 'NaCl + NaOCl + H₂O'],
     correctAnswer: 2,
@@ -4208,7 +4208,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c53',
+    id: 'q_0381',
     text: 'Which of the following compounds will not give "Iodoform" by reaction with "sodiumhypoiodide"?',
     options: ['CH₃-CHO', 'Secondary alcohol', 'Methyl ketone', 'CH₃-CH₂-CO-CH₂-CH₃'],
     correctAnswer: 3,
@@ -4219,7 +4219,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c58',
+    id: 'q_0382',
     text: 'Identify \'C\': CH₃COOH → (NH₃/Δ) A → (Br₂+NaOH) B → (NaNO₂/HCl) C',
     options: ['CH₃-CH₂N₂⁺Cl⁻', 'CH₃-CH₂OH', 'CH₃OH', 'CH₃-CH₂-NH₂'],
     correctAnswer: 2,
@@ -4230,7 +4230,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_c61',
+    id: 'q_0383',
     text: 'Which polymer is used in manufacture of paints and lacquers?',
     options: ['Glyptal', 'Teflon', 'Neoprene', 'Melamine'],
     correctAnswer: 0,
@@ -4241,7 +4241,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c63',
+    id: 'q_0384',
     text: 'Which of the following drug is used for treatment of Acidity?',
     options: ['Ranitidine', 'Meprobamate', 'Salvarsan', 'Codein'],
     correctAnswer: 0,
@@ -4252,7 +4252,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p36',
+    id: 'q_0385',
     text: 'A circular coil of 100 turns and radius 10 cm carries a current of 0.1 A. What is the magnitude of the magnetic field at the centre of the coil?',
     options: ['6.28 × 10⁻⁵ T', '6.28 × 10⁻⁴ T', '3.14 × 10⁻⁴ T', '3.14 × 10⁻⁵ T'],
     correctAnswer: 0,
@@ -4263,7 +4263,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p38',
+    id: 'q_0386',
     text: 'The magnetic susceptibility of a paramagnetic material is 10⁻⁴ at 300 K. What will be its value at 400 K?',
     options: ['7.5 × 10⁻⁵', '1.33 × 10⁻⁴', '10⁻⁴', '0.75 × 10⁻⁴'],
     correctAnswer: 0,
@@ -4274,7 +4274,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p40',
+    id: 'q_0387',
     text: 'A 1.0 m long metallic rod is rotated with an angular frequency of 400 rad/s about an axis normal to the rod passing through its one end. A constant and uniform magnetic field of 0.5 T parallel to the axis exists everywhere. Calculate the emf developed between the centre and the ring.',
     options: ['100 V', '200 V', '50 V', '400 V'],
     correctAnswer: 0,
@@ -4285,7 +4285,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p3',
+    id: 'q_0388',
     text: 'A 100 Ω resistor is connected to a 220 V, 50 Hz ac supply. What is the rms value of current in the circuit?',
     options: ['2.2 A', '1.1 A', '4.4 A', '0.22 A'],
     correctAnswer: 0,
@@ -4296,7 +4296,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p6',
+    id: 'q_0389',
     text: 'In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of 2.0 × 10¹⁰ Hz and amplitude 48 Vm⁻¹. What is the amplitude of the oscillating magnetic field?',
     options: ['1.6 × 10⁻⁷ T', '1.6 × 10⁻⁸ T', '1.6 × 10⁻⁹ T', '1.6 × 10⁻⁶ T'],
     correctAnswer: 0,
@@ -4307,7 +4307,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p8',
+    id: 'q_0390',
     text: 'A small bulb is placed at the bottom of a tank containing water to a depth of 80 cm. What is the area of the surface of water through which light from the bulb can emerge out? (n_water = 1.33)',
     options: ['2.58 m²', '1.58 m²', '3.58 m²', '0.58 m²'],
     correctAnswer: 0,
@@ -4318,7 +4318,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p11',
+    id: 'q_0391',
     text: 'In a Young\'s double-slit experiment, the distance between the central bright fringe and the fourth bright fringe is 1.2 cm. If slits are 0.28 mm apart and screen is 1.4 m away, find wavelength.',
     options: ['600 nm', '500 nm', '400 nm', '700 nm'],
     correctAnswer: 0,
@@ -4329,7 +4329,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p14',
+    id: 'q_0392',
     text: 'The threshold frequency for a metal is 3.3 × 10¹⁴ Hz. If light of frequency 8.2 × 10¹⁴ Hz is incident, find cutoff voltage.',
     options: ['2.03 V', '1.03 V', '3.03 V', '0.03 V'],
     correctAnswer: 0,
@@ -4340,7 +4340,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p16',
+    id: 'q_0393',
     text: 'The ground state energy of hydrogen atom is −13.6 eV. What is the kinetic energy of the electron in this state?',
     options: ['13.6 eV', '−13.6 eV', '27.2 eV', '−27.2 eV'],
     correctAnswer: 0,
@@ -4351,7 +4351,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p20',
+    id: 'q_0394',
     text: 'Calculate the nuclear energy required to separate all neutrons and protons from 3.0 g of ⁶³₂₉Cu. (Binding energy per nucleon = 8.75 MeV)',
     options: ['1.58 × 10²⁵ MeV', '2.58 × 10²⁵ MeV', '0.58 × 10²⁵ MeV', '3.58 × 10²⁵ MeV'],
     correctAnswer: 0,
@@ -4362,7 +4362,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p23',
+    id: 'q_0395',
     text: 'A photodiode has a band gap of 2.8 eV. Can it detect a wavelength of 6000 nm?',
     options: ['No', 'Yes', 'Only if intensity is high', 'Only at low temperature'],
     correctAnswer: 0,
@@ -4373,7 +4373,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c66',
+    id: 'q_0396',
     text: 'An element has a bcc structure with a cell edge of 288 pm. The density is 7.2 g/cm³. How many atoms are present in 208 g of the element?',
     options: ['24.16 × 10²³', '12.08 × 10²³', '48.32 × 10²³', '6.04 × 10²³'],
     correctAnswer: 0,
@@ -4384,7 +4384,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_c68',
+    id: 'q_0397',
     text: 'Vapour pressure of water at 293 K is 17.535 mm Hg. Calculate the vapour pressure of water when 25 g of glucose is dissolved in 450 g of water.',
     options: ['17.44 mm Hg', '17.53 mm Hg', '17.22 mm Hg', '17.65 mm Hg'],
     correctAnswer: 0,
@@ -4395,7 +4395,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_c71',
+    id: 'q_0398',
     text: 'The resistance of a conductivity cell containing 0.001M KCl at 298 K is 1500 Ω. What is the cell constant if conductivity is 0.146 × 10⁻³ S cm⁻¹?',
     options: ['0.219 cm⁻¹', '0.146 cm⁻¹', '0.319 cm⁻¹', '0.419 cm⁻¹'],
     correctAnswer: 0,
@@ -4406,7 +4406,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c74',
+    id: 'q_0399',
     text: 'The rate constant for a first order reaction is 60 s⁻¹. How much time will it take to reduce the initial concentration to its 1/16th value?',
     options: ['4.62 × 10⁻² s', '4.62 × 10⁻¹ s', '4.62 × 10⁻³ s', '4.62 s'],
     correctAnswer: 0,
@@ -4417,7 +4417,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c78',
+    id: 'q_0400',
     text: 'The process of extraction of aluminium by electrolysis of Al₂O₃ mixed with cryolite is called ________.',
     options: ['Hall-Heroult process', 'Solvay process', 'Bayer process', 'Castner-Kellner process'],
     correctAnswer: 0,
@@ -4428,7 +4428,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c43_real',
+    id: 'q_0401',
     text: 'Which of the 3d series of the transition metals exhibits the largest number of oxidation states?',
     options: ['Mn', 'Fe', 'Cr', 'V'],
     correctAnswer: 0,
@@ -4439,7 +4439,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c42_real',
+    id: 'q_0402',
     text: 'Write the IUPAC name of [Co(NH₃)₅(CO₃)]Cl.',
     options: ['Pentaamminecarbonatocobalt(III) chloride', 'Pentaamminecarbonatocobalt(II) chloride', 'Carbonatopentaamminecobalt(III) chloride', 'Pentaamminecarbonatocobaltate(III) chloride'],
     correctAnswer: 0,
@@ -4450,7 +4450,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c50',
+    id: 'q_0403',
     text: 'The hydration of ethene to yield ethanol involves which of the following as an intermediate?',
     options: ['Carbocation', 'Carbanion', 'Free radical', 'Carbene'],
     correctAnswer: 0,
@@ -4461,7 +4461,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c54',
+    id: 'q_0404',
     text: 'An organic compound C₉H₁₀O forms 2,4-DNP derivative, reduces Tollens\' reagent and undergoes Cannizzaro reaction. On vigorous oxidation, it gives 1,2-benzenedicarboxylic acid. The compound is ________.',
     options: ['2-Ethylbenzaldehyde', '3-Ethylbenzaldehyde', '4-Ethylbenzaldehyde', 'Acetophenone'],
     correctAnswer: 0,
@@ -4472,7 +4472,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_c59',
+    id: 'q_0405',
     text: 'What are the expected products of hydrolysis of lactose?',
     options: ['β-D-galactose and β-D-glucose', 'α-D-glucose and β-D-fructose', 'α-D-glucose and α-D-glucose', 'α-D-galactose and α-D-glucose'],
     correctAnswer: 0,
@@ -4483,7 +4483,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c62',
+    id: 'q_0406',
     text: 'Which of the following is a monomer of Neoprene?',
     options: ['Chloroprene', 'Isoprene', 'Butadiene', 'Acrylonitrile'],
     correctAnswer: 0,
@@ -4494,7 +4494,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c64',
+    id: 'q_0407',
     text: 'Which of the following is an example of a non-biodegradable detergent?',
     options: ['Sodium 4-(1,3,5,7-tetramethyloctyl)benzenesulphonate', 'Sodium lauryl sulphate', 'Sodium dodecylbenzenesulphonate', 'Cetyltrimethylammonium bromide'],
     correctAnswer: 0,
@@ -4505,7 +4505,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p9',
+    id: 'q_0408',
     text: 'A prism has a refracting angle of 60°. The angle of minimum deviation is 40°. What is the refractive index of the material of the prism?',
     options: ['1.532', '1.414', '1.612', '1.333'],
     correctAnswer: 0,
@@ -4516,7 +4516,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p12',
+    id: 'q_0409',
     text: 'What is the Brewster angle for air to glass transition? (n_glass = 1.5)',
     options: ['56.3°', '45.0°', '33.7°', '60.0°'],
     correctAnswer: 0,
@@ -4527,7 +4527,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_p17',
+    id: 'q_0410',
     text: 'Using Bohr\'s model, calculate the speed of the electron in a hydrogen atom in the n = 1 level.',
     options: ['2.18 × 10⁶ m/s', '1.09 × 10⁶ m/s', '3.00 × 10⁸ m/s', '2.18 × 10⁵ m/s'],
     correctAnswer: 0,
@@ -4538,7 +4538,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_p21',
+    id: 'q_0411',
     text: 'The half-life of ²³⁸₉₂U is 4.5 × 10⁹ years. What is the activity of 1 g sample?',
     options: ['1.23 × 10⁴ Bq', '1.23 × 10⁵ Bq', '1.23 × 10³ Bq', '1.23 × 10⁶ Bq'],
     correctAnswer: 0,
@@ -4549,7 +4549,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_p24',
+    id: 'q_0412',
     text: 'In a p-type semiconductor, n_e = 10¹² m⁻³ and n_h = 10²⁰ m⁻³. What is the intrinsic charge carrier density n_i?',
     options: ['10¹⁶ m⁻³', '10¹⁴ m⁻³', '10¹⁸ m⁻³', '10¹² m⁻³'],
     correctAnswer: 0,
@@ -4560,7 +4560,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c69',
+    id: 'q_0413',
     text: 'Henry\'s law constant for CO₂ in water is 1.67 × 10⁸ Pa at 298 K. Calculate the quantity of CO₂ in 500 mL of soda water under 2.5 atm CO₂ pressure.',
     options: ['1.85 g', '2.85 g', '0.85 g', '3.85 g'],
     correctAnswer: 0,
@@ -4571,7 +4571,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2022_c72',
+    id: 'q_0414',
     text: 'The molar conductivity of 0.025 mol L⁻¹ methanoic acid is 46.1 S cm² mol⁻¹. Calculate its degree of dissociation. (λ°_H+ = 349.6, λ°_HCOO- = 54.6)',
     options: ['0.114', '0.214', '0.014', '0.314'],
     correctAnswer: 0,
@@ -4582,7 +4582,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c41_real',
+    id: 'q_0415',
     text: 'Silver atom has completely filled d orbitals (4d¹⁰) in its ground state. Why is it a transition element?',
     options: ['It forms Ag²⁺ with 4d⁹ configuration', 'It is a metal', 'It has high melting point', 'It forms complexes'],
     correctAnswer: 0,
@@ -4593,7 +4593,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c46',
+    id: 'q_0416',
     text: 'Using Valence Bond Theory, the geometry of [Ni(CN)₄]²⁻ is ________.',
     options: ['Square planar', 'Tetrahedral', 'Octahedral', 'Trigonal bipyramidal'],
     correctAnswer: 0,
@@ -4604,7 +4604,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c52',
+    id: 'q_0417',
     text: 'What is the IUPAC name of the monohydric phenol with formula C₇H₈O that has a methyl group at the ortho position?',
     options: ['2-Methylphenol', '3-Methylphenol', '4-Methylphenol', 'Benzyl alcohol'],
     correctAnswer: 0,
@@ -4615,7 +4615,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_c57',
+    id: 'q_0418',
     text: 'Which of the following is the correct sequence for converting aniline to chlorobenzene?',
     options: ['NaNO₂/HCl, then CuCl/HCl', 'Cl₂/FeCl₃', 'HCl/Δ', 'NH₃, then Cl₂'],
     correctAnswer: 0,
@@ -4626,7 +4626,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_c60',
+    id: 'q_0419',
     text: 'A unit formed by the attachment of a base to 1\' position of sugar is known as ________.',
     options: ['Nucleoside', 'Nucleotide', 'Nucleic acid', 'Nucleoprotein'],
     correctAnswer: 0,
@@ -4638,7 +4638,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2017 - PHYSICS
   {
-    id: 'gujcet2017_p9',
+    id: 'q_0420',
     text: 'Electric field intensity at points in between and outside two thin separated parallel sheets of infinite dimension with like charges of same surface charge density (σ) are _____ and _____ respectively.',
     options: ['σ/ε0, σ/ε0', '0, σ/ε0', '0, 0', 'σ/ε0, 0'],
     correctAnswer: 1,
@@ -4649,7 +4649,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p10',
+    id: 'q_0421',
     text: 'Arrangement of charges are shown in the figure. Flux linked with the closed surface P and Q respectively are ____ and ____.',
     options: ['Zero, zero', 'q/ε0, −q/ε0', '−q/ε0, q/ε0', 'q/ε0, zero'],
     correctAnswer: 2,
@@ -4660,7 +4660,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p11',
+    id: 'q_0422',
     text: 'The dimensional formula of capacitance is ____. Take Q as the dimension formula of charge.',
     options: ['M¹L⁻²T⁻²Q⁻²', 'M¹L²T⁻²Q⁻²', 'M¹L⁻²T²Q²', 'M⁻¹L⁻²T²Q²'],
     correctAnswer: 3,
@@ -4671,7 +4671,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p12',
+    id: 'q_0423',
     text: 'A uniform electric field is prevailing in X-direction in certain region. The co-ordinates of points P, Q, and R are (0,0), (2,0) and (0,2) respectively. Which of the following alternatives is true for the potentials at these points?',
     options: ['VP = VQ, VQ > VQ', 'VP > VQ, VP = VR', 'VP < VR, VQ = VR', 'VP = VQ, VP > VR'],
     correctAnswer: 1,
@@ -4682,7 +4682,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p13',
+    id: 'q_0424',
     text: 'An electric dipole of dipole moment P is placed parallel to the uniform electric field of intensity E. On rotating it through 180°, the amount of work done is _______.',
     options: ['2PE', 'Zero', 'PE', '−2PE'],
     correctAnswer: 0,
@@ -4693,7 +4693,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p14',
+    id: 'q_0425',
     text: 'In the given circuit, if current through 10 Ω resistor is 2.5 A, what is the value of R?',
     options: ['50 Ω', '40 Ω', '8 Ω', '10 Ω'],
     correctAnswer: 2,
@@ -4704,7 +4704,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p15',
+    id: 'q_0426',
     text: 'Brown, Red and Orange coloured bands on a Carbon resistor are followed by silver band. The value of resistor is __________',
     options: ['320 Ω ± 5%', '12 kΩ ± 5%', '320 Ω ± 10%', '12 kΩ ± 10%'],
     correctAnswer: 3,
@@ -4715,7 +4715,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p16',
+    id: 'q_0427',
     text: 'What is the current in the 4 Ω resistor when switch S1 is open and switch S2 is closed in the given circuit?',
     options: ['3.0 A', '0.8 A', '1.5 A', '1.2 A'],
     correctAnswer: 3,
@@ -4726,7 +4726,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p17',
+    id: 'q_0428',
     text: 'Two very long straight wires are set parallel to each other. Each carries a current I in the same direction and the separation between them is 2r. The intensity of magnetic field at point P as shown in figure is _______.',
     options: ['3μ0I / 8πr', '2μ0I / πr', '2μ0I / 3πr', 'μ0I / 2πr'],
     correctAnswer: 2,
@@ -4737,7 +4737,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p18',
+    id: 'q_0429',
     text: 'The magnetic field due to a straight long conductor of uniform cross-section of radius a and carrying a steady current is represented by which graph?',
     options: ['Graph A', 'Graph B', 'Graph C', 'Graph D'],
     correctAnswer: 3,
@@ -4748,7 +4748,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p19',
+    id: 'q_0430',
     text: 'A proton is moving perpendicular to a uniform magnetic field of 2.5 tesla with 2 MeV kinetic energy. The force on proton is _____ N. (Mass of proton = 1.6 × 10⁻²⁷ kg. Charge of proton = 1.6 × 10⁻¹⁹ C)',
     options: ['8 × 10⁻¹²', '8 × 10⁻¹¹', '3 × 10⁻¹¹', '3 × 10⁻¹⁰'],
     correctAnswer: 0,
@@ -4759,7 +4759,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p20',
+    id: 'q_0431',
     text: 'A particle of mass m and charge q is incident on XZ plane with velocity v in a direction making angle θ with a uniform magnetic field applied along X-axis. The nature of motion performed by the particle is:',
     options: ['Circular', 'Helical', 'Parabola', 'Straight line'],
     correctAnswer: 1,
@@ -4770,7 +4770,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p21',
+    id: 'q_0432',
     text: 'Select the dimensional formula of B²/2μ0.',
     options: ['M¹L¹T²', 'M⁻¹L¹T²', 'M⁻¹L⁻¹T⁻²', 'M¹L⁻¹T⁻²'],
     correctAnswer: 3,
@@ -4781,7 +4781,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p22',
+    id: 'q_0433',
     text: 'μ0 is permeability of vacuum, χm is susceptibility then permeability of material is:',
     options: ['μ = μ0·1 + χm', 'μ = μ0(χm − 1)', 'μ = μ0(1 − χm)', 'μ = μ0(1 + χm)'],
     correctAnswer: 3,
@@ -4792,7 +4792,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p29',
+    id: 'q_0434',
     text: 'The number of turns in the coil of an A.C. generator are 100 and its cross-sectional area is 2.5 m². The coil is revolving in a uniform magnetic field of strength 0.3 T with the uniform angular velocity of 60 rad/s. The value of maximum value produced is _____ kV.',
     options: ['1.25', '4.50', '6.75', '2.25'],
     correctAnswer: 1,
@@ -4803,7 +4803,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p30',
+    id: 'q_0435',
     text: 'If R and L denote resistance and inductance respectively which of the following has dimension of time?',
     options: ['√(L/R)', 'L/R', '√(R/L)', 'R/L'],
     correctAnswer: 1,
@@ -4814,7 +4814,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p31',
+    id: 'q_0436',
     text: 'In an AC circuit, current is 3 A and voltage 210 V and power is 63 W. The power factor is:',
     options: ['0.11', '0.09', '0.08', '0.10'],
     correctAnswer: 3,
@@ -4825,7 +4825,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p32',
+    id: 'q_0437',
     text: 'For an A.C given by I = 50 cos (100t + 45°) A. The value of Irms = ______ A.',
     options: ['Zero', '50√2', '25', '25√2'],
     correctAnswer: 3,
@@ -4836,7 +4836,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p33',
+    id: 'q_0438',
     text: 'An A.C voltage V = 5 cos (1000t) V is applied to a L-R series circuit of inductance 3 mH and resistance 4 Ω. The value of maximum current in the circuit is _____ A.',
     options: ['0.8', '1.0', '5/7', '5/√7'],
     correctAnswer: 1,
@@ -4847,7 +4847,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p34',
+    id: 'q_0439',
     text: 'In medicine, to destroy cancer cells ______ rays are used.',
     options: ['Ultraviolet', 'Visible', 'Gamma', 'Infrared'],
     correctAnswer: 2,
@@ -4858,7 +4858,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p35',
+    id: 'q_0440',
     text: 'For a radiation of 9 GHz passing through air. The number of waves passing through 1 m length is:',
     options: ['30', '5', '20', '3'],
     correctAnswer: 0,
@@ -4869,7 +4869,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p24',
+    id: 'q_0441',
     text: 'For the astronomical telescope, the focal length of objective lens is f0 and the eye piece lens is fe. Then the tube length of the telescope is _____.',
     options: ['L ≥ f0 − fe', 'L ≥ f0 + fe', 'L < f0 + fe', 'L ≤ f0 − fe'],
     correctAnswer: 1,
@@ -4880,7 +4880,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p25',
+    id: 'q_0442',
     text: 'Time taken by the sunlight to pass through a slab of 4 cm and refractive index 1.5 is _____ s.',
     options: ['2 × 10¹⁰', '2 × 10⁻⁸', '2 × 10⁸', '2 × 10⁻¹⁰'],
     correctAnswer: 3,
@@ -4891,7 +4891,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p26',
+    id: 'q_0443',
     text: 'A convex lens of focal length 12.5 cm is used as a simple microscope. When the image is formed at infinite, Magnification is _____ (Near point for the normal vision is 25 cm).',
     options: ['25', '2.5', '2.0', '1.0'],
     correctAnswer: 2,
@@ -4902,7 +4902,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p7',
+    id: 'q_0444',
     text: 'The shape of wave front at a very large distance from source is ______.',
     options: ['Circular', 'Spherical', 'Cylindrical', 'Plane'],
     correctAnswer: 3,
@@ -4913,7 +4913,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p23',
+    id: 'q_0445',
     text: 'In Raman scattering, Stokes and Antistokes lines respectively represents lines with _____ and _____ wavelength.',
     options: ['Low, High', 'High, High', 'High, Low', 'Low, Low'],
     correctAnswer: 2,
@@ -4924,7 +4924,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p36',
+    id: 'q_0446',
     text: 'In Young\'s double slit experiment, if the distance between two slits is equal to the wavelength of used light. Then the maximum number of bright fringes obtained on the screen will be:',
     options: ['Infinite', '3', '7', '5'],
     correctAnswer: 1,
@@ -4935,7 +4935,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p37',
+    id: 'q_0447',
     text: 'If the wavelength of light used is 6000 Å. The angular resolution of telescope of objective lens having diameter 10 cm is _____ rad.',
     options: ['7.52 × 10⁻⁶', '6.10 × 10⁻⁶', '6.55 × 10⁻⁶', '7.32 × 10⁻⁶'],
     correctAnswer: 3,
@@ -4946,7 +4946,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p27',
+    id: 'q_0448',
     text: 'In experiment of Davisson-Germer, emitted electron from filament is accelerated through voltage V then de-Broglie wavelength of that electron will be _____ m.',
     options: ['√(2Vem) / √h', '√h / 2Vem', '√(2Vem) / h', 'h / √(2Vem)'],
     correctAnswer: 3,
@@ -4957,7 +4957,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p28',
+    id: 'q_0449',
     text: 'Photons of energy 1 eV and 2.5 eV successively illuminated a metal whose work function is 0.5 eV. The ratio of maximum speeds of emitted electron is:',
     options: ['1 : 3', '1 : 2', '3 : 1', '2 : 1'],
     correctAnswer: 1,
@@ -4968,7 +4968,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p8',
+    id: 'q_0450',
     text: 'The total energy of an electron in the first excited state of H-atom is −3.4 eV, then its potential energy is in this state is _____ eV.',
     options: ['6.8', '3.4', '-6.8', '-3.4'],
     correctAnswer: 2,
@@ -4979,7 +4979,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p38',
+    id: 'q_0451',
     text: 'In the discharge tube as the density of atom increases, the intensity of spectral lines:',
     options: ['Decreases continuously', 'Increases continuously', 'Remains constant', 'None of these'],
     correctAnswer: 1,
@@ -4990,7 +4990,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p39',
+    id: 'q_0452',
     text: 'The ionization potential of hydrogenic ions P and Q are VP and VQ respectively. If VQ < VP then radii:',
     options: ['rP > rQ', 'rP < rQ', 'rP = rQ', 'None of these'],
     correctAnswer: 1,
@@ -5001,7 +5001,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p1',
+    id: 'q_0453',
     text: 'Half life of radioactive element is 5 min. At the end of 20 min its ________% quantity is disintegrated.',
     options: ['6.25', '75', '25', '93.75'],
     correctAnswer: 3,
@@ -5012,7 +5012,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p40',
+    id: 'q_0454',
     text: 'In the given nuclear reaction ⁹₄Be + ⁴₂He → ¹²₆C + X. X represents:',
     options: ['Neutron', 'Proton', 'Positron', 'Electron'],
     correctAnswer: 0,
@@ -5023,7 +5023,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p2',
+    id: 'q_0455',
     text: 'Which logic gate is represented by the following logic gates? [Two NOT gates feeding into an OR gate]',
     options: ['NOR', 'NAND', 'AND', 'OR'],
     correctAnswer: 2,
@@ -5034,7 +5034,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p3',
+    id: 'q_0456',
     text: 'In CE NPN transistor 10¹⁰ electrons enter the emitter in 10⁻⁶ s when it is connected to battery. About 5% electrons recombine with holes in the base. The current gain of the transistor is ______',
     options: ['0.98', '19', '49', '0.95'],
     correctAnswer: 1,
@@ -5045,7 +5045,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p4',
+    id: 'q_0457',
     text: 'For the circuit shown in the figure. The equivalent resistance between point A & B for the two cases (i) VA > VB, (ii) VB > VA respectively is ____ and ____ respectively. (D1 and D2 are ideal diodes)',
     options: ['25, ∞', '50, ∞', '∞, 25', '25, 25'],
     correctAnswer: 0,
@@ -5056,7 +5056,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p5',
+    id: 'q_0458',
     text: 'The amplitude of carrier wave is 12 V. For modulation index of 50%, the amplitude of modulating signal is _____ V.',
     options: ['3', '6', '12', '9'],
     correctAnswer: 1,
@@ -5067,7 +5067,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_p6',
+    id: 'q_0459',
     text: 'Height of T.V. tower is hT. The area of transmission of T.V. waves is ∝ _____.',
     options: ['hT²', 'hT^(1/2)', 'hT^(1/3)', 'hT'],
     correctAnswer: 3,
@@ -5079,7 +5079,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2017 - CHEMISTRY
   {
-    id: 'gujcet2017_c50',
+    id: 'q_0460',
     text: 'In which crystal system, the length of each edge (edge length) is same?',
     options: ['BaSO4', 'HgS', 'CaSO4', 'ZnO'],
     correctAnswer: 1,
@@ -5090,7 +5090,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c51',
+    id: 'q_0461',
     text: 'The depression in freezing point for 0.01 m aqueous solution of Kx[Fe(CN)6] is 0.0744 K. The molal depression constant for solvent is 1.86 K kg mol⁻¹. If the solute undergoes complete dissociation, what is the correct molecular formula for the solute?',
     options: ['K2[Fe(CN)6]', 'K3[Fe(CN)6]', 'K[Fe(CN)6]', 'K4[Fe(CN)6]'],
     correctAnswer: 1,
@@ -5101,7 +5101,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c52',
+    id: 'q_0462',
     text: 'At certain temperature 1.6% solution of an unknown substance is isotonic with 2.4% solution of Urea. If both the solutions have the same solvent and both the solutions have same density 1 gm/cm³, what will be the molecular mass of unknown substance in gm/mol. [Molecular mass of urea = 60 gm/mol]',
     options: ['30', '40', '80', '90'],
     correctAnswer: 1,
@@ -5112,7 +5112,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c53',
+    id: 'q_0463',
     text: 'Which of the following aqueous solution will have the boiling point 102.2°C? The molal elevation constant for water is 2.2 K kg mol⁻¹.',
     options: ['1 m CH3COOH', '1 m NaCl', '1 M NaCl', '1 m glucose'],
     correctAnswer: 3,
@@ -5123,7 +5123,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c54',
+    id: 'q_0464',
     text: 'The graph of √C → Λm for an aqueous solution of which substance is not obtained as a straight line?',
     options: ['HCl', 'NaCN', 'NaCl', 'HCN'],
     correctAnswer: 3,
@@ -5134,7 +5134,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c55',
+    id: 'q_0465',
     text: 'Which option is incorrect for the working cell? Pt|Cl2(g)|Cl⁻(C1)||Cl⁻(C2)|Cl2(g)|Pt',
     options: ['ΔG = −ve', 'C2 > C1', 'E°cell = 0', 'C1 > C2'],
     correctAnswer: 1,
@@ -5145,7 +5145,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c56',
+    id: 'q_0466',
     text: 'The pH of the solution _________ during the electrolysis of dilute aqueous solution of CuSO4.',
     options: ['First increases then decreases', 'Decreases', 'Remains constant', 'Increases'],
     correctAnswer: 1,
@@ -5156,7 +5156,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c67',
+    id: 'q_0467',
     text: 'At 298 K temperature the activation energy for the reaction x2 + y2 → 2xy + 20 kJ is 15 kJ. What will be the activation energy for the reaction 2xy → x2 + y2?',
     options: ['−15 kJ', '+35 kJ', '−5 kJ', '−35 kJ'],
     correctAnswer: 1,
@@ -5167,7 +5167,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c68',
+    id: 'q_0468',
     text: 'The half-life period for a radioactive substance is 15 minutes. How many grams of this radioactive substance is decayed from 50 gram of substance after one hour?',
     options: ['37.5', '25', '43.75', '46.875'],
     correctAnswer: 3,
@@ -5178,7 +5178,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c69',
+    id: 'q_0469',
     text: 'The rate constant value for a reaction is 1.75 × 10² L² mol⁻² sec⁻¹. The half-life period t1/2 ∝ ____.',
     options: ['[R0]⁻¹', '[R0]⁻²', '[R0]²', '[R0]'],
     correctAnswer: 1,
@@ -5189,7 +5189,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c70',
+    id: 'q_0470',
     text: 'The values of slope and intercept in the graph of Freundlich adsorption isotherm at 25°C temperature are 0.5 and 0.4771 respectively. What will be the proportion of adsorption at 4 bar pressure?',
     options: ['12', '6', '24', '3'],
     correctAnswer: 1,
@@ -5200,7 +5200,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c71',
+    id: 'q_0471',
     text: 'In which emulsion coloured droplets are obtained when oil soluble dye is added to it?',
     options: ['Cod liver oil', 'Cold cream', 'Hair cream', 'Milk'],
     correctAnswer: 3,
@@ -5211,7 +5211,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c57',
+    id: 'q_0472',
     text: 'Which of the following process is for purification of metals?',
     options: ['Froth floatation', 'Leaching', 'Liquidation', 'Washing'],
     correctAnswer: 2,
@@ -5222,7 +5222,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c58',
+    id: 'q_0473',
     text: 'Which of the following is the Ore of Cu?',
     options: ['Ciderite', 'Magnetite', 'Calamine', 'Malachite'],
     correctAnswer: 3,
@@ -5233,7 +5233,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c59',
+    id: 'q_0474',
     text: 'How many gm of the oxidising agent gets reduced in the reaction of 65.4 gm of Zn with concentrated nitric acid? [Atomic mass: Zn = 65.4, N = 14, H = 1, O = 16 gm mol⁻¹]',
     options: ['65.4', '126', '130.8', '252'],
     correctAnswer: 1,
@@ -5244,7 +5244,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c60',
+    id: 'q_0475',
     text: 'In which of the following acid, the maximum number of hydrogen atoms are joined directly with phosphorous?',
     options: ['Phosphoric acid', 'Phosphorous acid', 'Pyrophosphoric acid', 'Phosphonic acid'],
     correctAnswer: 3,
@@ -5255,7 +5255,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c72',
+    id: 'q_0476',
     text: 'Which of the following is the correct order for the theoretical magnetic moment?',
     options: ['Cr³⁺ > Mn²⁺ = Fe³⁺', 'Cr³⁺ = Mn²⁺ < Fe³⁺', 'Cr³⁺ < Mn²⁺ = Fe³⁺', 'Cr³⁺ < Mn²⁺ < Fe³⁺'],
     correctAnswer: 2,
@@ -5266,7 +5266,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c73',
+    id: 'q_0477',
     text: 'Which statement is incorrect with reference to inner transition elements?',
     options: ['The oxides of lanthanoids are basic', 'Pm is radioactive element among actinoids', 'The values of ionisation enthalpy of actinoids are less than the values of ionisation enthalpy of lanthanoids', 'Only in the electronic configuration of lanthanoids like Ce, Gd, Lu the electrons are filled in 5d orbitals'],
     correctAnswer: 1,
@@ -5277,7 +5277,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c48',
+    id: 'q_0478',
     text: 'In which of the following pair of complexes, the experimental magnetic moment and the geometric shapes are same?',
     options: ['K[MnO4] and K2[NiCl4]', 'K2[Ni(CN)4] and K4[Ni(CN)4]', 'K2[Ni(CN)4] and [Ni(NH3)2Cl2]', 'K3[Fe(CN)6] and K4[Fe(CN)6]'],
     correctAnswer: 2,
@@ -5288,7 +5288,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c74',
+    id: 'q_0479',
     text: 'Which of the following complex ions absorbs the light of minimum wavelength?',
     options: ['[Co(H2O)6]³⁺', '[CoF6]³⁻', '[Co(CN)6]³⁻', '[Co(NH3)6]³⁺'],
     correctAnswer: 2,
@@ -5299,7 +5299,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c75',
+    id: 'q_0480',
     text: 'Which of the following pairs of complexes whose aqueous solutions gives pale yellow and white precipitates respectively with 0.1 M AgNO3?',
     options: ['[Pt(NH3)4Br2]Cl2 and [Pt(NH3)4Cl2]Br2', '[Co(NH3)5NO3]Br and [Co(NH3)5Br]NO3', '[Pt(NH3)4Cl2]Br2 and [Pt(NH3)4Br2]Cl2', '[Co(NH3)5NO3]Cl and [Co(NH3)5Cl]NO3'],
     correctAnswer: 2,
@@ -5310,7 +5310,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c61',
+    id: 'q_0481',
     text: 'The reaction of (CH3)3CONa with which reagent is the most easy?',
     options: ['C6H5Br', '(CH3)2CHBr', '(CH3)3CBr', 'CH3CH2Br'],
     correctAnswer: 3,
@@ -5321,7 +5321,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c62',
+    id: 'q_0482',
     text: 'The organic product of which reaction from the following is used as anaesthetic?',
     options: ['CS2 + 3Cl2 → (Anh. AlCl3)', 'Chloral + Ca(OH)2 →', 'Chloral + Chlorobenzene →', 'CHCl3 → (H2/Ni)'],
     correctAnswer: 1,
@@ -5332,7 +5332,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c63',
+    id: 'q_0483',
     text: 'Which of the following compound gives only one monochloro product on its chlorination in presence of sunlight?',
     options: ['n-butane', 'Iso pentane', 'Neo pentane', 'n-pentane'],
     correctAnswer: 2,
@@ -5343,7 +5343,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c64',
+    id: 'q_0484',
     text: 'Which products are obtained when phenyl ethanoate reacts in presence of Anh.AlCl3?',
     options: ['o-Ethoxy acetophenone and p-Ethoxy acetophenone', 'o-Hydroxy acetophenone and p-Hydroxy acetophenone', 'o-Methyl acetophenone and p-Methyl acetophenone', 'o-Methoxy acetophenone and p-Methoxy acetophenone'],
     correctAnswer: 1,
@@ -5354,7 +5354,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c65',
+    id: 'q_0485',
     text: 'How many gram of ethanol is required in the reaction with Na metal in order to give 560 ml. dihydrogen gas at STP?',
     options: ['11.5', '1.15', '4.6', '2.3'],
     correctAnswer: 3,
@@ -5365,7 +5365,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c66',
+    id: 'q_0486',
     text: 'The IUPAC name of the product obtained by the oxidation of phenol with the help of chromic acid is:',
     options: ['Cyclo hexa-2,4-diene-1,4-diol', 'Cyclo hexa-2,4-diene-1,4-dione', 'Cyclo hexa-2,5-diene-1,4-diol', 'Cyclo hexa-2,5-diene-1,4-dione'],
     correctAnswer: 3,
@@ -5376,7 +5376,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c76',
+    id: 'q_0487',
     text: 'Which of the following is the disproportionation redox reaction?',
     options: ['2CH3COOH → (P2O5/Δ)', '2CH3CHO → (dil NaOH)', '2CH3COCH3 → (Mg-Hg / H2O)', '2HCHO → (50% NaOH aq.)'],
     correctAnswer: 3,
@@ -5387,7 +5387,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c77',
+    id: 'q_0488',
     text: 'Which compound does not give Benedict test?',
     options: ['(CH3)3CCHO', 'C6H5CHO', 'CH3CHO', '(CH3)2CHCHO'],
     correctAnswer: 1,
@@ -5398,7 +5398,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c78',
+    id: 'q_0489',
     text: 'What is the main product obtained by the cross-aldol condensation of benzene carbaldehyde and 1-Phenyl-Ethane-1-one?',
     options: ['Ph-CH2-CH=CH-CO-Ph', 'Ph-CH=CH-CHO', 'Ph-CH2-CH=CH-Ph', 'Ph-CH=CH-CO-Ph'],
     correctAnswer: 3,
@@ -5409,7 +5409,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c79',
+    id: 'q_0490',
     text: 'The main product of which of the following reactions gives tertiary sulphonamide with benzene sulphonyl chloride?',
     options: ['C6H5Cl + 2NH3 → [Cu2O], 473K, 60 bar', 'CH3CH2NO2 → (LiAlH4)', 'CH3CH2NC → (LiAlH4)', 'CH3CONH2 → (Br2/NaOH, Δ)'],
     correctAnswer: 2,
@@ -5420,7 +5420,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c80',
+    id: 'q_0491',
     text: 'Which order is improper for amine compounds?',
     options: ['Order of basicity in aq. medium: CH3-NH-CH3 > CH3NH2 > CH3-N(CH3)-CH3', 'Order of boiling point: CH3-N(CH3)-CH3 > CH3-CH2-NH-CH3 > CH3-CH2-CH2-NH2', 'Order of basicity in gaseous state: CH3-N(CH3)-CH3 > CH3-NH-CH3 > CH3NH2', 'The order of aqueous solubility: CH3-N(CH3)-CH3 < CH3-CH2-NH-CH3 < CH3-CH2-CH2-NH2'],
     correctAnswer: 1,
@@ -5431,7 +5431,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c41',
+    id: 'q_0492',
     text: 'Which oxidised product is obtained when benzene diazonium chloride reacts with ethanol?',
     options: ['Acetaldehyde', 'Phenol', 'Benzaldehyde', 'Benzene'],
     correctAnswer: 0,
@@ -5442,7 +5442,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c42',
+    id: 'q_0493',
     text: 'Which amino acid contains secondary amino group in its structure?',
     options: ['Proline', 'Glycine', 'Alanine', 'Lysine'],
     correctAnswer: 0,
@@ -5453,7 +5453,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c43',
+    id: 'q_0494',
     text: 'Which of the following protein is present in silk?',
     options: ['Insulin', 'Keratin', 'Albumin', 'Myosin'],
     correctAnswer: 1,
@@ -5464,7 +5464,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c46',
+    id: 'q_0495',
     text: 'From the following substances, which carbohydrate has the maximum sweetness?',
     options: ['Sucrolose', 'Saccharin', 'Aspartame', 'Alitame'],
     correctAnswer: 0,
@@ -5475,7 +5475,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c44',
+    id: 'q_0496',
     text: 'Which of the following polymer is condensation as well as cross-linked polymer?',
     options: ['Bakelite', 'Nylon 6,6', 'Nylon-2, Nylon-6', 'Dacron'],
     correctAnswer: 0,
@@ -5486,7 +5486,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c45',
+    id: 'q_0497',
     text: 'Which polymer is used in the preparation of hosepipe?',
     options: ['Orlon', 'Polystyrene', 'Teflon', 'Neoprene'],
     correctAnswer: 3,
@@ -5497,7 +5497,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_c47',
+    id: 'q_0498',
     text: 'Which type of drug is veronal?',
     options: ['Antihistamine', 'Antifertility', 'Tranquilizer', 'Antimicrobial'],
     correctAnswer: 2,
@@ -5508,7 +5508,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p3',
+    id: 'q_0499',
     text: 'Charges 1 µc are placed at each of the four corners of a square of side 2√2 m. The potential at the point of intersection of the diagonals is ______ (K = 9 × 10⁹ SI unit)',
     options: ['18 × 10¹ V', '1800 V', '18√2 × 10³ V', 'None of these'],
     correctAnswer: 3,
@@ -5519,7 +5519,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p4',
+    id: 'q_0500',
     text: 'A point charge q is situated at a distance r on axis from one end of a thin conducting rod of length L having a charge Q (Uniformly distributed along its length). The magnitude of electric force between the two is ______.',
     options: ['KQq/r²', '2KQ/r(r+L)', 'KQq/r(r−L)', 'KQq/r(r+L)'],
     correctAnswer: 3,
@@ -5530,7 +5530,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_p39',
+    id: 'q_0501',
     text: '27 identical drops of mercury are charged simultaneously with the same potential of 10 Volt. Assuming the drop to be spherical, if all the charged drops are combined to form one large drop, then its potential will be ______ Volt.',
     options: ['90', '40', '160', '10'],
     correctAnswer: 0,
@@ -5541,7 +5541,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p5',
+    id: 'q_0502',
     text: 'Two long parallel wires are at a distance 2d apart. They carry steady equal currents I flowing out of the plane of the paper. The variation of magnetic field B along the line joining the wires is given by ______.',
     options: ['B is zero at the center', 'B is maximum at the center', 'B is zero at the wires', 'None of these'],
     correctAnswer: 0,
@@ -5552,7 +5552,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p6',
+    id: 'q_0503',
     text: 'A circular coil of radius R carries a current I. The magnetic field at its center is B. At what distance from the center on the axis of the coil will the magnetic field be B/8?',
     options: ['√3 R', 'R/√3', '2R', 'R/2'],
     correctAnswer: 0,
@@ -5563,7 +5563,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_c43',
+    id: 'q_0504',
     text: 'Which of the following is an example of an addition polymer?',
     options: ['Nylon-6,6', 'Terylene', 'Teflon', 'Bakelite'],
     correctAnswer: 2,
@@ -5574,7 +5574,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c44',
+    id: 'q_0505',
     text: 'The monomer of natural rubber is ______.',
     options: ['Isoprene', 'Chloroprene', 'Styrene', 'Butadiene'],
     correctAnswer: 0,
@@ -5585,7 +5585,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p1',
+    id: 'q_0506',
     text: 'A parallel plate capacitor is charged and then disconnected from the battery. If the plates are pulled further apart, then ______.',
     options: ['Capacitance increases', 'Potential difference decreases', 'Charge remains constant', 'Energy stored decreases'],
     correctAnswer: 2,
@@ -5596,7 +5596,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p7',
+    id: 'q_0507',
     text: 'The magnetic flux linked with a coil is given by Φ = 5t² + 3t + 16. The induced EMF in the coil at t = 4s is ______.',
     options: ['43 V', '40 V', '30 V', '16 V'],
     correctAnswer: 0,
@@ -5607,7 +5607,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c1',
+    id: 'q_0508',
     text: 'Which of the following is a network solid?',
     options: ['SO₂ (Solid)', 'I₂', 'Diamond', 'H₂O (Ice)'],
     correctAnswer: 2,
@@ -5618,7 +5618,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c10',
+    id: 'q_0509',
     text: 'The rate constant of a first order reaction is 0.005 min⁻¹. The time required for the completion of 20% of the reaction is ______.',
     options: ['44.6 min', '70.2 min', '25.4 min', '82.1 min'],
     correctAnswer: 0,
@@ -5629,7 +5629,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_m1',
+    id: 'q_0510',
     text: 'If f: R → R is defined by f(x) = 3x - 2, then f⁻¹(x) is ______.',
     options: ['(x+2)/3', '(x-2)/3', '3x+2', 'None of these'],
     correctAnswer: 0,
@@ -5640,7 +5640,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_m2',
+    id: 'q_0511',
     text: 'The value of cos⁻¹(cos 7π/6) is ______.',
     options: ['7π/6', '5π/6', 'π/6', 'None of these'],
     correctAnswer: 1,
@@ -5651,7 +5651,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_m10',
+    id: 'q_0512',
     text: 'If A is a square matrix of order 3 and |A| = 5, then |adj A| = ______.',
     options: ['5', '25', '125', '15'],
     correctAnswer: 1,
@@ -5662,7 +5662,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p12',
+    id: 'q_0513',
     text: 'The range of a signal is 10 km. If the height of the antenna is doubled, then the new range will be ______.',
     options: ['20 km', '10√2 km', '5√2 km', '40 km'],
     correctAnswer: 1,
@@ -5673,7 +5673,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c5',
+    id: 'q_0514',
     text: 'Which of the following is a lyophilic colloid?',
     options: ['Gold sol', 'Sulphur sol', 'Gum', 'Fe(OH)₃ sol'],
     correctAnswer: 2,
@@ -5684,7 +5684,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_m13',
+    id: 'q_0515',
     text: 'If P(A) = 0.4, P(B) = 0.8 and P(B|A) = 0.6, then P(A ∪ B) is ______.',
     options: ['0.96', '0.24', '0.56', 'None of these'],
     correctAnswer: 0,
@@ -5695,7 +5695,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p3',
+    id: 'q_0516',
     text: 'Charges 1 µc are placed at each of the four corners of a square of side 2√2 m. The potential at the point of intersection of the diagonals is ______ (K = 9 × 10⁹ SI unit)',
     options: ['18 × 10¹ V', '1800 V', '18√2 × 10³ V', 'None of these'],
     correctAnswer: 3,
@@ -5706,7 +5706,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p4',
+    id: 'q_0517',
     text: 'A point charge q is situated at a distance r on axis from one end of a thin conducting rod of length L having a charge Q (Uniformly distributed along its length). The magnitude of electric force between the two is ______.',
     options: ['KQq/r²', '2KQ/r(r+L)', 'KQq/r(r−L)', 'KQq/r(r+L)'],
     correctAnswer: 3,
@@ -5717,7 +5717,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_p39',
+    id: 'q_0518',
     text: '27 identical drops of mercury are charged simultaneously with the same potential of 10 Volt. Assuming the drop to be spherical, if all the charged drops are made to combine to form one large drop, then its potential will be ______ Volt.',
     options: ['40', '90', '160', '10'],
     correctAnswer: 1,
@@ -5728,7 +5728,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p10',
+    id: 'q_0519',
     text: 'A and B are two points on a uniform ring of radius r. The resistance of the ring is R. ∠AOB = θ as shown in the figure. The equivalent resistance between points A & B is ______.',
     options: ['R(2π−θ)/4π', 'Rθ/2π', 'R(1−θ/2π)', 'R/4π²(2π−θ)θ'],
     correctAnswer: 3,
@@ -5739,7 +5739,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_p11',
+    id: 'q_0520',
     text: 'Two wires of equal length and equal diameter and having resistivities ρ₁ and ρ₂ are connected in series. The equivalent resistivity of the combination is ______.',
     options: ['(ρ₁+ρ₂)/2', '(ρ₁+ρ₂)', 'ρ₁ρ₂/(ρ₁+ρ₂)', '√ρ₁ρ₂'],
     correctAnswer: 0,
@@ -5750,7 +5750,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p33',
+    id: 'q_0521',
     text: 'A voltmeter of a very high resistance is joined in the circuit as shown in figure. The voltage shown by this voltmeter will be ______.',
     options: ['5 V', '6 V', '2.5 V', '3 V'],
     correctAnswer: 1,
@@ -5761,7 +5761,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p34',
+    id: 'q_0522',
     text: 'A galvanometer of resistance 50 Ω is connected to a battery of 8 V along with a resistance of 3950 Ω in series. A full scale deflection of 30 div is obtained in the galvanometer. In order to reduce this deflection to 15 divisions, the resistance in series should be ______ Ω.',
     options: ['1950', '7900', '2000', '7950'],
     correctAnswer: 3,
@@ -5772,7 +5772,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p32',
+    id: 'q_0523',
     text: 'Equal currents are passing through two very long and straight parallel wires in the same direction. They will ______.',
     options: ['attract each other', 'repel each other', 'lean towards each other', 'neither attract nor repel each other'],
     correctAnswer: 0,
@@ -5783,7 +5783,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p31',
+    id: 'q_0524',
     text: 'The effective length of a magnet is 31.4 cm and its pole strength is 0.8 Am. The magnetic moment, if it is bent in the form of a semicircle is ______ Am².',
     options: ['1.2', '1.6', '0.16', '0.12'],
     correctAnswer: 2,
@@ -5794,7 +5794,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p35',
+    id: 'q_0525',
     text: 'At a place on Earth, the vertical component of Earth\'s magnetic field is √3 times its horizontal component. The angle of dip at this place is ______.',
     options: ['60°', '30°', '45°', '0°'],
     correctAnswer: 0,
@@ -5805,7 +5805,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p18',
+    id: 'q_0526',
     text: 'A rod of 10 cm length is moving perpendicular to uniform magnetic field of intensity 5 × 10⁻⁴ Wb/m². If the acceleration of the rod is 5 m/s², then the rate of increase of induced emf is ______.',
     options: ['25 × 10⁻⁴ Vs', '2.5 × 10⁻⁴ Vs⁻¹', '20 × 10⁻⁴ Vs', '20 × 10⁻⁴ Vs⁻¹'],
     correctAnswer: 1,
@@ -5816,7 +5816,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p19',
+    id: 'q_0527',
     text: 'A current of 25/π Hz frequency is passing through an A.C. circuit having series combination of R = 100 Ω and L = 2 H, the phase difference between voltage and current is ______.',
     options: ['60°', '90°', '30°', '45°'],
     correctAnswer: 3,
@@ -5827,7 +5827,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p21',
+    id: 'q_0528',
     text: 'An alternating voltage given as V = 100√2 sin 100t volt is applied to a capacitor of 1 µF. The current reading of the ammeter will be equal to ______ mA.',
     options: ['20', '10', '40', '80'],
     correctAnswer: 1,
@@ -5838,7 +5838,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p8',
+    id: 'q_0529',
     text: 'The frequencies of X rays, γ rays and Ultra violet rays are respectively p, q and r then ______.',
     options: ['p>q, q>r', 'p<q, q>r', 'p<q, q<r', 'p>q, q<r'],
     correctAnswer: 1,
@@ -5849,7 +5849,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p13',
+    id: 'q_0530',
     text: 'Angle of minimum deviation for a prism of refractive index 1.5 is equal to the angle of prism of given prism. Then the angle of prism is ______ (sin 48°36\' = 0.75)',
     options: ['80°', '41°24\'', '60°', '82°48\''],
     correctAnswer: 3,
@@ -5860,7 +5860,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_p14',
+    id: 'q_0531',
     text: 'A ray of light passes from a medium A having refractive index 1.6 to the medium B having refractive index 1.5. The value of critical angle of medium A is ______.',
     options: ['sin⁻¹√(16/15)', 'sin⁻¹(16/15)', 'sin⁻¹(1/2)', 'sin⁻¹(15/16)'],
     correctAnswer: 3,
@@ -5871,7 +5871,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p29',
+    id: 'q_0532',
     text: 'Light of wave length λ is incident on slit of width d. The resulting diffraction pattern is observed on a screen placed at distance D. The linear width of central maximum is equal to width of the slit, then D = ______.',
     options: ['2λ²/d', 'd²/2λ', 'd/λ', '2λ/d'],
     correctAnswer: 1,
@@ -5882,7 +5882,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p28',
+    id: 'q_0533',
     text: 'A plane polarized light is incident normally on a tourmaline plate. Its E vectors make an angle of 60° with the optic axis of the plate. Find the percentage difference between initial and final intensities.',
     options: ['50%', '25%', '75%', '90%'],
     correctAnswer: 2,
@@ -5893,7 +5893,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p22',
+    id: 'q_0534',
     text: 'The distance of the closest approach of an alpha particle fired at a nucleus with kinetic energy K is r₀. The distance of the closest approach when the α particle is fired at the same nucleus with kinetic energy 2K will be ______.',
     options: ['4r₀', 'r₀/2', 'r₀/4', '2r₀'],
     correctAnswer: 1,
@@ -5904,7 +5904,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p23',
+    id: 'q_0535',
     text: 'Number of spectral lines in hydrogen atom is ______.',
     options: ['8', '6', '15', '∞'],
     correctAnswer: 3,
@@ -5915,7 +5915,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p24',
+    id: 'q_0536',
     text: 'A radioactive element X disintegrates successively as under: X →(β⁻) X₁ →(α) X₂ →(β⁻) X₃ →(α) X₄. If atomic number and atomic mass number of X are respectively 72 and 180, what are the corresponding values for X₄?',
     options: ['69, 172', '69, 176', '71, 176', '70, 172'],
     correctAnswer: 3,
@@ -5926,7 +5926,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_p25',
+    id: 'q_0537',
     text: 'The energy released by the fission of one uranium atom is 200 MeV. The number of fissions per second required to produce 6.4 W power is ______.',
     options: ['2 × 10¹¹', '10¹¹', '10¹⁰', '2 × 10¹⁰'],
     correctAnswer: 0,
@@ -5937,7 +5937,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p26',
+    id: 'q_0538',
     text: 'If by successive disintegration of ₉₂U²³⁸, the final product obtained is ₈₂Pb²⁰⁶, then how many number of α and β particles are emitted?',
     options: ['6 and 8', '8 and 6', '12 and 6', '8 and 12'],
     correctAnswer: 1,
@@ -5948,7 +5948,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p27',
+    id: 'q_0539',
     text: 'A change of 0.04 V takes place between the base and the emitter when an input signal is connected to the CE transistor amplifier. As a result, 20 µA change takes place in the base current and a change of 2 mA takes place in the collector current. Find the input resistance and A.C. current gain.',
     options: ['1kΩ, 100', '2kΩ, 100', '2kΩ, 200', '1kΩ, 200'],
     correctAnswer: 1,
@@ -5959,7 +5959,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p30',
+    id: 'q_0540',
     text: 'In a N-P-N transistor about 10¹⁰ electrons enter the emitter in 2µs, when it is connected to a battery. Then I_E = ______ µA.',
     options: ['400', '200', '800', '1600'],
     correctAnswer: 2,
@@ -5970,7 +5970,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_p36',
+    id: 'q_0541',
     text: 'Which gate can be obtained by shorting both the input terminals of a NOR gate?',
     options: ['NOT', 'OR', 'AND', 'NAND'],
     correctAnswer: 0,
@@ -5981,7 +5981,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p37',
+    id: 'q_0542',
     text: 'An optical fiber can offer a band width of ______.',
     options: ['100 GHz', '100 MHz', '750 MHz', '250 MHz'],
     correctAnswer: 0,
@@ -5992,7 +5992,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_p38',
+    id: 'q_0543',
     text: 'To transmit a signal of 3 KHz frequency, the minimum length of antenna is ______ km.',
     options: ['25', '20', '50', '75'],
     correctAnswer: 0,
@@ -6003,7 +6003,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c73',
+    id: 'q_0544',
     text: 'Which of the following defect is seen in FeO?',
     options: ['Metal deficiency defect', 'Metal excess defect', 'Displacement defect', 'Impurity defect'],
     correctAnswer: 0,
@@ -6014,7 +6014,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c74',
+    id: 'q_0545',
     text: 'Which of the following substance possesses antiferromagnetic property?',
     options: ['CrO₂', 'Fe₃O₄', 'H₂O', 'MnO'],
     correctAnswer: 3,
@@ -6025,7 +6025,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c75',
+    id: 'q_0546',
     text: 'The boiling points for aqueous solutions of sucrose and urea are same at constant temperature. If 3 gm of urea is dissolved in its 1 litre solution, what is the weight of sucrose dissolved in its 1 litre solution? [Urea - 60 gm/mole, sucrose = 342 gm/mole]',
     options: ['17.1 gram', '3.0 gram', '6.0 gram', '34.2 gram'],
     correctAnswer: 0,
@@ -6036,7 +6036,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c76',
+    id: 'q_0547',
     text: 'Which option is inconsistent for Raoult\'s law?',
     options: ['The change in heat of dilution for solution = 0', 'Volume of liquid solvent + volume of liquid solute = volume of solution', 'Solute does not undergo association in solution', 'Solute undergoes dissociation in solution'],
     correctAnswer: 3,
@@ -6047,7 +6047,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c77',
+    id: 'q_0548',
     text: 'Which colligative property is more useful to determine the molecular weight of the substances like proteins and polymers?',
     options: ['Elevation in boiling point', 'Lowering of vapour pressure', 'Depression of freezing point', 'Osmotic pressure'],
     correctAnswer: 3,
@@ -6058,7 +6058,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c78',
+    id: 'q_0549',
     text: 'The resulting solution obtained at the end of electrolysis of concentrated aqueous solution of NaCl ______.',
     options: ['turns blue litmus into red', 'turns red litmus into blue', 'remains colourless with phenolphthalein', 'the colour of red or blue litmus does not change'],
     correctAnswer: 1,
@@ -6069,7 +6069,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c79',
+    id: 'q_0550',
     text: 'The value of E°(reduction) for metal A, B and C are 0.34 Volt, −0.80 Volt and −0.46 Volt respectively. State the correct order for their ability to act as reducing agent.',
     options: ['A>B>C', 'C>B>A', 'B>C>A', 'C>A>B'],
     correctAnswer: 2,
@@ -6080,7 +6080,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c80',
+    id: 'q_0551',
     text: 'Two electrolytic cells containing molten solutions of Nickel chloride & Aluminium chloride are connected in series. If same amount of electric current is passed through them, what will be the weight of Nickel obtained when 18 gm of Aluminium is obtained? (Al - 27 gm/mole, Ni - 58.5 gm/mole)',
     options: ['117 gm', '58.5 gm', '29.25 gm', '5.85 gm'],
     correctAnswer: 1,
@@ -6091,7 +6091,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c51',
+    id: 'q_0552',
     text: 'Total order of reaction X + Y → XY is 3. The order of reaction with respect to X is 2. State the differential rate equation for the reaction.',
     options: ['−d[X]/dt = K[X]⁰[Y]¹', '−d[X]/dt = K[X]³[Y]⁰', '−d[X]/dt = K[X]²[Y]', '−d[X]/dt = K[X][Y]²'],
     correctAnswer: 2,
@@ -6102,7 +6102,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c52',
+    id: 'q_0553',
     text: 'X →(Step-I) Y →(Step-II, slow) Z is a complex reaction. Total order of reaction is 2 and Step-II is slow step. What is molecularity of Step-II?',
     options: ['2', '1', '3', '4'],
     correctAnswer: 1,
@@ -6113,7 +6113,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c53',
+    id: 'q_0554',
     text: 'Which of the following is an example of oil in water emulsion?',
     options: ['Milk', 'Butter', 'Cheese', 'Cold cream'],
     correctAnswer: 0,
@@ -6124,7 +6124,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c54',
+    id: 'q_0555',
     text: 'Which of the following is used as a catalyst in the manufacture of H₂SO₄ by contact process?',
     options: ['Fe', 'V₂O₅', 'Pt', 'Mo'],
     correctAnswer: 1,
@@ -6135,7 +6135,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c55',
+    id: 'q_0556',
     text: 'Which of the following is a property of lyophobic sols?',
     options: ['They are reversible', 'They are quite stable', 'They are easily coagulated', 'They are self-stabilized'],
     correctAnswer: 2,
@@ -6146,7 +6146,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c56',
+    id: 'q_0557',
     text: 'The movement of colloidal particles under the influence of an electric field is called ______.',
     options: ['Electrodialysis', 'Electrophoresis', 'Electro-osmosis', 'Tyndall effect'],
     correctAnswer: 1,
@@ -6157,7 +6157,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c41',
+    id: 'q_0558',
     text: 'Which of the following is a carbonate ore?',
     options: ['Siderite', 'Calamine', 'Malachite', 'All of these'],
     correctAnswer: 3,
@@ -6168,7 +6168,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c42',
+    id: 'q_0559',
     text: 'In the extraction of copper from its sulphide ore, the metal is finally obtained by the reduction of cuprous oxide with ______.',
     options: ['Iron sulphide', 'Carbon monoxide', 'Copper (I) sulphide', 'Sulphur dioxide'],
     correctAnswer: 2,
@@ -6179,7 +6179,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c43_pblock',
+    id: 'q_0560',
     text: 'Which of the following is the most powerful oxidizing agent?',
     options: ['F₂', 'Cl₂', 'Br₂', 'I₂'],
     correctAnswer: 0,
@@ -6190,7 +6190,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c44_pblock',
+    id: 'q_0561',
     text: 'Which of the following is the correct order of the size of iodine species?',
     options: ['I > I⁺ > I⁻', 'I⁻ > I > I⁺', 'I⁺ > I > I⁻', 'I⁻ > I⁺ > I'],
     correctAnswer: 1,
@@ -6201,7 +6201,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c57',
+    id: 'q_0562',
     text: 'Which of the following transition metal ion is colourless?',
     options: ['Ti⁴⁺', 'V⁴⁺', 'Cr³⁺', 'Fe³⁺'],
     correctAnswer: 0,
@@ -6212,7 +6212,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c58',
+    id: 'q_0563',
     text: 'The magnetic moment of a transition metal ion is 3.87 BM. The number of unpaired electrons is ______.',
     options: ['2', '3', '4', '5'],
     correctAnswer: 1,
@@ -6223,7 +6223,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c59',
+    id: 'q_0564',
     text: 'Which of the following is the most stable oxidation state of Lanthanoids?',
     options: ['+2', '+3', '+4', '+5'],
     correctAnswer: 1,
@@ -6234,7 +6234,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c60',
+    id: 'q_0565',
     text: 'Which of the following is used as an oxidizing agent in volumetric analysis?',
     options: ['KMnO₄', 'K₂Cr₂O₇', 'Both A and B', 'None of these'],
     correctAnswer: 2,
@@ -6245,7 +6245,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c61',
+    id: 'q_0566',
     text: 'The coordination number of central metal atom in [Co(en)₃]³⁺ is ______.',
     options: ['3', '6', '4', '2'],
     correctAnswer: 1,
@@ -6256,7 +6256,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c62',
+    id: 'q_0567',
     text: 'Which of the following is an example of a double salt?',
     options: ['Potash alum', 'Potassium ferrocyanide', 'Tetraamminecopper(II) sulphate', 'None of these'],
     correctAnswer: 0,
@@ -6267,7 +6267,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c45',
+    id: 'q_0568',
     text: 'Which of the following is the most reactive towards S_N1 reaction?',
     options: ['CH₃Cl', 'CH₃CH₂Cl', '(CH₃)₂CHCl', '(CH₃)₃CCl'],
     correctAnswer: 3,
@@ -6278,7 +6278,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c46',
+    id: 'q_0569',
     text: 'The reaction of methyl bromide with silver fluoride to give methyl fluoride is known as ______.',
     options: ['Finkelstein reaction', 'Swarts reaction', 'Wurtz reaction', 'Fitting reaction'],
     correctAnswer: 1,
@@ -6289,7 +6289,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c47',
+    id: 'q_0570',
     text: 'Which of the following is the strongest acid?',
     options: ['Phenol', 'o-Nitrophenol', 'm-Nitrophenol', 'p-Nitrophenol'],
     correctAnswer: 3,
@@ -6300,7 +6300,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c48',
+    id: 'q_0571',
     text: 'The reaction of phenol with chloroform in the presence of aqueous sodium hydroxide is known as ______.',
     options: ['Kolbe\'s reaction', 'Reimer-Tiemann reaction', 'Etard reaction', 'Rosenmund reaction'],
     correctAnswer: 1,
@@ -6311,7 +6311,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c49',
+    id: 'q_0572',
     text: 'Which of the following is used as an antifreeze in automobile radiators?',
     options: ['Methanol', 'Ethanol', 'Ethylene glycol', 'Glycerol'],
     correctAnswer: 2,
@@ -6322,7 +6322,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c50',
+    id: 'q_0573',
     text: 'The dehydration of ethanol with concentrated H₂SO₄ at 443 K gives ______.',
     options: ['Ethene', 'Ethane', 'Diethyl ether', 'Ethyl hydrogen sulphate'],
     correctAnswer: 0,
@@ -6333,7 +6333,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c63',
+    id: 'q_0574',
     text: 'Which of the following is the most reactive towards nucleophilic addition reaction?',
     options: ['HCHO', 'CH₃CHO', 'CH₃COCH₃', 'C₆H₅CHO'],
     correctAnswer: 0,
@@ -6344,7 +6344,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c64',
+    id: 'q_0575',
     text: 'The reduction of aldehydes and ketones to hydrocarbons using zinc amalgam and concentrated hydrochloric acid is known as ______.',
     options: ['Wolf-Kishner reduction', 'Clemmensen reduction', 'Rosenmund reduction', 'Stephen reduction'],
     correctAnswer: 1,
@@ -6355,7 +6355,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c65',
+    id: 'q_0576',
     text: 'Which of the following does not give Fehling\'s test?',
     options: ['Acetaldehyde', 'Benzaldehyde', 'Glucose', 'Fructose'],
     correctAnswer: 1,
@@ -6366,7 +6366,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2015_c66',
+    id: 'q_0577',
     text: 'Which of the following is the strongest acid?',
     options: ['CH₃COOH', 'ClCH₂COOH', 'Cl₂CHCOOH', 'Cl₃CCOOH'],
     correctAnswer: 3,
@@ -6377,7 +6377,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c67',
+    id: 'q_0578',
     text: 'Which of the following is the most basic in aqueous solution?',
     options: ['NH₃', 'CH₃NH₂', '(CH₃)₂NH', '(CH₃)₃N'],
     correctAnswer: 2,
@@ -6388,7 +6388,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2015_c68',
+    id: 'q_0579',
     text: 'The reaction of a primary amine with chloroform and ethanolic potassium hydroxide is known as ______.',
     options: ['Hoffmann bromamide reaction', 'Carbylamine reaction', 'Gabriel phthalimide synthesis', 'Sandmeyer reaction'],
     correctAnswer: 1,
@@ -6399,7 +6399,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c69',
+    id: 'q_0580',
     text: 'Which of the following is a non-reducing sugar?',
     options: ['Glucose', 'Fructose', 'Lactose', 'Sucrose'],
     correctAnswer: 3,
@@ -6410,7 +6410,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c70',
+    id: 'q_0581',
     text: 'Which of the following vitamins is water soluble?',
     options: ['Vitamin A', 'Vitamin D', 'Vitamin E', 'Vitamin C'],
     correctAnswer: 3,
@@ -6421,7 +6421,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c71',
+    id: 'q_0582',
     text: 'Which of the following is used as an artificial sweetener?',
     options: ['Saccharin', 'Aspartame', 'Alitame', 'All of these'],
     correctAnswer: 3,
@@ -6432,7 +6432,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2015_c72',
+    id: 'q_0583',
     text: 'Which of the following is a broad spectrum antibiotic?',
     options: ['Penicillin G', 'Chloramphenicol', 'Terpineol', 'Bithionol'],
     correctAnswer: 1,
@@ -6443,7 +6443,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p1',
+    id: 'q_0584',
     text: 'Dimensional formula for electric field is ______________.',
     options: ['M¹L²T⁻³A⁻²', 'M¹L²T⁻³A⁻¹', 'M¹L¹T⁻³A⁻¹', 'M⁰L⁰T⁰A⁰'],
     correctAnswer: 2,
@@ -6454,7 +6454,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p2',
+    id: 'q_0585',
     text: 'A particle having mass m and charge q is at rest. On applying a uniform electric field E on it, it starts moving. What is the kinetic energy when it travels a distance x in the direction of force?',
     options: ['qE²x', 'q²Ex', 'qEx²', 'qEx'],
     correctAnswer: 3,
@@ -6465,7 +6465,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p3',
+    id: 'q_0586',
     text: 'Two spheres having same radius and mass are suspended by two strings of equal length from the same point, in such a way that their surfaces touch each other. On depositing charge 4 × 10⁻⁶ C on them they repel each other in such a way that in equilibrium the angle between their strings becomes 60°. If the distance from the point of suspension to the center of the sphere is 10 cm. Find the mass of each sphere. (K = 9 × 10⁹ SI and g = 10 ms⁻².)',
     options: ['0.3117 kg', '0.6235 kg', '0.1559 kg', '1.2468 kg'],
     correctAnswer: 1,
@@ -6476,7 +6476,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2016_p4',
+    id: 'q_0587',
     text: 'Electric field produced due to an infinitely long straight uniformly charged wire at perpendicular distance of 2 cm is 3 × 10⁸ NC⁻¹. Then linear charge density on the wire is ______________.',
     options: ['333 μc/m', '3.33 μc/m', '666 μc/m', '6.66 μc/m'],
     correctAnswer: 0,
@@ -6487,7 +6487,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p5',
+    id: 'q_0588',
     text: 'Two identical thin rings each of radius R m are kept on the same axis at a distance of R m apart. If the charges on them are 10 C and 5 C respectively, Calculate the work done in moving charge q C from the center of one ring to that of another.',
     options: ['5q/4πε₀R × [(√2−1)/2] J', '5q/4πε₀R × [1−1/√2] J', '15q/4πε₀R × [(√2−1)/√2] J', '10q/4πε₀R × [(√2−1)/√2] J'],
     correctAnswer: 1,
@@ -6498,7 +6498,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2016_p6',
+    id: 'q_0589',
     text: 'Q amount of electric charge is present on the surface of a sphere having radius R. Then electrical potential energy of this system is ____________.',
     options: ['KQ²/R', 'KQ²/R²', '(1/2)KQ²/R', '(1/2)KQ²/R²'],
     correctAnswer: 2,
@@ -6509,7 +6509,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p7',
+    id: 'q_0590',
     text: 'A wire is bent in the form of circle of radius 2m. Resistance per unit length of wire is 1/π Ω/m. Battery of 6V is connected between A & B. ∠AOB = 90°. Find the current through the battery.',
     options: ['8A', '4A', '3A', '9A'],
     correctAnswer: 0,
@@ -6520,7 +6520,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p8',
+    id: 'q_0591',
     text: 'The carbon resistor has three orange bands. The maximum value of resistance offered by the resistor will be ____________.',
     options: ['49.6 KΩ', '39.6 KΩ', '33 KΩ', '26.4 KΩ'],
     correctAnswer: 1,
@@ -6531,7 +6531,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p9',
+    id: 'q_0592',
     text: 'Two wires of same material having lengths and radii in the ratio of 3:4 and 3:2 respectively are connected in parallel with a potential source of 6V. The ratio of currents flowing through them, I₁:I₂ = ____________.',
     options: ['1:3', '3:1', '1:2', '2:1'],
     correctAnswer: 1,
@@ -6542,7 +6542,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p10',
+    id: 'q_0593',
     text: 'For the galvanometer working as a voltmeter ____________ is connected with the coil of the galvanometer.',
     options: ['high resistance in parallel', 'high resistance in series', 'low resistance in parallel', 'low resistance in series'],
     correctAnswer: 1,
@@ -6553,7 +6553,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p11',
+    id: 'q_0594',
     text: 'The ratio of periods of α-particle and proton moving on circular path in uniform magnetic field is ____________.',
     options: ['2:1', '1:2', '4:1', '1:4'],
     correctAnswer: 0,
@@ -6564,7 +6564,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p12',
+    id: 'q_0595',
     text: 'Two concentric rings are kept in the same plane. Number of turns in each ring is 25. Their radii are 50 cm and 200 cm and they carry electric currents of 0.1 A and 0.2 A respectively, in mutually opposite directions. The magnitude of the magnetic field produced at their centre is __________ T.',
     options: ['4μ₀', '2μ₀', '10/4 μ₀', '5/4 μ₀'],
     correctAnswer: 3,
@@ -6575,7 +6575,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p13',
+    id: 'q_0596',
     text: 'The magnetic susceptibility of a paramagnetic material is 1.0 × 10⁻⁵ at 27°C temperature. Then, at what temperature its magnetic susceptibility would be 1.5 × 10⁻⁵?',
     options: ['18°C', '200°C', '−73°C', '−18°C'],
     correctAnswer: 2,
@@ -6586,7 +6586,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p14',
+    id: 'q_0597',
     text: 'The Earth\'s magnetic field at some place on magnetic equator of Earth is 0.5 × 10⁻⁴ T. Consider the radius of Earth at that place as 6400 km. Then, magnetic dipole moment of the Earth is ________________ Am². (μ₀ = 4π × 10⁻⁷ TmA⁻¹)',
     options: ['1.05 × 10²³', '1.31 × 10²³', '1.15 × 10²³', '1.62 × 10²³'],
     correctAnswer: 1,
@@ -6597,7 +6597,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2016_p21',
+    id: 'q_0598',
     text: 'The dimensional formula of magnetic flux is ____________.',
     options: ['M¹L²T⁻³A⁻¹', 'M¹L²T⁻²A⁻¹', 'M⁻¹L⁻²T²A¹', 'M¹L³T⁻²A⁻¹'],
     correctAnswer: 1,
@@ -6608,7 +6608,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p22',
+    id: 'q_0599',
     text: 'A conducting coil having 500 turns has cross-sectional area 0.15 m². A magnetic field of strength 0.2 T linked perpendicular to this area changes to 1.0 T in 0.4 sec. The induced emf produced in the coil will be ________ volt.',
     options: ['10.0', '15.0', '75.0', '150.0'],
     correctAnswer: 3,
@@ -6619,7 +6619,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p23',
+    id: 'q_0600',
     text: 'The output power in step-up transformer used in practice is __________.',
     options: ['Greater than the input power', 'Equal to the input power', 'Less than the input power', 'None of these'],
     correctAnswer: 2,
@@ -6630,7 +6630,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p24',
+    id: 'q_0601',
     text: 'A lamp consumes only 50% of maximum power applied in an A.C. circuit. What will be the phase difference between applied voltage and circuit current?',
     options: ['π/6 rad', 'π/3 rad', 'π/4 rad', 'π/2 rad'],
     correctAnswer: 1,
@@ -6641,7 +6641,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p25',
+    id: 'q_0602',
     text: 'An electric current has both D.C. and A.C. Components. D.C. Component of 8A and A.C. Component is given as I = 6 sinwt A. So I_rms value of resultant current is ____________.',
     options: ['8.05 A', '9.05 A', '11.58 A', '13.58 A'],
     correctAnswer: 1,
@@ -6652,7 +6652,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p36',
+    id: 'q_0603',
     text: 'The frequency of the output signal becomes ____________ times by doubling the value of the capacitance in the LC oscillator circuit.',
     options: ['1/√2', '√2', '1/2', '2'],
     correctAnswer: 0,
@@ -6663,7 +6663,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p26',
+    id: 'q_0604',
     text: 'The wave length of the short radio waves, micro waves, ultraviolet waves are λ₁, λ₂ and λ₃ respectively. Arrange them in decreasing order.',
     options: ['λ₁, λ₃, λ₂', 'λ₁, λ₂, λ₃', 'λ₃, λ₂, λ₁', 'λ₂, λ₁, λ₃'],
     correctAnswer: 1,
@@ -6674,7 +6674,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p27',
+    id: 'q_0605',
     text: 'The unit of permeability of Vacuum (μ₀) is ____________.',
     options: ['N/A', 'N/A²', 'NA', 'J/A²'],
     correctAnswer: 1,
@@ -6685,7 +6685,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p15',
+    id: 'q_0606',
     text: 'Antistokes lines in Raman Scattering are the lines of ____________ frequency and ____________ wavelength.',
     options: ['low, high', 'low, low', 'high, high', 'high, low'],
     correctAnswer: 3,
@@ -6696,7 +6696,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p16',
+    id: 'q_0607',
     text: 'The time taken by the sunlight to reach the bottom of a tank of depth 4.5m filled completely with water is _________ ns. The refractive index of water is 4/3.',
     options: ['2', '20', '1.5', '200'],
     correctAnswer: 1,
@@ -6707,7 +6707,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p17',
+    id: 'q_0608',
     text: 'A plano convex lens fits exactly into plano concave lens. Their plane surfaces are parallel to each other. If the lens are made of different materials of refractive indices 1.6 & 1.5 respectively. If R is the radius of curvature of curved surfaces of lenses. Then the focal length of the combination is:',
     options: ['R/6.2', 'R/0.2', 'R/3.1', 'R/0.1'],
     correctAnswer: 3,
@@ -6718,7 +6718,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p28',
+    id: 'q_0609',
     text: 'In Young\'s double slit experiment, if the width of 4th bright fringe is 2 × 10⁻² cm, then the width of 6th bright fringe will be ____________ cm.',
     options: ['10⁻²', '3 × 10⁻²', '2 × 10⁻²', '1.5 × 10⁻²'],
     correctAnswer: 2,
@@ -6729,7 +6729,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p29',
+    id: 'q_0610',
     text: 'Unpolarized light falls first on polarizer (P) and then on analyzer (A). If the intensity of the transmitted light from the analyzer is 1/8 th of the incident unpolarized light. What will be the angle between optic axes of P & A?',
     options: ['30°', '45°', '0°', '60°'],
     correctAnswer: 3,
@@ -6740,7 +6740,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p30',
+    id: 'q_0611',
     text: 'The diameter of the pupil of human eye is 2.5 mm. Assuming the wave length of light used is 5000 Å. What must be the minimum distance between two point like objects to be seen clearly if they are at a distance of 5 m from the eye?',
     options: ['1.34 × 10⁻³ m', '1.22 × 10⁻³ m', '1.5 × 10⁻³ m', '1.6 × 10⁻³ m'],
     correctAnswer: 1,
@@ -6751,7 +6751,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p32',
+    id: 'q_0612',
     text: 'The wave length of X-rays is in the range:',
     options: ['0.001 nm to 1 nm', '0.001Å to 1Å', '0.001 μm to 1 μm', '0.001 cm to 1 cm'],
     correctAnswer: 0,
@@ -6762,7 +6762,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p31',
+    id: 'q_0613',
     text: 'If λ₁ and λ₂ are the wave length of the first numbers of the Lyman and Paschen series respectively. Then λ₁ : λ₂ = __________.',
     options: ['1:3', '1:30', '7:50', '7:108'],
     correctAnswer: 3,
@@ -6773,7 +6773,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p18',
+    id: 'q_0614',
     text: 'A body of mass 100 g moves at the speed of 36 km/hr. The de Broglie wave length related to it is of the order ____________ m (h = 6.626 × 10⁻³⁴ Js)',
     options: ['10⁻¹⁴', '10⁻²⁴', '10⁻³⁴', '10⁻⁴⁴'],
     correctAnswer: 2,
@@ -6784,7 +6784,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p19',
+    id: 'q_0615',
     text: 'If the kinetic energy of free electron is made double, the new de Broglie wave length will be ____________ times that of initial wave length.',
     options: ['√2', '1/√2', '2', '1/2'],
     correctAnswer: 1,
@@ -6795,7 +6795,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p20',
+    id: 'q_0616',
     text: 'Threshold wave length for lithium metal is 6250 Å. For photo emission, the wave length of the incident light must be ____________.',
     options: ['More than 6250 Å', 'Exactly equal to 6250 Å', 'Equal to or more than 6250 Å', 'Equal to or less than 6250 Å'],
     correctAnswer: 3,
@@ -6806,7 +6806,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p33',
+    id: 'q_0617',
     text: 'In the radio active transformation ₓXᴬ → ₓ₊₁X₁ᴬ → ₓ₋₁X₂ᴬ⁻⁴ → ₓ₋₃X₃ᴬ⁻⁸. Which are successively emitted radioactive radiations?',
     options: ['α, β⁻, β⁻', 'β⁻, α, β⁻', 'β⁻, α, α', 'α, β⁻, α'],
     correctAnswer: 2,
@@ -6817,7 +6817,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p34',
+    id: 'q_0618',
     text: 'The binding energy per nucleon of ₈O¹⁶ is 7.97 MeV and that of ₈O¹⁷ is 7.75 MeV. The energy required to remove one neutron from ₈O¹⁷ is ________ MeV.',
     options: ['3.52', '3.62', '4.23', '7.86'],
     correctAnswer: 2,
@@ -6828,7 +6828,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p35',
+    id: 'q_0619',
     text: 'The half life of a radio active substance is 20 days. If 2/3 part of the substance has decayed in time t₂ and 1/3 part of it has decayed in time t₁ then the time interval between t₂ and t₁ is (t₂ − t₁) = ____________.',
     options: ['5 days', '10 days', '20 days', '40 days'],
     correctAnswer: 2,
@@ -6839,7 +6839,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p37',
+    id: 'q_0620',
     text: 'In a zener diode, the reverse bias voltage is 3V and the width of the depletion region is 300 A°, the electric field intensity will be ____________ V/cm.',
     options: ['10⁴', '10⁶', '10⁸', '10⁻²'],
     correctAnswer: 1,
@@ -6850,7 +6850,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p38',
+    id: 'q_0621',
     text: 'The collector supply voltage in CE transistor amplifier is 10V. The base current is 10 μA in the absence of the signal voltage and the voltage between the collector and the emitter is 4V. The current gain (β) of a transistor is 200, then the value of the load resistance R_L is:',
     options: ['1 KΩ', '2 KΩ', '3 KΩ', '4 KΩ'],
     correctAnswer: 2,
@@ -6861,7 +6861,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_p39',
+    id: 'q_0622',
     text: 'The range of frequency of audio signal is ____________.',
     options: ['0 to 2 KHz', '20 Hz to 20 MHz', '20 Hz to 20 KHz', '20 KHz to 200 KHz'],
     correctAnswer: 2,
@@ -6872,7 +6872,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_p40',
+    id: 'q_0623',
     text: 'For an amplitude modulated wave, the maximum amplitude is found to be 12V and minimum amplitude is found to be 4V. The modulation index of this wave is ____________ %.',
     options: ['25', '50', '75', '20'],
     correctAnswer: 1,
@@ -6883,7 +6883,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c41',
+    id: 'q_0624',
     text: 'The atoms of element \'Y\' form hexagonal close packing and the atoms of element X occupies 2/3 portion of the number of tetrahedral voids. Write the formula of the compound formed by X and Y.',
     options: ['X₂Y₃', 'X₂Y', 'X₃Y₄', 'X₄Y₃'],
     correctAnswer: 3,
@@ -6894,7 +6894,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c42',
+    id: 'q_0625',
     text: 'What is the difference between the number of atoms per unit cell in face centred cube and the number of atoms per unit cell in body centred cube?',
     options: ['2', '1', '4', '6'],
     correctAnswer: 0,
@@ -6905,7 +6905,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c43',
+    id: 'q_0626',
     text: 'What will be the value of molality for an aqueous solution of 10% w/w NaOH. (Na = 23, O = 16, H = 1)',
     options: ['2.778', '5', '10', '2.5'],
     correctAnswer: 0,
@@ -6916,7 +6916,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c44',
+    id: 'q_0627',
     text: 'From the given graph at constant temperature, which gas has the least solubility?',
     options: ['gas-D', 'gas-B', 'gas-A', 'gas-C'],
     correctAnswer: 2,
@@ -6927,7 +6927,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c45',
+    id: 'q_0628',
     text: 'If 10 ml of 0.1 M aqueous solution of NaCl is divided into 1000 drops of equal volume, what will be the concentration of one drop?',
     options: ['0.01 M', '0.10 M', '0.001 M', '0.0001 M'],
     correctAnswer: 1,
@@ -6938,7 +6938,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c46',
+    id: 'q_0629',
     text: 'Which of the following will give H₂(g) at cathode and O₂(g) at anode on electrolysis using platinum electrodes?',
     options: ['molten NaCl', 'concentrated aq. solution of NaCl', 'dilute aq. solution of NaCl', 'solid NaCl'],
     correctAnswer: 2,
@@ -6949,7 +6949,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c47',
+    id: 'q_0630',
     text: 'Which of the following statement is incorrect with respect to metallic or electronic conductivity?',
     options: ['metallic conductivity depends on the structure of metal and its characteristics', 'metallic conductivity depends on the number of electrons in the valence shell of atom of metal', 'The electrical conductivity of metal increases with increase in temperature', 'There is no change in the structure of metal during electrical conduction'],
     correctAnswer: 2,
@@ -6960,7 +6960,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c48',
+    id: 'q_0631',
     text: 'Which of the following is concentration cell?',
     options: ['Cu(s)/Cu²⁺(aq,1M) // Cu²⁺(aq,1M)/Cu(s)', 'Cu(s)/Cu²⁺(aq,0.5M) // Cu²⁺(aq,0.5M)/Cu(s)', 'Zn(s)/Zn²⁺(aq,0.5M) // Cu²⁺(aq,0.1M)/Cu(s)', '⊕Pt/H₂(g,1bar)/HCl(aq,0.002M) // HCl(aq,0.005M)/H₂(g,1bar)/Pt⊕'],
     correctAnswer: 3,
@@ -6971,7 +6971,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c49',
+    id: 'q_0632',
     text: 'Which of the following metal is purified by Mond Carbonyl method?',
     options: ['Zr', 'Ti', 'Ge', 'Ni'],
     correctAnswer: 3,
@@ -6982,7 +6982,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c50',
+    id: 'q_0633',
     text: 'Which oxide is colourless and neutral?',
     options: ['N₂O', 'N₂O₃', 'N₂O₄', 'N₂O₅'],
     correctAnswer: 0,
@@ -6993,7 +6993,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c51',
+    id: 'q_0634',
     text: 'What is the geometrical shape of XeO₃?',
     options: ['Planar triangular', 'Trigonal pyramidal', 'Square planar', 'Tetrahydral'],
     correctAnswer: 1,
@@ -7004,7 +7004,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c52',
+    id: 'q_0635',
     text: 'Aqueous solution of which of the following acid can not be kept in glass bottle?',
     options: ['HF', 'HI', 'HCl', 'HBr'],
     correctAnswer: 0,
@@ -7015,7 +7015,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c53',
+    id: 'q_0636',
     text: 'Which of the following is the correct order for strength of C−X bond.',
     options: ['CH₃F > CH₃Cl > CH₃Br > CH₃I', 'CH₃F < CH₃Cl < CH₃Br < CH₃I', 'CH₃I > CH₃F > CH₃Cl > CH₃Br', 'CH₃Cl > CH₃Br > CH₃F > CH₃I'],
     correctAnswer: 0,
@@ -7026,7 +7026,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c54',
+    id: 'q_0637',
     text: 'Which one is the Swartz reaction from the following?',
     options: ['CH₃Cl + NaI → CH₃I + NaCl', 'CH₃Br + NaI → CH₃I + NaBr', 'CH₃Br + AgF → CH₃F + AgBr', '2CH₃Cl + 2Na → CH₃·CH₃ + 2NaCl'],
     correctAnswer: 2,
@@ -7037,7 +7037,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c55',
+    id: 'q_0638',
     text: 'Which of the following statement is incorrect for bimolecular nucleophylic substitution reaction (SN²)?',
     options: ['It is a second order reaction', 'In SN² reaction the substrate does not undergo heterolytic fission', 'The rate of SN² reaction does not depends on concentrations of both substrate and nucleophilic reagent', 'SN² reaction occurs in single step without forming intermediate'],
     correctAnswer: 2,
@@ -7048,7 +7048,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c56',
+    id: 'q_0639',
     text: 'Which of the following alcohol has highest solubility in water?',
     options: ['Secondary butyl alcohol', 'Tertiary butyl alcohol', 'Ethelene glycol', 'Glycerol'],
     correctAnswer: 3,
@@ -7059,7 +7059,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c57',
+    id: 'q_0640',
     text: 'In which of the following reactions of alcohol there is no cleavage of C−O bond?',
     options: ['Oxidation reaction of alcohol', 'Dehydration reaction of alcohol', 'Reduction reaction of alcohol', 'Reaction of alcohol with phosphorous tribromide'],
     correctAnswer: 0,
@@ -7070,7 +7070,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c58',
+    id: 'q_0641',
     text: 'Which one of the following compounds do not give a primary alcohol on reduction?',
     options: ['Propanoic acid', 'Propanal', 'Methyl propanoate', 'Propan-2-one'],
     correctAnswer: 3,
@@ -7081,7 +7081,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c70',
+    id: 'q_0642',
     text: 'Which of following is the correct order of acidic strength?',
     options: ['CH₃COOH > ClCH₂COOH > Cl₂CHCOOH > Cl₃CCOOH', 'Cl₃CCOOH > Cl₂CHCOOH > ClCH₂COOH > CH₃COOH', 'CH₃COOH > Cl₃CCOOH > Cl₂CHCOOH > ClCH₂COOH', 'CH₃COOH > ClCH₂COOH > Cl₂CHCOOH > Cl₃CCOOH'],
     correctAnswer: 1,
@@ -7092,7 +7092,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c71',
+    id: 'q_0643',
     text: 'The solution of Fehling B contains ____________.',
     options: ['Alkaline sodium potassium citrate', 'Acidified Rochelle salt', 'Alkaline sodium potassium tartarate', 'Acidified sodium potassium citrate'],
     correctAnswer: 2,
@@ -7103,7 +7103,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c72',
+    id: 'q_0644',
     text: 'Which of the following compound does not react with concentrated alkali to give corresponding alcohol and salt of carboxylic acid?',
     options: ['Benzaldehyde', 'Trimethyl acetaldehyde', 'Dimethyl acetaldehyde', 'Formaldehyde'],
     correctAnswer: 2,
@@ -7114,7 +7114,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c73',
+    id: 'q_0645',
     text: 'Which of the following reaction does not occur?',
     options: ['Tri propyl amine + benzene sulphonyl chloride', 'Di propyl amine + benzene sulphonyl chloride', 'Propyl amine + benzene sulphonyl chloride', 'Propyl amine + p-toluene sulphonyl chloride'],
     correctAnswer: 0,
@@ -7125,7 +7125,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c74',
+    id: 'q_0646',
     text: 'Presently which reagent is used for separation of 1°, 2° and 3° amines?',
     options: ['p-toluene sulphonyl chloride', 'Benzene sulphonyl chloride', 'p-Amino benzene sulphonyl chloride', 'm-toluene sulphonyl chloride'],
     correctAnswer: 0,
@@ -7136,7 +7136,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c75',
+    id: 'q_0647',
     text: 'Which vitamin is not obtained from plants?',
     options: ['Thiamine', 'Cyanocobalamine', 'Pyridoxine', 'α-Tocopherol'],
     correctAnswer: 1,
@@ -7147,7 +7147,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c76',
+    id: 'q_0648',
     text: 'When sucrose is heated to 483 K temperature, it loses water and forms a brown amorphous substance called __________.',
     options: ['Aspartame', 'Caramel', 'Alitame', 'Sucrolose'],
     correctAnswer: 1,
@@ -7158,7 +7158,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c77',
+    id: 'q_0649',
     text: 'Which of the following amino acid is neutral?',
     options: ['Glycine', 'Aspartic acid', 'Lysine', 'Arginine'],
     correctAnswer: 0,
@@ -7169,7 +7169,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c78',
+    id: 'q_0650',
     text: 'Which of the following polymer form net like structure?',
     options: ['Polythene', 'Butyl rubber', 'Polystyrene', 'Melamine polymer'],
     correctAnswer: 3,
@@ -7180,7 +7180,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c79',
+    id: 'q_0651',
     text: 'Which of the following pair of monomers are used in preparation of PHBV?',
     options: ['β-Hydroxy butyric acid, β-hydroxy valeric acid', 'β-Hydroxy valeric acid, Amino caproic acid', 'β-Hydroxy butyric acid, Adipic acid', 'Lactic acid, Adipic acid'],
     correctAnswer: 0,
@@ -7191,7 +7191,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c80',
+    id: 'q_0652',
     text: 'Which of the following is useful as a food preservative?',
     options: ['Salts of sorbic acid', 'Sucrolose', 'Ascorbic acid', 'Citric acid'],
     correctAnswer: 0,
@@ -7202,7 +7202,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c62',
+    id: 'q_0653',
     text: 'Which of the following statement is incorrect for physical adsorption?',
     options: ['Monomolecular layer forms on the adsorbent', 'It is instantaneous', 'Less activation energy is required for it', 'Generally it results at low temperature and adsorption decreases with increase in temperature'],
     correctAnswer: 0,
@@ -7213,7 +7213,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c63',
+    id: 'q_0654',
     text: 'Name the catalyst [X] for the reaction, CO(g) + H₂(g) →[X] HCHO(g).',
     options: ['Ni', 'Cu', 'Cu/ZnO', 'Cu/Cr₂O₃'],
     correctAnswer: 1,
@@ -7224,7 +7224,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c59',
+    id: 'q_0655',
     text: 'The half life period for a first order reaction is ____________.',
     options: ['Proportional to concentration', 'Independent of concentration', 'Inversely proportional to concentration', 'Inversely proportional to the square of the concentration'],
     correctAnswer: 1,
@@ -7235,7 +7235,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c60',
+    id: 'q_0656',
     text: 'According to Arrhenius equation, the slope of log k → 1/T plot is _______.',
     options: ['−Ea/2.303', '−Ea/2.303R', '−Ea/2.303RT', 'Ea/2.303RT'],
     correctAnswer: 1,
@@ -7246,7 +7246,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c61',
+    id: 'q_0657',
     text: 'The value of rate constant for a first order reaction is 2.303 × 10⁻² sec⁻¹. What will be the time required to reduce the concentration to 1/10 th of its initial concentration?',
     options: ['10 second', '100 second', '2303 second', '230.3 second'],
     correctAnswer: 1,
@@ -7257,7 +7257,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c64',
+    id: 'q_0658',
     text: 'Which of the following is a transition element as per the ground state electronic configuration?',
     options: ['Au', 'Hg', 'Cd', 'Zn'],
     correctAnswer: 0,
@@ -7268,7 +7268,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c65',
+    id: 'q_0659',
     text: 'Which of the following option is the correct order for the basic strength of metallic hydroxides?',
     options: ['Al(OH)₃ < Lu(OH)₃ < Ce(OH)₃ < Ca(OH)₂', 'Ca(OH)₂ < Al(OH)₃ < Lu(OH)₃ < Ce(OH)₃', 'Lu(OH)₃ < Ce(OH)₃ < Al(OH)₃ < Ca(OH)₂', 'Lu(OH)₃ < Ce(OH)₃ < Ca(OH)₂ < Al(OH)₃'],
     correctAnswer: 0,
@@ -7279,7 +7279,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2016_c66',
+    id: 'q_0660',
     text: 'Which of the following compound is used in gas lighter?',
     options: ['CeO₂', 'Pyrophoric Misch metal', 'Nichrome', 'Nitinol'],
     correctAnswer: 1,
@@ -7290,7 +7290,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2016_c67',
+    id: 'q_0661',
     text: 'Which of the following complex does not show optical isomerism?',
     options: ['[Cr(C₂O₄)₃]³⁻', 'Cis [Pt(Br)₂(en)₂]²⁺', '[CrCl₂(NH₃)₂en]⁺', '[Cr(NH₃)₄SO₄]⁺'],
     correctAnswer: 3,
@@ -7301,7 +7301,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c68',
+    id: 'q_0662',
     text: 'Which of the following complex ion has least stability?',
     options: ['[Co(CN)₆]³⁻', '[Co(NH₃)₆]²⁺', '[Co(NH₃)₆]³⁺', '[Co(CO)₆]³⁺'],
     correctAnswer: 1,
@@ -7312,7 +7312,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2016_c69',
+    id: 'q_0663',
     text: 'Which of the following ligand possesses only one co-ordination site?',
     options: ['O²⁻', 'CO₃²⁻', 'SO₄²⁻', '[OX]²⁻'],
     correctAnswer: 0,
@@ -7324,7 +7324,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2014 Physics
   {
-    id: 'gujcet2014_p4',
+    id: 'q_0664',
     text: 'There exists an electric field of 1 N/C along Y direction. The flux passing through the square of 1 m placed in XY plane inside the electric field is .....',
     options: ['1.0 Nm²/C', '10.0 Nm²/C', '2.0 Nm²/C', 'Zero'],
     correctAnswer: 3,
@@ -7335,7 +7335,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p6',
+    id: 'q_0665',
     text: 'The Gaussian surface for calculating the electric field due to a charge distribution is ....',
     options: [
       'any surface near the charge distribution.',
@@ -7351,7 +7351,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p1',
+    id: 'q_0666',
     text: 'A hollow metal sphere of radius 10 cm is charged such that the potential on its surface becomes 80 volt. The potential at the centre of the sphere is ....',
     options: ['80 volt', '800 volt', '8 volt', 'Zero'],
     correctAnswer: 0,
@@ -7362,7 +7362,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p2',
+    id: 'q_0667',
     text: 'Charges 5 μC and 10 μC are placed 1 m apart. Work done to bring these charges at a distance 0.5 m from each other is ....... (K = 9×10⁹ S.I.)',
     options: ['9×10⁴ J', '18×10⁴ J', '45×10⁻² J', '9×10⁻¹ J'],
     correctAnswer: 2,
@@ -7373,7 +7373,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p3',
+    id: 'q_0668',
     text: 'The unit of physical quantity obtained by the line integral of electric field is ...',
     options: ['NC⁻¹', 'Vm⁻¹', 'JC⁻¹', 'C²N⁻¹m⁻²'],
     correctAnswer: 2,
@@ -7384,7 +7384,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p5',
+    id: 'q_0669',
     text: 'Charge q₂ of mass m revolves around a stationary charge q₁ in a circular orbit of radius r. The orbital periodic time of q₂ would be ..........',
     options: ['[4π²mr³/kq₁q₂]^½', '[kq₁q₂/4π²mr³]^½', '[4π²mr⁴/kq₁q₂]^½', '[4π²mr²/kq₁q₂]^½'],
     correctAnswer: 0,
@@ -7395,7 +7395,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_p7',
+    id: 'q_0670',
     text: 'To send 10% of main current through a Moving Coil Galvanometer of resistance 99 Ω, shunt required is .......',
     options: ['9 Ω', '11 Ω', '10 Ω', '9.9 Ω'],
     correctAnswer: 1,
@@ -7406,7 +7406,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p8',
+    id: 'q_0671',
     text: 'The resistance of ideal Voltmeter is .......',
     options: ['Zero', 'Greater than zero but finite value.', 'Infinite', '5000 Ω'],
     correctAnswer: 2,
@@ -7417,7 +7417,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p10',
+    id: 'q_0672',
     text: 'The maximum power dissipated in an external resistance R, when connected to a cell of emf E and internal resistance r, will be ......',
     options: ['E²/r', 'E²/2r', 'E²/3r', 'E²/4r'],
     correctAnswer: 3,
@@ -7428,7 +7428,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p12',
+    id: 'q_0673',
     text: 'The masses of the three wires of Copper are in the ratio 5:3:1 and their lengths are in the ratio 1:3:5. The ratio of their electrical resistances is ......',
     options: ['5:3:1', '√125:15:1', '1:15:125', '1:3:5'],
     correctAnswer: 2,
@@ -7439,7 +7439,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_p13',
+    id: 'q_0674',
     text: 'The equivalent resistance between A and B in the given circuit is ......',
     options: ['3 Ω', '6 Ω', '12 Ω', '1.5 Ω'],
     correctAnswer: 3,
@@ -7450,7 +7450,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p9',
+    id: 'q_0675',
     text: 'The emf of a thermocouple, cold junction of which is kept at –300°C is given by E = 40t + (1/10)t². The temperature of inversion of thermocouple will be ......',
     options: ['200°C', '400°C', '–200°C', '–100°C'],
     correctAnswer: 3,
@@ -7461,7 +7461,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_p11',
+    id: 'q_0676',
     text: 'A magnetic wire of dipole moment 4π Am² is bent in the form of semi-circle. The new magnetic moment is .......',
     options: ['4π Am²', '8π Am²', '4 Am²', 'None of these'],
     correctAnswer: 3,
@@ -7472,7 +7472,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p14',
+    id: 'q_0677',
     text: 'The magnetic field due to short bar magnet of magnetic dipole moment M and length 2l, on the axis at a distance z (where z >> l) from the centre of the magnet is given by formula ......',
     options: ['(μ₀M/4πz³) M̂', '(2μ₀M/4πz³) M̂', '(4πM/μ₀z³) M̂', '(μ₀M/2πz³) M̂'],
     correctAnswer: 1,
@@ -7483,7 +7483,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p15',
+    id: 'q_0678',
     text: 'Resultant force acting on a diamagnetic material in a magnetic field is in direction ..........',
     options: [
       'from stronger to the weaker part of the magnetic field.',
@@ -7499,7 +7499,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p16',
+    id: 'q_0679',
     text: 'Magnetic flux of 10 μ Wb is linked with a coil, when a current of 2 mA flows through it. What is the self inductance of the coil?',
     options: ['10 mH', '5 mH', '15 mH', '20 mH'],
     correctAnswer: 1,
@@ -7510,7 +7510,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p17',
+    id: 'q_0680',
     text: 'What is the self inductance of a solenoid of length 31.4 cm, area of cross section 10⁻³ m² and total number of turns 10³?',
     options: ['4 mH', '4 H', '40 H', '0.4 H'],
     correctAnswer: 0,
@@ -7521,7 +7521,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p18',
+    id: 'q_0681',
     text: 'What should be the value of self inductance of an inductor that should be connected to 220 V, 50 Hz supply so that a maximum current of 0.9 A flows through it?',
     options: ['11 H', '2 H', '1.1 H', '5 H'],
     correctAnswer: 2,
@@ -7532,7 +7532,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p19',
+    id: 'q_0682',
     text: 'The peak value of an alternating current is 5 A and its frequency is 60 Hz. Find its rms value and time taken to reach the peak value of current starting from zero.',
     options: ['3.536 A ; 4.167 ms', '3.536 A ; 15 ms', '6.07 A ; 10 ms', '2.536 A ; 4.167 ms'],
     correctAnswer: 0,
@@ -7543,7 +7543,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p20',
+    id: 'q_0683',
     text: 'A bar magnet is placed in the position of stable equilibrium in a uniform magnetic field of induction B. If it is rotated through an angle 180°, then the work done is .............. (M = Magnetic Dipole moment of Bar magnet)',
     options: ['MB', '2 MB', 'MB/2', 'Zero'],
     correctAnswer: 1,
@@ -7554,7 +7554,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p23',
+    id: 'q_0684',
     text: 'In Hertz\'s experiment, the rods connected with an induction coil behave as ....',
     options: ['an inductor', 'capacitor', 'resistor', 'an induction coil'],
     correctAnswer: 0,
@@ -7565,7 +7565,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p21',
+    id: 'q_0685',
     text: 'Refractive index of the material of a prism is 1.5. If δₘ = A, what will be a value of angle of the given prism? (where δₘ = minimum deviation; A = angle of prism)',
     options: ['82.8°', '41.4°', '48.6°', '90°'],
     correctAnswer: 0,
@@ -7576,7 +7576,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_p22',
+    id: 'q_0686',
     text: 'Where should a person stand straight from the pole of a convex mirror of focal length 2.0 m on its axis so that the image formed become half of his original height?',
     options: ['–2.60 m', '–4.0 m', '–0.5 m', '–2.0 m'],
     correctAnswer: 3,
@@ -7587,7 +7587,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p24',
+    id: 'q_0687',
     text: 'A transparent plastic bag filled with air forms a concave lens. Now, if this bag is completely immersed in water, then it behaves as ........',
     options: ['Divergent lens', 'Convergent lens', 'Equilateral prism', 'Rectangular slab'],
     correctAnswer: 1,
@@ -7598,7 +7598,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p25',
+    id: 'q_0688',
     text: 'A microscope is focussed on an ink mark on the top of a table. If we place a glass slab of 3 cm thick on it, how should the microscope be moved to focus the ink spot again? The refractive index of glass is 1.5.',
     options: ['2 cm upwards', '2 cm downwards', '1 cm upwards', '1 cm downwards'],
     correctAnswer: 2,
@@ -7609,7 +7609,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p27',
+    id: 'q_0689',
     text: 'Given figures show the arrangements of two lenses. The radii of curvature of all the curved surfaces are same. The ratio of the equivalent focal length of combinations P, Q and R is .........',
     options: ['1:1:1', '1:1:–1', '2:1:1', '2:1:2'],
     correctAnswer: 0,
@@ -7620,7 +7620,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_p26',
+    id: 'q_0690',
     text: 'A Young\'s double slit set up for interference is shifted from air to within water, then the fringe width ..........',
     options: ['Becomes infinite', 'Decreases', 'Increases', 'Remain unchanged'],
     correctAnswer: 1,
@@ -7631,7 +7631,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p28',
+    id: 'q_0691',
     text: 'An electron is accelerated under a potential difference of 182 V. The maximum velocity of electron will be .......... (Charge of electron is 1.6×10⁻¹⁹ C and its mass is 9.1×10⁻³¹ kg)',
     options: ['5.65×10⁶ m/s', '4×10⁶ m/s', '8×10⁶ m/s', '16×10⁶ m/s'],
     correctAnswer: 2,
@@ -7642,7 +7642,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p30',
+    id: 'q_0692',
     text: 'An electron and a proton are moving in the same direction with same kinetic energy. The ratio of the De Broglie wavelength associated with these particles is ..........',
     options: ['mₑ/mₚ', 'mₚ/mₑ', '√(mₚ/mₑ)', 'mₚ·mₑ'],
     correctAnswer: 2,
@@ -7653,7 +7653,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p31',
+    id: 'q_0693',
     text: 'A photosensitive metallic surface has work function φ. If photon of energy 3φ fall on this surface, the electron comes out with a maximum velocity of 6×10⁶ m/s. When the photon energy is increased to 9φ, then maximum velocity of photoelectron will be .......',
     options: ['12×10⁶ m/s', '6×10⁶ m/s', '3×10⁶ m/s', '24×10⁶ m/s'],
     correctAnswer: 0,
@@ -7664,7 +7664,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p29',
+    id: 'q_0694',
     text: 'The total energy of electron in the second excited state is –2 E. What is its potential energy in the same state with proper sign?',
     options: ['–2 E', '–4 E', '4 E', '–E'],
     correctAnswer: 1,
@@ -7675,7 +7675,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p33',
+    id: 'q_0695',
     text: 'According to the Bohr\'s atomic model, the relation between principal quantum number (n) and radius of orbit (r) is ......',
     options: ['r ∝ n²', 'r ∝ 1/n²', 'r ∝ 1/n', 'r ∝ n'],
     correctAnswer: 0,
@@ -7686,7 +7686,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p34',
+    id: 'q_0696',
     text: 'The frequency of a Photon having energy 100 eV is ....... Hz. (Take h = 6.62×10⁻³⁴ J s; 1 eV = 1.6×10⁻¹⁹ J)',
     options: ['2.417×10⁻¹⁶', '2.417×10¹⁶', '2.417×10¹⁷', '10.54×10¹⁷'],
     correctAnswer: 1,
@@ -7697,7 +7697,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p32',
+    id: 'q_0697',
     text: 'The radioactivity of a sample is I₁ at a time t₁ and I₂ at a time t₂. If the half life of the sample is τ½, then the number of nuclei that have disintegrated in the time t₂–t₁ is proportional to ........',
     options: ['I₁t₂ – I₂t₁', 'I₁ – I₂', '(I₁–I₂)/τ½', '(I₁–I₂)τ½'],
     correctAnswer: 3,
@@ -7708,7 +7708,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_p35',
+    id: 'q_0698',
     text: 'Reverse bias applied to a P-N junction diode .....',
     options: [
       'lowers the potential barrier.',
@@ -7724,7 +7724,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p36',
+    id: 'q_0699',
     text: 'The current gain of a common base transistor circuit is 0.96. On changing the emitter current by 10.0 mA, the change in the base current will be .........',
     options: ['9.6 mA', '0.4 mA', '19.6 mA', '24 mA'],
     correctAnswer: 1,
@@ -7735,7 +7735,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p39',
+    id: 'q_0700',
     text: 'Symbolic representation of NOR gate is .......',
     options: ['OR gate with bubble', 'AND gate', 'OR gate without bubble', 'AND gate with bubble'],
     correctAnswer: 0,
@@ -7746,7 +7746,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p37',
+    id: 'q_0701',
     text: 'What should be minimum length of antenna for efficient transmission of signals of wavelength λ?',
     options: ['λ/2', 'λ/3', 'λ/4', 'λ/5'],
     correctAnswer: 2,
@@ -7757,7 +7757,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_p38',
+    id: 'q_0702',
     text: 'What fraction of the surface area of Earth can be covered to establish communication by one geostationary satellite?',
     options: ['1/2', '1/3', '1/4', '1/8'],
     correctAnswer: 1,
@@ -7768,7 +7768,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_p40',
+    id: 'q_0703',
     text: 'A T.V. tower has a height 150 m. What is the total population covered by the T.V. tower, if the population density around the T.V. tower is 10³ km⁻²? Radius of the Earth is 6.4×10⁶ m.',
     options: ['60.288 lakhs', '40.192 lakhs', '100 lakhs', '20.228 lakhs'],
     correctAnswer: 0,
@@ -7779,7 +7779,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_c41',
+    id: 'q_0704',
     text: 'In a face centered cubic lattice, unit cell is shared equally by how many unit cells?',
     options: ['8', '4', '2', '6'],
     correctAnswer: 3,
@@ -7790,7 +7790,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c42',
+    id: 'q_0705',
     text: 'Which of the following is an example of network solid?',
     options: ['SO₂ (Solid)', 'I₂', 'Diamond', 'H₂O (Ice)'],
     correctAnswer: 2,
@@ -7801,7 +7801,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c43',
+    id: 'q_0706',
     text: 'Which of the following is a polar molecular solid?',
     options: ['Solid CO₂', 'Solid SO₂', 'Solid H₂O', 'Solid I₂'],
     correctAnswer: 1,
@@ -7812,7 +7812,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c44',
+    id: 'q_0707',
     text: 'Which of the following is not a colligative property?',
     options: ['Osmotic pressure', 'Elevation in boiling point', 'Depression in freezing point', 'Vapour pressure'],
     correctAnswer: 3,
@@ -7823,7 +7823,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c45',
+    id: 'q_0708',
     text: 'The osmotic pressure of a solution is 0.0821 atm at 300 K. Its concentration would be ....',
     options: ['0.01 M', '0.001 M', '0.0033 M', '0.033 M'],
     correctAnswer: 2,
@@ -7834,7 +7834,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c46',
+    id: 'q_0709',
     text: 'The van\'t Hoff factor (i) for a dilute aqueous solution of the strong electrolyte barium hydroxide is ....',
     options: ['0', '1', '2', '3'],
     correctAnswer: 3,
@@ -7845,7 +7845,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c47',
+    id: 'q_0710',
     text: 'The unit of molar conductivity is ....',
     options: ['S cm² mol⁻¹', 'S cm⁻¹ mol⁻¹', 'S cm² mol', 'S cm mol⁻¹'],
     correctAnswer: 0,
@@ -7856,7 +7856,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c48',
+    id: 'q_0711',
     text: 'The standard reduction potential of three metals X, Y and Z are 0.52 V, –2.87 V and –0.44 V respectively. The reducing power of these metals are in the order ....',
     options: ['X > Y > Z', 'X > Z > Y', 'Y > Z > X', 'Y > X > Z'],
     correctAnswer: 2,
@@ -7867,7 +7867,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c49',
+    id: 'q_0712',
     text: 'How many coulombs are required for the oxidation of 1 mol of H₂O to O₂?',
     options: ['96500 C', '1.93 × 10⁵ C', '4.825 × 10⁴ C', '3.86 × 10⁵ C'],
     correctAnswer: 1,
@@ -7878,7 +7878,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c50',
+    id: 'q_0713',
     text: 'For a first order reaction, the time required for 99.9% completion is .... times the time required for 50% completion.',
     options: ['2', '5', '10', '100'],
     correctAnswer: 2,
@@ -7889,7 +7889,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c51',
+    id: 'q_0714',
     text: 'The unit of rate constant for a zero order reaction is ....',
     options: ['s⁻¹', 'mol L⁻¹ s⁻¹', 'L mol⁻¹ s⁻¹', 'L² mol⁻² s⁻¹'],
     correctAnswer: 1,
@@ -7900,7 +7900,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c52',
+    id: 'q_0715',
     text: 'The activation energy of a reaction is 94.14 kJ/mol and the value of rate constant at 313 K is 1.8 × 10⁻⁵ s⁻¹. If the frequency factor is 4 × 10¹¹ s⁻¹, what is the value of rate constant at T → ∞?',
     options: ['1.8 × 10⁻⁵ s⁻¹', '4 × 10¹¹ s⁻¹', '94.14 × 10³ s⁻¹', '0'],
     correctAnswer: 1,
@@ -7911,7 +7911,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2014_c53',
+    id: 'q_0716',
     text: 'Which of the following is an example of associated colloid?',
     options: ['Soap solution', 'Starch solution', 'Gold sol', 'As₂S₃ sol'],
     correctAnswer: 0,
@@ -7922,7 +7922,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c54',
+    id: 'q_0717',
     text: 'The movement of colloidal particles under the influence of an electric field is called ....',
     options: ['Dialysis', 'Electrophoresis', 'Electro-osmosis', 'Tyndall effect'],
     correctAnswer: 1,
@@ -7933,7 +7933,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c55',
+    id: 'q_0718',
     text: 'Which of the following metal is refined by Mond\'s process?',
     options: ['Zr', 'Ti', 'Ni', 'Cu'],
     correctAnswer: 2,
@@ -7944,7 +7944,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c56',
+    id: 'q_0719',
     text: 'In the extraction of copper from its sulphide ore, the metal is finally obtained by the reduction of cuprous oxide with ....',
     options: ['Iron sulphide', 'Carbon monoxide', 'Copper (I) sulphide', 'Sulphur dioxide'],
     correctAnswer: 2,
@@ -7955,7 +7955,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c57',
+    id: 'q_0720',
     text: 'Which of the following is the strongest oxidizing agent?',
     options: ['F₂', 'Cl₂', 'Br₂', 'I₂'],
     correctAnswer: 0,
@@ -7966,7 +7966,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c58',
+    id: 'q_0721',
     text: 'The shape of XeF₄ is ....',
     options: ['Tetrahedral', 'Square planar', 'Pyramidal', 'Linear'],
     correctAnswer: 1,
@@ -7977,7 +7977,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c59',
+    id: 'q_0722',
     text: 'Which of the following does not exist?',
     options: ['PCl₅', 'NCl₅', 'AsCl₅', 'SbCl₅'],
     correctAnswer: 1,
@@ -7988,7 +7988,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c60',
+    id: 'q_0723',
     text: 'The oxidation state of central atom in Hypophosphorous acid is ....',
     options: ['+3', '+5', '+1', '–3'],
     correctAnswer: 2,
@@ -7999,7 +7999,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c61',
+    id: 'q_0724',
     text: 'Which of the following ion is colorless in aqueous solution?',
     options: ['Ti³⁺', 'V³⁺', 'Sc³⁺', 'Cr³⁺'],
     correctAnswer: 2,
@@ -8010,7 +8010,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c62',
+    id: 'q_0725',
     text: 'The magnetic moment of a divalent ion in aqueous solution of an element with atomic number 25 is ....',
     options: ['2.84 BM', '3.87 BM', '4.90 BM', '5.92 BM'],
     correctAnswer: 3,
@@ -8021,7 +8021,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c63',
+    id: 'q_0726',
     text: 'The IUPAC name of [Co(NH₃)₅(CO₃)]Cl is ....',
     options: [
       'Pentaamminecarbonatocobalt(III) chloride',
@@ -8037,7 +8037,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c64',
+    id: 'q_0727',
     text: 'Which of the following complex will show geometrical isomerism?',
     options: ['[Pt(NH₃)₂Cl₂]', '[Co(NH₃)₅Cl]Cl₂', '[Ni(CO)₄]', '[Co(NH₃)₆]Cl₃'],
     correctAnswer: 0,
@@ -8048,7 +8048,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c65',
+    id: 'q_0728',
     text: 'Which of the following will have the highest boiling point?',
     options: ['Chloromethane', 'Bromomethane', 'Iodomethane', 'Fluoromethane'],
     correctAnswer: 2,
@@ -8059,7 +8059,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c66',
+    id: 'q_0729',
     text: 'The reaction of methyl bromide with silver fluoride gives methyl fluoride and silver bromide. This reaction is called ....',
     options: ['Finkelstein reaction', 'Swarts reaction', 'Wurtz reaction', 'Fitting reaction'],
     correctAnswer: 1,
@@ -8070,7 +8070,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c67',
+    id: 'q_0730',
     text: 'Which of the following is most acidic?',
     options: ['Phenol', 'o-Nitrophenol', 'm-Nitrophenol', 'p-Nitrophenol'],
     correctAnswer: 3,
@@ -8081,7 +8081,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c68',
+    id: 'q_0731',
     text: 'The enzyme which converts glucose into ethyl alcohol is ....',
     options: ['Diastase', 'Maltase', 'Zymase', 'Invertase'],
     correctAnswer: 2,
@@ -8092,7 +8092,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c69',
+    id: 'q_0732',
     text: 'Which of the following will not give Aldol condensation?',
     options: ['Acetaldehyde', 'Propionaldehyde', 'Formaldehyde', 'Acetone'],
     correctAnswer: 2,
@@ -8103,7 +8103,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c70',
+    id: 'q_0733',
     text: 'The reduction of benzoyl chloride with H₂/Pd-BaSO₄ gives ....',
     options: ['Benzyl alcohol', 'Benzaldehyde', 'Benzoic acid', 'Benzene'],
     correctAnswer: 1,
@@ -8114,7 +8114,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c71',
+    id: 'q_0734',
     text: 'Which of the following is the strongest acid?',
     options: ['CH₃COOH', 'ClCH₂COOH', 'Cl₂CHCOOH', 'Cl₃CCOOH'],
     correctAnswer: 3,
@@ -8125,7 +8125,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c72',
+    id: 'q_0735',
     text: 'Which of the following is most basic in aqueous solution?',
     options: ['Methylamine', 'Dimethylamine', 'Trimethylamine', 'Ammonia'],
     correctAnswer: 1,
@@ -8136,7 +8136,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c73',
+    id: 'q_0736',
     text: 'The reaction of aniline with nitrous acid at 273-278 K gives ....',
     options: ['Benzene', 'Nitrobenzene', 'Benzene diazonium chloride', 'Phenol'],
     correctAnswer: 2,
@@ -8147,7 +8147,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c74',
+    id: 'q_0737',
     text: 'Which of the following is a polysaccharide?',
     options: ['Glucose', 'Fructose', 'Sucrose', 'Cellulose'],
     correctAnswer: 3,
@@ -8158,7 +8158,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c75',
+    id: 'q_0738',
     text: 'Deficiency of Vitamin C causes ....',
     options: ['Rickets', 'Beri-beri', 'Scurvy', 'Night blindness'],
     correctAnswer: 2,
@@ -8169,7 +8169,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c76',
+    id: 'q_0739',
     text: 'Which of the following is a natural polymer?',
     options: ['Nylon-6,6', 'Terylene', 'Natural rubber', 'Buna-S'],
     correctAnswer: 2,
@@ -8180,7 +8180,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c77',
+    id: 'q_0740',
     text: 'The monomer of Teflon is ....',
     options: ['Vinyl chloride', 'Tetrafluoroethene', 'Styrene', 'Isoprene'],
     correctAnswer: 1,
@@ -8191,7 +8191,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c78',
+    id: 'q_0741',
     text: 'Which of the following is an analgesic?',
     options: ['Penicillin', 'Aspirin', 'Chloramphenicol', 'Equanil'],
     correctAnswer: 1,
@@ -8202,7 +8202,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2014_c79',
+    id: 'q_0742',
     text: 'Which of the following is a narrow spectrum antibiotic?',
     options: ['Penicillin G', 'Ampicillin', 'Amoxycillin', 'Chloramphenicol'],
     correctAnswer: 0,
@@ -8213,7 +8213,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2014_c80',
+    id: 'q_0743',
     text: 'Bithional is added to soap to impart .... properties.',
     options: ['Softening', 'Antiseptic', 'Fragrance', 'Color'],
     correctAnswer: 1,
@@ -8225,7 +8225,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2013 Physics
   {
-    id: 'gujcet2013_p1',
+    id: 'q_0744',
     text: 'For LCR ac series circuits, L = 25 mH, R = 3Ω, C = 62.5 μF. What is the frequency of the sources at which resonance occurs?',
     options: ['127.39 Hz', '35.40 Hz', '100 Hz', '21 Hz'],
     correctAnswer: 0,
@@ -8236,7 +8236,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p2',
+    id: 'q_0745',
     text: 'For a series LCR circuit with L = 2 H, C = 18 μF and R = 10 Ω. What is the value Q-factor of this circuit?',
     options: ['22.22', '55.55', '44.44', '33.33'],
     correctAnswer: 3,
@@ -8247,7 +8247,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p40',
+    id: 'q_0746',
     text: 'A 50 μF capacitor is connected to a 110V, 60 Hz ac supply. Determine the rms value of the current in the circuit.',
     options: ['5.2A', '2.5A', '3.8A', '2.1A'],
     correctAnswer: 3,
@@ -8258,7 +8258,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p3',
+    id: 'q_0747',
     text: 'What is Range of Radio Frequency Band of FM (Frequency Modulated Band)?',
     options: ['500 kHz to 1000 MHz', '54 MHz to 890 MHz', '530 kHz to 1710 kHz', '88 MHz to 108 MHz'],
     correctAnswer: 3,
@@ -8269,7 +8269,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p4',
+    id: 'q_0748',
     text: 'A plane electromagnetic wave of frequency 25 MHz travels in free space along the X-direction. At a particular point in space and time, where B = 2.1×10⁻⁸ k̂T then find E at this point?',
     options: ['−2.1 ĵ V/m', '6.3 ĵ V/m', '4.2 ĵ V/m', '−3.2 ĵ V/m'],
     correctAnswer: 1,
@@ -8280,7 +8280,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p5',
+    id: 'q_0749',
     text: 'Glass prism having a refractive index μ, placed in air, for that angle of minimum deviation of prism is same as angle of prism. Then what is value of angle of prism?',
     options: ['2cos⁻¹(μ/2)', '2cos⁻¹(μ)', 'cos⁻¹(μ/2)', 'cos⁻¹(μ)'],
     correctAnswer: 0,
@@ -8291,7 +8291,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2013_p6',
+    id: 'q_0750',
     text: 'The radii of curvature of the faces of a double convex lens are 10 cm and 15 cm. Its focal length is 12 cm. What is the refractive index of material of lens?',
     options: ['1.33', '1.62', '1.50', '2.42'],
     correctAnswer: 2,
@@ -8302,7 +8302,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p7',
+    id: 'q_0751',
     text: 'Find equivalent focal length due to combination of two convex lens are in contact having a focal length both of them 30 cm.',
     options: ['15 cm', '30 cm', '20 cm', '40 cm'],
     correctAnswer: 0,
@@ -8313,7 +8313,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p8',
+    id: 'q_0752',
     text: 'A tank is filled with water to a height of 16 cm. Find the apparent depth of a needle lying at the bottom of the tank is measured by a microscope. Refractive index of water (μw) is 4/3.',
     options: ['9.4 cm', '12.0 cm', '10.6 cm', '8.0 cm'],
     correctAnswer: 1,
@@ -8324,7 +8324,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p9',
+    id: 'q_0753',
     text: 'Estimate the distance for which ray optics is good approximation for an aperture of 5 mm and wavelength 500 nm?',
     options: ['40 m', '30 m', '50 m', '20 m'],
     correctAnswer: 2,
@@ -8335,7 +8335,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p10',
+    id: 'q_0754',
     text: 'The wavelength of light 500 nm is used in a Young\'s double-slit experiment. The distance between the slits and screen is 100 cm and the slits are separated by 1 mm. Then find distance between fifth (5th) and third (3rd) bright fringes.',
     options: ['1 mm', '3 mm', '2 mm', '4 mm'],
     correctAnswer: 0,
@@ -8346,7 +8346,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p11',
+    id: 'q_0755',
     text: 'Which of those metal having least work function (φ₀) among them?',
     options: ['Mo', 'Pb', 'Ca', 'Na'],
     correctAnswer: 3,
@@ -8357,7 +8357,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p12',
+    id: 'q_0756',
     text: 'What is the de-Broglie wavelength associated with an electron, accelerated through a potential difference of 64 volts? [h = 6.63 × 10⁻³⁴ J.s]',
     options: ['1.23 Å', '1.87 Å', '1.53 Å', '1.98 Å'],
     correctAnswer: 2,
@@ -8368,7 +8368,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p13',
+    id: 'q_0757',
     text: 'In photoelectrical effect, that the graph of stopping potential (V₀) versus frequency v is straight line. What will be the slope of this straight line?',
     options: ['e/h', 'V₀/e', 'h/e', 'v/h'],
     correctAnswer: 2,
@@ -8379,7 +8379,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p14',
+    id: 'q_0758',
     text: 'What is the shortest wavelength present in the Balmer series of spectral line? [Where R is Rydberg constant]',
     options: ['1/R', '3/R', '2/R', '4/R'],
     correctAnswer: 3,
@@ -8390,7 +8390,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p15',
+    id: 'q_0759',
     text: 'The radius of the innermost electron orbit of a hydrogen atom is 5.3 × 10⁻¹¹ m. What are the radii of the n = 4 orbit?',
     options: ['2.12 × 10⁻¹⁰ m', '8.48 × 10⁻¹⁰ m', '4.24 × 10⁻¹⁰ m', '10.6 × 10⁻¹⁰ m'],
     correctAnswer: 1,
@@ -8401,7 +8401,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p16',
+    id: 'q_0760',
     text: 'The ground state energy of hydrogen atom is −13.6 eV. What will be the kinetic energies of the electron?',
     options: ['13.6 eV', '27.2 eV', '−13.6 eV', '−27.2 eV'],
     correctAnswer: 0,
@@ -8412,7 +8412,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p17',
+    id: 'q_0761',
     text: 'How many neutrons will produced for a given following nuclear fission reaction?\n⁰₁n + ²³⁵₉₂U → ²³⁶₉₂U → ¹⁴⁴₅₆Ba + ⁸⁹₃₆Kr + (?)⁰₁n',
     options: ['1', '3', '2', '4'],
     correctAnswer: 1,
@@ -8423,7 +8423,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p18',
+    id: 'q_0762',
     text: 'Half-life time of a radioactive element is 16 years. How much time will taken to reduce its activity 16 part?',
     options: ['8 years', '32 years', '16 years', '64 years'],
     correctAnswer: 3,
@@ -8434,7 +8434,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p19',
+    id: 'q_0763',
     text: 'What should be the ratio of neutron and proton for stability of heavy nucleus?',
     options: ['1:1', '3:2', '2:1', '2:3'],
     correctAnswer: 1,
@@ -8445,7 +8445,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p20',
+    id: 'q_0764',
     text: 'What is energy band gap (Eg) for p-type and n-type semiconductor use to form a LED to produce a red light colour?',
     options: ['3 eV', '1.9 eV', '1.8 eV', '1.4 eV'],
     correctAnswer: 1,
@@ -8456,7 +8456,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p21',
+    id: 'q_0765',
     text: 'In full wave rectification Input Frequency 60 Hz. What will the output frequency for that?',
     options: ['50 Hz', '100 Hz', '60 Hz', '120 Hz'],
     correctAnswer: 3,
@@ -8467,7 +8467,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p22',
+    id: 'q_0766',
     text: 'In a given following electronic logic circuit it behaves at which logic operation. [Circuit shown: OR gate followed by NOT gate]',
     options: ['AND gate', 'NOT gate', 'OR gate', 'NAND gate'],
     correctAnswer: 2,
@@ -8478,7 +8478,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p23',
+    id: 'q_0767',
     text: 'Electrical field intensity due to an electric dipole on its axis at distance x(x >> a) and on the equatorial at distance y(y >> a) are same. What is the ratio of x and y?',
     options: ['∛2 : 1', '√2 : 1', '1 : ∛2', '1 : 2'],
     correctAnswer: 0,
@@ -8489,7 +8489,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p24',
+    id: 'q_0768',
     text: 'As shown in the following fig. an electron falls through a distance of 1.5 cm in a uniform electric field of magnitude 2.0 × 10⁴ NC⁻¹. Find the acceleration of the electron due to the electric field. [e = 1.6 × 10⁻¹⁹ C, mₑ = 9.1 × 10⁻³¹ kg]',
     options: ['2.90 × 10¹⁹ ms⁻²', '1.67 × 10²⁷ ms⁻²', '3.52 × 10¹⁵ ms⁻²', '6.62 × 10³⁴ ms⁻²'],
     correctAnswer: 2,
@@ -8500,7 +8500,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p25',
+    id: 'q_0769',
     text: 'Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of same signs and of magnitude 17.7 × 10⁻²² C/m². What is E in the outer region of the second plate?',
     options: ['4 × 10⁻¹⁰ NC⁻¹', '2 × 10⁻¹⁰ NC⁻¹', '1 × 10⁻¹⁰ NC⁻¹', 'Zero'],
     correctAnswer: 3,
@@ -8511,7 +8511,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p28',
+    id: 'q_0770',
     text: 'Which of the following are polar molecules?',
     options: ['[O₂, H₂]', '[N₂, O₂]', '[HCl, H₂O]', '[CH₄, CO₂]'],
     correctAnswer: 2,
@@ -8522,7 +8522,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p26',
+    id: 'q_0771',
     text: 'Which of the following option gives the Dimensional Formula of Electrical Potential?',
     options: ['[M⁻¹ L² T⁻³ A¹]', '[M⁰ L³ T³ A⁻¹]', '[M⁻¹ L⁻² T⁻⁴ A²]', '[M¹ L² T⁻³ A⁻¹]'],
     correctAnswer: 3,
@@ -8533,7 +8533,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p27',
+    id: 'q_0772',
     text: 'Find the equivalent capacitance between two points A & B, for given figure (electric circuit). [Capacitance of each capacitor is C = 3μF]',
     options: ['1 μF', '3 μF', '2 μF', '4 μF'],
     correctAnswer: 2,
@@ -8544,7 +8544,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p29',
+    id: 'q_0773',
     text: 'For the which value of Resistance R = _____ when galvanometer shows zero deflection for following below electrical circuit. [12V, 500Ω, 2V battery with galvanometer]',
     options: ['100 Ω', '300 Ω', '200 Ω', '400 Ω'],
     correctAnswer: 0,
@@ -8555,7 +8555,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p30',
+    id: 'q_0774',
     text: 'As following figure 2A current passing through a conducting wire, radius of cross-sectional of wire at point A is 3r and point B is r respectively. Then find the ratio of drift velocity at point A & B.',
     options: ['1/3', '3', '1/9', '9'],
     correctAnswer: 2,
@@ -8566,7 +8566,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p31',
+    id: 'q_0775',
     text: 'In a potentiometer arrangement, a cell of emf 1.5 V gives a Balance point at 150 cm length of the wire. If the cell is replaced by another cell and the balance point shifts to 210 cm, what is the emf of the second cell?',
     options: ['3.2 V', '1.2 V', '4.4 V', '2.1 V'],
     correctAnswer: 3,
@@ -8577,7 +8577,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p32',
+    id: 'q_0776',
     text: 'Circular loop having radius r, carrying current I, produces magnetic field at the centre loop is B. What will be the magnetic dipole moment of this loop?',
     options: ['4πBr³/μ₀', '2πBr³/μ₀', 'πBr³/μ₀', 'πBr³/4μ₀'],
     correctAnswer: 1,
@@ -8588,7 +8588,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p33',
+    id: 'q_0777',
     text: 'The horizontal component of the earth\'s magnetic field at a certain place is 3.0 × 10⁻⁵ T and the direction of the field is from the geographic south to the geographic north. A very long straight conductor is carrying a steady current of 2A. What is the force per unit length on it when it is placed on a horizontal table and the direction of the current is east to west?',
     options: ['3 × 10⁻⁵ N/m', '9 × 10⁻⁵ N/m', '6 × 10⁻⁵ N/m', '2 × 10⁻⁵ N/m'],
     correctAnswer: 2,
@@ -8599,7 +8599,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p34',
+    id: 'q_0778',
     text: 'A solenoid of length 0.5 m has a radius of 1 cm and is made up of 1000 turns. It carries a current of 10A. What is the magnitude of the magnetic field inside the solenoid?',
     options: ['6.28 × 10⁻³ T', '2.51 × 10⁻² T', '1.71 × 10⁻² T', '7.23 × 10⁻³ T'],
     correctAnswer: 1,
@@ -8610,7 +8610,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p35',
+    id: 'q_0779',
     text: 'At certain place on the surface of the earth, horizontal component of earth\'s magnetic field is same as vertical component of earth magnetic field, then what will be angle of dip at that place?',
     options: ['30°', '60°', '45°', '90°'],
     correctAnswer: 2,
@@ -8621,7 +8621,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p36',
+    id: 'q_0780',
     text: 'What is the magnitude of the equatorial fields due to a bar magnet of length 5.0 cm at a distance 75 cm from its mid point? The magnetic moment of the bar magnet is 0.75 Am².',
     options: ['3.2 × 10⁻⁷ T', '1.78 × 10⁻⁷ T', '6.4 × 10⁻⁷ T', '3.56 × 10⁻⁷ T'],
     correctAnswer: 1,
@@ -8632,7 +8632,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_p37',
+    id: 'q_0781',
     text: 'For a long current carrying solenoid having inside magnetic field is 0.6 T. Then find the magnetic energy per unit volume is _____.',
     options: ['1.43 × 10⁵ J/m³', '5.23 × 10⁴ J/m³', '2.86 × 10⁴ J/m³', 'Zero'],
     correctAnswer: 0,
@@ -8643,7 +8643,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2013_p38',
+    id: 'q_0782',
     text: 'The self inductance L of a solenoid of length l and area of cross-section A increases _____. (Here, with fixed number of turns N).',
     options: ['l and A increase', 'l increases and A decreases', 'l decreases and A increases', 'Both l and A decrease'],
     correctAnswer: 2,
@@ -8654,7 +8654,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_p39',
+    id: 'q_0783',
     text: 'A pair of adjacent coils has a mutual inductance of 1.5 H. If the current in one coil changes from 0 to 20 A in 0.5 sec. what is the change of flux linkage with the other coil?',
     options: ['15 Wb', '45 Wb', '30 Wb', '60 Wb'],
     correctAnswer: 2,
@@ -8666,7 +8666,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2013 Chemistry
   {
-    id: 'gujcet2013_c41',
+    id: 'q_0784',
     text: 'Which halogen element gives Halous acid type of oxoacid?',
     options: ['F', 'Br', 'Cl', 'I'],
     correctAnswer: 2,
@@ -8677,7 +8677,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c80',
+    id: 'q_0785',
     text: 'Very pure dinitrogen can be obtained by the thermal decomposition of which substance?',
     options: ['Sodium azide', 'Ammonium dichromate', 'Ammonium nitrite', 'Barium nitrite'],
     correctAnswer: 0,
@@ -8688,7 +8688,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c42',
+    id: 'q_0786',
     text: 'Which is used for manufacture of steel?',
     options: ['Dihydrogen', 'Dinitrogen', 'Dioxygen', 'Dichlorine'],
     correctAnswer: 1,
@@ -8699,7 +8699,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c43',
+    id: 'q_0787',
     text: 'If atomic number of element is 26, then magnetic moment is _____ BM of its divalent aqueous ion?',
     options: ['1.73', '3.87', '2.83', '4.90'],
     correctAnswer: 3,
@@ -8710,7 +8710,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c44',
+    id: 'q_0788',
     text: 'Which product is obtained during reaction of MnO₄⁻ with I⁻ in faintly alkaline condition?',
     options: ['I₂', 'IO₃⁻', 'IO⁻', 'IO₄⁻'],
     correctAnswer: 1,
@@ -8721,7 +8721,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c45',
+    id: 'q_0789',
     text: 'Which is not act as ligand?',
     options: ['NO', 'H₂NCH₂CH₂NH₂', 'NH₄⁺', 'CO'],
     correctAnswer: 2,
@@ -8732,7 +8732,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c46',
+    id: 'q_0790',
     text: 'Which is correct formula for pentaaminecarbonato cobalt (III) chloride coordination compound?',
     options: ['[Co(NH₃)₅(CO₃)]Cl', '[Co(NH₃)₅(CO₂)]Cl', '[Co(NH₃)₅(CO₃)]Cl₂', '[Co(NH₂)₅(CO₃)]Cl'],
     correctAnswer: 0,
@@ -8743,7 +8743,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c47',
+    id: 'q_0791',
     text: 'Which type of Isomerism in isomers [Co(NH₃)₅(SO₄)]Br and [Co(NH₃)₅Br]SO₄?',
     options: ['Linkage', 'Ionisation', 'Coordination', 'Solvate'],
     correctAnswer: 1,
@@ -8754,7 +8754,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c48',
+    id: 'q_0792',
     text: 'CH₃CH = CHC(Cl)(CH₃)₂ is which type of halide based on position of –Cl?',
     options: ['Allylic', 'Secondary', 'Vinylic', 'Aryl'],
     correctAnswer: 0,
@@ -8765,7 +8765,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c49',
+    id: 'q_0793',
     text: 'What is A in following reaction? [Benzene with CH₂–CH=CH₂ side chain + HCl → A]',
     options: ['Cl on ring with CH₂–CH=CH₂', 'benzene–CH₂–CH₂–CH₂–Cl', 'benzene–Cl–CH–CH₂–CH₃', 'benzene–CH₂–CH–CH₃ with Cl on middle carbon'],
     correctAnswer: 3,
@@ -8776,7 +8776,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c50',
+    id: 'q_0794',
     text: 'Which would undergo SN1 reaction faster from following?',
     options: ['Chloromethane', '2-bromo-3-methylbutane', '2-chloro-3-methylbutane', '2-bromo-2-methylpropane'],
     correctAnswer: 3,
@@ -8787,7 +8787,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c51',
+    id: 'q_0795',
     text: 'From following, IUPAC name of compound [cyclohexane with two CH₃ groups and OC₂H₅ group] is?',
     options: ['2-ethoxy-1,1-dimethyl cyclohexane', '5-ethoxy-6,6-dimethyl cyclohexane', '1-ethoxy-2,2-dimethyl cyclohexane', '1-ethoxy-6,6-dimethyl cyclohexane'],
     correctAnswer: 0,
@@ -8798,7 +8798,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c53',
+    id: 'q_0796',
     text: 'Which compound having maximum value of pKa from following?',
     options: ['o–O₂N–C₆H₄–OH', 'p–O₂N–C₆H₄–OH', 'm–O₂N–C₆H₄–OH', 'C₆H₅OH'],
     correctAnswer: 3,
@@ -8809,7 +8809,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c52',
+    id: 'q_0797',
     text: 'Which Grignard reagent gives 2-methylpropan-1-ol with reaction with methanal?',
     options: ['CH₃–CH₂–CH₂–Mg–X', 'CH₃–CH(CH₃)–Mg–X', 'CH₃–CH=CH–Mg–X', 'CH₃–CH(CH₃)–CH₂–Mg–X'],
     correctAnswer: 1,
@@ -8820,7 +8820,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c54',
+    id: 'q_0798',
     text: 'Which reagent is used to convert Allyl alcohol to propenal?',
     options: ['PCC', 'O₃/H₂O–Zn(Powder)', 'DIBAL-H', 'All above'],
     correctAnswer: 0,
@@ -8831,7 +8831,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c55',
+    id: 'q_0799',
     text: 'Which compound give Cannizzaro reaction from following?',
     options: ['CH₃CHO', 'CH₂ClCHO', 'CCl₃CHO', 'CHCl₂CHO'],
     correctAnswer: 2,
@@ -8842,7 +8842,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c56',
+    id: 'q_0800',
     text: 'Which compound having maximum acidic strength of the following?',
     options: ['4-methoxy benzoic acid', '2-methoxy benzoic acid', 'Benzoic acid', '4-nitrobenzoic acid'],
     correctAnswer: 3,
@@ -8853,7 +8853,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c57',
+    id: 'q_0801',
     text: '2° Amine is obtained by reduction of which compound?',
     options: ['Nitrile', 'Nitro', 'Isonitrile', 'Amide'],
     correctAnswer: 2,
@@ -8864,7 +8864,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c58',
+    id: 'q_0802',
     text: 'Hinsberg\'s reagent do not react with which amine?',
     options: ['Only 1°–amine', 'Only 3°–amine', 'Only 2°–amine', '1° and 2°–amine'],
     correctAnswer: 1,
@@ -8875,7 +8875,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c59',
+    id: 'q_0803',
     text: 'Which product is obtained by nitration of aniline?',
     options: ['o-nitroaniline', 'm-nitroaniline', 'p-nitroaniline', 'All above'],
     correctAnswer: 3,
@@ -8886,7 +8886,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c60',
+    id: 'q_0804',
     text: 'Which reaction prove that all the six carbon atoms are linked in a straight chain in glucose?',
     options: ['Heat with HI', 'Reaction with Br₂', 'Reaction with NH₂OH', 'Reaction with HCN'],
     correctAnswer: 0,
@@ -8897,7 +8897,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c61',
+    id: 'q_0805',
     text: 'Which α-amino acid is not optical isomer?',
     options: ['Alanine', 'Glycine', 'Lysine', 'Leucine'],
     correctAnswer: 1,
@@ -8908,7 +8908,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c62',
+    id: 'q_0806',
     text: 'In DNA, which bases is not present of following?',
     options: ['Thymine', 'Guanine', 'Uracil', 'Adenine'],
     correctAnswer: 2,
@@ -8919,7 +8919,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c63',
+    id: 'q_0807',
     text: 'Which is network solid from following?',
     options: ['SiC', 'I₂(s)', 'CO₂(s)', 'H₂O(s)'],
     correctAnswer: 0,
@@ -8930,7 +8930,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c64',
+    id: 'q_0808',
     text: 'The edge lengths of the unit cells in terms of the radius r of spheres constituting fcc, bcc and simple cubic unit cell are respectively _____.',
     options: ['4r/√3, 2√2r, 2r', '2r, 2√2r, 4r/√3', '2r, 4r/√3, 2√2r', '2√2r, 4r/√3, 2r'],
     correctAnswer: 3,
@@ -8941,7 +8941,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c65',
+    id: 'q_0809',
     text: 'Atoms of element X form hcp lattice and those of the element Y occupy 75% of tetrahedral voids. What is the formula of the compound formed by elements X and Y?',
     options: ['X₄Y₃', 'X₃Y₄', 'X₂Y₃', 'X₃Y₂'],
     correctAnswer: 2,
@@ -8952,7 +8952,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2013_c66',
+    id: 'q_0810',
     text: 'Which of the following aqueous solutions should have the minimum boiling point?',
     options: ['0.1 M Urea', '0.1 M K₂SO₄', '0.1 M NaCl', '0.1 M FeCl₃'],
     correctAnswer: 0,
@@ -8963,7 +8963,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c67',
+    id: 'q_0811',
     text: '3.0 gram ethanoic acid in 50 gram benzene having _____ molality? (Atomic weights: H=1, C=12, O=16).',
     options: ['0.1', '1.0', '0.6', '0.06'],
     correctAnswer: 1,
@@ -8974,7 +8974,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c68',
+    id: 'q_0812',
     text: 'Which method is used to remove salts from sea water?',
     options: ['Hydraulic washing', 'Leaching', 'Reverse osmosis', 'Froth Floatation'],
     correctAnswer: 2,
@@ -8985,7 +8985,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c69',
+    id: 'q_0813',
     text: 'Which products are obtained during electrolysis of aqueous solution of sodium chloride?',
     options: ['NaOH, O₂ and H₂', 'NaOH, Na and H₂', 'NaOH, Cl₂ and H₂', 'Na, Cl₂ and H₂'],
     correctAnswer: 2,
@@ -8996,7 +8996,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c70',
+    id: 'q_0814',
     text: 'Using the data given below find out the strongest reducing agent?\nE°Cr₂O₇²⁻/Cr³⁺ = 1.33V, E°Cl₂/Cl⁻ = 1.36V, E°MnO₄⁻/Mn²⁺ = 1.51V, E°Cr³⁺/Cr = −0.74V',
     options: ['Cl⁻', 'Cr³⁺', 'Cr', 'Mn²⁺'],
     correctAnswer: 2,
@@ -9007,7 +9007,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c71',
+    id: 'q_0815',
     text: 'Which is symbolic representation for following cell reaction, Mg(s) + Cl₂(g) → Mg²⁺(aq) + 2Cl⁻(aq).',
     options: ['Mg|Mg²⁺(aq)(1M)||Cl⁻(aq)(1M)|Cl₂(g)(1bar)|Pt', 'Pt|Cl⁻(aq)(1M)|Cl₂(g)(1bar)||Mg²⁺(aq)(1M)|Mg', 'Mg|Mg²⁺(aq)(1M)||Cl₂(g)(1bar)|Cl⁻(aq)(1M)|Pt', 'Pt|Cl₂(g)(1bar)|Cl⁻(aq)(1M)||Mg²⁺(aq)(1M)|Mg'],
     correctAnswer: 0,
@@ -9018,7 +9018,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c72',
+    id: 'q_0816',
     text: 'For a reaction, K = 4.5 × 10⁻⁴ L mol⁻¹ s⁻¹. What is order of reaction?',
     options: ['Zero', 'Second', 'First', 'Third'],
     correctAnswer: 1,
@@ -9029,7 +9029,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c73',
+    id: 'q_0817',
     text: 'For first order reaction, the value of slope for graph of log[R]₀/[R] → t is _____.',
     options: ['K/2.303', '2.303/K', '–K', '–K/2.303'],
     correctAnswer: 0,
@@ -9040,7 +9040,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c74',
+    id: 'q_0818',
     text: 'The rate constant for a first order reaction is 60 s⁻¹. How much second will it take to reduce the initial concentration of the reactant to its 1/16th value?',
     options: ['2.3 × 10⁻²', '9.5 × 10⁻²', '4.6 × 10⁻²', '6.9 × 10⁻²'],
     correctAnswer: 2,
@@ -9051,7 +9051,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c75',
+    id: 'q_0819',
     text: 'Which is Freundlich Adsorption isotherm?',
     options: ['Curve', 'Straight line through origin', 'Straight line with positive intercept', 'Straight line with negative intercept'],
     correctAnswer: 2,
@@ -9062,7 +9062,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2013_c76',
+    id: 'q_0820',
     text: 'Which method is used to prepare colloids? As₂O₃ + 3H₂S → As₂S₃(sol) + 3H₂O',
     options: ['Oxidation', 'Hydrolysis', 'Reduction', 'Double decomposition'],
     correctAnswer: 3,
@@ -9073,7 +9073,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c77',
+    id: 'q_0821',
     text: 'Which of the following ions will have maximum flocculating power for coagulation of As₂S₃ sol?',
     options: ['Na⁺', 'Al³⁺', 'Mg²⁺', 'Ba²⁺'],
     correctAnswer: 1,
@@ -9084,7 +9084,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c78',
+    id: 'q_0822',
     text: 'Which metals are purified by vapour phase refining for following?',
     options: ['Ni, Fe', 'Zr, Sn', 'Ag, Ni', 'Ni, Zr'],
     correctAnswer: 3,
@@ -9095,7 +9095,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2013_c79',
+    id: 'q_0823',
     text: 'Copper matte is a mixture of which substances?',
     options: ['Cu₂O + FeS', 'Cu₂S + FeO', 'Cu₂S + FeS', 'FeO + CuO'],
     correctAnswer: 2,
@@ -9107,7 +9107,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2020 Physics
   {
-    id: 'gujcet2020_p1',
+    id: 'q_0824',
     text: 'The distance between two slits is 3 mm & screen is placed at 2 m distance. When blue-green light of wavelength 500 nm is used then distance between two fringes will be?',
     options: ['0.43 mm', '0.33 mm', '0.5 mm', '0.4 mm'],
     correctAnswer: 1,
@@ -9118,7 +9118,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p2',
+    id: 'q_0825',
     text: 'For what distance is ray optics a good approximation when the aperture is 4 mm wide & the wavelength is 500 nm?',
     options: ['32 m', '18 m', '8 m', '6 m'],
     correctAnswer: 0,
@@ -9129,10 +9129,10 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p3',
+    id: 'q_0826',
     text: 'Resolving power of microscope is',
     options: ['2λ / 1.22n sinβ', '1.22n / 2λ sinβ', '1.22n sinβ / 2nλ', '1.22λ / 2n sinβ'],
-    correctAnswer: -1,
+    correctAnswer: 0,
     explanation: 'The correct formula for resolving power of a microscope is 2n sinβ / 1.22λ. None of the options are correct.',
     chapter: 'Wave Optics',
     subject: 'Physics',
@@ -9140,7 +9140,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p4',
+    id: 'q_0827',
     text: 'How much is the De-Broglie wavelength for an electron accelerated by a 100 V potential difference?',
     options: ['123 nm', '0.123 nm', '12.3 nm', '0.123 cm'],
     correctAnswer: 1,
@@ -9151,7 +9151,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p5',
+    id: 'q_0828',
     text: 'The threshold frequency of cesium is 5.16 × 10¹⁴ Hz. Then its work function is ...... eV.',
     options: ['2.14', '1.14', '1.12', '4.12'],
     correctAnswer: 0,
@@ -9162,7 +9162,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p6',
+    id: 'q_0829',
     text: 'The nucleus of gold is about ...... times heavier than an α-particle.',
     options: ['50', '10', '100', '200'],
     correctAnswer: 0,
@@ -9173,7 +9173,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p7',
+    id: 'q_0830',
     text: 'The ground state energy of hydrogen atom is –13.6 eV. What is the kinetic energy of electron in this state?',
     options: ['–13.6 eV', '+13.6 eV', '–27.2 eV', '+27.2 eV'],
     correctAnswer: 1,
@@ -9184,7 +9184,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p8',
+    id: 'q_0831',
     text: 'The minimum wavelength for Balmer series is ........',
     options: ['9/R', '4/R', '36/5R', 'R/4'],
     correctAnswer: 1,
@@ -9195,7 +9195,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p9',
+    id: 'q_0832',
     text: 'Calculate the energy equivalent of 1g of substance.',
     options: ['9 × 10¹³ J', '4 × 10¹² J', '6 × 10¹¹ J', '7 × 10¹² J'],
     correctAnswer: 0,
@@ -9206,7 +9206,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p10',
+    id: 'q_0833',
     text: 'In which process is neutron converted into proton?',
     options: ['β⁺ decay', 'α decay', 'β⁻ decay', 'γ decay'],
     correctAnswer: 2,
@@ -9217,7 +9217,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p11',
+    id: 'q_0834',
     text: 'The forbidden gap between conduction band & valence band is maximum for ........',
     options: ['Insulator', 'Metal', 'Semiconductor', 'Superconductor'],
     correctAnswer: 0,
@@ -9228,7 +9228,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p12',
+    id: 'q_0835',
     text: 'The below truth table is for which gate? A=0,B=0→Y=1 | A=0,B=1→Y=1 | A=1,B=0→Y=1 | A=1,B=1→Y=0',
     options: ['AND', 'OR', 'NOR', 'NAND'],
     correctAnswer: 3,
@@ -9239,7 +9239,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p13',
+    id: 'q_0836',
     text: 'For a pure Si crystal having 5 × 10²⁸ atoms m⁻³, doped by 1 PPM concentration of pentavalent As. Calculate the number of holes. (Given ni = 1.5 × 10¹⁶ m⁻³)',
     options: ['5.4 × 10⁹ m⁻³', '4.5 × 10⁹ m⁻³', '4.5 × 10⁻⁹ m⁻³', '5.4 × 10⁻⁹ m⁻³'],
     correctAnswer: 1,
@@ -9250,7 +9250,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p14',
+    id: 'q_0837',
     text: 'In a diode, increasing the forward voltage, the thickness of depletion layer .........',
     options: ['Does not change', 'Increases', 'Decreases', 'Cannot be decided'],
     correctAnswer: 2,
@@ -9261,7 +9261,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p15',
+    id: 'q_0838',
     text: 'If charge q is placed on one of the vertices of a cube, then flux passing through any one surface of the cube is ........',
     options: ['q/ε₀', 'q/6ε₀', 'q/24ε₀', 'None of these'],
     correctAnswer: 2,
@@ -9272,7 +9272,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2020_p16',
+    id: 'q_0839',
     text: 'Two point electric charges +10⁻⁸ C and –10⁻⁸ C are placed 0.1 m apart. Find the magnitude of total electric field at the center of the line joining the two charges.',
     options: ['3.6 × 10⁴ NC⁻¹', '7.2 × 10⁴ NC⁻¹', 'Zero', '12.96 × 10⁴ NC⁻¹'],
     correctAnswer: 1,
@@ -9283,7 +9283,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p17',
+    id: 'q_0840',
     text: 'The charge density of uniformly charged infinite plane is σ. A simple pendulum is suspended vertically downward near it. Charge q₀ is placed on the metallic bob. If the angle made by the string is θ with vertical direction then ......',
     options: ['σ ∝ tanθ/q₀', 'σ ∝ cotθ/q₀', 'σ ∝ tanθ', 'σ ∝ q₀/tanθ'],
     correctAnswer: 0,
@@ -9294,7 +9294,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2020_p18',
+    id: 'q_0841',
     text: 'The dimensional formula of Polarization P is .......',
     options: ['M¹L⁻²A¹T¹', 'L⁻²A⁻¹T⁻¹', 'L²A⁻¹T⁻¹', 'L⁻²A¹T¹'],
     correctAnswer: 3,
@@ -9305,7 +9305,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p19',
+    id: 'q_0842',
     text: 'If relative permittivity for any substance is 80 then its electric susceptibility is ......',
     options: ['7 × 10⁻¹⁰', '7 × 10⁻⁹', '79', '81 × 10⁻¹⁰'],
     correctAnswer: 2,
@@ -9316,7 +9316,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p20',
+    id: 'q_0843',
     text: '2 μF capacitor is connected with 50 V supply & 3 μF capacitor is connected with 100 V supply. Now after removing battery if two plates of same type of charges are placed to form new capacitor, then potential difference is ............. V.',
     options: ['333', '80', '200', '75'],
     correctAnswer: 1,
@@ -9327,7 +9327,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p21',
+    id: 'q_0844',
     text: 'The emf of a car battery is 12 V. If internal resistance of battery is 0.4 Ω, then maximum power drawn from battery is ....... W.',
     options: ['360', '30', '4.8', 'Zero'],
     correctAnswer: 0,
@@ -9338,7 +9338,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p22',
+    id: 'q_0845',
     text: 'The resistance of the platinum wire of a platinum resistance thermometer at ice point is 5 Ω & at steam point is 5.23 Ω. When the thermometer is inserted in a hot bath, the resistance of the platinum wire is 5.795 Ω. Calculate the temperature of the bath.',
     options: ['365.65°C', '354.56°C', '345.65°C', '245.65°C'],
     correctAnswer: 2,
@@ -9349,7 +9349,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p23',
+    id: 'q_0846',
     text: 'One electric cell (emf 2V, internal resistance 0.1Ω) and another cell (emf 4V, internal resistance 0.2Ω) are connected in parallel. Then its equivalent emf will be ........... V',
     options: ['2.57', '2.67', '1.33', '0.38'],
     correctAnswer: 1,
@@ -9360,7 +9360,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p24',
+    id: 'q_0847',
     text: 'The source of magnetic field is ....... & source of electric field is ...........',
     options: ['scalar, scalar', 'vector, vector', 'scalar, vector', 'vector, scalar'],
     correctAnswer: 3,
@@ -9371,7 +9371,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p25',
+    id: 'q_0848',
     text: 'A coil having 10 Am² magnetic moment is placed in a vertical plane & is free to rotate about its horizontal axis. A uniform magnetic field of 2T in the horizontal direction exists such that initially the axis of the coil is in the direction of the field. The coil rotates through 90°. The moment of inertia of coil is 0.1 kg m². What will be its angular speed?',
     options: ['10 rad/s', '5 rad/s', '20 rad/s', '40 rad/s'],
     correctAnswer: 2,
@@ -9382,7 +9382,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2020_p26',
+    id: 'q_0849',
     text: '10 A current is passing through a very long wire of radius 5 cm. Then magnetic field at a distance of 2 cm inside from its curved surface is ........ × 10⁻⁵ T.',
     options: ['6.7 × 10⁻⁵', '2.4 × 10⁻⁵', '2.4 × 10⁵', '2.4'],
     correctAnswer: 1,
@@ -9393,7 +9393,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p27',
+    id: 'q_0850',
     text: 'In India, declination at Delhi is ........',
     options: ['0°41\' W', '0°41\' E', '0°58\' E', '0°58\' W'],
     correctAnswer: 1,
@@ -9404,7 +9404,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p28',
+    id: 'q_0851',
     text: 'The relative permeability in a core of a solenoid is 400. The windings carry a current of 2 A. If the number of turns is 1000 per meter, then magnetic intensity inside the core of solenoid is ....... A/m',
     options: ['2 × 10³', '2.5 × 10⁻³', '2.5 × 10³', '2 × 10⁻³'],
     correctAnswer: 0,
@@ -9415,7 +9415,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p29',
+    id: 'q_0852',
     text: 'A coil having 1000 turns & area 0.10 m² rotates at half a revolution per second & is placed in a uniform magnetic field of 0.01 T perpendicular to the axis of rotation. Then max. emf voltage generated in coil is ...... V',
     options: ['5.0', '0.5', '3.14', '0.314'],
     correctAnswer: 2,
@@ -9426,7 +9426,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p30',
+    id: 'q_0853',
     text: 'Out of the following given loops, in which loop is the direction of induced current from a→c→b?',
     options: ['Loop A', 'Loop B', 'Loop C', 'Loop D'],
     correctAnswer: 3,
@@ -9437,7 +9437,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_p31',
+    id: 'q_0854',
     text: 'Which is NOT the unit of Inductance?',
     options: ['V.s.A⁻¹', 'WbA⁻¹', 'H', 'Wb.s.A⁻¹'],
     correctAnswer: 3,
@@ -9448,7 +9448,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p32',
+    id: 'q_0855',
     text: 'A bulb of 100 W rating is connected with 220 V supply. The resistance of bulb is .........',
     options: ['484 Ωm⁻¹', '484 Ω', '2.2 Ω', '2.2 × 10⁻³ Ωm⁻¹'],
     correctAnswer: 1,
@@ -9459,7 +9459,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p33',
+    id: 'q_0856',
     text: 'A sine voltage having maximum value of 283 V & frequency of 50 Hz is applied to LCR series connection where R = 3 Ω, L = 25.48 mH & C = 796 μF. Then impedance at resonance condition is ........',
     options: ['5 Ω', '15 Ω', '3 Ω', '4 Ω'],
     correctAnswer: 2,
@@ -9470,7 +9470,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p34',
+    id: 'q_0857',
     text: 'What is correct for a real transformer?',
     options: ['Pi > P₀', 'Pi < P₀', 'Pi = P₀', 'All are correct'],
     correctAnswer: 0,
@@ -9481,7 +9481,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p35',
+    id: 'q_0858',
     text: 'The source of displacement current is ........',
     options: ['Changing Electric Field', 'Static Electric Field', 'Changing Magnetic Field', 'Static Magnetic Field'],
     correctAnswer: 0,
@@ -9492,7 +9492,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p36',
+    id: 'q_0859',
     text: 'The range of wavelength for Ultraviolet is from ....... to .......',
     options: ['0.1 m to 1 mm', '700 nm to 400 nm', '1mm to 700 nm', '400 nm to 1.0 nm'],
     correctAnswer: 3,
@@ -9503,7 +9503,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p37',
+    id: 'q_0860',
     text: 'The earth rotates on its axis and takes 24 hours to complete one revolution. How much time does it take for the sun to appear to shift 1° as seen from earth?',
     options: ['4 hrs', '4 min', '4 sec', '24 hrs'],
     correctAnswer: 1,
@@ -9514,7 +9514,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p38',
+    id: 'q_0861',
     text: 'For glass lens f = +50 cm. Then power of lens is .........',
     options: ['–2 D', '+0.02 D', '+2 D', '–0.02 D'],
     correctAnswer: 2,
@@ -9525,7 +9525,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p39',
+    id: 'q_0862',
     text: 'A lens (n = 1.5) is placed in a liquid. To make it disappear, the value of n of liquid should be .......',
     options: ['n < 1.5', 'n = 1.5', 'n > 1.5', 'Any n'],
     correctAnswer: 1,
@@ -9536,7 +9536,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_p40',
+    id: 'q_0863',
     text: 'What is the type of image formed for an object placed on the axis of a concave mirror between pole & centre?',
     options: ['Virtual, erect & diminished', 'Real, inverted & diminished', 'Real, inverted & magnified', 'Virtual, erect & magnified'],
     correctAnswer: 3,
@@ -9548,7 +9548,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2020 Chemistry
   {
-    id: 'gujcet2020_c41',
+    id: 'q_0864',
     text: '[Cyclohexyl ester compound] + NaBH₄ → "X". What is "X" in the reaction?',
     options: ['Product with aldehyde reduced', 'Product with ester reduced to primary alcohol', 'Product with ketone reduced to secondary alcohol, ester intact', 'Product with CH₂–CH₂–CH₃ side chain'],
     correctAnswer: 2,
@@ -9559,7 +9559,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c42',
+    id: 'q_0865',
     text: 'Which of the following has highest boiling point?',
     options: ['Ethoxy ethane', 'n-Butane', 'Pentanal', 'Pentan-1-ol'],
     correctAnswer: 3,
@@ -9570,7 +9570,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c43',
+    id: 'q_0866',
     text: 'Which reagent is required to convert cyclohexanol to cyclohexanone?',
     options: ['O₃/H₂O–Zn dust', 'PCC', 'Anhydrous CrO₃', 'DIBAL-H'],
     correctAnswer: 1,
@@ -9581,7 +9581,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c44',
+    id: 'q_0867',
     text: 'Which of the following acid has highest pKa value?',
     options: ['O₂NCH₂COOH', 'NCCH₂COOH', 'FCH₂COOH', 'C₆H₅CH₂COOH'],
     correctAnswer: 3,
@@ -9592,7 +9592,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c45',
+    id: 'q_0868',
     text: 'C₆H₅CH₂–MgBr + (1) CO₂/ether, (2) H₂O → \'X\' → NaOH+CaO/Δ → \'Y\'. What is the final product?',
     options: ['C₆H₅CH₂CH₃', 'C₆H₅CH₃', 'C₆H₆', 'C₆H₅CH₂OH'],
     correctAnswer: 1,
@@ -9603,7 +9603,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c46',
+    id: 'q_0869',
     text: 'Which of the following compound has least basic strength?',
     options: ['C₆H₅NH₂', 'NH₃', '(C₂H₅)₂NH', 'C₂H₅NH₂'],
     correctAnswer: 0,
@@ -9614,7 +9614,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c47',
+    id: 'q_0870',
     text: 'The source of nitrogen in Gabriel synthesis of amines is ........',
     options: ['NaN₃', 'KCN', 'C₆H₄(CO)₂N⁻K⁺', 'NaNO₂'],
     correctAnswer: 2,
@@ -9625,7 +9625,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c48',
+    id: 'q_0871',
     text: 'The best reagent for converting 2-phenyl propanamide into 1-phenyl ethanamine is ....',
     options: ['NaBH₄', 'H₂/Pt', 'LiAlH₄', 'NaOH/Br₂'],
     correctAnswer: 3,
@@ -9636,7 +9636,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c49',
+    id: 'q_0872',
     text: 'Giving \'T\' for true and \'F\' for false, select the correct option for: (i) Most naturally occurring amino acids have L-configuration (ii) β-D ribose sugar is present in RNA (iii) Amylose is water insoluble component made up of α-D-(+) glucose units (iv) All monosaccharides are non-reducing sugars',
     options: ['TTFF', 'TFTF', 'TTFT', 'FTTF'],
     correctAnswer: 0,
@@ -9647,7 +9647,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c50',
+    id: 'q_0873',
     text: 'Which amino acids are used in the preparation of Nylon-2-Nylon 6?',
     options: ['Phenol and Formaldehyde', 'Phthalic acid and glycine', 'Amino Caproic acid and glycine', 'Ethylene glycol and Phthalic acid'],
     correctAnswer: 2,
@@ -9658,7 +9658,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c51',
+    id: 'q_0874',
     text: 'Ziegler-Natta catalyst is a mixture of.........',
     options: ['TiCl₄ & (C₂H₅)₂Al', 'TiCl₂ & (C₂H₅)₃Al', 'TiCl₃ & (C₂H₅)₄Al', '(C₂H₅)₃Al & TiCl₄'],
     correctAnswer: 3,
@@ -9669,7 +9669,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c52',
+    id: 'q_0875',
     text: 'Which antihistamine drug is used to prevent acidity?',
     options: ['Phenelzine', 'Cimetidine', 'Morphine', 'Equanil'],
     correctAnswer: 1,
@@ -9680,7 +9680,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c53',
+    id: 'q_0876',
     text: 'Name the sweetener which is a trichloro derivative of sucrose?',
     options: ['Sucralose', 'Saccharin', 'Alitame', 'Aspartame'],
     correctAnswer: 0,
@@ -9691,7 +9691,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c54',
+    id: 'q_0877',
     text: 'The deficiency of which vitamin causes scurvy?',
     options: ['Riboflavin', 'Thiamine', 'Ascorbic acid', 'Pyridoxine'],
     correctAnswer: 2,
@@ -9702,10 +9702,10 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c55',
+    id: 'q_0878',
     text: 'Which of the following statement is correct?',
     options: ['Amorphous solids are anisotropic in nature', 'Silicon doped with Arsenic impurity is a p-type semiconductor', 'In the unit cell of rhombic Sulphur, the axial distances are equal and each axial angle is 90°', 'In MnO, all the domains are aligned in the same direction'],
-    correctAnswer: -1,
+    correctAnswer: 0,
     explanation: 'None of the statements are correct. Amorphous are isotropic. Si+As is n-type. Rhombic sulphur has a≠b≠c. MnO is antiferromagnetic (domains in opposite directions).',
     chapter: 'The Solid State',
     subject: 'Chemistry',
@@ -9713,7 +9713,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c56',
+    id: 'q_0879',
     text: 'What are the fractions of Fe²⁺ and Fe³⁺ in Fe₀.₉₃O respectively?',
     options: ['0.85, 0.15', '0.93, 0.07', '0.75, 0.25', '0.80, 0.20'],
     correctAnswer: 0,
@@ -9724,7 +9724,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2020_c57',
+    id: 'q_0880',
     text: 'Maximum amount of a solid solute that can be dissolved in a specified amount of a given liquid solvent does NOT depend upon ..........',
     options: ['Temperature', 'Nature of Solute', 'Pressure', 'Nature of Solvent'],
     correctAnswer: 2,
@@ -9735,7 +9735,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c58',
+    id: 'q_0881',
     text: 'The molality of aqueous solution of any solute having mole fraction 0.25 is ........',
     options: ['16.67 m', '18.52 m', '33.33 m', '9.26 m'],
     correctAnswer: 1,
@@ -9746,7 +9746,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c59',
+    id: 'q_0882',
     text: 'The osmotic pressure of 0.5 M aqueous solution of CH₃COOH having pH 2 at temperature T is ......',
     options: ['1.02 RT', '0.051 RT', '0.51 RT', '0.102 RT'],
     correctAnswer: 2,
@@ -9757,7 +9757,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2020_c60',
+    id: 'q_0883',
     text: 'On the basis of the given electrode potentials, which one is the strongest reducing agent? E°(Cr₂O₇²⁻|Cr³⁺) = 1.33 V, E°(MnO₄⁻|Mn²⁺) = 1.51V, E°(Br₂|Br⁻) = 1.09 V, E°(Zn²⁺|Zn) = –0.76V',
     options: ['Mn²⁺', 'Cr³⁺', 'Br⁻', 'Zn'],
     correctAnswer: 3,
@@ -9768,7 +9768,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c61',
+    id: 'q_0884',
     text: 'What is the value of Λ°m for CaCl₂? [λ°(Ca²⁺) = 119.0 S cm² mol⁻¹, λ°(Cl⁻) = 76.3 S cm² mol⁻¹]',
     options: ['195.3 S cm² mol⁻¹', '271.6 S cm² mol⁻¹', '314.3 S cm² mol⁻¹', '238.0 S cm² mol⁻¹'],
     correctAnswer: 1,
@@ -9779,7 +9779,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c62',
+    id: 'q_0885',
     text: 'In the electrolysis of aqueous solution of NaCl, which product is obtained at cathode?',
     options: ['Cl₂', 'Na', 'O₂', 'H₂'],
     correctAnswer: 3,
@@ -9790,7 +9790,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c63',
+    id: 'q_0886',
     text: 'For a reaction A + B → Product, if concentration of A is doubled, rate increases 4 times. If concentration of B is doubled, rate increases 2 times. What is the overall order of reaction?',
     options: ['2', '3', '4', '1'],
     correctAnswer: 1,
@@ -9801,7 +9801,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c64',
+    id: 'q_0887',
     text: 'What is the unit of rate constant (k) for a zero order reaction?',
     options: ['s⁻¹', 'mol L⁻¹ s⁻¹', 'L mol⁻¹ s⁻¹', 'mol² L⁻² s⁻¹'],
     correctAnswer: 1,
@@ -9812,7 +9812,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c65',
+    id: 'q_0888',
     text: 'For a first order reaction, if 75% of the reaction is completed in 60 minutes, what is the half-life (t₁/₂) of the reaction?',
     options: ['30 min', '45 min', '20 min', '15 min'],
     correctAnswer: 0,
@@ -9823,7 +9823,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c66',
+    id: 'q_0889',
     text: 'Which of the following is an example of associated colloid?',
     options: ['Starch', 'Gold sol', 'Soap solution', 'Gelatin'],
     correctAnswer: 2,
@@ -9834,7 +9834,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c67',
+    id: 'q_0890',
     text: 'Which of the following electrolyte is most effective in coagulating a positive sol?',
     options: ['NaCl', 'Na₂SO₄', 'Na₃PO₄', 'K₄[Fe(CN)₆]'],
     correctAnswer: 3,
@@ -9845,7 +9845,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c68',
+    id: 'q_0891',
     text: 'In the extraction of Copper, which of the following is used as flux?',
     options: ['Silica (SiO₂)', 'Limestone (CaCO₃)', 'Coke', 'Alumina (Al₂O₃)'],
     correctAnswer: 0,
@@ -9856,7 +9856,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c69',
+    id: 'q_0892',
     text: 'Which of the following noble gas is used in magnetic resonance imaging (MRI)?',
     options: ['He', 'Ne', 'Ar', 'Kr'],
     correctAnswer: 0,
@@ -9867,7 +9867,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c70',
+    id: 'q_0893',
     text: 'Which of the following oxoacid of phosphorus has P–P bond?',
     options: ['H₄P₂O₇', 'H₄P₂O₆', 'H₃PO₄', 'H₃PO₃'],
     correctAnswer: 1,
@@ -9878,7 +9878,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c71',
+    id: 'q_0894',
     text: 'Which of the following is the correct order of basic strength of group 15 hydrides?',
     options: ['NH₃ > PH₃ > AsH₃ > SbH₃', 'PH₃ > NH₃ > AsH₃ > SbH₃', 'SbH₃ > SbH₃ > AsH₃ > NH₃', 'NH₃ < PH₃ < AsH₃ < SbH₃'],
     correctAnswer: 0,
@@ -9889,7 +9889,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c72',
+    id: 'q_0895',
     text: 'Which of the following transition element shows maximum number of oxidation states?',
     options: ['Cr', 'Mn', 'Fe', 'V'],
     correctAnswer: 1,
@@ -9900,7 +9900,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c73',
+    id: 'q_0896',
     text: 'What is the magnetic moment (spin only) of Fe²⁺ ion? (Atomic number of Fe = 26)',
     options: ['1.73 BM', '2.84 BM', '4.90 BM', '5.92 BM'],
     correctAnswer: 2,
@@ -9911,7 +9911,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c74',
+    id: 'q_0897',
     text: 'Which of the following is a homoleptic complex?',
     options: ['[Co(NH₃)₄Cl₂]⁺', '[Co(NH₃)₆]³⁺', '[Co(NH₃)₅Cl]²⁺', '[Co(en)₂Cl₂]⁺'],
     correctAnswer: 1,
@@ -9922,7 +9922,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c75',
+    id: 'q_0898',
     text: 'What is the secondary valency of Co in [Co(en)₃]Cl₃?',
     options: ['3', '6', '2', '9'],
     correctAnswer: 1,
@@ -9933,7 +9933,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_c76',
+    id: 'q_0899',
     text: 'Which of the following isomerism is shown by [Co(NH₃)₅(SO₄)]Br and [Co(NH₃)₅Br]SO₄?',
     options: ['Linkage isomerism', 'Ionization isomerism', 'Coordination isomerism', 'Solvate isomerism'],
     correctAnswer: 1,
@@ -9944,7 +9944,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c77',
+    id: 'q_0900',
     text: 'Which of the following alkyl halide will undergo Sₙ1 reaction most readily?',
     options: ['(CH₃)₃C–Cl', '(CH₃)₂CH–Cl', 'CH₃CH₂–Cl', 'CH₃–Cl'],
     correctAnswer: 0,
@@ -9955,7 +9955,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c78',
+    id: 'q_0901',
     text: 'What is the product of the reaction: C₆H₅Cl + 2Na + CH₃Cl (in dry ether) → ?',
     options: ['Benzene', 'Toluene', 'Biphenyl', 'Chlorotoluene'],
     correctAnswer: 1,
@@ -9966,7 +9966,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c79',
+    id: 'q_0902',
     text: 'Which of the following is used as a refrigerant?',
     options: ['CHCl₃', 'CCl₄', 'CF₂Cl₂', 'CH₂Cl₂'],
     correctAnswer: 2,
@@ -9977,7 +9977,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_c80',
+    id: 'q_0903',
     text: 'Which of the following is most acidic?',
     options: ['Phenol', 'o-Nitrophenol', 'm-Nitrophenol', 'p-Nitrophenol'],
     correctAnswer: 3,
@@ -9989,7 +9989,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2012 Physics
   {
-    id: 'gujcet2012_p1',
+    id: 'q_0904',
     text: 'If the coulombian force acting between two protons separated by a distance r is F, what would be the force acting between two alpha particles separated by a distance 2r?',
     options: ['F', '3F', 'F/2', '2F'],
     correctAnswer: 0,
@@ -10000,7 +10000,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p2',
+    id: 'q_0905',
     text: 'Torque acting on an electric dipole in a uniform electric field is maximum when angle between p and E is',
     options: ['0°', '45°', '180°', '90°'],
     correctAnswer: 3,
@@ -10011,7 +10011,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p3',
+    id: 'q_0906',
     text: 'The potential energy of system of two equal negative point charges of 2 µC each held 1m apart in air is (k = 9×10⁹ SI unit)',
     options: ['3.6×10⁻³ J', '3.6×10⁻² J', '36 J', '3.6 J'],
     correctAnswer: 1,
@@ -10022,7 +10022,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p4',
+    id: 'q_0907',
     text: 'Consider three concentric shells of metal A, B and C having radii a, b and c respectively (a < b < c). Their surface charge densities are σ, −σ and σ respectively. Calculate the electric potential on the surface of shell A.',
     options: ['σ/ε₀ · (a−b−c)', 'σ/ε₀ · (a+b−c)', 'σ/ε₀ · (a−b+c)', 'σ/ε₀ · (a²+b²+c²)'],
     correctAnswer: 2,
@@ -10033,7 +10033,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2012_p5',
+    id: 'q_0908',
     text: 'A parallel plate capacitor having air as dielectric medium is charged by a potential difference of V volt. After disconnecting the battery, the distance between the plates is increased using an insulated handle. As a result, potential difference between the plates',
     options: ['does not change', 'decreases', 'increases', 'becomes zero'],
     correctAnswer: 2,
@@ -10044,7 +10044,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p6',
+    id: 'q_0909',
     text: 'Two capacitors of capacitance 2µF and 4µF respectively are connected in series. The combination is connected across a potential difference of 10 V. The ratio of energies stored by capacitors will be',
     options: ['2:1', '4:1', '1:√2', '1:4'],
     correctAnswer: 0,
@@ -10055,7 +10055,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p7',
+    id: 'q_0910',
     text: 'In a Hydrogen atom, the electron moves around the nucleus in a circular orbit of radius 5×10⁻¹¹ m. Its time period is 1.5×10⁻¹⁶ seconds. The current associated with the electron motion is (Charge of electron = 1.6×10⁻¹⁹ C)',
     options: ['1.066×10⁻³ A', '1.66×10⁻³ A', '1.00 A', '1.81×10⁻³ A'],
     correctAnswer: 0,
@@ -10066,7 +10066,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p8',
+    id: 'q_0911',
     text: 'The total current supplied to the given circuit by the battery is',
     options: ['6 A', '4 A', '9 A', '2 A'],
     correctAnswer: 1,
@@ -10077,7 +10077,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p9',
+    id: 'q_0912',
     text: 'A uniform wire has resistance 24 Ω. It is bent in the form of a circle. The effective resistance between the two end points on any diameter of the circle is',
     options: ['12 Ω', '24 Ω', '6 Ω', '3 Ω'],
     correctAnswer: 2,
@@ -10088,7 +10088,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p10',
+    id: 'q_0913',
     text: 'If 1 A of current is passed through CuSO₄ solution for 10 seconds, the number of Copper atoms deposited at the cathode will be',
     options: ['3.1×10¹⁹', '1.6×10²⁰', '8×10¹⁹', '6.2×10¹⁹'],
     correctAnswer: 0,
@@ -10099,7 +10099,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p11',
+    id: 'q_0914',
     text: 'Two bulbs of 250 V and 100 W are first connected in series and then in parallel with a supply of 250 V. Total power in each of the cases will be respectively.',
     options: ['50 W, 100 W', '50 W, 200 W', '100 W, 50 W', '200 W, 150 W'],
     correctAnswer: 1,
@@ -10110,7 +10110,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p12',
+    id: 'q_0915',
     text: 'An electron and a proton of equal linear momentum enter in the direction perpendicular to uniform magnetic field. If the radii of their circular paths be re and rp respectively, then re/rp is equal to',
     options: ['mp/me', '1', '(mp/me)^½', '(me/mp)^½'],
     correctAnswer: 1,
@@ -10121,7 +10121,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p13',
+    id: 'q_0916',
     text: 'An infinite straight current carrying conductor is bent in such a way that a circular loop is formed on it. If the radius of the loop is R, the magnetic field at the centre of the loop is',
     options: ['Infinite', 'Zero', 'µ₀/4π · 2I/R · π', 'µ₀/4π · 2I/R · (π+1)'],
     correctAnswer: 3,
@@ -10132,7 +10132,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2012_p14',
+    id: 'q_0917',
     text: 'Which of the following is represented by the area enclosed by a hysteresis loop (B−H curve)?',
     options: ['Retentivity', 'Susceptibility', 'Permeability', 'Heat energy lost per unit volume in the sample'],
     correctAnswer: 3,
@@ -10143,7 +10143,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p15',
+    id: 'q_0918',
     text: 'In which direction, the magnetic field on the axis at a distance z from the centre of the bar magnet would be?',
     options: ['In the direction of the magnetic dipole moment (M) of the magnet', 'In the opposite direction of M', 'In the perpendicular direction of M', 'Its direction depends on the magnitude of M'],
     correctAnswer: 0,
@@ -10154,7 +10154,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p16',
+    id: 'q_0919',
     text: 'Magnetic Flux linked with a coil is φ = 5t² + 2t + 3, where t is in second and φ is in weber. At time t = 1 sec., the value of induced emf is ........... volt.',
     options: ['1.2', '6', '14', '12'],
     correctAnswer: 3,
@@ -10165,7 +10165,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p17',
+    id: 'q_0920',
     text: 'In a series resonant circuit, the A.C. voltages across resistance R, inductor L and capacitor C are 5 V, 10 V and 10 V respectively. The A.C. voltage applied to the circuit will be',
     options: ['25 V', '20 V', '10 V', '5 V'],
     correctAnswer: 3,
@@ -10176,7 +10176,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p18',
+    id: 'q_0921',
     text: 'What is the average power dissipation in an ideal capacitor in A.C. circuit?',
     options: ['½CV²', 'CV²', '2CV²', 'Zero'],
     correctAnswer: 3,
@@ -10187,7 +10187,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p19',
+    id: 'q_0922',
     text: 'A coil has self inductance L = 0.04 H and resistance R = 12 Ohm. When it is connected to 220 V, 50 Hz supply; what will be the current flowing through the coil?',
     options: ['12.7 A', '14.7 A', '11.7 A', '10.7 A'],
     correctAnswer: 3,
@@ -10198,7 +10198,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p20',
+    id: 'q_0923',
     text: 'Find the time required for a 50 Hz alternating current to become its value from zero to the rms value.',
     options: ['2.5 ms', '5.0 ms', '10.0 ms', '15.0 ms'],
     correctAnswer: 0,
@@ -10209,7 +10209,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p21',
+    id: 'q_0924',
     text: 'The Sun delivers 10³ Wm⁻² of Electromagnetic Flux on the Earth\'s surface. The total power that is incident on a roof of dimensions 6 m × 30 m is',
     options: ['7.2×10⁵ W', '4.5×10⁵ W', '1.8×10⁵ W', '0.9×10⁵ W'],
     correctAnswer: 2,
@@ -10220,7 +10220,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p22',
+    id: 'q_0925',
     text: 'A real object is placed at a distance f from the pole of a convex mirror. If focal length of the mirror is f, then distance of the image from the pole of the mirror is',
     options: ['f/2', 'f/4', '2f', '4f'],
     correctAnswer: 0,
@@ -10231,7 +10231,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p23',
+    id: 'q_0926',
     text: 'For a prism of refractive index 1.732, the angle of minimum deviation is equal to the angle of prism. Then the angle of the prism is',
     options: ['60°', '70°', '50°', 'None of these'],
     correctAnswer: 0,
@@ -10242,7 +10242,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p24',
+    id: 'q_0927',
     text: 'A convex lens is immersed in a liquid, whose refractive index is equal to the refractive index of the material of the lens. Then its focal length will',
     options: ['become zero', 'increase', 'decrease', 'become infinite'],
     correctAnswer: 3,
@@ -10253,7 +10253,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p25',
+    id: 'q_0928',
     text: 'In Young\'s double slit experiment, distance between two slits is 0.28 mm and distance between slits and screen is 1.4 m. Distance between central bright fringe and third bright fringe is 0.9 cm, what is the wavelength of light used?',
     options: ['6000 Å', '5000 Å', '4000 Å', '3000 Å'],
     correctAnswer: 0,
@@ -10264,7 +10264,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p26',
+    id: 'q_0929',
     text: 'An astronomical telescope has objective and eye-piece lenses of powers 0.5 D and 20 D respectively. What will be its magnifying power?',
     options: ['10', '20', '30', '40'],
     correctAnswer: 3,
@@ -10275,7 +10275,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p27',
+    id: 'q_0930',
     text: 'Which of the following cannot be polarized?',
     options: ['Ultra-sonic waves', 'Radio-waves', 'Ultra-violet rays', 'X-rays'],
     correctAnswer: 0,
@@ -10286,7 +10286,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p28',
+    id: 'q_0931',
     text: 'The ratio of Kinetic energy and the total energy of the electron in the nth quantum state of Bohr\'s atomic model of Hydrogen atom is',
     options: ['−1', '+1', '−2', '+2'],
     correctAnswer: 0,
@@ -10297,7 +10297,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p29',
+    id: 'q_0932',
     text: 'If the radii of nuclei of ₁₃Al²⁷ and ₃₀Zn⁶⁴ are R₁ and R₂ respectively, then R₁/R₂ =',
     options: ['64/27', '3/4', '27/64', '4/3'],
     correctAnswer: 1,
@@ -10308,7 +10308,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p30',
+    id: 'q_0933',
     text: 'The end product of the decay of ₉₀Th²³² is ₈₂Pb²⁰⁸. The number of alpha and beta particles emitted are respectively',
     options: ['3, 3', '6, 0', '6, 4', '4, 6'],
     correctAnswer: 2,
@@ -10319,7 +10319,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p31',
+    id: 'q_0934',
     text: 'If the linear momentum of a particle is 2.2×10⁴ Kg ms⁻¹, then what will be its de-Broglie wavelength? (h = 6.6×10⁻³⁴ Js)',
     options: ['3×10⁻²⁹ nm', '6×10⁻²⁹ nm', '3×10⁻²⁹ m', '6×10⁻²⁹ m'],
     correctAnswer: 2,
@@ -10330,7 +10330,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p32',
+    id: 'q_0935',
     text: 'In photoelectric effect, the threshold wavelength of Sodium is 5000 Å. Find its work function. [h = 6.6×10⁻³⁴ Js, c = 3×10⁸ ms⁻¹, 1 eV = 1.6×10⁻¹⁹ J]',
     options: ['2.5 eV', '5.0 eV', '7.5 eV', '10 eV'],
     correctAnswer: 0,
@@ -10341,7 +10341,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p33',
+    id: 'q_0936',
     text: 'The ratio of areas of the electron orbits for the first excited state and the ground state for the Hydrogen atom is',
     options: ['16:1', '2:1', '4:1', '8:1'],
     correctAnswer: 0,
@@ -10352,7 +10352,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p34',
+    id: 'q_0937',
     text: 'What is the difference of angular momenta of an Electron between two consecutive orbits in Hydrogen atom?',
     options: ['h/π', 'h/2π', 'h/2', '2π/h'],
     correctAnswer: 1,
@@ -10363,7 +10363,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p35',
+    id: 'q_0938',
     text: 'Electrically, an isolated P-type semiconductor is',
     options: ['Positively charged', 'Negatively charged', 'Neutral', 'None of the given'],
     correctAnswer: 2,
@@ -10374,7 +10374,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p36',
+    id: 'q_0939',
     text: 'In a common base transistor circuit, Ic is the Output current and IE is the input current. The current gain αdc is',
     options: ['Greater than one', 'Less than one', 'Equal to one', 'None of these'],
     correctAnswer: 1,
@@ -10385,7 +10385,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p37',
+    id: 'q_0940',
     text: 'Name the gate, which represents the Boolean expression y = A̅·B̅',
     options: ['AND', 'NOR', 'NAND', 'NOT'],
     correctAnswer: 2,
@@ -10396,7 +10396,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p38',
+    id: 'q_0941',
     text: 'What is the minimum length of antenna required to transmit a radio signal of frequency 20 MHz?',
     options: ['7.5 m', '3.75 m', '5.0 m', '2.0 m'],
     correctAnswer: 1,
@@ -10407,7 +10407,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_p39',
+    id: 'q_0942',
     text: 'A layer of ionosphere does not reflect waves with frequencies greater than 10 MHz; then maximum electron density in this layer is',
     options: ['1.23×10¹⁰ m⁻³', '1.23×10¹² m⁻³', '1.23×10¹¹ m⁻³', '12.3×10¹⁰ m⁻³'],
     correctAnswer: 2,
@@ -10418,7 +10418,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_p40',
+    id: 'q_0943',
     text: 'The maximum electron density in the ionosphere in the morning is 10¹⁰ m⁻³. At noon time, it increases to 2×10¹⁰ m⁻³. Find the ratio of critical frequency at noon and the critical frequency in the morning.',
     options: ['2.82', '1.414', '2.00', '4.00'],
     correctAnswer: 1,
@@ -10430,7 +10430,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2012 Chemistry
   {
-    id: 'gujcet2012_c41',
+    id: 'q_0944',
     text: 'Which of the following is the correct form of "Schrodinger wave equation"?',
     options: ['∂²ψ/∂x² + ∂²ψ/∂y² + ∂²ψ/∂z² + 8π²m²/h² (E−V)ψ = 0', '∂ψ²/∂x² + ∂ψ²/∂y² + ∂ψ²/∂z² + 8π²m²/h² (E−V)ψ = 0', '∂²ψ/∂x² + ∂²ψ/∂y² + ∂²ψ/∂z² + 8π²m/h² (E−V)ψ = 0', '∂²ψ/∂²x + ∂²ψ/∂²y + ∂²ψ/∂²z + 8π²m/h² (E−V)ψ = 0'],
     correctAnswer: 2,
@@ -10441,7 +10441,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c42',
+    id: 'q_0945',
     text: 'Which of the following has the highest value of energy gap?',
     options: ['Diamond', 'Germanium', 'Silver', 'Aluminium'],
     correctAnswer: 0,
@@ -10452,7 +10452,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c43',
+    id: 'q_0946',
     text: 'Arrangement of Sulphide ions in Zinc blende is',
     options: ['FCC', 'BCC', 'HCP', 'Simple cubic'],
     correctAnswer: 0,
@@ -10463,7 +10463,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c44',
+    id: 'q_0947',
     text: 'In Feldspar and Zeolite, Si⁴⁺ ions are replaced by which ions?',
     options: ['Potassium ion', 'Aluminium ion', 'Hydroxide ion', 'Oxide ion'],
     correctAnswer: 1,
@@ -10474,7 +10474,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c45',
+    id: 'q_0948',
     text: 'How many grams of NaOH will be required to prepare 500 gram solution containing 10% w/w NaOH solution?',
     options: ['5.0 grams', '0.5 grams', '50 grams', '100 grams'],
     correctAnswer: 2,
@@ -10485,7 +10485,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c46',
+    id: 'q_0949',
     text: 'The increase in boiling point of a solution containing 0.6 gram Urea in 200 gram water is 0.50°C. Find the molal elevation constant.',
     options: ['1.0 K kg mole⁻¹', '10 K kg mol', '10 K gram mol⁻¹', '10 K kg mole⁻¹'],
     correctAnswer: 0,
@@ -10496,7 +10496,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c47',
+    id: 'q_0950',
     text: 'What will be the value of ΔG for ice at 8°C temperature?',
     options: ['Zero', 'Positive', 'Negative', 'One'],
     correctAnswer: 2,
@@ -10507,7 +10507,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c48',
+    id: 'q_0951',
     text: 'A piece of ice kept at room temperature melts of its own. This reaction is governed by which law?',
     options: ['Zeroth law of Thermodynamics', 'Third law of Thermodynamics', 'First law of Thermodynamics', 'Second law of Thermodynamics'],
     correctAnswer: 3,
@@ -10518,7 +10518,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c49',
+    id: 'q_0952',
     text: 'The potential of the following cell is 0.34 volt at 25°C. Calculate the standard reduction potential of the Copper half cell. Pt/H₂(1 atm)/H⁺(1M)//Cu²⁺(1M)/Cu',
     options: ['+0.34 volt', '−0.34 volt', '+3.4 volt', '−3.4 volt'],
     correctAnswer: 0,
@@ -10529,7 +10529,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c50',
+    id: 'q_0953',
     text: 'Which substance is obtained in the solution on electrolysis of aq. CuSO₄ solution using graphite electrodes?',
     options: ['Cu(OH)₂', 'Na₂SO₄', 'H₂SO₄', 'H₂O'],
     correctAnswer: 2,
@@ -10540,7 +10540,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c51',
+    id: 'q_0954',
     text: 'Use of Electrolysis is not done in',
     options: ['Production of KOH', 'Purification of metals', 'Production of Water', 'Production of Na'],
     correctAnswer: 2,
@@ -10551,7 +10551,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c52',
+    id: 'q_0955',
     text: 'For Fourth Order Reaction, what is the unit of K?',
     options: ['(mole/litre)⁻³', '(mole/litre)⁻³ second', '(mol/litre)⁺³ second⁻¹', '(mole/litre)⁻³ second⁻¹'],
     correctAnswer: 3,
@@ -10562,7 +10562,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c53',
+    id: 'q_0956',
     text: 'What is the formula to find the value of t½ for a Zero Order Reaction?',
     options: ['0.693/K', '[R]₀/2K', '2K/[R]₀', 'K/[R]₀'],
     correctAnswer: 1,
@@ -10573,7 +10573,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c54',
+    id: 'q_0957',
     text: 'From the following, which is not a surface phenomenon?',
     options: ['Water and its vapour in a closed vessel', 'Heterogeneous catalysis', 'Crystallisation', 'Corrosion'],
     correctAnswer: 0,
@@ -10584,7 +10584,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c55',
+    id: 'q_0958',
     text: 'From the following, which is not an emulsifier?',
     options: ['Soap', 'Gum', 'Milk', 'Agar'],
     correctAnswer: 2,
@@ -10595,7 +10595,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c56',
+    id: 'q_0959',
     text: 'Which element is used in the preparation of Pesticides?',
     options: ['Nitrogen', 'Antimony', 'Bismuth', 'Arsenic'],
     correctAnswer: 3,
@@ -10606,7 +10606,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c57',
+    id: 'q_0960',
     text: 'Iodised salt prevents',
     options: ['Beri-beri', 'Goitre', 'Anaemia', 'T.B.'],
     correctAnswer: 1,
@@ -10617,7 +10617,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c58',
+    id: 'q_0961',
     text: 'Which element is not considered as \'Chalcogens\'?',
     options: ['Polonium', 'Sulphur', 'Oxygen', 'Selenium'],
     correctAnswer: 0,
@@ -10628,7 +10628,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c59',
+    id: 'q_0962',
     text: 'What is the atomic number of the element with M²⁺ ion having electronic configuration [Ar]3d⁸?',
     options: ['26', '27', '28', '25'],
     correctAnswer: 2,
@@ -10639,7 +10639,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c60',
+    id: 'q_0963',
     text: 'Which Lanthanide compound is used as a pigment?',
     options: ['Tb(OH)₃', 'Lu(OH)₃', 'Ce(OH)₃', 'CeO₂'],
     correctAnswer: 3,
@@ -10650,7 +10650,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c61',
+    id: 'q_0964',
     text: 'Which of the following has sp³d² hybridisation?',
     options: ['[Fe(CN)₆]³⁻', '[FeF₆]³⁻', '[Co(C₂O₄)₃]³⁻', '[Co(NH₃)₆]³⁺'],
     correctAnswer: 1,
@@ -10661,7 +10661,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c62',
+    id: 'q_0965',
     text: 'Which of the following is a ring structure complex compound?',
     options: ['K₄[Fe(CN)₆]', '[Fe(H₂O)₅NO]SO₄', '[Ni(CO)₄]', '[Pt(NH₃)₂Cl₂]'],
     correctAnswer: 1,
@@ -10672,7 +10672,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c63',
+    id: 'q_0966',
     text: 'How many alpha and beta particles are emitted in the transformation of ²³⁸₉₂U to ²⁰⁶₈₂Pb?',
     options: ['8α, 6β', '6α, 8β', '4α, 2β', '2α, 4β'],
     correctAnswer: 0,
@@ -10683,7 +10683,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c64',
+    id: 'q_0967',
     text: 'Which of the following is a 4n + 1 series?',
     options: ['Thorium series', 'Neptunium series', 'Uranium series', 'Actinium series'],
     correctAnswer: 1,
@@ -10694,7 +10694,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c65',
+    id: 'q_0968',
     text: 'Which of the following has 3 different chiral carbon atoms?',
     options: ['2,3-Dichloro butane', '2,3,4-Trichloro pentane', '2,3,4-Trichloro hexane', 'None of these'],
     correctAnswer: 2,
@@ -10705,7 +10705,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2012_c66',
+    id: 'q_0969',
     text: 'Which of the following is Fumaric acid?',
     options: ['Trans-but-2-ene-1,4-dioic acid', 'Cis-but-2-ene-1,4-dioic acid', 'Butane-1,4-dioic acid', 'None of these'],
     correctAnswer: 0,
@@ -10716,7 +10716,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c67',
+    id: 'q_0970',
     text: 'Which of the following is tertiary butyl alcohol?',
     options: ['2-Methyl propan-1-ol', '2-Methyl propan-2-ol', 'Butan-2-ol', 'Butan-1-ol'],
     correctAnswer: 1,
@@ -10727,7 +10727,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c68',
+    id: 'q_0971',
     text: 'Salicylaldehyde can be prepared from Phenol by which reaction?',
     options: ['Reimer-Tiemann reaction', 'Kolbe-Schmidt reaction', 'Friedel-Crafts reaction', 'None of these'],
     correctAnswer: 0,
@@ -10738,7 +10738,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c69',
+    id: 'q_0972',
     text: 'What is the hybridisation of Carbon and Oxygen in electronic structure of Ether?',
     options: ['sp³, sp²', 'sp³, sp³', 'sp², sp²', 'sp², sp³'],
     correctAnswer: 1,
@@ -10749,7 +10749,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c70',
+    id: 'q_0973',
     text: 'Acetophenone is which type of compound?',
     options: ['Aliphatic ketone', 'Aromatic ketone', 'Aliphatic aldehyde', 'Aromatic aldehyde'],
     correctAnswer: 1,
@@ -10760,7 +10760,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c71',
+    id: 'q_0974',
     text: 'What is obtained by the reduction of Methanal in the presence of concentrated NaOH?',
     options: ['Methyl alcohol', 'Ethyl alcohol', 'Formic acid', 'Methyl alcohol and Sodium formate'],
     correctAnswer: 3,
@@ -10771,7 +10771,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c72',
+    id: 'q_0975',
     text: 'On complete hydrolysis, Ethane nitrile gives',
     options: ['Ethanoic acid', 'Ethanal', 'Ethanol', 'Ethylamine'],
     correctAnswer: 0,
@@ -10782,7 +10782,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c73',
+    id: 'q_0976',
     text: 'Oxidation of which compound is not possible?',
     options: ['Acetone', 'Acetaldehyde', 'Propionaldehyde', 'None of these'],
     correctAnswer: 0,
@@ -10793,7 +10793,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c74',
+    id: 'q_0977',
     text: 'Which of the following is an alkyl carbylamine?',
     options: ['R−NH₂', 'R−CN', 'R−NC', 'R−NO₂'],
     correctAnswer: 2,
@@ -10804,7 +10804,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c75',
+    id: 'q_0978',
     text: 'Which type of chemical substance is Disparlure?',
     options: ['Pheromone', 'Hormone', 'Enzyme', 'Vitamin'],
     correctAnswer: 0,
@@ -10815,7 +10815,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c76',
+    id: 'q_0979',
     text: 'Which of the following does not react with C₆H₅SO₂Cl?',
     options: ['Primary amine', 'Secondary amine', 'Tertiary amine', 'All of these'],
     correctAnswer: 2,
@@ -10826,7 +10826,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c77',
+    id: 'q_0980',
     text: 'Which of the following is used in the preparation of controlled drugs capsules?',
     options: ['PHBV', 'Nylon-2-Nylon-6', 'Dextron', 'All of these'],
     correctAnswer: 0,
@@ -10837,7 +10837,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c78',
+    id: 'q_0981',
     text: 'Which of the following is a Cellulose diacetate fibre?',
     options: ['Rayon', 'Acetate rayon', 'Viscose rayon', 'None of these'],
     correctAnswer: 1,
@@ -10848,7 +10848,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2012_c79',
+    id: 'q_0982',
     text: 'What is obtained when Glucose reacts with excess C₆H₅−NH·NH₂?',
     options: ['Glucosazone', 'Glucose phenylhydrazine', 'Sorbitol', 'Gluconic acid'],
     correctAnswer: 0,
@@ -10859,7 +10859,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2012_c80',
+    id: 'q_0983',
     text: 'Which of the following lipid is not obtained by the hydrolysis of simple lipid and compound lipid?',
     options: ['Derived lipid', 'Neutral lipid', 'Phospholipid', 'None of these'],
     correctAnswer: 0,
@@ -10871,7 +10871,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2022 & 2023 Mathematics
   {
-    id: 'gujcet2022_m3',
+    id: 'q_0984',
     text: 'Binary operation * on R is given by a * b = (a+b)/2. Then * is ________.',
     options: ['not commutative but associative', 'commutative and associative', 'commutative but not associative', 'not commutative and not associative'],
     correctAnswer: 2,
@@ -10882,7 +10882,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m4',
+    id: 'q_0985',
     text: 'Let A = {-1, -2, 3, 4}. Number of all one-one functions from the set A to itself is ________.',
     options: ['24', '16', '4', '256'],
     correctAnswer: 0,
@@ -10893,7 +10893,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m5',
+    id: 'q_0986',
     text: 'If functions f and g are defined as f: [0, π/2] → R, f(x) = sin x and g: [0, π/2] → R, g(x) = cos x, then ________.',
     options: ['f+g is one-one and fg is not one-one', 'f+g is not one-one and fg is one-one', 'f+g is not one-one and fg is not one-one', 'f+g is one-one and fg is one-one'],
     correctAnswer: 3,
@@ -10904,7 +10904,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m33',
+    id: 'q_0987',
     text: 'Relation R in the set {π, π², π³} defined by R = {(π,π), (π²,π²), (π³,π³), (π,π²), (π²,π³)} is:',
     options: ['Reflexive but neither symmetric nor transitive', 'Symmetric but neither reflexive nor transitive', 'Transitive but neither reflexive nor symmetric', 'Only symmetric and transitive'],
     correctAnswer: 0,
@@ -10915,7 +10915,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m34',
+    id: 'q_0988',
     text: 'If m*n = mn/2, ∀ m, n ∈ Q+, then (4*3)⁻¹ = ________.',
     options: ['1/6', '3/2', '2', '2/3'],
     correctAnswer: 0,
@@ -10926,7 +10926,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m1',
+    id: 'q_0989',
     text: 'If 2sin⁻¹x = sin⁻¹(2x√(1-x²)) then x ∈ ________.',
     options: ['[-1/√2, 1]', '[0, 1]', '[1/√2, 1]', '[-1/√2, 1/√2]'],
     correctAnswer: 3,
@@ -10937,7 +10937,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m2',
+    id: 'q_0990',
     text: 'cos(sin⁻¹(1/5) + cos⁻¹x) = 0 then x = ________.',
     options: ['1', '1/5', '0', '5'],
     correctAnswer: 1,
@@ -10948,7 +10948,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m40',
+    id: 'q_0991',
     text: 'If sin⁻¹a = α + β, sin⁻¹b = α - β then sin²α + cos²β = ________.',
     options: ['ab', '1 - ab', 'ab - 1', '1 + ab'],
     correctAnswer: 0,
@@ -10959,7 +10959,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2023_m35',
+    id: 'q_0992',
     text: 'cos⁻¹{cot(Σᵢ₌₁³ cot⁻¹i)} = ________.',
     options: ['0', 'π/2', 'π', '-π/2'],
     correctAnswer: 1,
@@ -10970,7 +10970,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m36',
+    id: 'q_0993',
     text: 'cos(sec⁻¹2) + tan(cot⁻¹√3) + sin(cosec⁻¹(2/√3)) = ________.',
     options: ['(3+√3)/(5√3)', '(7+√3)/(5√3)', '(5+√3)/(2√3)', '(7-√3)/(2√3)'],
     correctAnswer: 2,
@@ -10981,7 +10981,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m37',
+    id: 'q_0994',
     text: 'If cos(cos⁻¹(√3/2) + sin⁻¹x) = 1, then value of x is:',
     options: ['-1/2', '√3/2', '-√3/2', '0'],
     correctAnswer: 0,
@@ -10992,7 +10992,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m35',
+    id: 'q_0995',
     text: 'If A = [[cosθ, sinθ], [-sinθ, cosθ]] then A³ = ________.',
     options: ['[[cos3θ, sin3θ], [-cos3θ, sin3θ]]', '[[-cos3θ, sin3θ], [sin3θ, cos3θ]]', '[[cos3θ, sin3θ], [-sin3θ, cos3θ]]', '[[cos3θ, -sin3θ], [-sin3θ, cos3θ]]'],
     correctAnswer: 2,
@@ -11003,7 +11003,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m36',
+    id: 'q_0996',
     text: 'If A = [[1,-1,1],[2,1,-3],[1,1,1]], 10B = [[4,2,2],[-5,0,α],[1,-2,3]] and B is inverse of A then α = ________.',
     options: ['10', '9', '3', '5'],
     correctAnswer: 3,
@@ -11014,7 +11014,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m37',
+    id: 'q_0997',
     text: 'For real numbers x, y, z such that x≠y≠z, |x x² 1+x³; y y² 1+y³; z z² 1+z³| = 0 and |1 x x²; 1 y y²; 1 z z²| ≠ 0 then xyz = ________.',
     options: ['2', '-1', '0', '1'],
     correctAnswer: 1,
@@ -11025,7 +11025,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m38',
+    id: 'q_0998',
     text: 'If a, b, c are measurements of sides of △ABC and |a b c; b c a; c a b| = 0 then sin²A + sin²B + sin²C = ________.',
     options: ['13/4', '9/4', '15/4', '11/4'],
     correctAnswer: 2,
@@ -11036,7 +11036,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m39',
+    id: 'q_0999',
     text: 'If A = [[2,0,0],[0,1,0],[0,0,3]] then sum of all elements of A⁻¹ = ________.',
     options: ['6', '-6', '0', '11/6'],
     correctAnswer: 3,
@@ -11047,7 +11047,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m1',
+    id: 'q_1000',
     text: '|sin(11π/36) cos(11π/36); sin(2π/9) cos(2π/9)| = ________.',
     options: ['cos(π/12)', 'sin(2π/9)', 'cos(5π/12)', 'sin(7π/12)'],
     correctAnswer: 2,
@@ -11058,7 +11058,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m2',
+    id: 'q_1001',
     text: 'If A(K,1), B(2,4) and C(1,1) are vertices of △ABC such that area is 6 units, then K = ________.',
     options: ['-5 and 3', '5 and -3', '3 and -1', '5 and 3'],
     correctAnswer: 3,
@@ -11069,7 +11069,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m38',
+    id: 'q_1002',
     text: 'If [[x+y, -2],[7+z, x-y]] = [[-7,-2],[5,0]], then 2x + 4y + 2z = ________.',
     options: ['-9', '17', '-25', '-14'],
     correctAnswer: 2,
@@ -11080,7 +11080,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m39',
+    id: 'q_1003',
     text: 'If A = [1 2] and B = [[3],[4]], then (BA)\' = ________.',
     options: ['[[3,6],[4,8]]', '[[3,4],[6,8]]', '[[4,8],[6,3]]', '[11]'],
     correctAnswer: 1,
@@ -11091,7 +11091,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m40',
+    id: 'q_1004',
     text: 'If A = [[0,0,-5],[0,-5,0],[-5,0,0]], then A² = ________.',
     options: ['-5I', '5A', '25A', '25I'],
     correctAnswer: 3,
@@ -11102,7 +11102,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m7',
+    id: 'q_1005',
     text: 'Function f: [1.2, 1.9] → R, f(x) = [x] (greatest integer). Then ________.',
     options: ['f\'(x) = 1', 'f is not differentiable', 'f\'(x) = 0', 'f is not continuous function'],
     correctAnswer: 3,
@@ -11113,7 +11113,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m8',
+    id: 'q_1006',
     text: 'If x = √(10^(sin⁻¹t)), y = √(10^(cos⁻¹t)) then dy/dx = ________.',
     options: ['-x/y', 'y/x', '0', '-y/x'],
     correctAnswer: 3,
@@ -11124,7 +11124,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m6',
+    id: 'q_1007',
     text: 'If y = 100e²ˣ + 200e⁻²ˣ and d²y/dx² = ay then a = ________.',
     options: ['4', '-4', '2', '0'],
     correctAnswer: 0,
@@ -11135,7 +11135,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m3',
+    id: 'q_1008',
     text: '{d/dx(xˣ + x^(x+1) + x^(x+2))}_{x=e} = ________.',
     options: ['eᵉ(1+e²+2e)', 'eᵉ(3e²+2e+2)', 'eᵉ(2e²+4e+3)', 'eᵉ(1+4e+2e²)'],
     correctAnswer: 2,
@@ -11146,7 +11146,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2023_m4',
+    id: 'q_1009',
     text: 'If x = a cosθ, y = a sinθ, then d²y/dx² = ________ (where a≠0, θ≠kπ).',
     options: ['-(1/a)cosec²θ secθ', '(1/a)cot³θ', 'cosec²θ', '-(1/a)cosec³θ'],
     correctAnswer: 3,
@@ -11157,7 +11157,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m5',
+    id: 'q_1010',
     text: 'If y = √(sin⁻¹x + y), then dy/dx = ________ (where x ∈ (0,1)).',
     options: ['1/((2y-1)√(1-x²))', '1/((1-2y)√(1-x²))', '1/((2y-1)√(x²-1))', '1/((2y+1)√(1-x²))'],
     correctAnswer: 0,
@@ -11168,7 +11168,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m9',
+    id: 'q_1011',
     text: 'The interval in which y = x²e⁻ˣ is increasing is ________.',
     options: ['(0,2)', '(-2,0)', '(2,∞)', '(-∞,∞)'],
     correctAnswer: 0,
@@ -11179,7 +11179,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m10',
+    id: 'q_1012',
     text: 'Equation of tangent line to 16x² + 25y² = 1, which is parallel to Y-axis is ________.',
     options: ['5y-1=0', '5x-1=0', '4y+1=0', '4x-1=0'],
     correctAnswer: 3,
@@ -11190,7 +11190,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m11',
+    id: 'q_1013',
     text: 'A cylindrical tank of diameter 20m is being filled with wheat at the rate of 314 cubic meter per hour. Then the depth of wheat is increasing at the rate of ________.',
     options: ['0.5 m/h', '0.1 m/h', '1.1 m/h', '1 m/h'],
     correctAnswer: 3,
@@ -11201,7 +11201,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m6',
+    id: 'q_1014',
     text: 'For the function f(x) = x + x⁻¹, x ∈ [1,3], the value of C for mean value theorem is:',
     options: ['√3', '1', '√2', '√5'],
     correctAnswer: 0,
@@ -11212,7 +11212,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m7',
+    id: 'q_1015',
     text: 'Rate of change in the volume of a sphere of radius r w.r.t. its diameter = ________.',
     options: ['4πr²', '2πr²', '(2/3)πr²', '8πr²'],
     correctAnswer: 1,
@@ -11223,7 +11223,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m8',
+    id: 'q_1016',
     text: 'Which of the following function is decreasing on (0, π/8)?',
     options: ['sin x', '-cos x', 'cos 4x', 'tan 4x'],
     correctAnswer: 2,
@@ -11234,7 +11234,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m9',
+    id: 'q_1017',
     text: 'An approximate value of (81.5)^(1/4) is:',
     options: ['3.0436', '3.0033', '3.0046', '3.0465'],
     correctAnswer: 2,
@@ -11245,7 +11245,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m10',
+    id: 'q_1018',
     text: 'Equation of the normal to the curve x^(2/3) + y^(2/3) = 2 at (1,1) is:',
     options: ['2x-y-1=0', 'x+y-2=0', 'x+y=0', 'x-y=0'],
     correctAnswer: 1,
@@ -11256,7 +11256,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m12',
+    id: 'q_1019',
     text: '∫ (x² + sin²x) / (1 + x²) sec²x dx = ________.',
     options: ['tan x - cot⁻¹x + C', 'tan x + tan⁻¹x + C', 'tan x - tan⁻¹x + C', 'tan x + cot⁻¹x + C'],
     correctAnswer: 2,
@@ -11267,7 +11267,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m13',
+    id: 'q_1020',
     text: '∫ dx / (x(x⁴-1)) = ________.',
     options: ['(1/4) log|x⁴/(x⁴-1)| + C', '(1/4) log|(x⁴-1)/x⁴| + C', 'log|(x⁴-1)/x⁴| + C', '(1/4) log|x/(x⁴-1)| + C'],
     correctAnswer: 1,
@@ -11278,7 +11278,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m14',
+    id: 'q_1021',
     text: '∫ eˣ (1+x) / cos²(xeˣ) dx = ________.',
     options: ['tan(xeˣ) + C', 'cot(xeˣ) + C', 'tan(eˣ) + C', 'tan(x) + C'],
     correctAnswer: 0,
@@ -11289,7 +11289,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m15',
+    id: 'q_1022',
     text: '∫₀¹ tan⁻¹x dx = ________.',
     options: ['π/4 - (1/2)log 2', 'π/4 + (1/2)log 2', 'π/2 - log 2', 'π/4 - log 2'],
     correctAnswer: 0,
@@ -11300,7 +11300,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m16',
+    id: 'q_1023',
     text: '∫₀^(π/2) (sin x - cos x) / (1 + sin x cos x) dx = ________.',
     options: ['π/2', 'π/4', '0', '1'],
     correctAnswer: 2,
@@ -11311,7 +11311,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m11',
+    id: 'q_1024',
     text: '∫ (x² + 1) / (x⁴ + 1) dx = ________.',
     options: ['(1/√2) tan⁻¹((x²-1)/(√2x)) + C', '(1/√2) tan⁻¹((x²+1)/(√2x)) + C', '(1/√2) tan⁻¹((x-1/x)/√2) + C', 'Both (A) and (C)'],
     correctAnswer: 3,
@@ -11322,7 +11322,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2023_m12',
+    id: 'q_1025',
     text: '∫ (sin x + cos x) / √(1 + sin 2x) dx = ________.',
     options: ['x + C', 'sin x - cos x + C', 'log|sin x + cos x| + C', 'None of these'],
     correctAnswer: 0,
@@ -11333,7 +11333,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m13',
+    id: 'q_1026',
     text: '∫ (dx / (x² + 2x + 2)) = ________.',
     options: ['tan⁻¹(x+1) + C', 'log|x²+2x+2| + C', 'tan⁻¹x + C', 'None of these'],
     correctAnswer: 0,
@@ -11344,7 +11344,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m14',
+    id: 'q_1027',
     text: '∫ eˣ (tan x + log sec x) dx = ________.',
     options: ['eˣ tan x + C', 'eˣ log sec x + C', 'eˣ sec x + C', 'None of these'],
     correctAnswer: 1,
@@ -11355,7 +11355,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m15',
+    id: 'q_1028',
     text: '∫₀^(π/2) (dx / (1 + tan x)) = ________.',
     options: ['π/2', 'π/4', 'π', '0'],
     correctAnswer: 1,
@@ -11366,7 +11366,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m16',
+    id: 'q_1029',
     text: '∫₁³ (dx / (x(1 + log x))) = ________.',
     options: ['log(1 + log 3)', 'log 3', '1 + log 3', 'None of these'],
     correctAnswer: 0,
@@ -11377,7 +11377,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m17',
+    id: 'q_1030',
     text: 'Area of the region bounded by the curve y = cos x, X-axis and lines x=0, x=π is ________.',
     options: ['2', '1', '4', '0'],
     correctAnswer: 0,
@@ -11388,7 +11388,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m17',
+    id: 'q_1031',
     text: 'Area of the region bounded by the curve y = x², X-axis and lines x=1, x=2 is ________.',
     options: ['7/3', '8/3', '1', 'None of these'],
     correctAnswer: 0,
@@ -11399,7 +11399,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m18',
+    id: 'q_1032',
     text: 'Area of the circle x² + y² = 4 is ________.',
     options: ['4π', '2π', 'π', '16π'],
     correctAnswer: 0,
@@ -11410,7 +11410,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m18',
+    id: 'q_1033',
     text: 'The order and degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 are ________.',
     options: ['2, 3', '2, not defined', 'not defined, 2', '3, 2'],
     correctAnswer: 1,
@@ -11421,7 +11421,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m19',
+    id: 'q_1034',
     text: 'The number of arbitrary constants in the general solution of a differential equation of fourth order is ________.',
     options: ['0', '2', '3', '4'],
     correctAnswer: 3,
@@ -11432,7 +11432,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m20',
+    id: 'q_1035',
     text: 'Integrating factor of the differential equation x dy/dx - y = 2x² is ________.',
     options: ['e⁻ˣ', 'eˣ', '1/x', 'x'],
     correctAnswer: 2,
@@ -11443,7 +11443,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m19',
+    id: 'q_1036',
     text: 'General solution of the differential equation dy/dx = e^(x+y) is:',
     options: ['eˣ + e⁻ʸ = C', 'eˣ + eʸ = C', 'e⁻ˣ + eʸ = C', 'e⁻ˣ + e⁻ʸ = C'],
     correctAnswer: 0,
@@ -11454,7 +11454,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m20',
+    id: 'q_1037',
     text: 'Integrating factor of the differential equation cos²x dy/dx + y = tan x is:',
     options: ['e^(tan x)', 'tan x', 'e^(sec²x)', 'None of these'],
     correctAnswer: 0,
@@ -11465,7 +11465,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m21',
+    id: 'q_1038',
     text: 'The number of arbitrary constants in the particular solution of a differential equation of third order is:',
     options: ['3', '2', '1', '0'],
     correctAnswer: 3,
@@ -11476,7 +11476,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m21',
+    id: 'q_1039',
     text: 'If |a| = 10, |b| = 2 and a·b = 12, then |a×b| = ________.',
     options: ['16', '14', '10', '12'],
     correctAnswer: 0,
@@ -11487,7 +11487,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m22',
+    id: 'q_1040',
     text: 'If a is a non-zero vector of magnitude \'a\' and λ is a non-zero scalar, then λa is a unit vector if ________.',
     options: ['λ = 1', 'λ = -1', 'a = |λ|', 'a = 1/|λ|'],
     correctAnswer: 3,
@@ -11498,7 +11498,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m23',
+    id: 'q_1041',
     text: 'The value of i·(j×k) + j·(i×k) + k·(i×j) is ________.',
     options: ['0', '-1', '1', '3'],
     correctAnswer: 2,
@@ -11509,7 +11509,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m22',
+    id: 'q_1042',
     text: 'If a = i + j + k, b = i + j, c = i and (a×b)×c = λa + μb, then λ+μ = ________.',
     options: ['0', '1', '2', '-1'],
     correctAnswer: 0,
@@ -11520,7 +11520,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m23',
+    id: 'q_1043',
     text: 'Projection of vector a = 2i + 3j + 2k on vector b = i + 2j + k is:',
     options: ['10/√6', '10', '√6', 'None of these'],
     correctAnswer: 0,
@@ -11531,7 +11531,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m24',
+    id: 'q_1044',
     text: 'If |a| = 3, |b| = 4 and |a+b| = 5, then |a-b| = ________.',
     options: ['5', '6', '√7', 'None of these'],
     correctAnswer: 0,
@@ -11542,7 +11542,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m24',
+    id: 'q_1045',
     text: 'The distance of the point (2, 3, 4) from the plane 3x - 6y + 2z + 11 = 0 is ________.',
     options: ['1', '2', '3', '0'],
     correctAnswer: 0,
@@ -11553,7 +11553,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m25',
+    id: 'q_1046',
     text: 'The angle between the line (x-2)/3 = (y+1)/4 = (z-2)/12 and the plane x - y + z = 5 is ________.',
     options: ['sin⁻¹(11/13√3)', 'sin⁻¹(11/13)', 'cos⁻¹(11/13√3)', 'sin⁻¹(1/√3)'],
     correctAnswer: 0,
@@ -11564,7 +11564,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m26',
+    id: 'q_1047',
     text: 'The direction cosines of the line joining the points (1, 2, -3) and (-2, 3, 1) are ________.',
     options: ['-3, 1, 4', '-3/√26, 1/√26, 4/√26', '3/√26, -1/√26, -4/√26', 'Both (B) and (C)'],
     correctAnswer: 3,
@@ -11575,7 +11575,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m27',
+    id: 'q_1048',
     text: 'If a line makes angles α, β, γ with the positive directions of X, Y and Z axes respectively, then sin²α + sin²β + sin²γ = ________.',
     options: ['1', '2', '3', '0'],
     correctAnswer: 1,
@@ -11586,7 +11586,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m25',
+    id: 'q_1049',
     text: 'Distance between the parallel planes 2x + 3y + 4z = 4 and 4x + 6y + 8z = 12 is:',
     options: ['2/√29', '4/√29', '8/√29', 'None of these'],
     correctAnswer: 0,
@@ -11597,7 +11597,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m26',
+    id: 'q_1050',
     text: 'Direction cosines of the line (x-5)/3 = (y+4)/7 = (z-6)/2 are:',
     options: ['3, 7, 2', '3/√62, 7/√62, 2/√62', '3/12, 7/12, 2/12', 'None of these'],
     correctAnswer: 1,
@@ -11608,7 +11608,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m27',
+    id: 'q_1051',
     text: 'Angle between the lines r = (i+j+k) + λ(i-j+k) and r = (i+j+k) + μ(i+j-k) is:',
     options: ['cos⁻¹(1/3)', 'cos⁻¹(-1/3)', 'π/2', 'None of these'],
     correctAnswer: 1,
@@ -11619,7 +11619,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m28',
+    id: 'q_1052',
     text: 'The coordinates of the foot of the perpendicular from the origin to the plane 2x - 3y + 4z - 6 = 0 are:',
     options: ['(12/29, -18/29, 24/29)', '(2, -3, 4)', '(6/29, -9/29, 12/29)', 'None of these'],
     correctAnswer: 0,
@@ -11630,7 +11630,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2022_m28',
+    id: 'q_1053',
     text: 'Corner points of the feasible region for an LPP are (0, 2), (3, 0), (6, 0), (6, 8) and (0, 5). Let Z = 4x + 6y be the objective function. The minimum value of Z occurs at ________.',
     options: ['(0, 2) only', '(3, 0) only', 'the mid-point of the line segment joining (0, 2) and (3, 0) only', 'any point on the line segment joining (0, 2) and (3, 0)'],
     correctAnswer: 3,
@@ -11641,7 +11641,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2023_m29',
+    id: 'q_1054',
     text: 'The maximum value of Z = 3x + 4y subject to constraints x+y≤4, x≥0, y≥0 is:',
     options: ['12', '16', '0', 'None of these'],
     correctAnswer: 1,
@@ -11652,7 +11652,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m30',
+    id: 'q_1055',
     text: 'Feasible region for an LPP is always a ________ polygon.',
     options: ['Convex', 'Concave', 'Regular', 'None of these'],
     correctAnswer: 0,
@@ -11663,7 +11663,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m29',
+    id: 'q_1056',
     text: 'If P(A) = 1/2, P(B) = 0, then P(A|B) is ________.',
     options: ['0', '1/2', 'not defined', '1'],
     correctAnswer: 2,
@@ -11674,7 +11674,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2022_m30',
+    id: 'q_1057',
     text: 'If A and B are independent events such that P(A) = 0.3 and P(B) = 0.4, then P(A∩B) = ________.',
     options: ['0.12', '0.7', '0.1', '0.012'],
     correctAnswer: 0,
@@ -11685,7 +11685,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m31',
+    id: 'q_1058',
     text: 'If P(A) = 0.8, P(B) = 0.5 and P(B|A) = 0.4, then P(A∩B) = ________.',
     options: ['0.32', '0.4', '0.5', 'None of these'],
     correctAnswer: 0,
@@ -11696,7 +11696,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2023_m32',
+    id: 'q_1059',
     text: 'If A and B are two events such that P(A)≠0 and P(B|A) = 1, then:',
     options: ['A ⊂ B', 'B ⊂ A', 'B = ∅', 'A = ∅'],
     correctAnswer: 0,
@@ -11709,7 +11709,7 @@ export const MOCK_QUESTIONS: Question[] = [
   // GUJCET 2021 & 2020 - MATHEMATICS
   // CHAPTER 1 — RELATIONS AND FUNCTIONS
   {
-    id: 'gujcet2021_q1',
+    id: 'q_1060',
     text: 'Let R be the relation in the set {x : x ∈ N, x ≤ 4} given by R = {(1,1), (2,2), (3,3)}, then R is:',
     options: [
       'reflexive and symmetric but not transitive',
@@ -11725,7 +11725,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q2',
+    id: 'q_1061',
     text: 'Function f : R → R defined as f(x) = x³, f is:',
     options: ['one-one and onto', 'one-one but not onto', 'many-one and onto', 'neither one-one nor onto'],
     correctAnswer: 0,
@@ -11736,7 +11736,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q3',
+    id: 'q_1062',
     text: 'If f(x) = (1+x)/(1-x); x ≠ 1, then f(x).f(y) =',
     options: ['f((x+y)/(1-xy))', 'f(x.y)', 'f((x+y)/(1+xy))', 'f(1/(1+xy))'],
     correctAnswer: 0,
@@ -11747,7 +11747,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q4',
+    id: 'q_1063',
     text: 'Let f : R → R be defined by f(x) = 2x² - 5 and g : R → R by g(x) = x/(x²+1), then gof is:',
     options: [
       '(2x²-5)/(4x⁴+20x²+26)',
@@ -11763,7 +11763,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q5',
+    id: 'q_1064',
     text: 'Let f : [2, ∞) → R be the function defined by f(x) = x² - 4x + 5. Then the range of f is:',
     options: ['[1, ∞)', '[4, ∞)', 'R', '[5, ∞)'],
     correctAnswer: 0,
@@ -11774,7 +11774,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q6',
+    id: 'q_1065',
     text: 'On R, binary operation * is defined by a * b = a + b + ab, then identity and inverse of * are respectively:',
     options: ['0, -a/(1-a)', '1, a/(1+a)', '0, -a/(1+a)', '1, a/(1-a)'],
     correctAnswer: 2,
@@ -11786,7 +11786,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 2 — INVERSE TRIGONOMETRIC FUNCTIONS
   {
-    id: 'gujcet2021_q7',
+    id: 'q_1066',
     text: 'cos²(sin⁻¹x) + sin²(cos⁻¹x) = ________; 0 < x < 1',
     options: ['2√(1-x²)', '2(x²-1)', '0', '2(1-x²)'],
     correctAnswer: 3,
@@ -11797,7 +11797,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q8',
+    id: 'q_1067',
     text: 'Solution set of tan⁻¹(2x) + tan⁻¹(3x) = π/4 is:',
     options: ['{1/6, -1}', '{0, 1}', '{1/6, 1}', '{1/6}'],
     correctAnswer: 3,
@@ -11808,7 +11808,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q9',
+    id: 'q_1068',
     text: 'sin⁻¹(3/5) - sin⁻¹(8/17) =',
     options: ['cos⁻¹(84/85)', 'cos⁻¹(24/85)', 'sin⁻¹(24/85)', 'sin⁻¹(84/85)'],
     correctAnswer: 0,
@@ -11819,7 +11819,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q10',
+    id: 'q_1069',
     text: 'tan²(sec⁻¹3) + cosec²(cot⁻¹2) + cos²(cos⁻¹(2/3) + sin⁻¹(2/3)) =',
     options: ['15', '16', '14', '13'],
     correctAnswer: 3,
@@ -11831,7 +11831,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 3 — MATRICES
   {
-    id: 'gujcet2021_q11',
+    id: 'q_1070',
     text: 'If AB = [[-6, 26],[-1, 19]] and 11B⁻¹ = [[5, -3],[2, 1]], then A =',
     options: ['[[-2, 4],[3, -2]]', '[[2, 4],[3, 2]]', '[[2, -4],[-3, 2]]', '[[-2, 4],[3, 2]]'],
     correctAnswer: 3,
@@ -11842,7 +11842,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q12',
+    id: 'q_1071',
     text: 'If A = [[4,0,0],[0,3,0],[0,0,2]] and B = [[1,0,0],[0,2,0],[0,0,3]], then (A+B)⁻¹ =',
     options: ['(1/25)I₃', '-(1/5)I₃', '(1/5)I₃', '-(1/25)I₃'],
     correctAnswer: 0,
@@ -11853,7 +11853,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q13',
+    id: 'q_1072',
     text: 'If A = [[1,5],[6,7]] and B = [[1,0],[1,1]], then which one of the following is incorrect:',
     options: ["(AB)' = A'B'", 'A.adj A = |A|I', "(A+B)' = B'+A'", '(AB)⁻¹ = B⁻¹.A⁻¹'],
     correctAnswer: 0,
@@ -11864,7 +11864,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q14',
+    id: 'q_1073',
     text: 'If A = [[a, b],[c, -a]] is such that A² = I, then:',
     options: ['1 - a² + bc = 0', '1 + a² + bc = 0', '1 + a² - bc = 0', '1 - a² - bc = 0'],
     correctAnswer: 3,
@@ -11875,7 +11875,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q15',
+    id: 'q_1074',
     text: 'If A is a square matrix such that A² = I, then (A-I)³ + (A+I)³ - 7A is equal to:',
     options: ['I + A', 'I - A', 'A', '3A'],
     correctAnswer: 2,
@@ -11887,7 +11887,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 4 — DETERMINANTS
   {
-    id: 'gujcet2021_q16',
+    id: 'q_1075',
     text: 'A(1,3), B(0,0) and C(k,0) are vertices of △ABC. If area of △ABC is 3 units, then k is:',
     options: ['2', '0', '-2', '±2'],
     correctAnswer: 3,
@@ -11898,7 +11898,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q17',
+    id: 'q_1076',
     text: 'If 2|sin(A+B) cos(A+B); cos(A-B) sin(A-B)| + √3 = 0, then A =',
     options: ['π/6', 'π/3', 'π/12', 'π/4'],
     correctAnswer: 2,
@@ -11909,7 +11909,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q18',
+    id: 'q_1077',
     text: 'For |2 3 5; 1 0 7; -1 -2 4|, the sum of minor and cofactor of 7 =',
     options: ['0', '2', '-2', '-1'],
     correctAnswer: 1,
@@ -11920,7 +11920,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q19',
+    id: 'q_1078',
     text: 'If A = [[0,1,2],[1,2,3],[3,1,1]] and inverse of A is (1/2)[[ 1,-1,1],[-8,6,-2],[x,-3,1]], then x =',
     options: ['5', '3', '2', '4'],
     correctAnswer: 0,
@@ -11931,7 +11931,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q20',
+    id: 'q_1079',
     text: 'Let f(t) = |cost t 1; 2tant t 2t; tant t t|. Then lim(t→0) f(t)/t² is equal to:',
     options: ['3', '1', '-1', '0'],
     correctAnswer: 3,
@@ -11942,7 +11942,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2020_q21',
+    id: 'q_1080',
     text: 'If x, y ∈ R and |(aˣ+a⁻ˣ)² (aˣ-a⁻ˣ)² 1; (bˣ+b⁻ˣ)² (bˣ-b⁻ˣ)² 1; (cˣ+c⁻ˣ)² (cˣ-c⁻ˣ)² 1| = 2y + 6, then y =',
     options: ['0', '3', '-3', '6'],
     correctAnswer: 2,
@@ -11953,7 +11953,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q22',
+    id: 'q_1081',
     text: 'For △ABC, the value of |0 sinA tanB; -sin(B+C) 0 cosC; tan(A+C) -cosC 0| =',
     options: ['-1', '0', '1', 'sinAcosC'],
     correctAnswer: 1,
@@ -11965,7 +11965,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 5 — CONTINUITY AND DIFFERENTIABILITY
   {
-    id: 'gujcet2021_q23',
+    id: 'q_1082',
     text: 'If f(x) = |x-1| + |x-2|, then f is not differentiable at x = ________.',
     options: ['1, 2', '1', '2', '0'],
     correctAnswer: 0,
@@ -11976,7 +11976,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q24',
+    id: 'q_1083',
     text: 'If y = tan⁻¹[(√x(3-x))/(1-3x)], then dy/dx = ________.',
     options: ['3/(2√x(1+x))', '1/(2√x(1+x))', '3/(√x(1+x))', '2/(3√x(1+x))'],
     correctAnswer: 0,
@@ -11987,7 +11987,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q25',
+    id: 'q_1084',
     text: 'If x = a cos³θ, y = a sin³θ, then 1 + (dy/dx)² = ________.',
     options: ['tan²θ', 'sec²θ', 'secθ', 'tanθ'],
     correctAnswer: 1,
@@ -11998,7 +11998,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q26',
+    id: 'q_1085',
     text: 'If y = e^(x+e^(x+e^(x+...∞))), then dy/dx = ________.',
     options: ['y/(1-y)', 'y/(1+y)', 'x/(1-y)', 'x/(1+y)'],
     correctAnswer: 0,
@@ -12009,7 +12009,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q27',
+    id: 'q_1086',
     text: 'If f(x) = { [ (k cosx)/(π-2x), if x ≠ π/2 ], [ 3, if x = π/2 ] } is continuous at x = π/2, then k =',
     options: ['3', '6', '12', '5'],
     correctAnswer: 1,
@@ -12020,7 +12020,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q28',
+    id: 'q_1087',
     text: 'If f(x) = logₓ(logx), then f\'(e) =',
     options: ['e', '1/e', '1', '0'],
     correctAnswer: 1,
@@ -12031,7 +12031,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q29',
+    id: 'q_1088',
     text: 'If y = sin⁻¹( (sin x + cos x)/√2 ), then dy/dx =',
     options: ['1', '1/2', '0', '-1'],
     correctAnswer: 0,
@@ -12042,7 +12042,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q30',
+    id: 'q_1089',
     text: 'If x = a(θ + sinθ), y = a(1 - cosθ), then d²y/dx² at θ = π/2 is:',
     options: ['-1/a', '1/a', '1/2a', '1/4a'],
     correctAnswer: 1,
@@ -12054,7 +12054,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 6 — APPLICATION OF DERIVATIVES
   {
-    id: 'gujcet2021_q31',
+    id: 'q_1090',
     text: 'The rate of change of the area of a circle with respect to its radius r at r = 5 cm is:',
     options: ['10π', '12π', '8π', '11π'],
     correctAnswer: 0,
@@ -12065,7 +12065,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q32',
+    id: 'q_1091',
     text: 'The interval in which y = x² e⁻ˣ is increasing is:',
     options: ['(0, 2)', '(-∞, ∞)', '(-2, 0)', '(2, ∞)'],
     correctAnswer: 0,
@@ -12076,7 +12076,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q33',
+    id: 'q_1092',
     text: 'The slope of the normal to the curve y = 2x² + 3sin x at x = 0 is:',
     options: ['-1/3', '1/3', '-3', '3'],
     correctAnswer: 0,
@@ -12087,7 +12087,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q34',
+    id: 'q_1093',
     text: 'A stone is dropped into a quiet lake and waves move in circles at a speed of 4 cm/s. At the instant when the radius of the circular wave is 10 cm, how fast is the enclosed area increasing?',
     options: ['80π cm²/s', '60π cm²/s', '40π cm²/s', '20π cm²/s'],
     correctAnswer: 0,
@@ -12098,7 +12098,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q35',
+    id: 'q_1094',
     text: 'The maximum value of [x(x-1)+1]^(1/3), 0 ≤ x ≤ 1 is:',
     options: ['(1/3)^(1/3)', '1/2', '1', '0'],
     correctAnswer: 2,
@@ -12109,7 +12109,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q36',
+    id: 'q_1095',
     text: 'The equation of the normal to the curve y = sin x at (0,0) is:',
     options: ['x + y = 0', 'x - y = 0', 'x = 0', 'y = 0'],
     correctAnswer: 0,
@@ -12121,7 +12121,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 7 — INTEGRALS
   {
-    id: 'gujcet2021_q37',
+    id: 'q_1096',
     text: '∫ (x² + sin²x)/(1 + x²) sec²x dx = ________.',
     options: ['tan x - cot⁻¹x + C', 'tan x + cot⁻¹x + C', 'tan x - tan⁻¹x + C', 'tan x + tan⁻¹x + C'],
     correctAnswer: 0,
@@ -12132,7 +12132,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'gujcet2021_q38',
+    id: 'q_1097',
     text: '∫ dx/(x(x⁴-1)) = ________.',
     options: ['(1/4) log| (x⁴-1)/x⁴ | + C', 'log| (x⁴-1)/x⁴ | + C', '(1/4) log| x⁴/(x⁴-1) | + C', 'log| x⁴/(x⁴-1) | + C'],
     correctAnswer: 0,
@@ -12143,7 +12143,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q39',
+    id: 'q_1098',
     text: '∫ (e^x (1+x))/cos²(xe^x) dx = ________.',
     options: ['tan(xe^x) + C', 'cot(xe^x) + C', 'cos(xe^x) + C', 'sin(xe^x) + C'],
     correctAnswer: 0,
@@ -12154,7 +12154,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q40',
+    id: 'q_1099',
     text: '∫₀ᵖⁱ/² (sin x)/(sin x + cos x) dx = ________.',
     options: ['π/2', 'π/4', 'π/3', 'π/6'],
     correctAnswer: 1,
@@ -12165,7 +12165,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q41',
+    id: 'q_1100',
     text: '∫₀¹ tan⁻¹x dx = ________.',
     options: ['π/4 - (1/2)log2', 'π/4 + (1/2)log2', 'π/2 - log2', 'π/2 + log2'],
     correctAnswer: 0,
@@ -12176,7 +12176,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q42',
+    id: 'q_1101',
     text: '∫₀ᵖⁱ/² log(tan x) dx = ________.',
     options: ['π/2', 'π/4', '0', '1'],
     correctAnswer: 2,
@@ -12187,7 +12187,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q43',
+    id: 'q_1102',
     text: '∫ (dx)/(sin²x cos²x) =',
     options: ['tanx + cotx + C', 'tanx - cotx + C', 'cotx - tanx + C', '-tanx - cotx + C'],
     correctAnswer: 1,
@@ -12198,7 +12198,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q44',
+    id: 'q_1103',
     text: '∫ (e^x (x-3))/(x-1)³ dx =',
     options: ['e^x/(x-1)² + C', 'e^x/(x-1) + C', '-e^x/(x-1)² + C', 'e^x/(x-1)³ + C'],
     correctAnswer: 0,
@@ -12209,7 +12209,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q45',
+    id: 'q_1104',
     text: '∫ (dx)/(x² + 2x + 2) =',
     options: ['tan⁻¹(x+1) + C', 'tan⁻¹(x-1) + C', '2tan⁻¹(x+1) + C', 'log(x² + 2x + 2) + C'],
     correctAnswer: 0,
@@ -12220,7 +12220,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q46',
+    id: 'q_1105',
     text: '∫₀ᵖⁱ/² (dx)/(1 + tan x) =',
     options: ['π', 'π/2', 'π/3', 'π/4'],
     correctAnswer: 3,
@@ -12231,7 +12231,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q47',
+    id: 'q_1106',
     text: '∫₀¹ (dx)/(√(1-x²)) =',
     options: ['π', 'π/2', 'π/3', 'π/4'],
     correctAnswer: 1,
@@ -12242,7 +12242,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q48',
+    id: 'q_1107',
     text: '∫₀ᵃ f(x) dx =',
     options: ['∫₀ᵃ f(a-x) dx', '∫₀ᵃ f(x-a) dx', '∫₀ᵃ f(a+x) dx', '2∫₀ᵃ f(x) dx'],
     correctAnswer: 0,
@@ -12254,7 +12254,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 8 — APPLICATION OF INTEGRALS
   {
-    id: 'gujcet2021_q49',
+    id: 'q_1108',
     text: 'Area of the region bounded by the curve y = cos x between x = 0 and x = π is:',
     options: ['2', '1', '0', '4'],
     correctAnswer: 0,
@@ -12265,7 +12265,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q50',
+    id: 'q_1109',
     text: 'Area of the region bounded by the curve y² = x, y-axis and the line y = 3 is:',
     options: ['9', '3', '27', '1'],
     correctAnswer: 0,
@@ -12276,7 +12276,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q51',
+    id: 'q_1110',
     text: 'Area bounded by the curve y = sin x, x-axis and lines x = 0, x = π is:',
     options: ['1', '2', '3', '4'],
     correctAnswer: 1,
@@ -12287,7 +12287,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q52',
+    id: 'q_1111',
     text: 'Area of the region bounded by the circle x² + y² = 4 is:',
     options: ['2π', '4π', '8π', '16π'],
     correctAnswer: 1,
@@ -12299,7 +12299,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 9 — DIFFERENTIAL EQUATIONS
   {
-    id: 'gujcet2021_q53',
+    id: 'q_1112',
     text: 'The order and degree of the differential equation [1 + (dy/dx)²]^(3/2) = d²y/dx² are:',
     options: ['2, 2', '2, 3', '1, 2', '1, 3'],
     correctAnswer: 0,
@@ -12310,7 +12310,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q54',
+    id: 'q_1113',
     text: 'The integrating factor of the differential equation x dy/dx - y = 2x² is:',
     options: ['e⁻ˣ', 'eˣ', '1/x', 'x'],
     correctAnswer: 2,
@@ -12321,7 +12321,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q55',
+    id: 'q_1114',
     text: 'The general solution of the differential equation dy/dx = e^(x+y) is:',
     options: ['eˣ + e⁻ʸ = C', 'eˣ + eʸ = C', 'e⁻ˣ + eʸ = C', 'e⁻ˣ + e⁻ʸ = C'],
     correctAnswer: 0,
@@ -12332,7 +12332,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q56',
+    id: 'q_1115',
     text: 'The order of the differential equation of all circles of given radius r is:',
     options: ['1', '2', '3', '4'],
     correctAnswer: 1,
@@ -12343,7 +12343,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q57',
+    id: 'q_1116',
     text: 'The number of arbitrary constants in the general solution of a differential equation of fourth order are:',
     options: ['0', '2', '3', '4'],
     correctAnswer: 3,
@@ -12354,7 +12354,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q58',
+    id: 'q_1117',
     text: 'The integrating factor of the differential equation (1-y²) dx/dy + yx = ay is:',
     options: ['1/√(1-y²)', '1/(1-y²)', '1/√(y²-1)', '√(1-y²)'],
     correctAnswer: 0,
@@ -12366,7 +12366,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 10 — VECTOR ALGEBRA
   {
-    id: 'gujcet2021_q59',
+    id: 'q_1118',
     text: 'If |a| = 3, |b| = √2/3 and |a × b| = 1, then the angle between a and b is:',
     options: ['π/6', 'π/4', 'π/3', 'π/2'],
     correctAnswer: 1,
@@ -12377,7 +12377,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q60',
+    id: 'q_1119',
     text: 'If a is a unit vector and (x - a).(x + a) = 8, then |x| is:',
     options: ['3', '√8', '9', '8'],
     correctAnswer: 0,
@@ -12388,7 +12388,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q61',
+    id: 'q_1120',
     text: 'The projection of vector a = 2i + 3j + 2k on vector b = i + 2j + k is:',
     options: ['10/√6', '5/√6', '10/6', '5/6'],
     correctAnswer: 0,
@@ -12399,7 +12399,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q62',
+    id: 'q_1121',
     text: 'If a, b, c are unit vectors such that a + b + c = 0, then a.b + b.c + c.a =',
     options: ['3/2', '-3/2', '0', '1'],
     correctAnswer: 1,
@@ -12410,7 +12410,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q63',
+    id: 'q_1122',
     text: 'If |a| = 10, |b| = 2 and a.b = 12, then |a × b| =',
     options: ['16', '14', '12', '10'],
     correctAnswer: 0,
@@ -12421,7 +12421,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q64',
+    id: 'q_1123',
     text: 'The unit vector in the direction of vector a = 2i + 3j + k is:',
     options: ['(1/√14)(2i + 3j + k)', '(1/√12)(2i + 3j + k)', '(1/14)(2i + 3j + k)', '(1/12)(2i + 3j + k)'],
     correctAnswer: 0,
@@ -12432,7 +12432,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q65',
+    id: 'q_1124',
     text: 'If a and b are two unit vectors such that a + b is also a unit vector, then the angle between a and b is:',
     options: ['π/3', 'π/6', '2π/3', 'π/2'],
     correctAnswer: 2,
@@ -12443,7 +12443,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q66',
+    id: 'q_1125',
     text: 'The area of a parallelogram whose adjacent sides are given by the vectors a = 3i + j + 4k and b = i - j + k is:',
     options: ['√42', '√32', '√22', '√52'],
     correctAnswer: 0,
@@ -12455,7 +12455,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 11 — THREE DIMENSIONAL GEOMETRY
   {
-    id: 'gujcet2021_q67',
+    id: 'q_1126',
     text: 'The distance of the point (2, 3, 4) from the plane 3x - 6y + 2z + 11 = 0 is:',
     options: ['1', '2', '3', '0'],
     correctAnswer: 0,
@@ -12466,7 +12466,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q68',
+    id: 'q_1127',
     text: 'The angle between the lines (x-2)/3 = (y+1)/-2 = (z-2)/0 and (x-1)/1 = (2y+3)/3 = (z+5)/2 is:',
     options: ['π/2', 'π/4', 'π/3', 'π/6'],
     correctAnswer: 0,
@@ -12477,7 +12477,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q69',
+    id: 'q_1128',
     text: 'The equation of the plane passing through the intersection of the planes x + y + z = 6 and 2x + 3y + 4z + 5 = 0 and the point (1, 1, 1) is:',
     options: ['20x + 23y + 26z - 69 = 0', '20x + 23y + 26z + 69 = 0', 'x + y + z + 69 = 0', 'x + y + z - 69 = 0'],
     correctAnswer: 0,
@@ -12488,7 +12488,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2021_q70',
+    id: 'q_1129',
     text: 'If the lines (x-1)/-3 = (y-2)/2k = (z-3)/2 and (x-1)/3k = (y-1)/1 = (z-6)/-5 are perpendicular, then k =',
     options: ['-10/7', '10/7', '-7/10', '7/10'],
     correctAnswer: 0,
@@ -12499,7 +12499,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q71',
+    id: 'q_1130',
     text: 'The distance between the planes 2x + 3y + 4z = 4 and 4x + 6y + 8z = 12 is:',
     options: ['2/√29', '4/√29', '8/√29', '1/√29'],
     correctAnswer: 0,
@@ -12510,7 +12510,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q72',
+    id: 'q_1131',
     text: 'The direction cosines of the line joining the points (1, 2, -3) and (-2, 3, 1) are:',
     options: ['-3/√26, 1/√26, 4/√26', '3/√26, -1/√26, -4/√26', '-3/26, 1/26, 4/26', 'Both A and B'],
     correctAnswer: 3,
@@ -12521,7 +12521,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q73',
+    id: 'q_1132',
     text: 'The angle between the line r = (i + 2j - k) + λ(i - j + k) and the plane r.(2i - j + k) = 4 is:',
     options: ['sin⁻¹(4/√18)', 'sin⁻¹(4/18)', 'sin⁻¹(√4/18)', 'sin⁻¹(4/6)'],
     correctAnswer: 0,
@@ -12532,7 +12532,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q74',
+    id: 'q_1133',
     text: 'The distance of the point (2, 5, -3) from the plane r.(6i - 3j + 2k) = 4 is:',
     options: ['13/7', '11/7', '9/7', '7/7'],
     correctAnswer: 0,
@@ -12544,7 +12544,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 12 — LINEAR PROGRAMMING
   {
-    id: 'gujcet2021_q75',
+    id: 'q_1134',
     text: 'The corner points of the feasible region determined by the system of linear constraints are (0,0), (5,0), (3,4) and (0,5). Let Z = px + qy, where p, q > 0. Condition on p and q so that the maximum of Z occurs at both (3,4) and (0,5) is:',
     options: ['p = q', 'p = 2q', 'q = 3p', 'p = 3q'],
     correctAnswer: 2,
@@ -12555,7 +12555,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2020_q76',
+    id: 'q_1135',
     text: 'The objective function Z = 4x + 3y can be maximized if the constraints are x + y ≤ 40, 2x + y ≤ 60, x, y ≥ 0. The maximum value is:',
     options: ['120', '140', '150', '160'],
     correctAnswer: 1,
@@ -12567,7 +12567,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // CHAPTER 13 — PROBABILITY
   {
-    id: 'gujcet2021_q77',
+    id: 'q_1136',
     text: 'If P(A) = 1/2, P(B) = 0, then P(A|B) is:',
     options: ['0', '1/2', 'not defined', '1'],
     correctAnswer: 2,
@@ -12578,7 +12578,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2021_q78',
+    id: 'q_1137',
     text: 'If A and B are events such that P(A|B) = P(B|A), then:',
     options: ['A ⊂ B', 'A = B', 'P(A) = P(B)', 'A ∩ B = ∅'],
     correctAnswer: 2,
@@ -12589,7 +12589,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'gujcet2020_q79',
+    id: 'q_1138',
     text: 'If P(A) = 0.4, P(B) = 0.8 and P(B|A) = 0.6, then P(A|B) =',
     options: ['0.3', '0.4', '0.5', '0.6'],
     correctAnswer: 0,
@@ -12601,7 +12601,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2019 - MATHEMATICS
   {
-    id: 'gujcet2019_q21',
+    id: 'q_1139',
     text: 'f : R → R, f(x) = x² + 3x + 4 is:',
     options: ['one-one and onto', 'many-one and not onto', 'one-one and not onto', 'not one-one and onto'],
     correctAnswer: 1,
@@ -12612,7 +12612,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q22',
+    id: 'q_1140',
     text: 'If a*b = ab/10 ; a,b ∈ Q⁺, then (5*8)⁻¹ =',
     options: ['4', '10', '1/25', '25'],
     correctAnswer: 3,
@@ -12623,7 +12623,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q23',
+    id: 'q_1141',
     text: 'If f : N → N, f(x) = x + 3, then f⁻¹(x) =',
     options: ['x+3', 'x−3', 'does not exist', '3−x'],
     correctAnswer: 2,
@@ -12634,7 +12634,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q24',
+    id: 'q_1142',
     text: 'sin²(sin⁻¹(1/2)) + tan²(sec⁻¹2) + cot²(cosec⁻¹4) =',
     options: ['73/4', '89/4', '37/2', '19'],
     correctAnswer: 0,
@@ -12645,7 +12645,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q25',
+    id: 'q_1143',
     text: 'tan(cos⁻¹(4/5) + tan⁻¹(2/3)) =',
     options: ['3/17', '17/4', '17/6', '6/17'],
     correctAnswer: 2,
@@ -12656,7 +12656,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q26',
+    id: 'q_1144',
     text: 'cos(cot⁻¹(cosec(cos⁻¹a))) = ......... (Where 0 < a < 1)',
     options: ['1/√(2−a²)', '√(2−a²)', '√(3−a²)', '1/√(2+a²)'],
     correctAnswer: 0,
@@ -12667,7 +12667,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q27',
+    id: 'q_1145',
     text: '|sin²θ  cos²θ / −cos²θ  sin²θ| =',
     options: ['cos2θ', '(1/2)(1−sin2θ)', '(1/2)(1+cos²2θ)', '(1/2)sin²2θ'],
     correctAnswer: 2,
@@ -12678,7 +12678,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q28',
+    id: 'q_1146',
     text: 'If |1! 2! 3! / 2! 3! 4! / 3! 4! 5!| = 2016K, then K =',
     options: ['24', '1/24', '84', '1/84'],
     correctAnswer: 3,
@@ -12689,7 +12689,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q29',
+    id: 'q_1147',
     text: 'If |1+x 1 1 / 1+y 1+2y 1 / 1+x 1+z 1+3z| = 10K·xyz(3 + 1/x + 1/y + 1/z), then K =',
     options: ['1/5', '5', '2', '1'],
     correctAnswer: 0,
@@ -12700,7 +12700,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q30',
+    id: 'q_1148',
     text: 'If inverse of matrix A = [1 2 2 / 2 1 2 / 2 2 1] is (1/5)[−3 2 2 / 2 −3 α / 2 2 −3], then α =',
     options: ['3', '2', '4', '−2'],
     correctAnswer: 1,
@@ -12711,7 +12711,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q31',
+    id: 'q_1149',
     text: 'Matrix Aᵣ = [r r−1 / r−1 r]; r = 1,2,3,...100. If Σ|Aᵣ| = (√10)^K, then K =',
     options: ['2', '4', '6', '8'],
     correctAnswer: 3,
@@ -12722,7 +12722,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q32',
+    id: 'q_1150',
     text: 'd/dx [3cos(π/6 + x°) − 4cos³(π/6 + x°)] =',
     options: ['cos(3x°)', '(π/60)cos(3x°)', '(π/60)sin(3x°)', '(−π/60)sin(3x°)'],
     correctAnswer: 1,
@@ -12733,7 +12733,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q33',
+    id: 'q_1151',
     text: 'If f(x) = 1 + x + x² + ... + x¹⁰⁰⁰, then f\'(−1) =',
     options: ['−50', '−100', '−500', '500500'],
     correctAnswer: 2,
@@ -12744,7 +12744,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q1',
+    id: 'q_1152',
     text: 'If the rate of change of area of rhombus with respect to its side is equal to the side of rhombus, then the angles of rhombus are:',
     options: ['π/3 and 2π/3', 'π/6 and 5π/6', 'π/4 and 3π/4', '5π/12 and 7π/12'],
     correctAnswer: 1,
@@ -12755,7 +12755,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q2',
+    id: 'q_1153',
     text: 'The approximate value of 5^(2.01) is ......, where logₑ5 = 1.6095:',
     options: ['25.4125', '25.5025', '25.2525', '25.4024'],
     correctAnswer: 3,
@@ -12766,7 +12766,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q3',
+    id: 'q_1154',
     text: 'f(x) = x/logₑx is increasing on the interval ......; where x ∈ R⁺ − {1}:',
     options: ['(−e, ∞)', '(0,∞) − {1}', '(1/e, 1) ∪ (1, ∞)', '(e, ∞)'],
     correctAnswer: 3,
@@ -12777,7 +12777,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q14',
+    id: 'q_1155',
     text: 'If the length of the subnormal at any point of the curve is constant, then the eccentricity of this curve is:',
     options: ['e = √2', '0 < e < 1', 'e > 1', 'e = 1'],
     correctAnswer: 3,
@@ -12788,7 +12788,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q34',
+    id: 'q_1156',
     text: 'Applying mean value theorem on f(x) = log x; x ∈ [1, e], the value of c =',
     options: ['log(e−1)', '1−e', 'e−1', '2'],
     correctAnswer: 2,
@@ -12799,7 +12799,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q4',
+    id: 'q_1157',
     text: '∫(2 + log x)(ex)ˣ dx = ....... + C; x > 1',
     options: ['(ex)ˣ', '(ex)⁻ˣ', 'xˣ', 'eˣˣ'],
     correctAnswer: 0,
@@ -12810,7 +12810,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q5',
+    id: 'q_1158',
     text: '∫e^(√x) dx = .................. + C; x > 0',
     options: ['2(√x − 1)e^(√x)', '2(1 − √x)e^(√x)', '(1 − √x)e^(√x)', '(√x − 1)e^(√x)'],
     correctAnswer: 0,
@@ -12821,7 +12821,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q6',
+    id: 'q_1159',
     text: 'If ∫sin x / sin(x−α) dx = px − q·log|sin(x−α)| + C, then pq =',
     options: ['−(1/2)sin2α', '(1/2)sin2α', 'sin2α', '−sin2α'],
     correctAnswer: 0,
@@ -12832,7 +12832,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q7',
+    id: 'q_1160',
     text: '∫₁³ ((x²+1)/4x)⁻¹ dx =',
     options: ['log 5', 'log 25', '(1/2)log 5', 'log 100'],
     correctAnswer: 1,
@@ -12843,7 +12843,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q8',
+    id: 'q_1161',
     text: 'If ∫₁ᴷ (2x−3) dx = 12, then K =',
     options: ['−2 and 5', '2', '5', '−5'],
     correctAnswer: 0,
@@ -12854,7 +12854,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q9',
+    id: 'q_1162',
     text: '∫_{−π/2}^{π/2} cos²2x / (1+25ˣ) dx =',
     options: ['π/4', 'π/2', '−π/2', '−π/4'],
     correctAnswer: 0,
@@ -12865,7 +12865,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q35',
+    id: 'q_1163',
     text: 'If ∫sin¹³x·cos³x dx = A·sin¹⁴x + B·sin¹⁶x + C, then A + B =',
     options: ['1/110', '15/112', '17/112', '1/112'],
     correctAnswer: 3,
@@ -12876,7 +12876,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q36',
+    id: 'q_1164',
     text: 'If ∫(1+cosx)/(cosx − cos²x) dx = log|secx + tanx| − 2f\'(x) + C, then f(x) =',
     options: ['2cot(x/2)', '−2cot(x/2)', '2log|sin(x/2)|', '−2log|sin(x/2)|'],
     correctAnswer: 2,
@@ -12887,7 +12887,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q10',
+    id: 'q_1165',
     text: 'The area bounded by curve y = sin2x, x = 0 to x = π and X-axis is:',
     options: ['4', '1', '2', '3/2'],
     correctAnswer: 2,
@@ -12898,7 +12898,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q11',
+    id: 'q_1166',
     text: 'Area bounded by the ellipse 2x² + 3y² = 1 is:',
     options: ['π/6', '6π', 'π/√6', '√6π'],
     correctAnswer: 2,
@@ -12909,7 +12909,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q12',
+    id: 'q_1167',
     text: 'The integrating factor (I.F.) of differential equation dy/dx·(1+x) − xy = 1−x is:',
     options: ['(1+x)eˣ', '(1+x)e⁻ˣ', '(x−1)e⁻ˣ', '(1−x)e⁻ˣ'],
     correctAnswer: 1,
@@ -12920,7 +12920,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q13',
+    id: 'q_1168',
     text: 'If the general solution of some differential equation is y = a₁(a₂+a₃)·cos(x+a₄) − a₅·e^(x+a₆), then order of differential equation is:',
     options: ['6', '4', '5', '3'],
     correctAnswer: 3,
@@ -12931,7 +12931,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q15',
+    id: 'q_1169',
     text: 'If |x⃗| = |y⃗| = |x⃗+y⃗| = 1, then |x⃗−y⃗| =',
     options: ['√2', '1', '√3', '3'],
     correctAnswer: 2,
@@ -12942,7 +12942,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q16',
+    id: 'q_1170',
     text: 'If x⃗ is a vector in the direction of (2,−2,1) of magnitude 6 and y⃗ is a vector in the direction of (1,1,−1) of magnitude √3, then |x⃗+2y⃗| =',
     options: ['40', '√17', '√35', '2√10'],
     correctAnswer: 3,
@@ -12953,7 +12953,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q17',
+    id: 'q_1171',
     text: 'The angle between two adjacent sides a⃗ and b⃗ of parallelogram is π/6. If a⃗ = (2,−2,1) and b⃗ = 2|a⃗|, then area of this parallelogram is:',
     options: ['9', '9/2', '18', '3/4'],
     correctAnswer: 0,
@@ -12964,7 +12964,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q19',
+    id: 'q_1172',
     text: 'The measure of the angle between the line r⃗ = (2,−3,1) + k(2,2,1); k∈R and the plane 2x−2y+z+7 = 0 is:',
     options: ['cos⁻¹(1/9)', 'sin⁻¹(1/3)', 'tan⁻¹(1/(4√5))', 'π/2'],
     correctAnswer: 2,
@@ -12975,7 +12975,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q20',
+    id: 'q_1173',
     text: 'The image of the point A(1,2,3) relative to the plane π is B(3,6,−1), the equation of plane π is:',
     options: ['x+2y+3z−1 = 0', 'x−2y+2z−8 = 0', 'x+2y−2z+8 = 0', 'x+2y−2z−8 = 0'],
     correctAnswer: 3,
@@ -12986,7 +12986,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q40',
+    id: 'q_1174',
     text: 'The coordinates of corner points of the bounded feasible region are (10,0), (2,4), (1,5) and (0,8). The maximum of objective function z = 60x + 10y is:',
     options: ['700', '600', '800', '110'],
     correctAnswer: 1,
@@ -12997,7 +12997,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q37',
+    id: 'q_1175',
     text: 'The probability that an event A occurs in a single trial of an experiment is 0.6. In the first three independent trials, the probability that A occurs at least once is:',
     options: ['0.930', '0.925', '0.936', '0.927'],
     correctAnswer: 2,
@@ -13008,7 +13008,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q38',
+    id: 'q_1176',
     text: 'If 6P(A) = 8P(B) = 14P(A∩B) = 1, then P(A\'/B) =',
     options: ['3/7', '3/5', '4/7', '2/5'],
     correctAnswer: 0,
@@ -13019,7 +13019,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2019_q39',
+    id: 'q_1177',
     text: 'The mean and variance of a random variable X having a binomial distribution are 6 and 3 respectively. The probability of variable X less than 2 is:',
     options: ['13/2048', '15/4096', '13/4096', '25/2048'],
     correctAnswer: 2,
@@ -13031,7 +13031,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2018 - MATHEMATICS
   {
-    id: 'gujcet2018_q19',
+    id: 'q_1178',
     text: 'The number of binary operations on the set {1,2,3} is:',
     options: ['3⁹', '27', '9³', '3!'],
     correctAnswer: 2,
@@ -13042,7 +13042,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q20',
+    id: 'q_1179',
     text: 'Function f : N → Z; f(n) = n/2 (n even), −(n−1)/2 (n odd) is:',
     options: ['One-one but not onto', 'One-one and onto', 'Not one-one but onto', 'Not one-one and not onto'],
     correctAnswer: 1,
@@ -13053,7 +13053,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q21',
+    id: 'q_1180',
     text: 'The relation S = {(3,3),(4,4)} on the set A = {3,4,5} is:',
     options: ['Reflexive', 'Not reflexive but symmetric and transitive', 'Symmetric and transitive', 'None of these'],
     correctAnswer: 1,
@@ -13064,7 +13064,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q22',
+    id: 'q_1181',
     text: 'sin(2sin⁻¹(0.8)) =',
     options: ['0.48', '0.96', '0.32', '0.64'],
     correctAnswer: 2,
@@ -13075,7 +13075,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q23',
+    id: 'q_1182',
     text: 'tan⁻¹(1/2) + tan⁻¹(1/3) =',
     options: ['π/2', 'π/4', 'π/3', 'π/6'],
     correctAnswer: 1,
@@ -13086,7 +13086,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q24',
+    id: 'q_1183',
     text: 'If sin⁻¹x + sin⁻¹y = 2π/3, then cos⁻¹x + cos⁻¹y =',
     options: ['2π/3', 'π', 'π/2', 'π/3'],
     correctAnswer: 3,
@@ -13097,7 +13097,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q25',
+    id: 'q_1184',
     text: 'If A = [cosθ sinθ / −sinθ cosθ], then A² =',
     options: ['[cos2θ sin2θ / −sin2θ cos2θ]', '[cos2θ −sin2θ / sin2θ cos2θ]', '[sin2θ cos2θ / −cos2θ sin2θ]', '[0 1 / 1 0]'],
     correctAnswer: 0,
@@ -13108,7 +13108,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q26',
+    id: 'q_1185',
     text: 'If A is a square matrix of order 3 and |A| = 5, then |adj A| =',
     options: ['5', '25', '125', '1/5'],
     correctAnswer: 1,
@@ -13119,7 +13119,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q27',
+    id: 'q_1186',
     text: 'If |x 2 / 18 x| = |6 2 / 18 6|, then x =',
     options: ['6', '−6', '±6', '0'],
     correctAnswer: 2,
@@ -13130,7 +13130,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q28',
+    id: 'q_1187',
     text: 'If A = [1 2 / 3 4], then A⁻¹ =',
     options: ['(1/2)[−4 2 / 3 −1]', '(1/2)[4 −2 / −3 1]', '(−1/2)[4 −2 / −3 1]', '[4 −2 / −3 1]'],
     correctAnswer: 0,
@@ -13141,7 +13141,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q29',
+    id: 'q_1188',
     text: 'If A = [1 0 1 / 0 1 2 / 0 0 4], then |3A| =',
     options: ['27|A|', '108', '36', '9'],
     correctAnswer: 1,
@@ -13152,7 +13152,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q30',
+    id: 'q_1189',
     text: 'If y = log(tan(x/2)), then dy/dx =',
     options: ['sec x', 'cosec x', 'tan x', 'cot x'],
     correctAnswer: 1,
@@ -13163,7 +13163,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q31',
+    id: 'q_1190',
     text: 'If x = a cosθ, y = b sinθ, then d²y/dx² =',
     options: ['(b/a²)cosec²θ', '(−b/a²)cosec²θ', '(−b/a²)cosec³θ', '(−b/a)cosec³θ'],
     correctAnswer: 2,
@@ -13174,7 +13174,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q32',
+    id: 'q_1191',
     text: 'The derivative of sin⁻¹x with respect to cos⁻¹√(1−x²) is:',
     options: ['1', '−1', '1/2', '2'],
     correctAnswer: 2,
@@ -13185,7 +13185,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q33',
+    id: 'q_1192',
     text: 'If f(x) = |cos x|, then f\'(3π/4) =',
     options: ['1/√2', '−1/√2', '1', '−1'],
     correctAnswer: 1,
@@ -13196,7 +13196,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q34',
+    id: 'q_1193',
     text: 'The rate of change of area of a circle with respect to its radius r at r = 6 cm is:',
     options: ['10π', '12', '8π', '12π'],
     correctAnswer: 3,
@@ -13207,7 +13207,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q35',
+    id: 'q_1194',
     text: 'The interval in which y = x² e⁻ˣ is increasing is:',
     options: ['(0, ∞)', '(0, 2)', '(−∞, ∞)', '(2, ∞)'],
     correctAnswer: 1,
@@ -13218,7 +13218,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q36',
+    id: 'q_1195',
     text: 'The slope of the normal to the curve y = 2x² + 3sin x at x = 0 is:',
     options: ['3', '1/3', '−1/3', '−3'],
     correctAnswer: 2,
@@ -13229,7 +13229,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q37',
+    id: 'q_1196',
     text: 'The line y = x + 1 is a tangent to the curve y² = 4x at the point:',
     options: ['(1, 2)', '(2, 1)', '(1, −2)', '(−1, 2)'],
     correctAnswer: 2,
@@ -13240,7 +13240,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q1',
+    id: 'q_1197',
     text: '∫(1 + x + x²/2! + x³/3! + ...) dx =',
     options: ['e⁻ˣ + C', 'eˣ + C', 'eˣ/x + C', 'log eˣ + C'],
     correctAnswer: 1,
@@ -13251,7 +13251,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q2',
+    id: 'q_1198',
     text: '∫(dx / (x + x log x)) =',
     options: ['log|x + log x| + C', 'log|1 + x log x| + C', 'log|1 + log x| + C', 'log|log x| + C'],
     correctAnswer: 2,
@@ -13262,7 +13262,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q3',
+    id: 'q_1199',
     text: '∫(eˣ(1 + x) / cos²(xeˣ)) dx =',
     options: ['cot(xeˣ) + C', 'tan(x + eˣ) + C', 'tan(xeˣ) + C', 'cot(x + eˣ) + C'],
     correctAnswer: 2,
@@ -13273,7 +13273,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q4',
+    id: 'q_1200',
     text: '∫₀^{π/2} (sin x / (sin x + cos x)) dx =',
     options: ['π/2', 'π', 'π/4', '0'],
     correctAnswer: 2,
@@ -13284,7 +13284,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q5',
+    id: 'q_1201',
     text: '∫₀¹ (dx / √(1 − x²)) =',
     options: ['π', 'π/2', 'π/4', '1'],
     correctAnswer: 2,
@@ -13295,7 +13295,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q6',
+    id: 'q_1202',
     text: '∫_{-1}¹ |x| dx =',
     options: ['1', '0', '2', '1/2'],
     correctAnswer: 0,
@@ -13306,7 +13306,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q7',
+    id: 'q_1203',
     text: '∫(dx / (x² + 2x + 2)) =',
     options: ['tan⁻¹(x + 1) + C', 'tan⁻¹(x + 2) + C', '(1/2)tan⁻¹(x + 1) + C', 'log|x² + 2x + 2| + C'],
     correctAnswer: 0,
@@ -13317,7 +13317,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q8',
+    id: 'q_1204',
     text: '∫(sin²x − cos²x) / (sin²x cos²x) dx =',
     options: ['tan x + cot x + C', 'tan x + cosec x + C', '−tan x + cot x + C', 'tan x + sec x + C'],
     correctAnswer: 1,
@@ -13328,7 +13328,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q9',
+    id: 'q_1205',
     text: 'Area of the region bounded by the curve y = cos x between x = 0 and x = π is:',
     options: ['1', '2', '3', '4'],
     correctAnswer: 1,
@@ -13339,7 +13339,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q10',
+    id: 'q_1206',
     text: 'Area of the region bounded by the curve y² = x and the lines x = 1, x = 4 and the X-axis in the first quadrant is:',
     options: ['14/3', '16/3', '17/3', '19/3'],
     correctAnswer: 0,
@@ -13350,7 +13350,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q11',
+    id: 'q_1207',
     text: 'The order and degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 are:',
     options: ['2, 3', '2, not defined', '3, 2', 'not defined'],
     correctAnswer: 1,
@@ -13361,7 +13361,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q12',
+    id: 'q_1208',
     text: 'The general solution of the differential equation dy/dx = e^{x+y} is:',
     options: ['eˣ + eʸ = C', 'eˣ + e⁻ʸ = C', 'e⁻ˣ + eʸ = C', 'e⁻ˣ + e⁻ʸ = C'],
     correctAnswer: 1,
@@ -13372,7 +13372,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q13',
+    id: 'q_1209',
     text: 'If a⃗ is a unit vector and (x⃗ − a⃗)·(x⃗ + a⃗) = 8, then |x⃗| =',
     options: ['9', '√8', '3', '8'],
     correctAnswer: 2,
@@ -13383,7 +13383,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q14',
+    id: 'q_1210',
     text: 'The angle between the vectors a⃗ = î + ĵ − k̂ and b⃗ = î − ĵ + k̂ is:',
     options: ['π/2', 'π/3', 'π/4', 'cos⁻¹(−1/3)'],
     correctAnswer: 3,
@@ -13394,7 +13394,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q15',
+    id: 'q_1211',
     text: 'If |a⃗| = 2, |b⃗| = 5 and |a⃗ × b⃗| = 8, then a⃗·b⃗ =',
     options: ['6', '3', '4', '0'],
     correctAnswer: 0,
@@ -13405,7 +13405,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q16',
+    id: 'q_1212',
     text: 'The direction cosines of the line joining the points (1, 2, −3) and (−2, 3, 1) are:',
     options: ['−3, 1, 4', '−3/√26, 1/√26, 4/√26', '3/√26, 1/√26, 4/√26', 'None of these'],
     correctAnswer: 1,
@@ -13416,7 +13416,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q17',
+    id: 'q_1213',
     text: 'The distance of the point (2, 3, 4) from the plane 3x + 2y + 2z + 5 = 0 is:',
     options: ['15/√17', '25/√17', '15/17', '5/√17'],
     correctAnswer: 1,
@@ -13427,7 +13427,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q18',
+    id: 'q_1214',
     text: 'The angle between the planes 2x − y + z = 6 and x + y + 2z = 7 is:',
     options: ['π/2', 'π/3', 'π/4', 'π/6'],
     correctAnswer: 1,
@@ -13438,7 +13438,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q40',
+    id: 'q_1215',
     text: 'The maximum value of Z = 3x + 4y subject to constraints x + y ≤ 4, x ≥ 0, y ≥ 0 is:',
     options: ['16', '12', '0', '7'],
     correctAnswer: 0,
@@ -13449,7 +13449,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q38',
+    id: 'q_1216',
     text: 'If P(A) = 1/2, P(B) = 0, then P(A/B) is:',
     options: ['0', 'not defined', '1', '1/2'],
     correctAnswer: 1,
@@ -13460,7 +13460,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q39',
+    id: 'q_1217',
     text: 'If A and B are independent events such that P(A) = 0.3, P(B) = 0.4, then P(A∩B) =',
     options: ['0.7', '0.1', '0.12', '0.5'],
     correctAnswer: 2,
@@ -13472,7 +13472,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2017 - MATHEMATICS
   {
-    id: 'gujcet2017_q1',
+    id: 'q_1218',
     text: 'tan⁻¹(cotx) + cot⁻¹(tanx) = ___, where 0 < x < π/2',
     options: ['π/2', '2x', 'π – 2x', 'π – x'],
     correctAnswer: 2,
@@ -13483,7 +13483,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q2',
+    id: 'q_1219',
     text: 'cos(2(tan⁻¹(1/5) + tan⁻¹5)) = ___',
     options: ['1/√2', '0', '1', '–1'],
     correctAnswer: 3,
@@ -13494,7 +13494,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q3',
+    id: 'q_1220',
     text: 'For △ABC if A = tan⁻¹2, B = tan⁻¹3, then C = ___',
     options: ['π/6', 'π/4', 'π/3', '5π/6'],
     correctAnswer: 1,
@@ -13505,7 +13505,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q4',
+    id: 'q_1221',
     text: 'If A = [[1,4,4],[4,1,4],[4,4,1]], then A² – 6A = ___',
     options: ['27I₃', '5I₃', '20I₃', '30I₃'],
     correctAnswer: 0,
@@ -13516,7 +13516,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q5',
+    id: 'q_1222',
     text: 'If [2 3 4] × [[1,x,3],[2,4,5],[3,2,x]] × [x,2,0]ᵀ = 0, then x = ___',
     options: ['7/3', '5/3', '–5/3', '–7/3'],
     correctAnswer: 2,
@@ -13527,7 +13527,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q6',
+    id: 'q_1223',
     text: 'If the area of the triangle with vertices (2,5), (7,k) and (3,1) is 10, then find k.',
     options: ['–5 or 35', '5 or –35', '15 or –5', '–5 or –25'],
     correctAnswer: 1,
@@ -13538,7 +13538,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q7',
+    id: 'q_1224',
     text: 'If k = p + q + r, then value of |k+r p q / r k+p q / r p k+q| is:',
     options: ['2k²', '2k³', 'k³', '3k²'],
     correctAnswer: 1,
@@ -13549,7 +13549,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q8',
+    id: 'q_1225',
     text: 'If maximum and minimum values of D = |1, –cosθ, –1; cosθ, 1, –cosθ; 1, cosθ, 1| are p and q respectively, then 2p + 3q = ___',
     options: ['16', '6', '14', '8'],
     correctAnswer: 2,
@@ -13560,7 +13560,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q9',
+    id: 'q_1226',
     text: 'Function f(x) = {(log₂2x)^(log_x 8); x ≠ 1 and (k–1)³; x = 1} is continuous at x = 1, then k = ___',
     options: ['e+1', 'e^(1/3)', 'e³', 'e–1'],
     correctAnswer: 0,
@@ -13571,7 +13571,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q10',
+    id: 'q_1227',
     text: 'd/dx[√3·sin(2x + π/3) + cos(2x + π/3)] = ___',
     options: ['4cos2x', '–4sin2x', '4sin2x', '–4cos2x'],
     correctAnswer: 1,
@@ -13582,7 +13582,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q11',
+    id: 'q_1228',
     text: 'For the curve f(x) = (x–5)², applying mean value theorem on [4,6], the tangent at ___ is parallel to the chord joining A(4,1), B(6,1).',
     options: ['(4,6)', '(9/2, 1/4)', '(0,5)', '(5,0)'],
     correctAnswer: 3,
@@ -13593,7 +13593,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q12',
+    id: 'q_1229',
     text: 'The sides of two squares are x and y respectively, such that y = x + x². The rate of change of area of second square with respect to area of first square is ___',
     options: ['x²+3x–1', '2x²–3x+1', '2x²+3x+1', '1+2x'],
     correctAnswer: 2,
@@ -13604,7 +13604,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q13',
+    id: 'q_1230',
     text: 'The approximate value of ∛(–0.99) is ___',
     options: ['–0.9967', '–0.9976', '–1.0033', '–1'],
     correctAnswer: 0,
@@ -13615,7 +13615,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q14',
+    id: 'q_1231',
     text: '∫ dx / [cosx√(1+cos2x+sin2x)] = ___ + C; 0 < x < π/4',
     options: ['2+√cotx', '√(tanx+1)', '√(2+2tanx)', '√(2+2cotx)'],
     correctAnswer: 2,
@@ -13626,7 +13626,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q15',
+    id: 'q_1232',
     text: 'If ∫ sin2x/(sin5x·sin3x) dx = (1/3)log|sin3x| – (1/5)log|f(x)| + C, then f(x) = ___',
     options: ['sin5x', 'sin4x', 'sin2x', 'sin6x'],
     correctAnswer: 0,
@@ -13637,7 +13637,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q16',
+    id: 'q_1233',
     text: '∫ dx/√(x¹⁰–x²); x > 1 = ___ + C',
     options: ['(1/4)log|√(x¹⁰–x²)+x²|', '(1/2)log|x¹⁰–x²|', '–(1/4)sec⁻¹(x⁴)', '(1/4)sec⁻¹(x⁴)'],
     correctAnswer: 3,
@@ -13648,7 +13648,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q17',
+    id: 'q_1234',
     text: '∫ eˢⁱⁿˣ(xcosx – secx·tanx) dx = ___ + C; 0 < x < π/2',
     options: ['eˢⁱⁿˣ(x–secx)', 'eˢⁱⁿˣ(secx–x)', 'eˢⁱⁿˣ·xcosx', 'eˢⁱⁿˣ(x+secx)'],
     correctAnswer: 0,
@@ -13659,7 +13659,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q18',
+    id: 'q_1235',
     text: '∫ sin(11x)·sin⁹x dx = ___ + C',
     options: ['sin(10x)·sin¹⁰x/10', 'sin¹¹x/11', 'sin(9x)·sin⁹x/9', 'cos(10x)·cos¹⁰x/10'],
     correctAnswer: 0,
@@ -13670,7 +13670,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q19',
+    id: 'q_1236',
     text: '∫₋ₗₒg₃^ₗₒg₃ cot⁻¹((eˣ–1)/(eˣ+1)) dx = ___',
     options: ['π/2·log3', 'π·log3', '0', 'π·log9'],
     correctAnswer: 1,
@@ -13681,7 +13681,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q20',
+    id: 'q_1237',
     text: '∫₀^100π |cosx| dx = ___',
     options: ['200', '100', '50', '0'],
     correctAnswer: 0,
@@ -13692,7 +13692,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q21',
+    id: 'q_1238',
     text: '∫₀^(π/2) (x–[sinx]) dx = ___',
     options: ['π²/8–2', 'π²/4–1', 'π²/8–1', 'π²/8'],
     correctAnswer: 3,
@@ -13703,7 +13703,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q22',
+    id: 'q_1239',
     text: 'Area bounded between two latus-rectums of the ellipse x²/a² + y²/b² = 1; a > b is ___',
     options: ['2b(be+asin⁻¹e)', '8b(be+asin⁻¹e)', 'b(be+asin⁻¹e)', '4b(be+asin⁻¹e)'],
     correctAnswer: 0,
@@ -13714,7 +13714,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q23',
+    id: 'q_1240',
     text: 'The area of the region bounded by f(x) = sinπx and X-axis, where x ∈ [–1, 2] is ___',
     options: ['8/π', '8π', '6/π', '6π'],
     correctAnswer: 2,
@@ -13725,7 +13725,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q24',
+    id: 'q_1241',
     text: 'If the length of the subnormal of a curve is constant and if it passes through the origin, then the equation of curve is ___',
     options: ['x²+y²=k²; k∈R', 'y²=kx; k∈R', 'x²=ky²; k∈R', 'x²–y²=k²; k∈R'],
     correctAnswer: 1,
@@ -13736,7 +13736,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q25',
+    id: 'q_1242',
     text: 'The integrating factor of the differential equation dy/dx = 1/(x+y+2) is ___',
     options: ['eˣ⁺ʸ⁺²', 'eʸ', 'e⁻ʸ', 'log|x+y+2|'],
     correctAnswer: 2,
@@ -13747,7 +13747,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q26',
+    id: 'q_1243',
     text: 'The order and degree of the differential equation (d²y/dx²)³ + 3(dy/dx) = √x; x > 0 are ___ respectively.',
     options: ['2 and 6', '3 and 2', '2 and 3', '2 and degree is undefined'],
     correctAnswer: 2,
@@ -13758,7 +13758,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q27',
+    id: 'q_1244',
     text: 'If ā+b̄+c̄=0 and |ā|=3, |b̄|=5, |c̄|=7 and (ā,b̄)=α, then α = ___',
     options: ['2π/3', 'π/6', 'π/3', '5π/6'],
     correctAnswer: 2,
@@ -13769,7 +13769,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q28',
+    id: 'q_1245',
     text: 'For A(1,–2,4), B(5,–1,7), C(3,6,–2), D(4,5,–1), the projection of AB on CD is ___',
     options: ['(2√3,–2√3,2√3)', '3/13(4,1,3)', '(1,–1,1)', '(2,–2,2)'],
     correctAnswer: 3,
@@ -13780,7 +13780,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q29',
+    id: 'q_1246',
     text: 'The position vector of point A is (4,2,–3). If p₁ is perpendicular distance of A from XY-plane and p₂ is perpendicular distance from Y-axis, then p₁+p₂ = ___',
     options: ['8', '3', '2', '7'],
     correctAnswer: 0,
@@ -13791,7 +13791,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q30',
+    id: 'q_1247',
     text: 'Plane ax+by+cz = 1 intersects axes in A, B, C respectively. If G(1/6, –1/3, 1) is centroid of △ABC, then a+b+3c = ___',
     options: ['4/3', '4', '2', '5/6'],
     correctAnswer: 2,
@@ -13802,7 +13802,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q31',
+    id: 'q_1248',
     text: 'The direction angles of the line x = 4z+3, y = 2–3z are α, β and γ, then cosα+cosβ+cosγ = ___',
     options: ['2/√26', '8/√26', '1', '2'],
     correctAnswer: 0,
@@ -13813,7 +13813,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q32',
+    id: 'q_1249',
     text: 'If the normal of the plane makes angles π/4, π/4 and π/2 with positive X, Y and Z axes respectively and the length of the perpendicular from origin to the plane is √2, then the equation of the plane is ___',
     options: ['x+y+z=√2', 'x+y+z=1', 'x+y=2', 'x=√2'],
     correctAnswer: 2,
@@ -13824,7 +13824,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q33',
+    id: 'q_1250',
     text: 'The corner points of the feasible region are (0,10), (5,5), (25,20) and (0,30). Let Z = px+qy, where p,q > 0. Condition on p and q so that maximum of Z occurs at both (25,20) and (0,30) is ___',
     options: ['5p=2q', '2p=5q', 'p=2q', 'q=3p'],
     correctAnswer: 0,
@@ -13835,7 +13835,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q34',
+    id: 'q_1251',
     text: 'The probability distribution of a discrete random variable X: X=0,1,2; P(x)=4C³, 4C–13C², 7C–1; C>0 then C = ___',
     options: ['2', '1', '1/4', '1 and –1/4'],
     correctAnswer: 2,
@@ -13846,7 +13846,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q35',
+    id: 'q_1252',
     text: 'The probability function of a binomial distribution is P(x) = ⁶Cₓ pˣq⁶⁻ˣ, x=0,1,...,6. If 2P(2) = 3P(3), then p = ___',
     options: ['1/3', '1/4', '1/2', '1/5'],
     correctAnswer: 0,
@@ -13857,7 +13857,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q36',
+    id: 'q_1253',
     text: 'The mean and standard deviation of random variable X are 10 and 5 respectively, then E((X–15)²/5) = ___',
     options: ['4', '3', '2', '5'],
     correctAnswer: 2,
@@ -13868,7 +13868,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q37',
+    id: 'q_1254',
     text: 'If f: R–{3/5} → R–{3/5}; f(x) = (3x+1)/(5x–3), then f⁻¹(x) = ___',
     options: ['2f(x)', 'f(x)', '–f(x)', 'does not exist'],
     correctAnswer: 1,
@@ -13879,7 +13879,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2017_q38',
+    id: 'q_1255',
     text: 'f: R→R, f(x) = 3x+2; g: R→R, g(x) = 6x+5; for the given functions (gof⁻¹)(10) = ___',
     options: ['21', '29', '7', '8/3'],
     correctAnswer: 0,
@@ -13890,7 +13890,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'gujcet2018_q41',
+    id: 'q_1256',
     text: 'A die is thrown twice and the sum of the numbers appearing is observed to be 6. What is the conditional probability that the number 4 has appeared at least once?',
     options: ['1/3', '2/5', '1/5', '1/6'],
     correctAnswer: 1,
@@ -13902,7 +13902,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // GUJCET 2011 - MATHEMATICS
   {
-    id: 'gujcet2011_q1',
+    id: 'q_1257',
     text: 'Relation S = {(1, 2), (2, 1), (2, 3)} is defined on the set {1, 2, 3} is:',
     options: ['not transitive', 'symmetric', 'reflexive', 'equivalence'],
     correctAnswer: 0,
@@ -13914,7 +13914,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — VECTORS & THREE DIMENSIONAL GEOMETRY
   {
-    id: 'me2009_q13',
+    id: 'q_1258',
     text: '(x̄ − ȳ) × (x̄ + ȳ) = ............, where x̄, ȳ ∈ R³',
     options: ['|x̄|² − |ȳ|²', '½(x̄ × ȳ)', '2(x̄ × ȳ)', 'None of them'],
     correctAnswer: 2,
@@ -13925,7 +13925,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q14',
+    id: 'q_1259',
     text: 'If x̄ and ȳ are unit vectors and x̄·ȳ = 0, then ...........',
     options: ['|x̄ + ȳ| = √3', '|x̄ + ȳ| = √2', '|x̄ + ȳ| = 1', '|x̄ + ȳ| = 2'],
     correctAnswer: 1,
@@ -13936,7 +13936,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q15',
+    id: 'q_1260',
     text: 'If the angle between ā and b̄ (ā, b̄ ≠ 0) is 5π/6 and magnitude of projection of ā on b̄ is 6/√3, then |ā| = ..........',
     options: ['6', '√3/2', '12', '4'],
     correctAnswer: 2,
@@ -13947,7 +13947,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q16',
+    id: 'q_1261',
     text: 'Find the area of △ABC by using vectors, where A(1,1,2), B(2,3,5), C(1,3,4).',
     options: ['√3', '√3/2', '4', 'None of them'],
     correctAnswer: 1,
@@ -13958,7 +13958,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q17',
+    id: 'q_1262',
     text: 'Find the direction ratio of the line (3−x)/1 = (y−2)/5 = (2z−3)/1.',
     options: ['−1 : 5 : 1', '1 : 5 : 1', '1 : 5 : ½', '−1 : 5 : ½'],
     correctAnswer: 3,
@@ -13969,7 +13969,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q18',
+    id: 'q_1263',
     text: 'Find the intersection point of x/1 = y/2 = z/2 and 2x + y + z = 6.',
     options: ['(1, 2, 2)', '(2, 1, 1)', '(0, 0, 0)', 'None of these'],
     correctAnswer: 0,
@@ -13980,7 +13980,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q19',
+    id: 'q_1264',
     text: 'Find the equation of the perpendicular drawn from the origin to the plane 2x + 4y − 5z = 10.',
     options: ['r̄ = (2k, 4k, −5k), k ∈ R', 'r̄ = (3k, 4k, 5k), k ∈ R', 'r̄ = (2k, 5k, 4k), k ∈ R', 'None of these'],
     correctAnswer: 0,
@@ -13991,7 +13991,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q20',
+    id: 'q_1265',
     text: 'If one end point of a diameter of Sphere x² + y² + z² − 6x − 12y − 2z + 20 = 0 is (2, 3, 5), then find another end point of its diameter.',
     options: ['(4, 3, 5)', '(4, 3, −3)', '(4, 9, −3)', 'None of these'],
     correctAnswer: 2,
@@ -14002,7 +14002,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q13',
+    id: 'q_1266',
     text: 'If x̄ = (1,1,2), ȳ = (1,2,1) and z̄ = (2,1,1), then find x̄ × (ȳ × z̄).',
     options: ['(−5, 5, 0)', '(5, 5, 5)', '(5, 0, −5)', '(−5, −5, −5)'],
     correctAnswer: 2,
@@ -14013,7 +14013,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q14',
+    id: 'q_1267',
     text: 'Which of the following is not a unit vector?',
     options: ['(1/√3, −1/√3, 1/√3)', '(cos α, 0, sin α)', '(1, 0, 0)', '(1/√2, 1/√2, 1/√2)'],
     correctAnswer: 3,
@@ -14024,7 +14024,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q15',
+    id: 'q_1268',
     text: 'The position vectors of three vertices in order of a parallelogram are respectively ī + j̄ + k̄, ī + 3j̄ + 5k̄ and 7ī + 9j̄ + 11k̄, then find out the position vector of its fourth vertex.',
     options: ['6(ī + j̄ + k̄)', '7(ī + j̄ + k̄)', '2ī − 4k̄', '6ī + 8j̄ + 10k̄'],
     correctAnswer: 3,
@@ -14035,7 +14035,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q16',
+    id: 'q_1269',
     text: 'If one of the vertices of a parallelopiped is origin and its edges are OA, OB and OC where A(4,3,1), B(3,1,2) and C(5,2,1), then find the volume of this parallelopiped.',
     options: ['8 units', '9 units', '10 units', 'None of these'],
     correctAnswer: 0,
@@ -14046,7 +14046,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q17',
+    id: 'q_1270',
     text: 'Find the co-ordinates of the foot of the perpendicular drawn from the point (2,4,−1) to the line r̄ = (−5,−3,6) + K(1,4,−9), K ∈ R',
     options: ['(−4, 1, 3)', '(−4, 1, −3)', '(1, 3, 4)', '(4, 3, 1)'],
     correctAnswer: 1,
@@ -14057,7 +14057,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'me2008_q18',
+    id: 'q_1271',
     text: 'Find the intercepts on the axes cut by plane r̄·(2,−3,4) = 12.',
     options: ['2, −3, 4', '6, −4, 3', '6, 4, 3', 'None of these'],
     correctAnswer: 1,
@@ -14068,7 +14068,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q19',
+    id: 'q_1272',
     text: 'Find the measure of the angle between the planes 2x − y + z = 2 and x + y + 2z = 3.',
     options: ['π/2', 'π/3', 'π/4', 'π/6'],
     correctAnswer: 0,
@@ -14079,7 +14079,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q20',
+    id: 'q_1273',
     text: 'Find out the equation of a sphere that passes through the points (0,0,0), (a,0,0), (0,b,0) and (0,0,c).',
     options: ['x² + y² + z² + 2ax + 2by + 2cz = 0', 'x² + y² + z² − 2ax − 2by − 2cz = 0', 'x² + y² + z² − ax − by − cz = 0', 'x² + y² + z² + ax + by + cz = 0'],
     correctAnswer: 2,
@@ -14091,7 +14091,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — LIMITS AND CONTINUITY
   {
-    id: 'me2009_q21',
+    id: 'q_1274',
     text: 'lim(n→∞) rⁿ = 0, then r = ..........',
     options: ['5/4', '1', '4/5', '2'],
     correctAnswer: 2,
@@ -14102,7 +14102,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q22',
+    id: 'q_1275',
     text: 'lim(n→∞) [1² + 2² + 3² + ......... + n²] / n³ = .........',
     options: ['2/3', '1/6', '1/2', '1/3'],
     correctAnswer: 3,
@@ -14113,7 +14113,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q23',
+    id: 'q_1276',
     text: 'lim(x→1) cos⁻¹[(1 − √x)/(1 − x)] = .........',
     options: ['π/6', 'π/4', 'π/3', 'π/2'],
     correctAnswer: 2,
@@ -14124,7 +14124,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q24',
+    id: 'q_1277',
     text: 'lim(x→−3) [3x² + ax + a − 7] / [x² + 2x − 3] exists, then a = .............',
     options: ['15', '−10', '10', '−15'],
     correctAnswer: 3,
@@ -14135,7 +14135,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q27',
+    id: 'q_1278',
     text: 'f(x) = |x − 3| is .......... at x = 3.',
     options: ['continuous and differentiable', 'discontinuous and differentiable', 'continuous and not differentiable', 'discontinuous and not differentiable'],
     correctAnswer: 2,
@@ -14146,7 +14146,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q21',
+    id: 'q_1279',
     text: 'lim(x→∞) x(∛3 − 1) = ...........',
     options: ['log 3', '−log 3', 'log x', 'limit does not exist'],
     correctAnswer: 3,
@@ -14157,7 +14157,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q22',
+    id: 'q_1280',
     text: 'lim(n→∞) [1 + 2 + 3 + ...... + n] / n² = ...........',
     options: ['1/2', '0', '2', '∞'],
     correctAnswer: 0,
@@ -14168,7 +14168,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q23',
+    id: 'q_1281',
     text: 'lim(x→∞) (2x + 3)/x = ...........',
     options: ['3', '1/2', '2', '1/3'],
     correctAnswer: 2,
@@ -14179,7 +14179,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q24',
+    id: 'q_1282',
     text: 'lim(x→∞) (5ˣ − 3ˣ)/(2ˣ − 5ˣ) = ..........',
     options: ['2/5', '1', '−1', '3/5'],
     correctAnswer: 2,
@@ -14190,7 +14190,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q25',
+    id: 'q_1283',
     text: "If f'(x) = g'(x), then ......",
     options: ['f(x) = g(x) + c', 'f(x)·g(x) = c', 'f(x) = g(x)', 'f(x) = c·g(x)'],
     correctAnswer: 0,
@@ -14201,7 +14201,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q31',
+    id: 'q_1284',
     text: 'The set of extreme values of function f(x) = tan x, x ∈ R − {(2k+1)π/2, k ∈ Z} is .........',
     options: ['R', 'R⁺ ∪ {0}', 'R − (−1, 1)', 'φ'],
     correctAnswer: 3,
@@ -14213,7 +14213,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — CONTINUITY & DIFFERENTIABILITY
   {
-    id: 'me2009_q25',
+    id: 'q_1285',
     text: 'd/dx [cos x°] = .........',
     options: ['−sin x°', '−(πx/180) sin x', '−(π/180) sin x°', '(π/180) sin x°'],
     correctAnswer: 2,
@@ -14224,7 +14224,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q26',
+    id: 'q_1286',
     text: 'd/dx [xˣ + xᵃ + aˣ + aᵃ] = .........; a is constant.',
     options: ['xˣ(1 + log x) + a·xᵃ⁻¹ + aˣ log a', 'xˣ(1 + log x) + aᵃ(1 + log a) + a·xᵃ⁻¹ + aᵃ(1 + log a)', 'xˣ(1 + log x) + a·xᵃ⁻¹', 'xˣ(1 + log x) + aᵃ(1 + log a)'],
     correctAnswer: 0,
@@ -14235,7 +14235,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q28',
+    id: 'q_1287',
     text: 'd/dx [logₑ e^(sin(x²))] = .........',
     options: ['2 cos x', '2x cos(x²)', '2 cos(x²)', '2x·cos x'],
     correctAnswer: 1,
@@ -14246,7 +14246,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q26',
+    id: 'q_1288',
     text: 'd/dx (1/x) = .........; x ≠ 0',
     options: ['1', '1/x²', '−1/x²', 'not possible'],
     correctAnswer: 2,
@@ -14257,7 +14257,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q27',
+    id: 'q_1289',
     text: 'd/dx [tan⁻¹((a+x)/(1−ax))] = .........; a is constant, a, x ∈ R⁺; ax < 1.',
     options: ['1/(1+x²)', '−1/(1+x²)', 'a/(1+x²)', '−a/(1+x²)'],
     correctAnswer: 0,
@@ -14268,7 +14268,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q28',
+    id: 'q_1290',
     text: 'y = aˣ, then yₙ = .........; a > 0, x ∈ R.',
     options: ['aˣ(log a)ⁿ', '(aˣ)ⁿ·log a', 'n·aˣ·log a', 'aⁿˣ·(log a)ⁿ'],
     correctAnswer: 0,
@@ -14280,7 +14280,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — APPLICATION OF DERIVATIVES
   {
-    id: 'me2009_q29',
+    id: 'q_1291',
     text: 'If there is 2% error in measuring the radius of Sphere, then ............... will be the percentage error in the surface area.',
     options: ['1%', '2%', '3%', '4%'],
     correctAnswer: 3,
@@ -14291,7 +14291,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q30',
+    id: 'q_1292',
     text: 'The distance from (0,0) of a normal to the curve y = e²ˣ + x² at x = 0 is .........',
     options: ['1/√5', '2/√5', '3/√5', '4/√5'],
     correctAnswer: 1,
@@ -14302,7 +14302,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q31',
+    id: 'q_1293',
     text: 'f(x) = x³ − 6x² − 36x + 2 is decreasing function; then x ∈ ........',
     options: ['(−∞, −2)', '(−2, 6)', '(6, ∞)', 'None of them'],
     correctAnswer: 1,
@@ -14313,7 +14313,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q29',
+    id: 'q_1294',
     text: 'If f(x) = x² + ax + 5 is increasing function in (2, 3), then the minimum value of a is ............; a ∈ R.',
     options: ['4', '−2', '−4', '2'],
     correctAnswer: 2,
@@ -14324,7 +14324,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q30',
+    id: 'q_1295',
     text: 'If logₑ 5 = 1.609, then the approximate value of log 5.1 is ...',
     options: ['1.629', '1.809', '1.701', '1.611'],
     correctAnswer: 3,
@@ -14336,7 +14336,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — INTEGRALS
   {
-    id: 'me2009_q32',
+    id: 'q_1296',
     text: '∫tan⁻¹x dx = ........ + c',
     options: ['x tan⁻¹x + ½ log|1+x²|', 'x tan⁻¹x − ½ log|1+x²|', '1/(1+x²)', 'x tan⁻¹x + ½ · tan⁻¹x/(1+x²)'],
     correctAnswer: 1,
@@ -14347,7 +14347,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q33',
+    id: 'q_1297',
     text: "∫f'(x)/√f(x) dx = ........ + c ; f(x) ≠ 0",
     options: ['2√f(x)', '2f(x)', '½√f(x)', '½f(x)'],
     correctAnswer: 0,
@@ -14358,7 +14358,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q34',
+    id: 'q_1298',
     text: '∫[e^(a log x) + e^(x log a)] dx = ......... + c; a, x > 1',
     options: ['e^(a log x)/(a log x) + e^(x log a)/(x log a)', 'e^(a log x)/(a/x) + e^(x log a)/x', 'x^(a+1)/(a+1) + aˣ/log a', 'x^(a−1)/(a−1) + aˣ·log a'],
     correctAnswer: 2,
@@ -14369,7 +14369,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q35',
+    id: 'q_1299',
     text: '∫√(tan x)/(sin x·cos x) dx = ....... + c; x ≠ kπ/2 and tan x > 0.',
     options: ['√(2 tan x)', '√(tan x)', '1/(2√(tan x))', '2√(tan x)'],
     correctAnswer: 3,
@@ -14380,7 +14380,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q38',
+    id: 'q_1300',
     text: '∫₀¹ 1/(x + √x) dx = ..........',
     options: ['log 1', 'log 2', 'log 3', 'log 4'],
     correctAnswer: 1,
@@ -14391,7 +14391,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q32',
+    id: 'q_1301',
     text: '∫log x dx = .......... + c; x > 0.',
     options: ['1/x', 'x − log x', '−x(1 − log x)', 'x log x'],
     correctAnswer: 2,
@@ -14402,7 +14402,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q33',
+    id: 'q_1302',
     text: '∫(x sin x)/(x cos x − sin x − 1) dx = ......... + c.',
     options: ['log|x cos x − sin x − 1|', '−log|x cos x − sin x − 1|', 'log|x sin x − cos x − 1|', '−log|x sin x − cos x − 1|'],
     correctAnswer: 1,
@@ -14413,7 +14413,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Hard',
   },
   {
-    id: 'me2008_q34',
+    id: 'q_1303',
     text: '∫f(x)dx = ......... + c; f(x) = |2007, 2008; 2007x, 2008x|',
     options: ['x', '0', 'constant', 'not possible'],
     correctAnswer: 0,
@@ -14424,7 +14424,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q35',
+    id: 'q_1304',
     text: '∫1/√((log½)² − x²) dx = ........ + c.',
     options: ['2 sin⁻¹(log 2/x)', '−2 sin⁻¹(log 2/x)', '−sin⁻¹(x/log 2)', 'sin⁻¹(x/log 2)'],
     correctAnswer: 3,
@@ -14436,7 +14436,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — DEFINITE INTEGRALS
   {
-    id: 'me2009_q36',
+    id: 'q_1305',
     text: '∫₂ᵏ (2x+1)dx = 6, then k = ..........',
     options: ['−2', '3', '4', '−3'],
     correctAnswer: 1,
@@ -14447,7 +14447,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q37',
+    id: 'q_1306',
     text: '∫₋₁¹ sin³x · cos²x dx = .......',
     options: ['1', '0', '−1', 'None of these'],
     correctAnswer: 1,
@@ -14458,7 +14458,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q36',
+    id: 'q_1307',
     text: '∫₋₄⁴ |x+5|/(x+5) dx = .............',
     options: ['0', '8', '−8', 'none of these'],
     correctAnswer: 1,
@@ -14469,7 +14469,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q37',
+    id: 'q_1308',
     text: '∫₀^(π/2) 2008^(sin x)/(2008^(sin x) + 2008^(cos x)) dx = ...................',
     options: ['π/2', 'π/4', 'π', '0'],
     correctAnswer: 1,
@@ -14480,7 +14480,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q38',
+    id: 'q_1309',
     text: '∫₋₁¹ (eˣ+1)/(eˣ−1) dx = .................',
     options: ['log(e²+1)', 'log(e²−1)', 'log e', 'log 1'],
     correctAnswer: 3,
@@ -14492,7 +14492,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — DIFFERENTIAL EQUATIONS
   {
-    id: 'me2009_q39',
+    id: 'q_1310',
     text: 'The degree of the equation eˣ + sin(dy/dx) = 3 is ..........',
     options: ['0', '1', '2', 'degree is not defined'],
     correctAnswer: 3,
@@ -14503,7 +14503,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q39',
+    id: 'q_1311',
     text: 'The integrating factor of the equation (1+x) dy/dx − xy = 1−x is ..........',
     options: ['x·eˣ', '1+x', 'log(1+x)', 'e⁻ˣ(1+x)'],
     correctAnswer: 3,
@@ -14515,7 +14515,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — STRAIGHT LINES
   {
-    id: 'me2009_q1',
+    id: 'q_1312',
     text: 'Find the incentre of the triangle, whose vertices are (3,0), (0,4) and (0,0).',
     options: ['(1/3, 1/3)', '(3, 3)', '(1, 1)', '(−1, −1)'],
     correctAnswer: 2,
@@ -14526,7 +14526,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q2',
+    id: 'q_1313',
     text: "A(k,2) and B(3,5) are points. The point (t,t) divides AB from A's side in the ratio of k; then k = ............; k ∈ R − {0,−1}.",
     options: ['−2', '2', '−4', '4'],
     correctAnswer: 0,
@@ -14537,7 +14537,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q3',
+    id: 'q_1314',
     text: 'If the lines kx − 2y − 1 = 0 and 6x − 4y − m = 0 are identical (co-incident) lines, then the values of k and m are ...........',
     options: ['k = −3, m = 2', 'k = 3, m = −2', 'k = 3, m = 2', 'k = −3, m = −2'],
     correctAnswer: 1,
@@ -14548,7 +14548,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q4',
+    id: 'q_1315',
     text: 'The measure of the angle between pair of lines x = y and y = 0 is .........',
     options: ['π/6', 'π/4', 'π/3', 'π/2'],
     correctAnswer: 1,
@@ -14559,7 +14559,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q5',
+    id: 'q_1316',
     text: 'The slope of a line {(x,y) / x = 2t+3, y = 2t+5, t ∈ R} is .........',
     options: ['−1/2', '2', '−1', '1'],
     correctAnswer: 3,
@@ -14570,7 +14570,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q1',
+    id: 'q_1317',
     text: 'In which ratio does the line 3x + 4y = 7 divide the line-segment joining the points (1,2) and (−2,1)?',
     options: ['3:4', '4:3', '9:4', '4:9'],
     correctAnswer: 2,
@@ -14581,7 +14581,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q2',
+    id: 'q_1318',
     text: 'The distance between the points (−115, 105) and (100, 105) is −',
     options: ['215', '15', '105', '−215'],
     correctAnswer: 0,
@@ -14592,7 +14592,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q3',
+    id: 'q_1319',
     text: 'The slope of a line that makes an angle of measure 30° with Y-axis is −',
     options: ['±1/√3', '±√3', '−√3', '√3'],
     correctAnswer: 1,
@@ -14603,7 +14603,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q4',
+    id: 'q_1320',
     text: 'Find the orthocentre of the triangle formed by the lines 4x − 7y + 10 = 0, x + y = 5 and 7x + 4y = 15.',
     options: ['(−1, −2)', '(−1, 2)', '(1, 2)', '(1, −2)'],
     correctAnswer: 2,
@@ -14614,7 +14614,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q5',
+    id: 'q_1321',
     text: 'If (3/2, 5/2) is the mid-point of line-segment intercepted by a line between axes, then the equation of the line is −',
     options: ['3x + 5y − 15 = 0', '5x + 3y − 15 = 0', '3x + 5y + 15 = 0', '5x + 3y + 15 = 0'],
     correctAnswer: 1,
@@ -14626,7 +14626,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — CONIC SECTIONS
   {
-    id: 'me2009_q6',
+    id: 'q_1322',
     text: 'The equation of a circle, whose centre is (1,−2) and which passes through (4,2) is .........',
     options: ['x² + y² − 2x + 4y − 20 = 0', 'x² + y² + 2x − 4y − 20 = 0', 'x² + y² − 2x + 4y + 20 = 0', 'x² + y² + 2x − 4y + 20 = 0'],
     correctAnswer: 0,
@@ -14637,7 +14637,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q7',
+    id: 'q_1323',
     text: 'The radius of a circle x² + y² + 4x − 6y + 12 = 0 is .........',
     options: ['1', '2', '3', '4'],
     correctAnswer: 0,
@@ -14648,7 +14648,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q8',
+    id: 'q_1324',
     text: 'The equation of a parabola, whose vertex is (0,0) and focus is (0,−3) is .........',
     options: ['y² = −12x', 'y² = 12x', 'x² = −12y', 'x² = 12y'],
     correctAnswer: 2,
@@ -14659,7 +14659,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q9',
+    id: 'q_1325',
     text: 'The length of latus-rectum of a parabola y² = −8x is .........',
     options: ['2', '−2', '8', '−8'],
     correctAnswer: 2,
@@ -14670,7 +14670,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2009_q10',
+    id: 'q_1326',
     text: 'The eccentricity of an ellipse 9x² + 25y² = 225 is .........',
     options: ['3/5', '4/5', '9/25', '2/5'],
     correctAnswer: 1,
@@ -14681,7 +14681,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q11',
+    id: 'q_1327',
     text: 'The length of latus-rectum of an ellipse 4x² + 9y² = 36 is .........',
     options: ['4/3', '8/3', '2/3', 'None of them'],
     correctAnswer: 1,
@@ -14692,7 +14692,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2009_q12',
+    id: 'q_1328',
     text: 'The eccentricity of a hyperbola 9y² − 4x² = 36 is .........',
     options: ['√13/3', '√13/2', '13/3', '13/2'],
     correctAnswer: 1,
@@ -14703,7 +14703,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q6',
+    id: 'q_1329',
     text: 'The equation of a circle, whose centre is (0,0) and which passes through (4,3) is −',
     options: ['x² + y² = 5', 'x² + y² = 25', 'x² + y² = 7', 'x² + y² = 1'],
     correctAnswer: 1,
@@ -14714,7 +14714,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q7',
+    id: 'q_1330',
     text: 'The equation of a circle, whose end-points of a diameter are (1,2) and (3,4) is −',
     options: ['x² + y² + 4x + 6y + 11 = 0', 'x² + y² − 4x − 6y + 11 = 0', 'x² + y² + 4x + 6y − 11 = 0', 'x² + y² − 4x − 6y − 11 = 0'],
     correctAnswer: 1,
@@ -14725,7 +14725,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q8',
+    id: 'q_1331',
     text: 'The length of latus-rectum of a parabola x² = −16y is −',
     options: ['16', '4', '−4', '−16'],
     correctAnswer: 0,
@@ -14736,7 +14736,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q9',
+    id: 'q_1332',
     text: 'The focus of a parabola y² = 12x is −',
     options: ['(0, 3)', '(3, 0)', '(0, −3)', '(−3, 0)'],
     correctAnswer: 1,
@@ -14747,7 +14747,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q10',
+    id: 'q_1333',
     text: 'The eccentricity of an ellipse 4x² + 9y² = 36 is −',
     options: ['√5/3', '5/9', '√5/2', '2/3'],
     correctAnswer: 0,
@@ -14758,7 +14758,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q11',
+    id: 'q_1334',
     text: 'The length of latus-rectum of an ellipse 25x² + 16y² = 400 is −',
     options: ['32/5', '25/2', '16/5', '25/4'],
     correctAnswer: 0,
@@ -14769,7 +14769,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Medium',
   },
   {
-    id: 'me2008_q12',
+    id: 'q_1335',
     text: 'The eccentricity of a hyperbola x²/144 − y²/81 = 1 is −',
     options: ['15/12', '12/15', '81/144', '144/81'],
     correctAnswer: 0,
@@ -14781,7 +14781,7 @@ export const MOCK_QUESTIONS: Question[] = [
   },
   // ME-2009 & ME-2008 — MISCELLANEOUS
   {
-    id: 'me2009_q40',
+    id: 'q_1336',
     text: 'The maximum value of z = 3x + 4y subject to x + y ≤ 4, x, y ≥ 0 is ..........',
     options: ['12', '16', '0', 'None of them'],
     correctAnswer: 1,
@@ -14792,7 +14792,7 @@ export const MOCK_QUESTIONS: Question[] = [
     difficulty: 'Easy',
   },
   {
-    id: 'me2008_q40',
+    id: 'q_1337',
     text: 'The maximum value of z = x + y subject to x + y ≤ 1, x, y ≥ 0 is ..........',
     options: ['1', '2', '0', 'None of them'],
     correctAnswer: 0,

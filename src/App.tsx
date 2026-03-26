@@ -19,6 +19,7 @@ import {
   Flame, 
   ArrowLeft,
   ArrowRight,
+  ArrowUpDown,
   Search,
   AlertCircle,
   RefreshCw,
@@ -232,6 +233,9 @@ export default function App() {
       searchQuery: '',
       activeSubject: 'All',
       activeYear: 'All',
+      activeDifficulty: 'All',
+      chapterSortBy: 'default',
+      questionSortBy: 'newest',
       selectedChapter: null,
       selectedSubject: null,
       selectedOption: null,
@@ -476,7 +480,8 @@ export default function App() {
                           q.chapter.toLowerCase().includes(state.searchQuery.toLowerCase());
       const matchesSubject = state.activeSubject === 'All' || q.subject === state.activeSubject;
       const matchesYear = state.activeYear === 'All' || q.year.toString() === state.activeYear;
-      return matchesSearch && matchesSubject && matchesYear;
+      const matchesDifficulty = state.activeDifficulty === 'All' || q.difficulty === state.activeDifficulty;
+      return matchesSearch && matchesSubject && matchesYear && matchesDifficulty;
     });
 
     filtered.forEach(q => {
@@ -485,7 +490,7 @@ export default function App() {
       groups[q.subject][q.chapter].push(q);
     });
     
-    // Sort chapters' questions by year newest to oldest
+    // Sort chapters' questions by year newest to oldest by default
     Object.keys(groups).forEach(subject => {
       Object.keys(groups[subject]).forEach(chapter => {
         groups[subject][chapter].sort((a, b) => b.year - a.year);
@@ -493,7 +498,7 @@ export default function App() {
     });
     
     return groups;
-  }, [state.questions, state.searchQuery, state.activeSubject]);
+  }, [state.questions, state.searchQuery, state.activeSubject, state.activeYear, state.activeDifficulty]);
 
   const subjectStats = useMemo(() => {
     const stats: Record<string, { total: number, solved: number }> = { 
@@ -515,8 +520,13 @@ export default function App() {
 
   const years = useMemo(() => {
     const yearsSet = new Set<string>(state.questions.map(q => q.year.toString()));
-    return ['All', ...Array.from(yearsSet)].sort((a, b) => b.localeCompare(a));
+    const sortedYears = Array.from(yearsSet).sort((a, b) => b.localeCompare(a));
+    return ['All', ...sortedYears];
   }, [state.questions]);
+
+  const difficulties = useMemo(() => {
+    return ['All', 'Easy', 'Medium', 'Hard'] as const;
+  }, []);
 
   const renderLogin = () => {
     const [isSignUp, setIsSignUp] = useState(false);
@@ -903,7 +913,7 @@ export default function App() {
                   key={year}
                   onClick={() => { 
                     playClickSound(); 
-                    setState(s => ({ ...s, activeYear: year, selectedChapter: null, selectedSubject: null })); 
+                    setState(s => ({ ...s, activeYear: year })); 
                   }}
                   className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${
                     state.activeYear === year 
@@ -912,6 +922,26 @@ export default function App() {
                   }`}
                 >
                   {year}
+                </button>
+              ))}
+            </div>
+
+            <h3 className="text-[10px] font-black uppercase tracking-widest text-earth-400 mt-6 mb-2 px-2">Difficulty</h3>
+            <div className="flex flex-wrap gap-2 px-2">
+              {difficulties.map(difficulty => (
+                <button
+                  key={difficulty}
+                  onClick={() => { 
+                    playClickSound(); 
+                    setState(s => ({ ...s, activeDifficulty: difficulty })); 
+                  }}
+                  className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${
+                    state.activeDifficulty === difficulty 
+                      ? 'bg-brand-500 text-white' 
+                      : 'bg-earth-100 dark:bg-earth-800 text-earth-500 hover:bg-earth-200 dark:hover:bg-earth-700'
+                  }`}
+                >
+                  {difficulty}
                 </button>
               ))}
             </div>
@@ -1018,18 +1048,78 @@ export default function App() {
             {!isChapterSelected ? (
               <div className="space-y-16">
                 {Object.entries(groupedQuestions).length > 0 ? (
-                  Object.entries(groupedQuestions).map(([subject, chapters]) => (
-                    <div key={subject} className="space-y-8">
-                      <div className="flex items-center gap-4">
-                        <h2 className="text-2xl font-black tracking-tight text-earth-900 dark:text-earth-50">{subject}</h2>
-                        <div className="h-px flex-1 bg-earth-200 dark:bg-earth-800" />
-                        <span className="px-3 py-1 bg-earth-100 dark:bg-earth-800 rounded-full text-[10px] font-black uppercase tracking-widest text-earth-500">
-                          {Object.keys(chapters).length} Chapters
-                        </span>
-                      </div>
-                      
-                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                        {Object.entries(chapters).map(([chapter, questions]) => {
+                  Object.entries(groupedQuestions).map(([subject, chapters]) => {
+                    const sortedChapters = Object.entries(chapters).sort((a, b) => {
+                      if (state.chapterSortBy === 'a-z') return a[0].localeCompare(b[0]);
+                      if (state.chapterSortBy === 'z-a') return b[0].localeCompare(a[0]);
+                      if (state.chapterSortBy === 'most') return b[1].length - a[1].length;
+                      if (state.chapterSortBy === 'least') return a[1].length - b[1].length;
+                      return 0; // Default
+                    });
+
+                    return (
+                      <div key={subject} className="space-y-8">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-4">
+                            <h2 className="text-2xl font-black tracking-tight text-earth-900 dark:text-earth-50">{subject}</h2>
+                            <div className="h-px w-24 bg-earth-200 dark:bg-earth-800" />
+                            <span className="px-3 py-1 bg-earth-100 dark:bg-earth-800 rounded-full text-[10px] font-black uppercase tracking-widest text-earth-500">
+                              {sortedChapters.length} Chapters
+                            </span>
+                          </div>
+
+                          <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-1 bg-white dark:bg-earth-900 p-1 rounded-xl border border-earth-200 dark:border-earth-800 shadow-sm">
+                              <span className="text-[10px] font-black uppercase tracking-widest text-earth-400 px-3">Year:</span>
+                              <select 
+                                value={state.activeYear}
+                                onChange={(e) => { playClickSound(); setState(s => ({ ...s, activeYear: e.target.value })) }}
+                                className="bg-transparent text-[10px] font-black uppercase tracking-widest text-earth-600 dark:text-earth-300 border-none focus:ring-0 cursor-pointer pr-8"
+                              >
+                                {years.map(y => <option key={y} value={y}>{y}</option>)}
+                              </select>
+                            </div>
+
+                            <div className="flex items-center gap-1 bg-white dark:bg-earth-900 p-1 rounded-xl border border-earth-200 dark:border-earth-800 shadow-sm">
+                              <span className="text-[10px] font-black uppercase tracking-widest text-earth-400 px-3">Difficulty:</span>
+                              <select 
+                                value={state.activeDifficulty}
+                                onChange={(e) => { playClickSound(); setState(s => ({ ...s, activeDifficulty: e.target.value })) }}
+                                className="bg-transparent text-[10px] font-black uppercase tracking-widest text-earth-600 dark:text-earth-300 border-none focus:ring-0 cursor-pointer pr-8"
+                              >
+                                {difficulties.map(d => <option key={d} value={d}>{d}</option>)}
+                              </select>
+                            </div>
+
+                            <div className="h-4 w-px bg-earth-200 dark:bg-earth-800 mx-2" />
+
+                            <span className="text-[10px] font-black uppercase tracking-widest text-earth-400 mr-2">Sort Chapters:</span>
+                            <div className="flex items-center gap-1 bg-white dark:bg-earth-900 p-1 rounded-xl border border-earth-200 dark:border-earth-800 shadow-sm">
+                              {[
+                                { id: 'default', label: 'Default' },
+                                { id: 'a-z', label: 'A-Z' },
+                                { id: 'z-a', label: 'Z-A' },
+                                { id: 'most', label: 'Most Qs' },
+                                { id: 'least', label: 'Least Qs' }
+                              ].map(opt => (
+                                <button
+                                  key={opt.id}
+                                  onClick={() => { playClickSound(); setState(s => ({ ...s, chapterSortBy: opt.id as any })) }}
+                                  className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${
+                                    state.chapterSortBy === opt.id 
+                                      ? 'bg-brand-500 text-white shadow-sm' 
+                                      : 'text-earth-400 hover:text-earth-600 dark:hover:text-earth-200'
+                                  }`}
+                                >
+                                  {opt.label}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                          {sortedChapters.map(([chapter, questions]) => {
                           const solvedCount = questions.filter(q => state.progress.completedQuestions.includes(q.id)).length;
                           const progress = Math.round((solvedCount / questions.length) * 100);
                           
@@ -1101,8 +1191,9 @@ export default function App() {
                         })}
                       </div>
                     </div>
-                  ))
-                ) : (
+                  );
+                })
+              ) : (
                   <div className="flex flex-col items-center justify-center py-20 text-center">
                     <div className="w-20 h-20 bg-earth-100 dark:bg-earth-900 rounded-full flex items-center justify-center text-earth-300 dark:text-earth-700 mb-6">
                       <Search size={32} />
@@ -1128,7 +1219,49 @@ export default function App() {
                     <span className="text-sm font-bold text-earth-400 uppercase tracking-widest">{state.selectedSubject}</span>
                   </div>
                   
-                  <div className="flex items-center gap-3">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <div className="flex items-center gap-1 bg-white dark:bg-earth-900 p-1 rounded-xl border border-earth-200 dark:border-earth-800 shadow-sm">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-earth-400 px-3">Year:</span>
+                      <select 
+                        value={state.activeYear}
+                        onChange={(e) => { playClickSound(); setState(s => ({ ...s, activeYear: e.target.value })) }}
+                        className="bg-transparent text-[10px] font-black uppercase tracking-widest text-earth-600 dark:text-earth-300 border-none focus:ring-0 cursor-pointer pr-8"
+                      >
+                        {years.map(y => <option key={y} value={y}>{y}</option>)}
+                      </select>
+                    </div>
+
+                    <div className="flex items-center gap-1 bg-white dark:bg-earth-900 p-1 rounded-xl border border-earth-200 dark:border-earth-800 shadow-sm">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-earth-400 px-3">Difficulty:</span>
+                      <select 
+                        value={state.activeDifficulty}
+                        onChange={(e) => { playClickSound(); setState(s => ({ ...s, activeDifficulty: e.target.value })) }}
+                        className="bg-transparent text-[10px] font-black uppercase tracking-widest text-earth-600 dark:text-earth-300 border-none focus:ring-0 cursor-pointer pr-8"
+                      >
+                        {difficulties.map(d => <option key={d} value={d}>{d}</option>)}
+                      </select>
+                    </div>
+
+                    <div className="flex items-center gap-1 bg-white dark:bg-earth-900 p-1 rounded-xl border border-earth-200 dark:border-earth-800 shadow-sm">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-earth-400 px-3">Sort:</span>
+                      {[
+                        { id: 'newest', label: 'Newest' },
+                        { id: 'oldest', label: 'Oldest' }
+                      ].map(opt => (
+                        <button
+                          key={opt.id}
+                          onClick={() => { playClickSound(); setState(s => ({ ...s, questionSortBy: opt.id as any })) }}
+                          className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${
+                            state.questionSortBy === opt.id 
+                              ? 'bg-brand-500 text-white shadow-sm' 
+                              : 'text-earth-400 hover:text-earth-600 dark:hover:text-earth-200'
+                          }`}
+                        >
+                          {opt.label}
+                        </button>
+                      ))}
+                    </div>
+                    
                     <button
                       onClick={() => {
                         playClickSound();
@@ -1145,73 +1278,92 @@ export default function App() {
                       <Target size={14} />
                       Practice Now
                     </button>
-                    <div className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-earth-900 border border-earth-200 dark:border-earth-800 rounded-xl text-xs font-bold text-earth-500">
-                      <Filter size={14} />
-                      Filter
-                    </div>
                   </div>
                 </div>
 
-                <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4">
-                  {selectedChapterQuestions.map((q, idx) => {
-                    const isSolved = state.progress.completedQuestions.includes(q.id);
-                    const status = state.progress.questionStatus?.[q.id];
-                    const isBookmarked = (state.progress.bookmarkedQuestions || []).includes(q.id);
-                    
-                    let iconClass = "border-earth-200 dark:border-earth-800 text-earth-600 dark:text-earth-400 hover:border-brand-500 hover:text-brand-500 bg-white dark:bg-earth-900";
-                    
-                    if (status === 'correct') {
-                      iconClass = "bg-success-500 border-success-500 text-white shadow-md shadow-success-500/20";
-                    } else if (status === 'incorrect') {
-                      iconClass = "bg-danger-500 border-danger-500 text-white shadow-md shadow-danger-500/20";
-                    } else if (isSolved) {
-                      iconClass = "bg-brand-500 border-brand-500 text-white shadow-md shadow-brand-500/20";
-                    }
-
-                    return (
-                      <motion.div
-                        key={q.id}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: idx * 0.01 }}
-                        className="relative group"
-                      >
-                        <button
-                          onClick={() => {
-                            playClickSound();
-                            setState(s => ({ 
-                              ...s, 
-                              currentView: 'practice',
-                              currentQuestionIndex: idx,
-                              selectedOption: null,
-                              showSolution: false,
-                              isExplanationExpanded: false
-                            }));
-                          }}
-                          className={`w-full aspect-square rounded-2xl border-2 flex flex-col items-center justify-center gap-1 transition-all hover:scale-105 active:scale-95 ${iconClass}`}
-                          title={q.text}
+                <div className="grid grid-cols-1 gap-4">
+                  {selectedChapterQuestions
+                    .sort((a, b) => state.questionSortBy === 'newest' ? b.year - a.year : a.year - b.year)
+                    .map((q, idx) => {
+                      const isSolved = state.progress.completedQuestions.includes(q.id);
+                      const status = state.progress.questionStatus?.[q.id];
+                      const isBookmarked = (state.progress.bookmarkedQuestions || []).includes(q.id);
+                      
+                      return (
+                        <div 
+                          key={q.id}
+                          className="p-6 bg-white dark:bg-earth-900 rounded-3xl border border-earth-200 dark:border-earth-800 shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4"
                         >
-                          <span className="text-lg font-black">{idx + 1}</span>
-                          {status === 'correct' && <Check size={14} strokeWidth={3} />}
-                          {status === 'incorrect' && <X size={14} strokeWidth={3} />}
-                        </button>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            toggleBookmark(q.id);
-                          }}
-                          className={`absolute top-1.5 right-1.5 p-1 rounded-full transition-colors z-10 ${
-                            isBookmarked 
-                              ? 'text-brand-500 hover:text-brand-600' 
-                              : 'text-earth-400 hover:text-brand-500 opacity-0 hover:opacity-100 group-hover:opacity-100'
-                          }`}
-                          title={isBookmarked ? "Remove Bookmark" : "Bookmark Question"}
-                        >
-                          <Bookmark size={14} fill={isBookmarked ? "currentColor" : "none"} />
-                        </button>
-                      </motion.div>
-                    );
-                  })}
+                          <div className="flex items-start gap-4">
+                            <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-earth-100 dark:bg-earth-800 text-earth-900 dark:text-earth-50 rounded-xl font-black text-xs">
+                              {idx + 1}
+                            </div>
+                            <div className="space-y-2">
+                              <p className="text-sm font-medium text-earth-900 dark:text-earth-50 line-clamp-2">{q.text}</p>
+                              <div className="flex flex-wrap items-center gap-3">
+                                <span className="flex items-center gap-1.5 px-2 py-0.5 bg-earth-100 dark:bg-earth-800 rounded-lg text-[9px] font-black uppercase tracking-widest text-earth-500">
+                                  <Clock size={10} />
+                                  {q.year}
+                                </span>
+                                <span className={`px-2 py-0.5 rounded-lg text-[9px] font-black uppercase tracking-widest ${
+                                  q.difficulty === 'Easy' ? 'bg-success-500/10 text-success-600' :
+                                  q.difficulty === 'Medium' ? 'bg-warning-500/10 text-warning-600' :
+                                  'bg-danger-500/10 text-danger-600'
+                                }`}>
+                                  {q.difficulty}
+                                </span>
+                                {isSolved && (
+                                  <span className="flex items-center gap-1 px-2 py-0.5 bg-success-500/10 text-success-600 rounded-lg text-[9px] font-black uppercase tracking-widest">
+                                    <CheckCircle2 size={10} />
+                                    {status === 'correct' ? 'Correct' : status === 'incorrect' ? 'Incorrect' : 'Solved'}
+                                  </span>
+                                )}
+                                {isBookmarked && (
+                                  <span className="flex items-center gap-1 px-2 py-0.5 bg-brand-500/10 text-brand-600 rounded-lg text-[9px] font-black uppercase tracking-widest">
+                                    <Bookmark size={10} />
+                                    Bookmarked
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div className="flex items-center gap-3">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                toggleBookmark(q.id);
+                              }}
+                              className={`p-2 rounded-xl transition-colors ${
+                                isBookmarked 
+                                  ? 'text-brand-500 bg-brand-500/10 hover:bg-brand-500/20' 
+                                  : 'text-earth-400 bg-earth-100 dark:bg-earth-800 hover:text-brand-500'
+                              }`}
+                              title={isBookmarked ? "Remove Bookmark" : "Bookmark Question"}
+                            >
+                              <Bookmark size={16} fill={isBookmarked ? "currentColor" : "none"} />
+                            </button>
+                            <button 
+                              onClick={() => {
+                                playClickSound();
+                                const qIndexInChapter = selectedChapterQuestions.findIndex(cq => cq.id === q.id);
+                                setState(s => ({
+                                  ...s,
+                                  currentView: 'practice',
+                                  currentQuestionIndex: qIndexInChapter !== -1 ? qIndexInChapter : 0,
+                                  selectedOption: null,
+                                  showSolution: false,
+                                  isExplanationExpanded: false
+                                }));
+                              }}
+                              className="px-6 py-2.5 bg-brand-100 dark:bg-brand-900/30 text-brand-600 dark:text-brand-400 rounded-xl font-bold text-xs hover:bg-brand-200 dark:hover:bg-brand-900/50 transition-colors whitespace-nowrap"
+                            >
+                              Practice
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    })}
                 </div>
               </div>
             )}
